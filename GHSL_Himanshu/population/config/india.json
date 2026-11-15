@@ -1,0 +1,11 @@
+{
+  "name": "india_geoboundaries_100m",
+  "release": "R2023A",
+  "population_version": "V1_0",
+  "reference_version": "V2_0",
+  "boundary": "data/raw/boundaries/geoBoundaries-IND-ADM0.geojson",
+  "epochs": [1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025, 2030],
+  "reference_epoch": 2020,
+  "settlement_epochs": [2020],
+  "note": "India coverage follows the supplied geoBoundaries ADM0 boundary, not an official Indian administrative boundary. Population stays native 100 m. Only 2020 settlement classifications are currently requested; other epochs have null settlement_class. Add matching epochs when team integration requires them."
+}

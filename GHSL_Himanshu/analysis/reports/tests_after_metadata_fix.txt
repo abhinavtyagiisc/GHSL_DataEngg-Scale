@@ -1,0 +1,143 @@
+.........F                                                               [100%]
+=================================== FAILURES ===================================
+_______________ test_transition_zero_baselines_are_not_infinite ________________
+
+tmp_path = PosixPath('/private/var/folders/l1/6v4bsq790sjgq13x39dklcx80000gn/T/pytest-of-rio/pytest-6/test_transition_zero_baselines0')
+
+    def test_transition_zero_baselines_are_not_infinite(tmp_path):
+        spark=(SparkSession.builder.master('local[2]').appName('temporal-regression')
+               .config('spark.ui.enabled','false').config('spark.sql.shuffle.partitions','2')
+>              .config('spark.driver.bindAddress','127.0.0.1').getOrCreate())
+                                                               ^^^^^^^^^^^^^
+
+analysis/tests/test_analysis.py:86: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.12/site-packages/pyspark/sql/session.py:497: in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/pyspark/context.py:515: in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+.venv/lib/python3.12/site-packages/pyspark/context.py:201: in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+.venv/lib/python3.12/site-packages/pyspark/context.py:436: in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+conf = <pyspark.conf.SparkConf object at 0x10e2cf320>
+popen_kwargs = {'env': {'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS': '1', 'CODEX_CI': '1',...RIDE': 'codex_vscode', ...}, 'preexec_fn': <function launch_gateway.<locals>.preexec_func at 0x10e309580>, 'stdin': -1}
+
+    def launch_gateway(conf=None, popen_kwargs=None):
+        """
+        launch jvm gateway
+    
+        Parameters
+        ----------
+        conf : :py:class:`pyspark.SparkConf`
+            spark configuration passed to spark-submit
+        popen_kwargs : dict
+            Dictionary of kwargs to pass to Popen when spawning
+            the py4j JVM. This is a developer feature intended for use in
+            customizing how pyspark interacts with the py4j JVM (e.g., capturing
+            stdout/stderr).
+    
+        Returns
+        -------
+        ClientServer or JavaGateway
+        """
+        if "PYSPARK_GATEWAY_PORT" in os.environ:
+            gateway_port = int(os.environ["PYSPARK_GATEWAY_PORT"])
+            gateway_secret = os.environ["PYSPARK_GATEWAY_SECRET"]
+            # Process already exists
+            proc = None
+        else:
+            SPARK_HOME = _find_spark_home()
+            # Launch the Py4j gateway using Spark's run command so that we pick up the
+            # proper classpath and settings from spark-env.sh
+            on_windows = platform.system() == "Windows"
+            script = "./bin/spark-submit.cmd" if on_windows else "./bin/spark-submit"
+            command = [os.path.join(SPARK_HOME, script)]
+            if conf:
+                for k, v in conf.getAll():
+                    command += ["--conf", "%s=%s" % (k, v)]
+            submit_args = os.environ.get("PYSPARK_SUBMIT_ARGS", "pyspark-shell")
+            if os.environ.get("SPARK_TESTING"):
+                submit_args = " ".join(["--conf spark.ui.enabled=false", submit_args])
+            command = command + shlex.split(submit_args)
+    
+            # Create a temporary directory where the gateway server should write the connection
+            # information.
+            conn_info_dir = tempfile.mkdtemp()
+            try:
+                fd, conn_info_file = tempfile.mkstemp(dir=conn_info_dir)
+                os.close(fd)
+                os.unlink(conn_info_file)
+    
+                env = dict(os.environ)
+                env["_PYSPARK_DRIVER_CONN_INFO_PATH"] = conn_info_file
+    
+                # Launch the Java gateway.
+                popen_kwargs = {} if popen_kwargs is None else popen_kwargs
+                # We open a pipe to stdin so that the Java gateway can die when the pipe is broken
+                popen_kwargs["stdin"] = PIPE
+                # We always set the necessary environment variables.
+                popen_kwargs["env"] = env
+                if not on_windows:
+                    # Don't send ctrl-c / SIGINT to the Java gateway:
+                    def preexec_func():
+                        signal.signal(signal.SIGINT, signal.SIG_IGN)
+    
+                    popen_kwargs["preexec_fn"] = preexec_func
+                    proc = Popen(command, **popen_kwargs)
+                else:
+                    # preexec_fn not supported on Windows
+                    proc = Popen(command, **popen_kwargs)
+    
+                # Wait for the file to appear, or for the process to exit, whichever happens first.
+                while not proc.poll() and not os.path.isfile(conn_info_file):
+                    time.sleep(0.1)
+    
+                if not os.path.isfile(conn_info_file):
+>                   raise PySparkRuntimeError(
+                        error_class="JAVA_GATEWAY_EXITED",
+                        message_parameters={},
+                    )
+E                   pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+
+.venv/lib/python3.12/site-packages/pyspark/java_gateway.py:107: PySparkRuntimeError
+----------------------------- Captured stderr call -----------------------------
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+Exception in thread "main" py4j.Py4JNetworkException
+	at py4j.GatewayServer.startSocket(GatewayServer.java:788)
+	at py4j.GatewayServer.start(GatewayServer.java:763)
+	at py4j.GatewayServer.start(GatewayServer.java:746)
+	at py4j.ClientServer.<init>(ClientServer.java:150)
+	at py4j.ClientServer.<init>(ClientServer.java:45)
+	at py4j.ClientServer$ClientServerBuilder.build(ClientServer.java:263)
+	at org.apache.spark.api.python.Py4JServer.<init>(Py4JServer.scala:42)
+	at org.apache.spark.api.python.PythonGatewayServer$.main(PythonGatewayServer.scala:38)
+	at org.apache.spark.api.python.PythonGatewayServer.main(PythonGatewayServer.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:1034)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:199)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:222)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1125)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1134)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+Caused by: java.net.SocketException: Operation not permitted
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(Unknown Source)
+	at java.base/java.net.ServerSocket.bind(Unknown Source)
+	at py4j.GatewayServer.startSocket(GatewayServer.java:786)
+	... 20 more
+=========================== short test summary info ============================
+FAILED analysis/tests/test_analysis.py::test_transition_zero_baselines_are_not_infinite
+1 failed, 9 passed in 4.06s

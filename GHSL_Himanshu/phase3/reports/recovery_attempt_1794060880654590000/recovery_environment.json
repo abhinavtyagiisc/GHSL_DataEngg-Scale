@@ -1,0 +1,6 @@
+{
+  "max_records_per_file": 250000,
+  "prior_completed": 1,
+  "reason": "Repeated zero-byte output: temporary-directory validation and checksum-verified publication plus file cap; original cause unconfirmed",
+  "code": "Explicit migrated national identity; original code and all failed attempts preserved"
+}

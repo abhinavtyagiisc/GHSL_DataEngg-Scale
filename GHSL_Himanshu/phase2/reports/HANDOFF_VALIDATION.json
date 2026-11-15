@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "archive": "GHSL_Phase2_Weeks4_5_Handoff_v2.zip",
+  "files": 132,
+  "bytes": 49381180,
+  "checks": [
+    "all phase-2 execution gates",
+    "ZIP CRC",
+    "every entry SHA256"
+  ]
+}

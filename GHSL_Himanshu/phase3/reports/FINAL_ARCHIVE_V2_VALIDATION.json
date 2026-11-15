@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "archive": "GHSL_Weeks1_8_Accepted_Coverage_Final_v2.zip",
+  "files": 192,
+  "bytes": 11861055,
+  "sha256": "bcb7a6f77a950102d713b18736b5a7f750f097d7f3e55760d5cc7f328284c6b6",
+  "checks": [
+    "ZIP CRC",
+    "every entry SHA256",
+    "exact manifest membership",
+    "safe paths",
+    "Python syntax",
+    "required source/evidence",
+    "coverage disclosure",
+    "analytical follow-up PASS"
+  ]
+}

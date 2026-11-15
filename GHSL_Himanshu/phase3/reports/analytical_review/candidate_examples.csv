@@ -1,0 +1,4 @@
+region,start_year,end_year,baseline_component,target_component_index,baseline_cells,target_cells,retained_fraction,component_area_growth_fraction,stable_footprint_population_delta,stable_footprint_built_surface_delta_m2,boundary_censored,split,merge,connected_to_preexisting_centre,status,representative_row,representative_col
+Bengaluru study window,1975,2020,7415_25706,11138,19,3991,1.0,209.05263157894737,77536.45584847999,4624922.0,False,False,True,True,metropolitan_absorption_candidate,7415,25706
+Bengaluru study window,1985,1990,7416_25705,10968,32,119,0.96875,2.71875,13370.352316081524,237247.0,False,False,True,True,metropolitan_absorption_candidate,7416,25705
+Bengaluru study window,1975,1980,7415_25706,9736,19,27,0.9473684210526315,0.42105263157894735,15269.568623363972,104449.0,False,False,False,False,independent_growth_candidate,7415,25706

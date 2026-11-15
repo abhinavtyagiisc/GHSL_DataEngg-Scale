@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "method": "Independent Arrow aggregation from separate prepared products, compared at every parent cell to saved Spark/HDFS output",
+  "relative_tolerance": 1e-10,
+  "absolute_tolerance": 1e-05,
+  "epochs": [
+    {
+      "year": 1975,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 1980,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 1985,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 1990,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 1995,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 2000,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 2005,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 2010,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 2015,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 2020,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 2025,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    {
+      "year": 2030,
+      "fine_rows": 434363,
+      "coarse_rows": 4455,
+      "maximum_absolute_errors": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    }
+  ]
+}

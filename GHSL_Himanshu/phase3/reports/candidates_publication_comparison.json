@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "events": 225,
+  "comparison": "Event counts, all sensitivity results and every CSV/Parquet/GeoJSON byte match existing validated pilot"
+}

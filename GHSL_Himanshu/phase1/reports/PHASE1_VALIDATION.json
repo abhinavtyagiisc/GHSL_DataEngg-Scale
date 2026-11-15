@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "phase": "weeks1_3",
+  "all_three_products": true,
+  "source_archives": 48,
+  "sedona_spatial_cells": 434363,
+  "benchmarks": [
+    {
+      "master": "local[1]",
+      "rows": 10000,
+      "repetitions": 5,
+      "median_seconds": 0.29954430198995396,
+      "p95_seconds": 0.3151937997987261,
+      "median_rows_per_second": 33384.043473927864,
+      "peak_rss_bytes": 1754857472
+    },
+    {
+      "master": "local[1]",
+      "rows": 100000,
+      "repetitions": 5,
+      "median_seconds": 0.7558011000073748,
+      "p95_seconds": 0.7804062089911895,
+      "median_rows_per_second": 132309.94238963697,
+      "peak_rss_bytes": 1797468160
+    },
+    {
+      "master": "local[1]",
+      "rows": 434363,
+      "repetitions": 5,
+      "median_seconds": 2.858327542009647,
+      "p95_seconds": 2.9043170678050956,
+      "median_rows_per_second": 151964.039675665,
+      "peak_rss_bytes": 2065784832
+    },
+    {
+      "master": "local[2]",
+      "rows": 10000,
+      "repetitions": 5,
+      "median_seconds": 0.22156355298648123,
+      "p95_seconds": 0.2431029594008578,
+      "median_rows_per_second": 45133.77703692156,
+      "peak_rss_bytes": 2010198016
+    },
+    {
+      "master": "local[2]",
+      "rows": 100000,
+      "repetitions": 5,
+      "median_seconds": 0.5031655889906688,
+      "p95_seconds": 0.5611812826042296,
+      "median_rows_per_second": 198741.7307304266,
+      "peak_rss_bytes": 2067701760
+    },
+    {
+      "master": "local[2]",
+      "rows": 434363,
+      "repetitions": 5,
+      "median_seconds": 1.5140722490032203,
+      "p95_seconds": 1.5442018393951003,
+      "median_rows_per_second": 286883.9319166969,
+      "peak_rss_bytes": 2144825344
+    }
+  ],
+  "parallelism_ratios": [
+    {
+      "rows": 10000,
+      "single_to_dual_worker_time_ratio": 1.351956573869488
+    },
+    {
+      "rows": 100000,
+      "single_to_dual_worker_time_ratio": 1.5020921870342592
+    },
+    {
+      "rows": 434363,
+      "single_to_dual_worker_time_ratio": 1.8878409163706742
+    }
+  ],
+  "engineering_target_outcomes": [
+    {
+      "master": "local[1]",
+      "median_latency_target_pass": true,
+      "throughput_target_pass": true,
+      "sampled_memory_target_pass": true
+    },
+    {
+      "master": "local[2]",
+      "median_latency_target_pass": true,
+      "throughput_target_pass": true,
+      "sampled_memory_target_pass": true
+    }
+  ],
+  "tests": "3 contract tests plus real Sedona QA for both worker settings",
+  "later_phases": "Deferred under revised user scope"
+}

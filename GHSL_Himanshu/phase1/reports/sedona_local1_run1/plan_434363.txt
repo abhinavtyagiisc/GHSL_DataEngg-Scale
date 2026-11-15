@@ -1,0 +1,22 @@
+*(4) HashAggregate(keys=[district_id#30], functions=[count(1)], output=[district_id#30, count#2479L])
++- Exchange hashpartitioning(district_id#30, 8), ENSURE_REQUIREMENTS, [plan_id=1229]
+   +- *(3) HashAggregate(keys=[district_id#30], functions=[partial_count(1)], output=[district_id#30, count#2583L])
+      +- *(3) Project [district_id#30]
+         +- BroadcastIndexJoin point#176: geometry, RightSide, RightSide, Inner, COVERS, false ST_COVERS(district_geom#34, point#176)
+            :- *(1) Filter isnotnull(point#176)
+            :  +- InMemoryTableScan [point#176], [isnotnull(point#176)]
+            :        +- InMemoryRelation [source_row#162, source_col#163, cell_id#172, point#176], StorageLevel(disk, memory, deserialized, 1 replicas)
+            :              +- Exchange RoundRobinPartitioning(8), REPARTITION_BY_NUM, [plan_id=1077]
+            :                 +- TakeOrderedAndProject(limit=434363, orderBy=[source_row#162 ASC NULLS FIRST,source_col#163 ASC NULLS FIRST], output=[source_row#162,source_col#163,cell_id#172,point#176])
+            :                    +- InMemoryTableScan [source_row#162, source_col#163, cell_id#172, point#176]
+            :                          +- InMemoryRelation [source_row#162, source_col#163, cell_id#172, point#176], StorageLevel(disk, memory, deserialized, 1 replicas)
+            :                                +- Exchange RoundRobinPartitioning(8), REPARTITION_BY_NUM, [plan_id=104]
+            :                                   +- Project [source_row#162, source_col#163, concat_ws(_, cast(source_row#162 as string), cast(source_col#163 as string)) AS cell_id#172,  **org.apache.spark.sql.sedona_sql.expressions.ST_Point**   AS point#176]
+            :                                      +- *(1) ColumnarToRow
+            :                                         +- FileScan parquet [source_row#162,source_col#163] Batched: true, DataFilters: [], Format: Parquet, Location: InMemoryFileIndex(1 paths)[file:/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/in..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<source_row:int,source_col:int>
+            +- SpatialIndex district_geom#34: geometry, RTREE, false, false, false
+               +- *(2) Filter isnotnull(district_geom#34)
+                  +- InMemoryTableScan [district_id#30, district_geom#34], [isnotnull(district_geom#34)]
+                        +- InMemoryRelation [district_id#30, district_geom#34], StorageLevel(disk, memory, deserialized, 1 replicas)
+                              +- Project [district_id#30,  **org.apache.spark.sql.sedona_sql.expressions.ST_GeomFromWKT**   AS district_geom#34]
+                                 +- *(1) Scan ExistingRDD[district_id#30,wkt#31]

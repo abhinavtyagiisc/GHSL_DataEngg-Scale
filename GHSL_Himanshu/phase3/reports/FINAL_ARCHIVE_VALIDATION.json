@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "archive": "GHSL_Weeks1_8_Accepted_Coverage_Final.zip",
+  "bytes": 11664533,
+  "files": 123,
+  "sha256": "ad905d2c153e10a7650652dc391788ba3aad33f16de3a6570be785c83e0a4e59",
+  "zip_crc": "PASS",
+  "every_entry_sha256": "PASS",
+  "coverage_disclosure": "PASS",
+  "visual_review_record": "PASS",
+  "checked_at": "2026-11-10T02:17:50.496477+05:30"
+}

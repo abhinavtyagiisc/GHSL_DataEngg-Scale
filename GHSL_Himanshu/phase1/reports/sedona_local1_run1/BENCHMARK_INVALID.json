@@ -1,0 +1,5 @@
+{
+  "status": "INVALID_BENCHMARK",
+  "reason": "Repeated collect on one DataFrame reused its shuffle stages; warm timings did not recompute the complete spatial join",
+  "spatial_correctness": "PASS; timings must not be used"
+}

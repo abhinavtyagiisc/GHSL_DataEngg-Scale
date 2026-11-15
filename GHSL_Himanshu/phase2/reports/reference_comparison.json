@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "datasets": {
+    "analytical_100m": {
+      "rows": 5212356,
+      "columns": 21,
+      "maximum_absolute_differences": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    },
+    "summary_1km": {
+      "rows": 53460,
+      "columns": 17,
+      "maximum_absolute_differences": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0,
+        "aoi_fraction": 0.0
+      }
+    },
+    "sql_class_summary": {
+      "rows": 95,
+      "columns": 7,
+      "maximum_absolute_differences": {
+        "population": 0.0,
+        "built_surface_m2": 0.0,
+        "built_surface_nres_m2": 0.0
+      }
+    }
+  }
+}

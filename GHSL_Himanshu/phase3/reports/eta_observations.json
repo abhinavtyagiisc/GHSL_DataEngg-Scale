@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-11-08T09:15:35.269995+05:30",
+  "completed": 15,
+  "planned": 168,
+  "completed_cell_years": 205754910,
+  "estimated_remaining_cell_years": 3734666503.129819,
+  "estimated_cells_per_tile": {
+    "R5_C25": 16201006.72240509,
+    "R5_C26": 3780790.5970745482,
+    "R6_C25": 28333390.14344823,
+    "R6_C26": 58195092.10212,
+    "R6_C27": 30750808.6261248,
+    "R6_C28": 871522.3037877047,
+    "R7_C25": 14371731.590546768,
+    "R7_C26": 93641619.51038656,
+    "R7_C27": 37071448.31751269,
+    "R8_C26": 44708837.713633284,
+    "R8_C27": 1503.556782927156,
+    "R8_C28": 329257.34785535175,
+    "R9_C26": 2917.823926324002,
+    "R9_C28": 108486.61022101417
+  },
+  "observations": [
+    {
+      "tile": "R5_C25",
+      "year": 1975,
+      "cells": 16201044,
+      "spark_seconds": 443.75
+    },
+    {
+      "tile": "R5_C25",
+      "year": 1980,
+      "cells": 16201044,
+      "spark_seconds": 348.26
+    },
+    {
+      "tile": "R5_C25",
+      "year": 1985,
+      "cells": 16201044,
+      "spark_seconds": 346.06
+    },
+    {
+      "tile": "R5_C25",
+      "year": 1990,
+      "cells": 16201044,
+      "spark_seconds": 683.86
+    },
+    {
+      "tile": "R5_C25",
+      "year": 1995,
+      "cells": 16201044,
+      "spark_seconds": 381.01
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2000,
+      "cells": 16201044,
+      "spark_seconds": 368.72
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2005,
+      "cells": 16201044,
+      "spark_seconds": 384.95
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2010,
+      "cells": 16201044,
+      "spark_seconds": 505.43
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2015,
+      "cells": 16201044,
+      "spark_seconds": 410.03
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2020,
+      "cells": 16201044,
+      "spark_seconds": 571.14
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2025,
+      "cells": 16201044,
+      "spark_seconds": 610.18
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2030,
+      "cells": 16201044,
+      "spark_seconds": 349.77
+    },
+    {
+      "tile": "R5_C26",
+      "year": 1975,
+      "cells": 3780794,
+      "spark_seconds": 76.99
+    },
+    {
+      "tile": "R5_C26",
+      "year": 1980,
+      "cells": 3780794,
+      "spark_seconds": 77.28
+    },
+    {
+      "tile": "R5_C26",
+      "year": 1985,
+      "cells": 3780794,
+      "spark_seconds": 75.42
+    }
+  ],
+  "total_recorded_spark_seconds": 5632.85,
+  "elapsed_controller_start": "2026-11-08T01:09:05.428740+05:30"
+}

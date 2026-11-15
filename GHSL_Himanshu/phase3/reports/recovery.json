@@ -1,0 +1,384 @@
+{
+  "status": "PASS",
+  "tile": "R5_C25",
+  "year": 1980,
+  "completed": 2,
+  "files": [
+    {
+      "path": "pairs/R5_C25_1980/curated/sql_class_summary/part-00006-bd5afb7c-b8f0-4c69-80a1-a7d4fef34d8e-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/sql_class_summary/part-00001-bd5afb7c-b8f0-4c69-80a1-a7d4fef34d8e-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/sql_class_summary/part-00000-bd5afb7c-b8f0-4c69-80a1-a7d4fef34d8e-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/sql_class_summary/part-00007-bd5afb7c-b8f0-4c69-80a1-a7d4fef34d8e-c000.snappy.parquet",
+      "bytes": 2125,
+      "rows": 1
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/sql_class_summary/part-00002-bd5afb7c-b8f0-4c69-80a1-a7d4fef34d8e-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/sql_class_summary/part-00005-bd5afb7c-b8f0-4c69-80a1-a7d4fef34d8e-c000.snappy.parquet",
+      "bytes": 2125,
+      "rows": 1
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/sql_class_summary/part-00004-bd5afb7c-b8f0-4c69-80a1-a7d4fef34d8e-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/sql_class_summary/part-00003-bd5afb7c-b8f0-4c69-80a1-a7d4fef34d8e-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c009.snappy.parquet",
+      "bytes": 2785418,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c014.snappy.parquet",
+      "bytes": 2824149,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c001.snappy.parquet",
+      "bytes": 2782104,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c006.snappy.parquet",
+      "bytes": 2822671,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c013.snappy.parquet",
+      "bytes": 2754371,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c062.snappy.parquet",
+      "bytes": 2742616,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c012.snappy.parquet",
+      "bytes": 2686316,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c007.snappy.parquet",
+      "bytes": 2867966,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c063.snappy.parquet",
+      "bytes": 2646774,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c000.snappy.parquet",
+      "bytes": 2819938,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c015.snappy.parquet",
+      "bytes": 2859709,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c064.snappy.parquet",
+      "bytes": 2126940,
+      "rows": 201044
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c008.snappy.parquet",
+      "bytes": 2829281,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c002.snappy.parquet",
+      "bytes": 2723582,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c017.snappy.parquet",
+      "bytes": 2795209,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c061.snappy.parquet",
+      "bytes": 2823903,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c010.snappy.parquet",
+      "bytes": 2722633,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c005.snappy.parquet",
+      "bytes": 2766912,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c018.snappy.parquet",
+      "bytes": 2717190,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c019.snappy.parquet",
+      "bytes": 2708866,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c060.snappy.parquet",
+      "bytes": 2850513,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c004.snappy.parquet",
+      "bytes": 2689557,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c011.snappy.parquet",
+      "bytes": 2711813,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c016.snappy.parquet",
+      "bytes": 2829208,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c003.snappy.parquet",
+      "bytes": 2710422,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c046.snappy.parquet",
+      "bytes": 2762259,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c053.snappy.parquet",
+      "bytes": 2810494,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c022.snappy.parquet",
+      "bytes": 2780905,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c037.snappy.parquet",
+      "bytes": 2712419,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c038.snappy.parquet",
+      "bytes": 2759678,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c049.snappy.parquet",
+      "bytes": 2771878,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c054.snappy.parquet",
+      "bytes": 2791103,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c041.snappy.parquet",
+      "bytes": 2770929,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c030.snappy.parquet",
+      "bytes": 2762141,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c025.snappy.parquet",
+      "bytes": 2839931,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c040.snappy.parquet",
+      "bytes": 2652642,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c055.snappy.parquet",
+      "bytes": 2729678,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c024.snappy.parquet",
+      "bytes": 2760363,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c031.snappy.parquet",
+      "bytes": 2794460,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c039.snappy.parquet",
+      "bytes": 2794891,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c048.snappy.parquet",
+      "bytes": 2731302,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c052.snappy.parquet",
+      "bytes": 2857726,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c047.snappy.parquet",
+      "bytes": 2723759,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c036.snappy.parquet",
+      "bytes": 2747592,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c023.snappy.parquet",
+      "bytes": 2794879,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c034.snappy.parquet",
+      "bytes": 2849795,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c021.snappy.parquet",
+      "bytes": 2745174,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c050.snappy.parquet",
+      "bytes": 2771974,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c045.snappy.parquet",
+      "bytes": 2804433,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c058.snappy.parquet",
+      "bytes": 2778518,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c029.snappy.parquet",
+      "bytes": 2713767,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c026.snappy.parquet",
+      "bytes": 2845556,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c033.snappy.parquet",
+      "bytes": 2828433,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c042.snappy.parquet",
+      "bytes": 2809684,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c057.snappy.parquet",
+      "bytes": 2770084,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c032.snappy.parquet",
+      "bytes": 2756957,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c027.snappy.parquet",
+      "bytes": 2804395,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c056.snappy.parquet",
+      "bytes": 2723879,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c043.snappy.parquet",
+      "bytes": 2730787,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c059.snappy.parquet",
+      "bytes": 2778362,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c028.snappy.parquet",
+      "bytes": 2745959,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c020.snappy.parquet",
+      "bytes": 2678426,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c035.snappy.parquet",
+      "bytes": 2801388,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c044.snappy.parquet",
+      "bytes": 2754648,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-16d4d77b-e982-49a0-a4e4-88bd7f67aa91.c051.snappy.parquet",
+      "bytes": 2788166,
+      "rows": 250000
+    },
+    {
+      "path": "pairs/R5_C25_1980/curated/summary_1km/epoch_type=historical/year=1980/part-00004-f73d3707-0e75-4f72-867f-fa21cdadad27.c000.snappy.parquet",
+      "bytes": 1609792,
+      "rows": 162763
+    }
+  ],
+  "environment": {
+    "max_records_per_file": 250000,
+    "prior_completed": 1,
+    "reason": "Repeated zero-byte output: temporary-directory validation and checksum-verified publication plus file cap; original cause unconfirmed",
+    "code": "Explicit migrated national identity; original code and all failed attempts preserved"
+  }
+}

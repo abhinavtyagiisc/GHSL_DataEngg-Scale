@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E1975_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E1975_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E1975_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 18907797,
+    "sha256": "bbf5113f5af687c37edf897ebaec88baa40fa2025ffea4c03ef20be54cb27f80"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E1980_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E1980_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E1980_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 21562487,
+    "sha256": "b8bf33455bf21c28bba9533eafd6f8d9b2090fc90067d240a7891af24eb1ef1b"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E1985_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E1985_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E1985_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 24207911,
+    "sha256": "036d4250f4f8dd45e8f8f1662bc135fa26c2a723ceb990571588be102c758757"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E1990_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E1990_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E1990_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 26884965,
+    "sha256": "c69d59ed94fb1b51c34c7ae41d36141fff550efbf912b54c03059b313de5ec54"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E1995_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E1995_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E1995_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 28582931,
+    "sha256": "c0f3a2ad079021cc37db0b206abf47f568403dbcdfb5004cc5ec2995a532df67"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2000_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E2000_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E2000_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 30212697,
+    "sha256": "312f8d6466ab9875ed46ba9e98ecbff3fb2db14b5a62839e2abb6c9280babf69"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2005_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E2005_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E2005_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 33444514,
+    "sha256": "a09754ce8497e1960dec2b5094b5a09178a7109bb323d22fd381b7732adcb5f2"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2010_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E2010_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E2010_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 36876201,
+    "sha256": "07f0957820e6e22f1081fe932547f04e231cedb9fc90be6d92bf7c2209eaac09"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2015_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E2015_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E2015_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 42287057,
+    "sha256": "5cbbd669ef931bda2e6c7ae73a99c3b206dc64f497c5aa01e5562408560ea2c3"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E2020_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 47043461,
+    "sha256": "144391037dfefc4f916565dccc3a55e2e366c5885be90cdfe50ca2f3d931fb2e"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2025_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E2025_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E2025_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 50048146,
+    "sha256": "59eef574b9d6f58d32a5439867af69c0b40098d2303a6c828ea79657ec156b26"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2030_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E2030_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "path": "data/raw/downloads/GHS_POP_E2030_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip",
+    "bytes": 53086232,
+    "sha256": "f51054b5561369f2f5047f7a6dc76f4fa0f483fe69e10912f043b053a77777b2"
+  },
+  {
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_SMOD_GLOBE_R2023A/GHS_SMOD_E2020_GLOBE_R2023A_54009_1000/V2-0/tiles/GHS_SMOD_E2020_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip",
+    "path": "data/raw/reference/GHS_SMOD_E2020_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip",
+    "bytes": 1565933,
+    "sha256": "b2a2dce26320cdb8e12c19b6cc477d68a0dd2c8387896016410217ceb8d20b7d"
+  }
+]

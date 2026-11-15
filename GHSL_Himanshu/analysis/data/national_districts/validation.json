@@ -1,0 +1,2018 @@
+{
+  "status": "PASS",
+  "boundary": {
+    "boundaryID": "IND-ADM2-76128533",
+    "boundaryName": "India",
+    "boundaryISO": "IND",
+    "boundaryYearRepresented": "2021",
+    "boundaryType": "ADM2",
+    "boundaryCanonical": "District",
+    "boundarySource": "Pathways Data Pvt. Ltd., lgdirectory.gov.in",
+    "boundaryLicense": "Open Data Commons Open Database License 1.0",
+    "licenseDetail": "Open Data Commons Open Database License 1.0",
+    "licenseSource": "geonode.pathwaysdata.com/layers/geonode",
+    "boundarySourceURL": "geonode.pathwaysdata.com/layers/geonode",
+    "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+    "buildDate": "Dec 12, 2023",
+    "Continent": "Asia",
+    "UNSDG-region": "Central and Southern Asia",
+    "UNSDG-subregion": "Southern Asia",
+    "worldBankIncomeGroup": "Lower-middle-income Countries",
+    "admUnitCount": "736",
+    "meanVertices": "2716.0",
+    "minVertices": "71",
+    "maxVertices": "41402",
+    "meanPerimeterLengthKM": "463.023708502529",
+    "minPerimeterLengthKM": "26.029156654808403",
+    "maxPerimeterLengthKM": "2615.169476353606",
+    "meanAreaSqKM": "4449.7088250729",
+    "minAreaSqKM": "8.884805375450998",
+    "maxAreaSqKM": "85793.49211691093",
+    "staticDownloadLink": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2-all.zip",
+    "gjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2.geojson",
+    "tjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2.topojson",
+    "imagePreview": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2-PREVIEW.png",
+    "simplifiedGeometryGeoJSON": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2_simplified.geojson",
+    "metadata_url": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM2/",
+    "sha256": "8bef6929fd65432e7dc775e7c44473e84efff064ebddbfd6b834e6291546db40",
+    "feature_count": 735
+  },
+  "district_features": 735,
+  "coverage_exceptions": [
+    {
+      "year": 1995,
+      "district_id": "UNASSIGNED",
+      "fine_cells": 2821675
+    },
+    {
+      "year": 2005,
+      "district_id": "UNASSIGNED",
+      "fine_cells": 2821675
+    },
+    {
+      "year": 2020,
+      "district_id": "UNASSIGNED",
+      "fine_cells": 2821675
+    },
+    {
+      "year": 2000,
+      "district_id": "UNASSIGNED",
+      "fine_cells": 2821675
+    },
+    {
+      "year": 1990,
+      "district_id": "UNASSIGNED",
+      "fine_cells": 2821675
+    },
+    {
+      "year": 2010,
+      "district_id": "UNASSIGNED",
+      "fine_cells": 2821675
+    },
+    {
+      "year": 2015,
+      "district_id": "UNASSIGNED",
+      "fine_cells": 2821675
+    },
+    {
+      "year": 1975,
+      "district_id": "UNASSIGNED",
+      "fine_cells": 2821675
+    },
+    {
+      "year": 1985,
+      "district_id": "UNASSIGNED",
+      "fine_cells": 2821675
+    },
+    {
+      "year": 1980,
+      "district_id": "UNASSIGNED",
+      "fine_cells": 2821675
+    }
+  ],
+  "input_coverage": [
+    {
+      "tile": "R5_C25",
+      "year": 1975,
+      "analytical_rows": 16201044,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C25",
+      "year": 1980,
+      "analytical_rows": 16201044,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C25",
+      "year": 1985,
+      "analytical_rows": 16201044,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C25",
+      "year": 1990,
+      "analytical_rows": 16201044,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C25",
+      "year": 1995,
+      "analytical_rows": 16201044,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2000,
+      "analytical_rows": 16201044,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2005,
+      "analytical_rows": 16201044,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2010,
+      "analytical_rows": 16201044,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2015,
+      "analytical_rows": 16201044,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C25",
+      "year": 2020,
+      "analytical_rows": 16201044,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C26",
+      "year": 1975,
+      "analytical_rows": 3780794,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C26",
+      "year": 1980,
+      "analytical_rows": 3780794,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C26",
+      "year": 1985,
+      "analytical_rows": 3780794,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C26",
+      "year": 1990,
+      "analytical_rows": 3780794,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C26",
+      "year": 1995,
+      "analytical_rows": 3780794,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C26",
+      "year": 2000,
+      "analytical_rows": 3780794,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C26",
+      "year": 2005,
+      "analytical_rows": 3780794,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C26",
+      "year": 2010,
+      "analytical_rows": 3780794,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C26",
+      "year": 2015,
+      "analytical_rows": 3780794,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R5_C26",
+      "year": 2020,
+      "analytical_rows": 3780794,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C25",
+      "year": 1975,
+      "analytical_rows": 28333434,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C25",
+      "year": 1980,
+      "analytical_rows": 28333434,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C25",
+      "year": 1985,
+      "analytical_rows": 28333434,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C25",
+      "year": 1990,
+      "analytical_rows": 28333434,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C25",
+      "year": 1995,
+      "analytical_rows": 28333434,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C25",
+      "year": 2000,
+      "analytical_rows": 28333434,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C25",
+      "year": 2005,
+      "analytical_rows": 28333434,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C25",
+      "year": 2010,
+      "analytical_rows": 28333434,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C25",
+      "year": 2015,
+      "analytical_rows": 28333434,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C25",
+      "year": 2020,
+      "analytical_rows": 28333434,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C26",
+      "year": 1975,
+      "analytical_rows": 58195106,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C26",
+      "year": 1980,
+      "analytical_rows": 58195106,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C26",
+      "year": 1985,
+      "analytical_rows": 58195106,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C26",
+      "year": 1990,
+      "analytical_rows": 58195106,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C26",
+      "year": 1995,
+      "analytical_rows": 58195106,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C26",
+      "year": 2000,
+      "analytical_rows": 58195106,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C26",
+      "year": 2005,
+      "analytical_rows": 58195106,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C26",
+      "year": 2010,
+      "analytical_rows": 58195106,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C26",
+      "year": 2015,
+      "analytical_rows": 58195106,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C26",
+      "year": 2020,
+      "analytical_rows": 58195106,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C27",
+      "year": 1975,
+      "analytical_rows": 30750705,
+      "rejected_rows": 1
+    },
+    {
+      "tile": "R6_C27",
+      "year": 1980,
+      "analytical_rows": 30750705,
+      "rejected_rows": 1
+    },
+    {
+      "tile": "R6_C27",
+      "year": 1985,
+      "analytical_rows": 30750705,
+      "rejected_rows": 1
+    },
+    {
+      "tile": "R6_C27",
+      "year": 1990,
+      "analytical_rows": 30750705,
+      "rejected_rows": 1
+    },
+    {
+      "tile": "R6_C27",
+      "year": 1995,
+      "analytical_rows": 30750705,
+      "rejected_rows": 1
+    },
+    {
+      "tile": "R6_C27",
+      "year": 2000,
+      "analytical_rows": 30750705,
+      "rejected_rows": 1
+    },
+    {
+      "tile": "R6_C27",
+      "year": 2005,
+      "analytical_rows": 30750705,
+      "rejected_rows": 1
+    },
+    {
+      "tile": "R6_C27",
+      "year": 2010,
+      "analytical_rows": 30750705,
+      "rejected_rows": 1
+    },
+    {
+      "tile": "R6_C27",
+      "year": 2015,
+      "analytical_rows": 30750705,
+      "rejected_rows": 1
+    },
+    {
+      "tile": "R6_C27",
+      "year": 2020,
+      "analytical_rows": 30750705,
+      "rejected_rows": 1
+    },
+    {
+      "tile": "R6_C28",
+      "year": 1975,
+      "analytical_rows": 871507,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C28",
+      "year": 1980,
+      "analytical_rows": 871507,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C28",
+      "year": 1985,
+      "analytical_rows": 871507,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C28",
+      "year": 1990,
+      "analytical_rows": 871507,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C28",
+      "year": 1995,
+      "analytical_rows": 871507,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C28",
+      "year": 2000,
+      "analytical_rows": 871507,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C28",
+      "year": 2005,
+      "analytical_rows": 871507,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C28",
+      "year": 2010,
+      "analytical_rows": 871507,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C28",
+      "year": 2015,
+      "analytical_rows": 871507,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R6_C28",
+      "year": 2020,
+      "analytical_rows": 871507,
+      "rejected_rows": 0
+    },
+    {
+      "tile": "R7_C25",
+      "year": 1975,
+      "analytical_rows": 14350229,
+      "rejected_rows": 21512
+    },
+    {
+      "tile": "R7_C25",
+      "year": 1980,
+      "analytical_rows": 14350229,
+      "rejected_rows": 21512
+    },
+    {
+      "tile": "R7_C25",
+      "year": 1985,
+      "analytical_rows": 14350229,
+      "rejected_rows": 21512
+    },
+    {
+      "tile": "R7_C25",
+      "year": 1990,
+      "analytical_rows": 14350229,
+      "rejected_rows": 21512
+    },
+    {
+      "tile": "R7_C25",
+      "year": 1995,
+      "analytical_rows": 14350229,
+      "rejected_rows": 21512
+    },
+    {
+      "tile": "R7_C25",
+      "year": 2000,
+      "analytical_rows": 14350229,
+      "rejected_rows": 21512
+    },
+    {
+      "tile": "R7_C25",
+      "year": 2005,
+      "analytical_rows": 14350229,
+      "rejected_rows": 21512
+    },
+    {
+      "tile": "R7_C25",
+      "year": 2010,
+      "analytical_rows": 14350229,
+      "rejected_rows": 21512
+    },
+    {
+      "tile": "R7_C25",
+      "year": 2015,
+      "analytical_rows": 14350229,
+      "rejected_rows": 21512
+    },
+    {
+      "tile": "R7_C25",
+      "year": 2020,
+      "analytical_rows": 14350229,
+      "rejected_rows": 21512
+    },
+    {
+      "tile": "R7_C26",
+      "year": 1975,
+      "analytical_rows": 93381745,
+      "rejected_rows": 259871
+    },
+    {
+      "tile": "R7_C26",
+      "year": 1980,
+      "analytical_rows": 93381745,
+      "rejected_rows": 259871
+    },
+    {
+      "tile": "R7_C26",
+      "year": 1985,
+      "analytical_rows": 93381745,
+      "rejected_rows": 259871
+    },
+    {
+      "tile": "R7_C26",
+      "year": 1990,
+      "analytical_rows": 93381745,
+      "rejected_rows": 259871
+    },
+    {
+      "tile": "R7_C26",
+      "year": 1995,
+      "analytical_rows": 93381745,
+      "rejected_rows": 259871
+    },
+    {
+      "tile": "R7_C26",
+      "year": 2000,
+      "analytical_rows": 93381745,
+      "rejected_rows": 259871
+    },
+    {
+      "tile": "R7_C26",
+      "year": 2005,
+      "analytical_rows": 93381745,
+      "rejected_rows": 259871
+    },
+    {
+      "tile": "R7_C26",
+      "year": 2010,
+      "analytical_rows": 93381745,
+      "rejected_rows": 259871
+    },
+    {
+      "tile": "R7_C26",
+      "year": 2015,
+      "analytical_rows": 93381745,
+      "rejected_rows": 259871
+    },
+    {
+      "tile": "R7_C26",
+      "year": 2020,
+      "analytical_rows": 93381745,
+      "rejected_rows": 259871
+    },
+    {
+      "tile": "R7_C27",
+      "year": 1975,
+      "analytical_rows": 36811850,
+      "rejected_rows": 259600
+    },
+    {
+      "tile": "R7_C27",
+      "year": 1980,
+      "analytical_rows": 36811850,
+      "rejected_rows": 259600
+    },
+    {
+      "tile": "R7_C27",
+      "year": 1985,
+      "analytical_rows": 36811850,
+      "rejected_rows": 259600
+    },
+    {
+      "tile": "R7_C27",
+      "year": 1990,
+      "analytical_rows": 36811850,
+      "rejected_rows": 259600
+    },
+    {
+      "tile": "R7_C27",
+      "year": 1995,
+      "analytical_rows": 36811850,
+      "rejected_rows": 259600
+    },
+    {
+      "tile": "R7_C27",
+      "year": 2000,
+      "analytical_rows": 36811850,
+      "rejected_rows": 259600
+    },
+    {
+      "tile": "R7_C27",
+      "year": 2005,
+      "analytical_rows": 36811850,
+      "rejected_rows": 259600
+    },
+    {
+      "tile": "R7_C27",
+      "year": 2010,
+      "analytical_rows": 36811850,
+      "rejected_rows": 259600
+    },
+    {
+      "tile": "R7_C27",
+      "year": 2015,
+      "analytical_rows": 36811850,
+      "rejected_rows": 259600
+    },
+    {
+      "tile": "R7_C27",
+      "year": 2020,
+      "analytical_rows": 36811850,
+      "rejected_rows": 259600
+    },
+    {
+      "tile": "R8_C26",
+      "year": 1975,
+      "analytical_rows": 44258323,
+      "rejected_rows": 450537
+    },
+    {
+      "tile": "R8_C26",
+      "year": 1980,
+      "analytical_rows": 44258323,
+      "rejected_rows": 450537
+    },
+    {
+      "tile": "R8_C26",
+      "year": 1985,
+      "analytical_rows": 44258323,
+      "rejected_rows": 450537
+    },
+    {
+      "tile": "R8_C26",
+      "year": 1990,
+      "analytical_rows": 44258323,
+      "rejected_rows": 450537
+    },
+    {
+      "tile": "R8_C26",
+      "year": 1995,
+      "analytical_rows": 44258323,
+      "rejected_rows": 450537
+    },
+    {
+      "tile": "R8_C26",
+      "year": 2000,
+      "analytical_rows": 44258323,
+      "rejected_rows": 450537
+    },
+    {
+      "tile": "R8_C26",
+      "year": 2005,
+      "analytical_rows": 44258323,
+      "rejected_rows": 450537
+    },
+    {
+      "tile": "R8_C26",
+      "year": 2010,
+      "analytical_rows": 44258323,
+      "rejected_rows": 450537
+    },
+    {
+      "tile": "R8_C26",
+      "year": 2015,
+      "analytical_rows": 44258323,
+      "rejected_rows": 450537
+    },
+    {
+      "tile": "R8_C26",
+      "year": 2020,
+      "analytical_rows": 44258323,
+      "rejected_rows": 450537
+    },
+    {
+      "tile": "R8_C28",
+      "year": 1975,
+      "analytical_rows": 293929,
+      "rejected_rows": 35378
+    },
+    {
+      "tile": "R8_C28",
+      "year": 1980,
+      "analytical_rows": 293929,
+      "rejected_rows": 35378
+    },
+    {
+      "tile": "R8_C28",
+      "year": 1985,
+      "analytical_rows": 293929,
+      "rejected_rows": 35378
+    },
+    {
+      "tile": "R8_C28",
+      "year": 1990,
+      "analytical_rows": 293929,
+      "rejected_rows": 35378
+    },
+    {
+      "tile": "R8_C28",
+      "year": 1995,
+      "analytical_rows": 293929,
+      "rejected_rows": 35378
+    },
+    {
+      "tile": "R8_C28",
+      "year": 2000,
+      "analytical_rows": 293929,
+      "rejected_rows": 35378
+    },
+    {
+      "tile": "R8_C28",
+      "year": 2005,
+      "analytical_rows": 293929,
+      "rejected_rows": 35378
+    },
+    {
+      "tile": "R8_C28",
+      "year": 2010,
+      "analytical_rows": 293929,
+      "rejected_rows": 35378
+    },
+    {
+      "tile": "R8_C28",
+      "year": 2015,
+      "analytical_rows": 293929,
+      "rejected_rows": 35378
+    },
+    {
+      "tile": "R8_C28",
+      "year": 2020,
+      "analytical_rows": 293929,
+      "rejected_rows": 35378
+    },
+    {
+      "tile": "R9_C26",
+      "year": 1975,
+      "analytical_rows": 1391,
+      "rejected_rows": 1526
+    },
+    {
+      "tile": "R9_C26",
+      "year": 1980,
+      "analytical_rows": 1391,
+      "rejected_rows": 1526
+    },
+    {
+      "tile": "R9_C26",
+      "year": 1985,
+      "analytical_rows": 1391,
+      "rejected_rows": 1526
+    },
+    {
+      "tile": "R9_C26",
+      "year": 1990,
+      "analytical_rows": 1391,
+      "rejected_rows": 1526
+    },
+    {
+      "tile": "R9_C26",
+      "year": 1995,
+      "analytical_rows": 1391,
+      "rejected_rows": 1526
+    },
+    {
+      "tile": "R9_C26",
+      "year": 2000,
+      "analytical_rows": 1391,
+      "rejected_rows": 1526
+    },
+    {
+      "tile": "R9_C26",
+      "year": 2005,
+      "analytical_rows": 1391,
+      "rejected_rows": 1526
+    },
+    {
+      "tile": "R9_C26",
+      "year": 2010,
+      "analytical_rows": 1391,
+      "rejected_rows": 1526
+    },
+    {
+      "tile": "R9_C26",
+      "year": 2015,
+      "analytical_rows": 1391,
+      "rejected_rows": 1526
+    },
+    {
+      "tile": "R9_C26",
+      "year": 2020,
+      "analytical_rows": 1391,
+      "rejected_rows": 1526
+    },
+    {
+      "tile": "R9_C28",
+      "year": 1975,
+      "analytical_rows": 92435,
+      "rejected_rows": 16005
+    },
+    {
+      "tile": "R9_C28",
+      "year": 1980,
+      "analytical_rows": 92435,
+      "rejected_rows": 16005
+    },
+    {
+      "tile": "R9_C28",
+      "year": 1985,
+      "analytical_rows": 92435,
+      "rejected_rows": 16005
+    },
+    {
+      "tile": "R9_C28",
+      "year": 1990,
+      "analytical_rows": 92435,
+      "rejected_rows": 16005
+    },
+    {
+      "tile": "R9_C28",
+      "year": 1995,
+      "analytical_rows": 92435,
+      "rejected_rows": 16005
+    },
+    {
+      "tile": "R9_C28",
+      "year": 2000,
+      "analytical_rows": 92435,
+      "rejected_rows": 16005
+    },
+    {
+      "tile": "R9_C28",
+      "year": 2005,
+      "analytical_rows": 92435,
+      "rejected_rows": 16005
+    },
+    {
+      "tile": "R9_C28",
+      "year": 2010,
+      "analytical_rows": 92435,
+      "rejected_rows": 16005
+    },
+    {
+      "tile": "R9_C28",
+      "year": 2015,
+      "analytical_rows": 92435,
+      "rejected_rows": 16005
+    },
+    {
+      "tile": "R9_C28",
+      "year": 2020,
+      "analytical_rows": 92435,
+      "rejected_rows": 16005
+    }
+  ],
+  "attribution": "Rasterized 100 m centre, all_touched=False; overlapping polygon coverage AMBIGUOUS; unmatched UNASSIGNED",
+  "caveat": "Fixed 2021 districts and 2014 country mask can disagree; summaries use valid complete-case input only, not reconstructed historical districts",
+  "coverage": {
+    "authorization_date": "2026-11-10",
+    "policy": "User-approved completion using verified coverage; excluded area is missing, never zero or extrapolated",
+    "original_planned_pairs": 168,
+    "accepted_pairs": 156,
+    "excluded_tiles": [
+      "R8_C27"
+    ],
+    "excluded_pairs": [
+      {
+        "tile": "R8_C27",
+        "year": 1975,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_1975",
+        "preparation": {
+          "year": 1975,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 1980,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_1980",
+        "preparation": {
+          "year": 1980,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 1985,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_1985",
+        "preparation": {
+          "year": 1985,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 1990,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_1990",
+        "preparation": {
+          "year": 1990,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 1995,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_1995",
+        "preparation": {
+          "year": 1995,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 2000,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_2000",
+        "preparation": {
+          "year": 2000,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 2005,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_2005",
+        "preparation": {
+          "year": 2005,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 2010,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_2010",
+        "preparation": {
+          "year": 2010,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 2015,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_2015",
+        "preparation": {
+          "year": 2015,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 2020,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_2020",
+        "preparation": {
+          "year": 2020,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 2025,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_2025",
+        "preparation": {
+          "year": 2025,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      },
+      {
+        "tile": "R8_C27",
+        "year": 2030,
+        "status": "UNRESOLVED",
+        "reason": "An epoch has no valid analytical cells",
+        "refreshed_sources": true,
+        "evidence": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1/pairs/R8_C27_2030",
+        "preparation": {
+          "year": 2030,
+          "tile": "R8_C27",
+          "fine_rows": 1502,
+          "coarse_rows": 23,
+          "blocks": 1,
+          "products": {
+            "POP": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            },
+            "BUILT_S_NRES": {
+              "valid_pixels": 0,
+              "nodata_pixels": 1502,
+              "total": 0.0
+            }
+          },
+          "native_metadata": {
+            "POP": {
+              "shape": [
+                10000,
+                10000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            },
+            "BUILT_S": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "BUILT_S_NRES": {
+              "shape": [
+                3000,
+                2000
+              ],
+              "transform": [
+                100.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -100.0,
+                1300000.0
+              ],
+              "nodata": 65535.0
+            },
+            "SMOD": {
+              "shape": [
+                1000,
+                1000
+              ],
+              "transform": [
+                1000.0,
+                0.0,
+                7959000.0,
+                0.0,
+                -1000.0,
+                2000000.0
+              ],
+              "nodata": -200.0
+            }
+          }
+        }
+      }
+    ],
+    "source_run": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/national_run1",
+    "warning": "R8_C27 excluded in all 12 epochs. Results describe the verified study footprint, not complete India coverage."
+  }
+}

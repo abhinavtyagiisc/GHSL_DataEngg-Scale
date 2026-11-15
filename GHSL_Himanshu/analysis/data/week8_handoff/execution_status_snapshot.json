@@ -1,0 +1,12 @@
+{
+  "note": "Controller status snapshot collected during packaging, before final completion",
+  "status": {
+    "status": "RUNNING",
+    "stage": "national_completion",
+    "updated_utc": "2026-11-09T20:45:09.880367+00:00",
+    "controller_pid": 3722,
+    "retry_count": 0,
+    "child_pid": 3726,
+    "log": "phase3/reports/national_completion_1794256929599740000.log"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "bounded_runner_cached_validation",
+  "bbox_wgs84": [
+    77.3,
+    12.7,
+    77.9,
+    13.3
+  ],
+  "tile": "R8_C26",
+  "epochs": [
+    2015,
+    2020
+  ],
+  "historical_end": 2020,
+  "release": "R2023A",
+  "population_version": "V1_0",
+  "built_version": "V1_0",
+  "settlement_version": "V2_0",
+  "reference_epoch": 2020,
+  "resolution_m": 100,
+  "note": "Weeks 1\u20135 three-product pilot. National processing and temporal analyses belong to weeks 6\u20138."
+}

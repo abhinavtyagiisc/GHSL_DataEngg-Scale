@@ -1,0 +1,72 @@
+{
+  "status": "PREFLIGHT_ONLY",
+  "tiles": [
+    {
+      "tile": "R5_C25",
+      "approximate_cells": 16201007
+    },
+    {
+      "tile": "R5_C26",
+      "approximate_cells": 3780791
+    },
+    {
+      "tile": "R6_C25",
+      "approximate_cells": 28333390
+    },
+    {
+      "tile": "R6_C26",
+      "approximate_cells": 58195092
+    },
+    {
+      "tile": "R6_C27",
+      "approximate_cells": 30750809
+    },
+    {
+      "tile": "R6_C28",
+      "approximate_cells": 871522
+    },
+    {
+      "tile": "R7_C25",
+      "approximate_cells": 14371732
+    },
+    {
+      "tile": "R7_C26",
+      "approximate_cells": 93641620
+    },
+    {
+      "tile": "R7_C27",
+      "approximate_cells": 37071448
+    },
+    {
+      "tile": "R8_C26",
+      "approximate_cells": 44708838
+    },
+    {
+      "tile": "R8_C27",
+      "approximate_cells": 1504
+    },
+    {
+      "tile": "R8_C28",
+      "approximate_cells": 329257
+    },
+    {
+      "tile": "R9_C26",
+      "approximate_cells": 2918
+    },
+    {
+      "tile": "R9_C28",
+      "approximate_cells": 108487
+    }
+  ],
+  "tile_years": 168,
+  "boundary": {
+    "path": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/population/data/raw/boundaries/geoBoundaries-IND-ADM0.geojson",
+    "sha256": "77fb5cb03be9970e638fa38d1bd6a377ea7e158b4dfd1a511067925442233443"
+  },
+  "free_bytes": 146475442176,
+  "first_pair": {
+    "tile": "R5_C25",
+    "year": 1975
+  },
+  "note": "Area-based cell estimates; no national processing or new downloads"
+}

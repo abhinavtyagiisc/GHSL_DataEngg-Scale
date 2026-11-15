@@ -1,0 +1,46 @@
+......                                                                   [100%]
+=============================== warnings summary ===============================
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_shift_rejected
+  /Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/.venv/lib/python3.12/site-packages/rasterio/transform.py:178: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    return Affine.translation(west, north) * Affine.scale(xsize, -ysize)
+
+integration/tests/test_national.py: 10 warnings
+  /Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/.venv/lib/python3.12/site-packages/rasterio/windows.py:360: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    x, y = transform * (window.col_off or 0.0, window.row_off or 0.0)
+
+integration/tests/test_national.py: 10 warnings
+  /Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/.venv/lib/python3.12/site-packages/rasterio/windows.py:361: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    return Affine.translation(
+
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+  /Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/.venv/lib/python3.12/site-packages/rasterio/windows.py:387: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    left, bottom = transform * (col_min, row_max)
+
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+  /Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/.venv/lib/python3.12/site-packages/rasterio/windows.py:388: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    right, top = transform * (col_max, row_min)
+
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+integration/tests/test_national.py::test_seam_cropped_extent_and_nodata
+  /Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/.venv/lib/python3.12/site-packages/numpy/ma/core.py:3524: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+  As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+    super(MaskedArray, type(self)).shape.__set__(self, shape)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+6 passed, 41 warnings in 2.34s

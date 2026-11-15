@@ -1,0 +1,14 @@
+[
+  {
+    "file": "GHSL_Phase1_Weeks1_3_Handoff.zip",
+    "bytes": 49867294,
+    "sha256": "53474e741c71a0ae84ee05b25f2b4fc8514a30bb0e39d6654f9c1e004a3bcfaa",
+    "zip_crc": "PASS"
+  },
+  {
+    "file": "GHSL_Phase2_Weeks4_5_Handoff_v2.zip",
+    "bytes": 49381180,
+    "sha256": "a787f7d472fd917dda30e5df25b47710ede0d95e49985aa29ce57ddb28470dfc",
+    "zip_crc": "PASS"
+  }
+]

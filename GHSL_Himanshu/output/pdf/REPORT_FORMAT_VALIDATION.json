@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "pages": 7,
+  "page_format": "A4",
+  "font_sizes_pt": [
+    10.0
+  ],
+  "margins_cm": 2.5,
+  "text_outside_margins": [],
+  "author_placeholders": 3,
+  "checks": [
+    "A4 geometry on every page",
+    "6-8 pages",
+    "all text 10 pt",
+    "all text within 2.5 cm margins",
+    "author details and requested placeholders",
+    "coverage disclosure and required sections"
+  ],
+  "sha256": "5a3137a0fa957112102f3877b26b450d918adf18772a0af2b5d03cb17d4876a8",
+  "visual_review": "PASS: all seven final rendered pages reviewed; no clipping, overlap, orphan pages or unreadable tables/plots"
+}

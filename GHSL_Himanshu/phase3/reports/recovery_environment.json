@@ -1,0 +1,6 @@
+{
+  "max_records_per_file": 250000,
+  "prior_completed": 1,
+  "reason": "Mitigate preserved zero-byte large-file failure; root cause unconfirmed",
+  "code": "Unchanged original fingerprinted national integration"
+}

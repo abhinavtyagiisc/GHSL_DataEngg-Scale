@@ -1,0 +1,5 @@
+{
+  "status": "INVALID_TASK_ATTRIBUTION",
+  "reason": "Job group was retained during next-input preparation; timing values recomputed joins but Spark task counters are not isolated",
+  "spatial_correctness": "PASS"
+}

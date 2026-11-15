@@ -1,0 +1,17 @@
+..                                                                       [100%]
+=============================== warnings summary ===============================
+integration/tests/test_integration.py::test_cropped_native_tile_aligns_without_resampling
+  /Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/.venv/lib/python3.12/site-packages/numpy/ma/core.py:3524: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+  As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+    super(MaskedArray, type(self)).shape.__set__(self, shape)
+
+integration/tests/test_integration.py::test_cropped_native_tile_aligns_without_resampling
+  /Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/.venv/lib/python3.12/site-packages/rasterio/windows.py:360: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    x, y = transform * (window.col_off or 0.0, window.row_off or 0.0)
+
+integration/tests/test_integration.py::test_cropped_native_tile_aligns_without_resampling
+  /Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/.venv/lib/python3.12/site-packages/rasterio/windows.py:361: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+    return Affine.translation(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+2 passed, 5 deselected, 3 warnings in 1.79s

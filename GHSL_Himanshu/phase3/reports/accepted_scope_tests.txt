@@ -1,0 +1,2 @@
+2026-11-10: accepted_scope, stage_publication and week8_handoff regression suites: 7 passed in 25.82s. Five changed runtime modules passed AST syntax checks.
+Coverage-disclosure packaging regression: 1 passed, 4 deselected in 27.09s.

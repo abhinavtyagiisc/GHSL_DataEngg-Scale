@@ -1,0 +1,640 @@
+{
+  "status": "PASS",
+  "epochs": [
+    1975,
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020,
+    2025,
+    2030
+  ],
+  "historical_epochs": [
+    1975,
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "test_epochs": [
+    2025,
+    2030
+  ],
+  "source_archives": [
+    {
+      "product": "POP",
+      "year": 1975,
+      "sha256": "bbf5113f5af687c37edf897ebaec88baa40fa2025ffea4c03ef20be54cb27f80",
+      "bytes": 18907797
+    },
+    {
+      "product": "SMOD",
+      "year": 1975,
+      "sha256": "8188b4cab1ee3d97fc3e474824c73b41d22fcfa6f14aa0f4a21c9e5a7f269f75",
+      "bytes": 1551231
+    },
+    {
+      "product": "BUILT_S",
+      "year": 1975,
+      "sha256": "573d78dd454baff3d03230f03ea502913a68e303be176b008b0fca6dfad36479",
+      "bytes": 8692543
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 1975,
+      "sha256": "7e58a1fafa8521007b91d3e7543e32064f5583d256a585587c42690aa574fb38",
+      "bytes": 1634062
+    },
+    {
+      "product": "POP",
+      "year": 1980,
+      "sha256": "b8bf33455bf21c28bba9533eafd6f8d9b2090fc90067d240a7891af24eb1ef1b",
+      "bytes": 21562487
+    },
+    {
+      "product": "SMOD",
+      "year": 1980,
+      "sha256": "d41492fca615b86038ebefd881571cc65d8a62583f40144ae9e8fd68746422f4",
+      "bytes": 1555083
+    },
+    {
+      "product": "BUILT_S",
+      "year": 1980,
+      "sha256": "82b7484caf76cf3c6b870cf6d4fd4d595127f56cceae66543bf2020787c00fa2",
+      "bytes": 9831506
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 1980,
+      "sha256": "93933601c6892f4f56f6d51ec249ec6de435c2be04339e6d48754080303089ec",
+      "bytes": 1673153
+    },
+    {
+      "product": "POP",
+      "year": 1985,
+      "sha256": "036d4250f4f8dd45e8f8f1662bc135fa26c2a723ceb990571588be102c758757",
+      "bytes": 24207911
+    },
+    {
+      "product": "SMOD",
+      "year": 1985,
+      "sha256": "06720eab0f7cf1ad61ba6a1897a031607fa364ebbd7e1743e373e8c152ec834d",
+      "bytes": 1558073
+    },
+    {
+      "product": "BUILT_S",
+      "year": 1985,
+      "sha256": "f94b04f3249132147b158066c5007e7a51a9bccd465c36af20973175a8157156",
+      "bytes": 10907337
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 1985,
+      "sha256": "f6447f8f0ff4f0b75f9a04be35af0b1b762f518fecb19a55956290ac14568c9c",
+      "bytes": 1717498
+    },
+    {
+      "product": "POP",
+      "year": 1990,
+      "sha256": "c69d59ed94fb1b51c34c7ae41d36141fff550efbf912b54c03059b313de5ec54",
+      "bytes": 26884965
+    },
+    {
+      "product": "SMOD",
+      "year": 1990,
+      "sha256": "8cd2077f3afc432e7a53a924985c8a6d3d3ce24eb0e9ea542a9a0b39642696d0",
+      "bytes": 1560569
+    },
+    {
+      "product": "BUILT_S",
+      "year": 1990,
+      "sha256": "8126cab2d0ff58855729c1e6a4099bae4eb2996d751ba6ede2027f225218de82",
+      "bytes": 11990785
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 1990,
+      "sha256": "bc3b387b7afbe2b856b0aefe2ee2b06e65a2b9778607f323aa666289c1374bd7",
+      "bytes": 1759877
+    },
+    {
+      "product": "POP",
+      "year": 1995,
+      "sha256": "c0f3a2ad079021cc37db0b206abf47f568403dbcdfb5004cc5ec2995a532df67",
+      "bytes": 28582931
+    },
+    {
+      "product": "SMOD",
+      "year": 1995,
+      "sha256": "f4e73c9dcd9d08e6a641969e036906f71d00464bb60bd1c8ce0575a39dcb186d",
+      "bytes": 1560802
+    },
+    {
+      "product": "BUILT_S",
+      "year": 1995,
+      "sha256": "7737bf9daaaf39805179ed3221631bc4928e7766dc83e92b177732d30f4c4784",
+      "bytes": 12730683
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 1995,
+      "sha256": "a1ad3868a3bf5d609e1c21f005e15400df6c51e75fdbd5eae84cbebf222e05e6",
+      "bytes": 1788336
+    },
+    {
+      "product": "POP",
+      "year": 2000,
+      "sha256": "312f8d6466ab9875ed46ba9e98ecbff3fb2db14b5a62839e2abb6c9280babf69",
+      "bytes": 30212697
+    },
+    {
+      "product": "SMOD",
+      "year": 2000,
+      "sha256": "5fcf70ec8073031cdb5fa368cbdf57b151383bc36ec55b719d932252eb112545",
+      "bytes": 1561366
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2000,
+      "sha256": "977532cec09c45b5e325df6f56e6af0b38c0dbb2aa2c8847cdf8ada69078c67e",
+      "bytes": 13409410
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2000,
+      "sha256": "39cc67791aa9c9cef444c90959800aa19c809192297dcfded978e309d4b025f9",
+      "bytes": 1808817
+    },
+    {
+      "product": "POP",
+      "year": 2005,
+      "sha256": "a09754ce8497e1960dec2b5094b5a09178a7109bb323d22fd381b7732adcb5f2",
+      "bytes": 33444514
+    },
+    {
+      "product": "SMOD",
+      "year": 2005,
+      "sha256": "12449feaa8496c0dd7e56a7d448381def3caf0e591eaad24c45c96f503efdfa3",
+      "bytes": 1563225
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2005,
+      "sha256": "2fd796bf51a7415b7bbf5ffd76ca092e25d17e0395ffc37a8f05452e5797d7a4",
+      "bytes": 14900921
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2005,
+      "sha256": "07078d95f7f9acad9fcb442065b3d61bf3a34b63dd5b9ece4a1a48236d2ade93",
+      "bytes": 1838880
+    },
+    {
+      "product": "POP",
+      "year": 2010,
+      "sha256": "07f0957820e6e22f1081fe932547f04e231cedb9fc90be6d92bf7c2209eaac09",
+      "bytes": 36876201
+    },
+    {
+      "product": "SMOD",
+      "year": 2010,
+      "sha256": "e6d28177c7f9c5faf0421b266c00a16647906c0a4d54dd05ce87805978089d0d",
+      "bytes": 1564098
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2010,
+      "sha256": "a89a5fb88a061c8ee40e89aedf0c24574df78950c583e1d50740e0c422fe933f",
+      "bytes": 16405026
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2010,
+      "sha256": "126a42f350a46cce8f8d8b99c78dd57fe723292ad5fe4faee151fc0d7c38faae",
+      "bytes": 1861195
+    },
+    {
+      "product": "POP",
+      "year": 2015,
+      "sha256": "5cbbd669ef931bda2e6c7ae73a99c3b206dc64f497c5aa01e5562408560ea2c3",
+      "bytes": 42287057
+    },
+    {
+      "product": "SMOD",
+      "year": 2015,
+      "sha256": "73ec2e7d1e06dc140812ed60c8830b6f18bb9aec790a02e175e36f78f2c3eb1a",
+      "bytes": 1565246
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2015,
+      "sha256": "3e29114f819aa0ab5dfe19f65fc95a1fbdb1a423963e3ac471bbc5a961784447",
+      "bytes": 18616040
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2015,
+      "sha256": "f0b2462ac73b8b80764bde94d43f07830397bb0a96ce403f004f6fe62678cf24",
+      "bytes": 1897315
+    },
+    {
+      "product": "POP",
+      "year": 2020,
+      "sha256": "144391037dfefc4f916565dccc3a55e2e366c5885be90cdfe50ca2f3d931fb2e",
+      "bytes": 47043461
+    },
+    {
+      "product": "SMOD",
+      "year": 2020,
+      "sha256": "b2a2dce26320cdb8e12c19b6cc477d68a0dd2c8387896016410217ceb8d20b7d",
+      "bytes": 1565933
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2020,
+      "sha256": "92df67ba1f1ad0daac54f4d2b0abaa0eb93df693c4df39869018e1d972038f93",
+      "bytes": 20429152
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2020,
+      "sha256": "2cfee3b9034288d1b09344c1164a88b10b7e1c7e1893c590f38f472c51114514",
+      "bytes": 1920915
+    },
+    {
+      "product": "POP",
+      "year": 2025,
+      "sha256": "59eef574b9d6f58d32a5439867af69c0b40098d2303a6c828ea79657ec156b26",
+      "bytes": 50048146
+    },
+    {
+      "product": "SMOD",
+      "year": 2025,
+      "sha256": "77b6ce479af90d8856f033e09cf2b840034d0cd8b2bc76b7485adc843bbbb0f9",
+      "bytes": 1565904
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2025,
+      "sha256": "51953584843b8af895a86c5aa71acf5709f7ea6da9187aa9685c58dabf1ce233",
+      "bytes": 21640532
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2025,
+      "sha256": "3add3a90ac0a1220272ee41c4adf212c7c3f5a31bc57d5989dd10a6cfc91d639",
+      "bytes": 1936105
+    },
+    {
+      "product": "POP",
+      "year": 2030,
+      "sha256": "f51054b5561369f2f5047f7a6dc76f4fa0f483fe69e10912f043b053a77777b2",
+      "bytes": 53086232
+    },
+    {
+      "product": "SMOD",
+      "year": 2030,
+      "sha256": "ba233e5aa65fcc14b1f453b570843f2e83c3784f04bbaafe38ea39b65f44c8c8",
+      "bytes": 1565932
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2030,
+      "sha256": "d8860ed06692b1f9c9102d399f4a97c285a7cb71dc477702fcc8adfaed76465b",
+      "bytes": 22868375
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2030,
+      "sha256": "8d3b1978f76332814c8a82bae12f06a43ede1b4bf86f584477b8950bb6cb7a51",
+      "bytes": 1952682
+    }
+  ],
+  "source_bytes": 636093006,
+  "source_audit_seconds": 3.089154797999072,
+  "raster_checks": [
+    {
+      "product": "POP",
+      "year": 1975,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 1975,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 1975,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 1975,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 1980,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 1980,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 1980,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 1980,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 1985,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 1985,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 1985,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 1985,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 1990,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 1990,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 1990,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 1990,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 1995,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 1995,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 1995,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 1995,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 2000,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2000,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2000,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 2000,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 2005,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2005,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2005,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 2005,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 2010,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2010,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2010,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 2010,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 2015,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2015,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2015,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 2015,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 2020,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2020,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2020,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 2020,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 2025,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2025,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2025,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 2025,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    },
+    {
+      "product": "POP",
+      "year": 2030,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S",
+      "year": 2030,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "BUILT_S_NRES",
+      "year": 2030,
+      "valid_pixels": 434363,
+      "resolution_m": 100
+    },
+    {
+      "product": "SMOD",
+      "year": 2030,
+      "valid_pixels": 4455,
+      "resolution_m": 1000
+    }
+  ],
+  "hdfs_root": "/ghsl/weeks1_5/bengaluru_run1",
+  "hdfs_compared_prepared_curated_files": 132,
+  "hdfs_transfer": [
+    {
+      "zone": "raw",
+      "bytes": 636114415,
+      "wall_seconds": 6.39909499399073,
+      "decimal_MB_per_second": 99.40693419887705
+    },
+    {
+      "zone": "cleaned",
+      "bytes": 28197170,
+      "wall_seconds": 5.588342073999229,
+      "decimal_MB_per_second": 5.045712955044829
+    },
+    {
+      "zone": "curated",
+      "bytes": 64523927,
+      "wall_seconds": 3.732003780998639,
+      "decimal_MB_per_second": 17.28935199061727
+    }
+  ],
+  "hdfs_replication": 1,
+  "method": "Reused validated official JRC inputs; independently retrieved HDFS zones and compared every non-hidden prepared/curated file and all raw archive hashes",
+  "elapsed_seconds": 63.851902852999046
+}

@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-11-08T09:18:04.182726+05:30",
+  "verified_jobs": 17,
+  "planned_jobs": 168,
+  "completed_cell_years": 213316498,
+  "estimated_remaining_cell_years": 3727104921.9356694,
+  "observed_spark_cells_per_second": 36713.38205124675,
+  "linear_remaining_spark_hours": 28.199715333083844,
+  "planning_remaining_hours": [
+    36,
+    60
+  ],
+  "planning_finish_ist": [
+    "2026-11-09T21:18:04.182726+05:30",
+    "2026-11-10T21:18:04.182726+05:30"
+  ],
+  "method": "Area-weighted remaining native cell-years divided by aggregate observed Spark throughput; planning range adds unmeasured preparation/download/analysis/review allowance and larger-tile uncertainty. Range is a planning estimate, not a statistical confidence interval.",
+  "assumptions": [
+    "Mac remains awake and processing continuously",
+    "Internet and source server remain available",
+    "No new validation failures or storage issues"
+  ],
+  "limitations": [
+    "Only two tile sizes have been observed; larger remaining tiles may spill or slow down",
+    "Recorded Spark durations exclude acquisition/preparation/publication and downstream analysis",
+    "Multi-hour timestamp gaps exceed recorded Spark durations; interrupted runs can take much longer in calendar time"
+  ]
+}

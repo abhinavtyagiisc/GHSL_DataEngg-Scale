@@ -1,0 +1,43 @@
+2026-10-31 18:36:00,871 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Configured Capacity: 499963174912 (465.63 GB)
+Present Capacity: 137620642494 (128.17 GB)
+DFS Remaining: 137181917184 (127.76 GB)
+DFS Used: 438725310 (418.40 MB)
+DFS Used%: 0.32%
+Replicated Blocks:
+	Under replicated blocks: 36
+	Blocks with corrupt replicas: 0
+	Missing blocks: 0
+	Missing blocks (with replication factor 1): 0
+	Low redundancy blocks with highest priority to recover: 36
+	Pending deletion blocks: 0
+Erasure Coded Block Groups: 
+	Low redundancy block groups: 0
+	Block groups with corrupt internal blocks: 0
+	Missing block groups: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+
+-------------------------------------------------
+Live datanodes (1):
+
+Name: 127.0.0.1:19866 (localhost)
+Hostname: 127.0.0.1
+Decommission Status : Normal
+Configured Capacity: 499963174912 (465.63 GB)
+DFS Used: 438725310 (418.40 MB)
+Non DFS Used: 362342532418 (337.46 GB)
+DFS Remaining: 137181917184 (127.76 GB)
+DFS Used%: 0.09%
+DFS Remaining%: 27.44%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 0
+Last contact: Sat Oct 31 18:35:59 IST 2026
+Last Block Report: Sat Oct 31 15:31:22 IST 2026
+Num of Blocks: 74
+
+

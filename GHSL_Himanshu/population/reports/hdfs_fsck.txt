@@ -1,0 +1,323 @@
+2026-10-31 18:35:58,579 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Connecting to namenode via http://127.0.0.1:19870/fsck?ugi=rio&files=1&blocks=1&path=%2Fghsl%2Fpopulation
+FSCK started by rio (auth:SIMPLE) from /127.0.0.1 for path /ghsl/population at Sat Oct 31 18:36:00 IST 2026
+
+/ghsl/population <dir>
+/ghsl/population/cleaned <dir>
+/ghsl/population/cleaned/GHS_POP_1975_bengaluru_100m.tif 189667 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741851_1027 len=189667 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_1980_bengaluru_100m.tif 240423 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741852_1028 len=240423 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_1985_bengaluru_100m.tif 276609 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741853_1029 len=276609 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_1990_bengaluru_100m.tif 308787 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741854_1030 len=308787 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_1995_bengaluru_100m.tif 382229 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741855_1031 len=382229 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_2000_bengaluru_100m.tif 428885 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741856_1032 len=428885 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_2005_bengaluru_100m.tif 528823 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741857_1033 len=528823 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_2010_bengaluru_100m.tif 606299 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741858_1034 len=606299 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_2015_bengaluru_100m.tif 710301 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741859_1035 len=710301 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_2020_bengaluru_100m.tif 787913 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741860_1036 len=787913 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_2025_bengaluru_100m.tif 807871 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741861_1037 len=807871 Live_repl=1
+
+/ghsl/population/cleaned/GHS_POP_2030_bengaluru_100m.tif 823061 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741862_1038 len=823061 Live_repl=1
+
+/ghsl/population/cleaned/population_100m <dir>
+/ghsl/population/cleaned/population_100m/population_1975.parquet 429942 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741850_1026 len=429942 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_1980.parquet 517130 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741848_1024 len=517130 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_1985.parquet 579536 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741840_1016 len=579536 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_1990.parquet 633906 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741849_1025 len=633906 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_1995.parquet 768345 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741839_1015 len=768345 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_2000.parquet 857777 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741841_1017 len=857777 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_2005.parquet 1032740 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741847_1023 len=1032740 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_2010.parquet 1155428 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741842_1018 len=1155428 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_2015.parquet 1292869 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741846_1022 len=1292869 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_2020.parquet 1396151 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741845_1021 len=1396151 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_2025.parquet 1428462 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741843_1019 len=1428462 Live_repl=1
+
+/ghsl/population/cleaned/population_100m/population_2030.parquet 1452105 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741844_1020 len=1452105 Live_repl=1
+
+/ghsl/population/curated <dir>
+/ghsl/population/curated/population_1km <dir>
+/ghsl/population/curated/population_1km/_SUCCESS 0 bytes, replicated: replication=3, 0 block(s):  OK
+
+/ghsl/population/curated/population_1km/epoch_type=historical <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=1975 <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=1975/part-00003-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 68782 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741892_1068. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741892_1068 len=68782 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=historical/year=1980 <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=1980/part-00004-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 70240 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741893_1069. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741893_1069 len=70240 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=historical/year=1985 <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=1985/part-00006-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 70684 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741897_1073. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741897_1073 len=70684 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=historical/year=1990 <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=1990/part-00001-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 71110 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741887_1063. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741887_1063 len=71110 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=historical/year=1995 <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=1995/part-00005-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 71899 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741894_1070. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741894_1070 len=71899 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=historical/year=2000 <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=2000/part-00001-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 72043 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741889_1065. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741889_1065 len=72043 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=historical/year=2005 <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=2005/part-00005-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 73049 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741895_1071. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741895_1071 len=73049 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=historical/year=2010 <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=2010/part-00002-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 73654 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741891_1067. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741891_1067 len=73654 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=historical/year=2015 <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=2015/part-00001-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 73521 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741890_1066. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741890_1066 len=73521 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=historical/year=2020 <dir>
+/ghsl/population/curated/population_1km/epoch_type=historical/year=2020/part-00006-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 74014 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741898_1074. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741898_1074 len=74014 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=projection <dir>
+/ghsl/population/curated/population_1km/epoch_type=projection/year=2025 <dir>
+/ghsl/population/curated/population_1km/epoch_type=projection/year=2025/part-00003-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 73886 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741896_1072. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741896_1072 len=73886 Live_repl=1
+
+/ghsl/population/curated/population_1km/epoch_type=projection/year=2030 <dir>
+/ghsl/population/curated/population_1km/epoch_type=projection/year=2030/part-00000-5bed02b6-a1cc-4aff-ad00-4608bcba0fa4.c000.snappy.parquet 74061 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741888_1064. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741888_1064 len=74061 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt <dir>
+/ghsl/population/curated/population_1km_initial_attempt/_SUCCESS 0 bytes, replicated: replication=3, 0 block(s):  OK
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=1975 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=1975/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 68782 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741863_1039. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741863_1039 len=68782 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=1980 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=1980/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 70240 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741864_1040. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741864_1040 len=70240 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=1985 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=1985/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 70684 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741865_1041. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741865_1041 len=70684 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=1990 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=1990/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 71110 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741866_1042. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741866_1042 len=71110 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=1995 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=1995/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 71899 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741867_1043. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741867_1043 len=71899 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=2000 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=2000/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 72043 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741868_1044. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741868_1044 len=72043 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=2005 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=2005/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 73049 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741869_1045. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741869_1045 len=73049 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=2010 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=2010/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 73654 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741870_1046. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741870_1046 len=73654 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=2015 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=2015/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 73521 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741871_1047. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741871_1047 len=73521 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=2020 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=historical/year=2020/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 74014 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741872_1048. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741872_1048 len=74014 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=projection <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=projection/year=2025 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=projection/year=2025/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 73886 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741873_1049. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741873_1049 len=73886 Live_repl=1
+
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=projection/year=2030 <dir>
+/ghsl/population/curated/population_1km_initial_attempt/epoch_type=projection/year=2030/part-00000-8ff39ef0-8691-421e-9423-33e8e0621fed.c000.snappy.parquet 74061 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741874_1050. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741874_1050 len=74061 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/_SUCCESS 0 bytes, replicated: replication=3, 0 block(s):  OK
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=1975 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=1975/part-00003-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 68782 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741880_1056. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741880_1056 len=68782 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=1980 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=1980/part-00004-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 70240 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741882_1058. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741882_1058 len=70240 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=1985 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=1985/part-00006-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 70684 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741885_1061. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741885_1061 len=70684 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=1990 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=1990/part-00001-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 71110 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741876_1052. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741876_1052 len=71110 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=1995 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=1995/part-00005-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 71899 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741883_1059. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741883_1059 len=71899 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=2000 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=2000/part-00001-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 72043 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741877_1053. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741877_1053 len=72043 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=2005 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=2005/part-00005-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 73049 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741884_1060. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741884_1060 len=73049 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=2010 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=2010/part-00002-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 73654 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741878_1054. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741878_1054 len=73654 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=2015 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=2015/part-00001-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 73521 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741879_1055. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741879_1055 len=73521 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=2020 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=historical/year=2020/part-00006-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 74014 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741886_1062. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741886_1062 len=74014 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=projection <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=projection/year=2025 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=projection/year=2025/part-00003-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 73886 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741881_1057. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741881_1057 len=73886 Live_repl=1
+
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=projection/year=2030 <dir>
+/ghsl/population/curated/population_1km_prior_1793451923549550000/epoch_type=projection/year=2030/part-00000-5f755232-ebd9-419a-89c6-8accc930b43e.c000.snappy.parquet 74061 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073741875_1051. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741875_1051 len=74061 Live_repl=1
+
+/ghsl/population/raw <dir>
+/ghsl/population/raw/downloads <dir>
+/ghsl/population/raw/downloads/GHS_POP_E1975_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 18907797 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741835_1011 len=18907797 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E1980_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 21562487 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741833_1009 len=21562487 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E1985_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 24207911 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741836_1012 len=24207911 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E1990_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 26884965 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741832_1008 len=26884965 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E1995_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 28582931 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741834_1010 len=28582931 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E2000_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 30212697 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741825_1001 len=30212697 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E2005_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 33444514 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741828_1004 len=33444514 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E2010_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 36876201 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741826_1002 len=36876201 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E2015_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 42287057 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741831_1007 len=42287057 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E2020_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 47043461 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741830_1006 len=47043461 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E2025_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 50048146 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741827_1003 len=50048146 Live_repl=1
+
+/ghsl/population/raw/downloads/GHS_POP_E2030_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 53086232 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741829_1005 len=53086232 Live_repl=1
+
+/ghsl/population/raw/reference <dir>
+/ghsl/population/raw/reference/GHS_SMOD_E2020_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1565933 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741837_1013 len=1565933 Live_repl=1
+
+/ghsl/population/raw/reference/settlement_grid_reference.tif 141933 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741838_1014 len=141933 Live_repl=1
+
+
+Status: HEALTHY
+ Number of data-nodes:	1
+ Number of racks:		1
+ Total dirs:			52
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	435088353 B
+ Total files:	77
+ Total blocks (validated):	74 (avg. block size 5879572 B)
+ Minimally replicated blocks:	74 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	36 (48.648647 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	1
+ Average block replication:	1.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		72 (49.315067 %)
+ Blocks queued for replication:	0
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+ Blocks queued for replication:	0
+FSCK ended at Sat Oct 31 18:36:00 IST 2026 in 107 milliseconds
+
+
+The filesystem under path '/ghsl/population' is HEALTHY

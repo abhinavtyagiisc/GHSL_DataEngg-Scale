@@ -1,0 +1,1013 @@
+{
+  "status": "PASS",
+  "scope": "Three-product Bengaluru pilot, all ten historical epochs plus two projection tests",
+  "input": "hdfs://127.0.0.1:19000/ghsl/weeks1_5/bengaluru_run1/cleaned/tables",
+  "output": "hdfs://127.0.0.1:19000/ghsl/phase2/sedona_run1/grid_year",
+  "spark_version": "3.5.6",
+  "master": "local[2]",
+  "epochs": [
+    {
+      "year": 1975,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 3392379.956643009,
+      "built_surface_m2": 68830808.0,
+      "built_surface_nres_m2": 6603518.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 1980,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 4268016.7486775955,
+      "built_surface_m2": 76784196.0,
+      "built_surface_nres_m2": 7328707.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 1985,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 5006835.657316745,
+      "built_surface_m2": 87640586.0,
+      "built_surface_nres_m2": 8281001.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 1990,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 5798559.490120139,
+      "built_surface_m2": 100433084.0,
+      "built_surface_nres_m2": 9417400.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 1995,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 6748239.971753086,
+      "built_surface_m2": 133789501.0,
+      "built_surface_nres_m2": 12094672.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 2000,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 7797628.775550062,
+      "built_surface_m2": 177598655.0,
+      "built_surface_nres_m2": 15887656.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 2005,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 9247386.564934291,
+      "built_surface_m2": 217227793.0,
+      "built_surface_nres_m2": 18690922.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 2010,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 10986968.603318661,
+      "built_surface_m2": 270874840.0,
+      "built_surface_nres_m2": 22568179.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 2015,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 12993645.23328923,
+      "built_surface_m2": 328486240.0,
+      "built_surface_nres_m2": 27209111.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 2020,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 15257398.187418465,
+      "built_surface_m2": 370987479.0,
+      "built_surface_nres_m2": 30368562.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 2025,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 17104825.155954324,
+      "built_surface_m2": 392703480.0,
+      "built_surface_nres_m2": 33319032.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    },
+    {
+      "year": 2030,
+      "rows": 434363,
+      "valid_rows": 434363,
+      "population": 18741841.271843717,
+      "built_surface_m2": 402422306.0,
+      "built_surface_nres_m2": 35411747.0,
+      "population_valid_count": 434363,
+      "built_surface_m2_valid_count": 434363,
+      "built_surface_nres_m2_valid_count": 434363
+    }
+  ],
+  "analytical_rows": 5212356,
+  "rejected_rows": 0,
+  "coarse_rows": 53460,
+  "incomplete_trajectories": 0,
+  "sql_class_summary": [
+    {
+      "year": 1975,
+      "epoch_type": "historical",
+      "settlement_class": 10,
+      "fine_cells": 300,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 1975,
+      "epoch_type": "historical",
+      "settlement_class": 11,
+      "fine_cells": 216900,
+      "population": 24724.965131119243,
+      "built_surface_m2": 1644627.0,
+      "built_surface_nres_m2": 98950.0
+    },
+    {
+      "year": 1975,
+      "epoch_type": "historical",
+      "settlement_class": 12,
+      "fine_cells": 148142,
+      "population": 214996.64761896548,
+      "built_surface_m2": 3532904.0,
+      "built_surface_nres_m2": 202743.0
+    },
+    {
+      "year": 1975,
+      "epoch_type": "historical",
+      "settlement_class": 13,
+      "fine_cells": 23556,
+      "population": 146320.85711708665,
+      "built_surface_m2": 1163675.0,
+      "built_surface_nres_m2": 16230.0
+    },
+    {
+      "year": 1975,
+      "epoch_type": "historical",
+      "settlement_class": 21,
+      "fine_cells": 20525,
+      "population": 131117.28561485186,
+      "built_surface_m2": 6698110.0,
+      "built_surface_nres_m2": 916860.0
+    },
+    {
+      "year": 1975,
+      "epoch_type": "historical",
+      "settlement_class": 23,
+      "fine_cells": 3740,
+      "population": 260855.61464037,
+      "built_surface_m2": 1539995.0,
+      "built_surface_nres_m2": 271838.0
+    },
+    {
+      "year": 1975,
+      "epoch_type": "historical",
+      "settlement_class": 30,
+      "fine_cells": 21200,
+      "population": 2614364.586520615,
+      "built_surface_m2": 54251497.0,
+      "built_surface_nres_m2": 5096897.0
+    },
+    {
+      "year": 1980,
+      "epoch_type": "historical",
+      "settlement_class": 10,
+      "fine_cells": 300,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 1980,
+      "epoch_type": "historical",
+      "settlement_class": 11,
+      "fine_cells": 195512,
+      "population": 26675.424250392593,
+      "built_surface_m2": 2102466.0,
+      "built_surface_nres_m2": 140282.0
+    },
+    {
+      "year": 1980,
+      "epoch_type": "historical",
+      "settlement_class": 12,
+      "fine_cells": 155400,
+      "population": 222943.03601397923,
+      "built_surface_m2": 4572155.0,
+      "built_surface_nres_m2": 192481.0
+    },
+    {
+      "year": 1980,
+      "epoch_type": "historical",
+      "settlement_class": 13,
+      "fine_cells": 24470,
+      "population": 142590.46958283335,
+      "built_surface_m2": 1511587.0,
+      "built_surface_nres_m2": 53161.0
+    },
+    {
+      "year": 1980,
+      "epoch_type": "historical",
+      "settlement_class": 21,
+      "fine_cells": 30281,
+      "population": 199125.69935541472,
+      "built_surface_m2": 8427158.0,
+      "built_surface_nres_m2": 1001814.0
+    },
+    {
+      "year": 1980,
+      "epoch_type": "historical",
+      "settlement_class": 22,
+      "fine_cells": 1180,
+      "population": 22338.398195408285,
+      "built_surface_m2": 202716.0,
+      "built_surface_nres_m2": 4932.0
+    },
+    {
+      "year": 1980,
+      "epoch_type": "historical",
+      "settlement_class": 23,
+      "fine_cells": 4420,
+      "population": 292332.4777211994,
+      "built_surface_m2": 1975179.0,
+      "built_surface_nres_m2": 262010.0
+    },
+    {
+      "year": 1980,
+      "epoch_type": "historical",
+      "settlement_class": 30,
+      "fine_cells": 22800,
+      "population": 3362011.243558368,
+      "built_surface_m2": 57992935.0,
+      "built_surface_nres_m2": 5674027.0
+    },
+    {
+      "year": 1985,
+      "epoch_type": "historical",
+      "settlement_class": 10,
+      "fine_cells": 300,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 1985,
+      "epoch_type": "historical",
+      "settlement_class": 11,
+      "fine_cells": 178312,
+      "population": 25307.11086576071,
+      "built_surface_m2": 2637232.0,
+      "built_surface_nres_m2": 162755.0
+    },
+    {
+      "year": 1985,
+      "epoch_type": "historical",
+      "settlement_class": 12,
+      "fine_cells": 161360,
+      "population": 237890.05713323748,
+      "built_surface_m2": 6249789.0,
+      "built_surface_nres_m2": 278507.0
+    },
+    {
+      "year": 1985,
+      "epoch_type": "historical",
+      "settlement_class": 13,
+      "fine_cells": 22548,
+      "population": 133007.31851128396,
+      "built_surface_m2": 1940947.0,
+      "built_surface_nres_m2": 52502.0
+    },
+    {
+      "year": 1985,
+      "epoch_type": "historical",
+      "settlement_class": 21,
+      "fine_cells": 38543,
+      "population": 252450.1581581427,
+      "built_surface_m2": 10273969.0,
+      "built_surface_nres_m2": 1090808.0
+    },
+    {
+      "year": 1985,
+      "epoch_type": "historical",
+      "settlement_class": 22,
+      "fine_cells": 1480,
+      "population": 30441.19769962877,
+      "built_surface_m2": 284071.0,
+      "built_surface_nres_m2": 43989.0
+    },
+    {
+      "year": 1985,
+      "epoch_type": "historical",
+      "settlement_class": 23,
+      "fine_cells": 5020,
+      "population": 332802.1990189254,
+      "built_surface_m2": 2366990.0,
+      "built_surface_nres_m2": 386860.0
+    },
+    {
+      "year": 1985,
+      "epoch_type": "historical",
+      "settlement_class": 30,
+      "fine_cells": 26800,
+      "population": 3994937.615929767,
+      "built_surface_m2": 63887588.0,
+      "built_surface_nres_m2": 6265580.0
+    },
+    {
+      "year": 1990,
+      "epoch_type": "historical",
+      "settlement_class": 10,
+      "fine_cells": 300,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 1990,
+      "epoch_type": "historical",
+      "settlement_class": 11,
+      "fine_cells": 167217,
+      "population": 24733.098395567504,
+      "built_surface_m2": 3143620.0,
+      "built_surface_nres_m2": 189440.0
+    },
+    {
+      "year": 1990,
+      "epoch_type": "historical",
+      "settlement_class": 12,
+      "fine_cells": 156689,
+      "population": 231025.1844142432,
+      "built_surface_m2": 7561326.0,
+      "built_surface_nres_m2": 387070.0
+    },
+    {
+      "year": 1990,
+      "epoch_type": "historical",
+      "settlement_class": 13,
+      "fine_cells": 23623,
+      "population": 138625.5763069098,
+      "built_surface_m2": 2610274.0,
+      "built_surface_nres_m2": 63606.0
+    },
+    {
+      "year": 1990,
+      "epoch_type": "historical",
+      "settlement_class": 21,
+      "fine_cells": 48565,
+      "population": 315004.61399922636,
+      "built_surface_m2": 13019710.0,
+      "built_surface_nres_m2": 1198925.0
+    },
+    {
+      "year": 1990,
+      "epoch_type": "historical",
+      "settlement_class": 22,
+      "fine_cells": 2069,
+      "population": 35962.527644343674,
+      "built_surface_m2": 446358.0,
+      "built_surface_nres_m2": 65028.0
+    },
+    {
+      "year": 1990,
+      "epoch_type": "historical",
+      "settlement_class": 23,
+      "fine_cells": 4440,
+      "population": 245059.4707723707,
+      "built_surface_m2": 1843688.0,
+      "built_surface_nres_m2": 234555.0
+    },
+    {
+      "year": 1990,
+      "epoch_type": "historical",
+      "settlement_class": 30,
+      "fine_cells": 31460,
+      "population": 4808149.018587478,
+      "built_surface_m2": 71808108.0,
+      "built_surface_nres_m2": 7278776.0
+    },
+    {
+      "year": 1995,
+      "epoch_type": "historical",
+      "settlement_class": 10,
+      "fine_cells": 300,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 1995,
+      "epoch_type": "historical",
+      "settlement_class": 11,
+      "fine_cells": 157404,
+      "population": 23617.908644928015,
+      "built_surface_m2": 3989419.0,
+      "built_surface_nres_m2": 197448.0
+    },
+    {
+      "year": 1995,
+      "epoch_type": "historical",
+      "settlement_class": 12,
+      "fine_cells": 150772,
+      "population": 224098.99218432268,
+      "built_surface_m2": 11876100.0,
+      "built_surface_nres_m2": 650994.0
+    },
+    {
+      "year": 1995,
+      "epoch_type": "historical",
+      "settlement_class": 13,
+      "fine_cells": 24212,
+      "population": 140183.4163976172,
+      "built_surface_m2": 3563300.0,
+      "built_surface_nres_m2": 53771.0
+    },
+    {
+      "year": 1995,
+      "epoch_type": "historical",
+      "settlement_class": 21,
+      "fine_cells": 51566,
+      "population": 333640.2449472004,
+      "built_surface_m2": 15344427.0,
+      "built_surface_nres_m2": 1000647.0
+    },
+    {
+      "year": 1995,
+      "epoch_type": "historical",
+      "settlement_class": 22,
+      "fine_cells": 1520,
+      "population": 25128.548850972205,
+      "built_surface_m2": 413141.0,
+      "built_surface_nres_m2": 30289.0
+    },
+    {
+      "year": 1995,
+      "epoch_type": "historical",
+      "settlement_class": 23,
+      "fine_cells": 6749,
+      "population": 315369.7976703532,
+      "built_surface_m2": 4156779.0,
+      "built_surface_nres_m2": 697555.0
+    },
+    {
+      "year": 1995,
+      "epoch_type": "historical",
+      "settlement_class": 30,
+      "fine_cells": 41840,
+      "population": 5686201.063057692,
+      "built_surface_m2": 94446335.0,
+      "built_surface_nres_m2": 9463968.0
+    },
+    {
+      "year": 2000,
+      "epoch_type": "historical",
+      "settlement_class": 10,
+      "fine_cells": 300,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 2000,
+      "epoch_type": "historical",
+      "settlement_class": 11,
+      "fine_cells": 152689,
+      "population": 23340.492197006242,
+      "built_surface_m2": 5083952.0,
+      "built_surface_nres_m2": 205771.0
+    },
+    {
+      "year": 2000,
+      "epoch_type": "historical",
+      "settlement_class": 12,
+      "fine_cells": 139200,
+      "population": 211687.4423030963,
+      "built_surface_m2": 15698578.0,
+      "built_surface_nres_m2": 888182.0
+    },
+    {
+      "year": 2000,
+      "epoch_type": "historical",
+      "settlement_class": 13,
+      "fine_cells": 20716,
+      "population": 120651.75113610213,
+      "built_surface_m2": 4788590.0,
+      "built_surface_nres_m2": 106063.0
+    },
+    {
+      "year": 2000,
+      "epoch_type": "historical",
+      "settlement_class": 21,
+      "fine_cells": 63229,
+      "population": 418061.4508151935,
+      "built_surface_m2": 21712143.0,
+      "built_surface_nres_m2": 1714204.0
+    },
+    {
+      "year": 2000,
+      "epoch_type": "historical",
+      "settlement_class": 22,
+      "fine_cells": 1480,
+      "population": 29578.678847009316,
+      "built_surface_m2": 591685.0,
+      "built_surface_nres_m2": 55.0
+    },
+    {
+      "year": 2000,
+      "epoch_type": "historical",
+      "settlement_class": 23,
+      "fine_cells": 6109,
+      "population": 299779.2051296346,
+      "built_surface_m2": 5613298.0,
+      "built_surface_nres_m2": 1333445.0
+    },
+    {
+      "year": 2000,
+      "epoch_type": "historical",
+      "settlement_class": 30,
+      "fine_cells": 50640,
+      "population": 6694529.755122018,
+      "built_surface_m2": 124110409.0,
+      "built_surface_nres_m2": 11639936.0
+    },
+    {
+      "year": 2005,
+      "epoch_type": "historical",
+      "settlement_class": 10,
+      "fine_cells": 300,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 2005,
+      "epoch_type": "historical",
+      "settlement_class": 11,
+      "fine_cells": 128647,
+      "population": 22112.767395405215,
+      "built_surface_m2": 6082873.0,
+      "built_surface_nres_m2": 238358.0
+    },
+    {
+      "year": 2005,
+      "epoch_type": "historical",
+      "settlement_class": 12,
+      "fine_cells": 140538,
+      "population": 214015.834281903,
+      "built_surface_m2": 19169110.0,
+      "built_surface_nres_m2": 1039848.0
+    },
+    {
+      "year": 2005,
+      "epoch_type": "historical",
+      "settlement_class": 13,
+      "fine_cells": 15484,
+      "population": 94210.57336498902,
+      "built_surface_m2": 3440600.0,
+      "built_surface_nres_m2": 84911.0
+    },
+    {
+      "year": 2005,
+      "epoch_type": "historical",
+      "settlement_class": 21,
+      "fine_cells": 75465,
+      "population": 486624.8549676895,
+      "built_surface_m2": 32260600.0,
+      "built_surface_nres_m2": 2098752.0
+    },
+    {
+      "year": 2005,
+      "epoch_type": "historical",
+      "settlement_class": 22,
+      "fine_cells": 2280,
+      "population": 46003.98786170408,
+      "built_surface_m2": 1190355.0,
+      "built_surface_nres_m2": 44363.0
+    },
+    {
+      "year": 2005,
+      "epoch_type": "historical",
+      "settlement_class": 23,
+      "fine_cells": 5609,
+      "population": 260092.13988288492,
+      "built_surface_m2": 5838707.0,
+      "built_surface_nres_m2": 1144599.0
+    },
+    {
+      "year": 2005,
+      "epoch_type": "historical",
+      "settlement_class": 30,
+      "fine_cells": 66040,
+      "population": 8124326.407179715,
+      "built_surface_m2": 149245548.0,
+      "built_surface_nres_m2": 14040091.0
+    },
+    {
+      "year": 2010,
+      "epoch_type": "historical",
+      "settlement_class": 10,
+      "fine_cells": 200,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 2010,
+      "epoch_type": "historical",
+      "settlement_class": 11,
+      "fine_cells": 107567,
+      "population": 18610.354089035012,
+      "built_surface_m2": 6590582.0,
+      "built_surface_nres_m2": 244092.0
+    },
+    {
+      "year": 2010,
+      "epoch_type": "historical",
+      "settlement_class": 12,
+      "fine_cells": 141805,
+      "population": 212900.02631149645,
+      "built_surface_m2": 23723343.0,
+      "built_surface_nres_m2": 1038654.0
+    },
+    {
+      "year": 2010,
+      "epoch_type": "historical",
+      "settlement_class": 13,
+      "fine_cells": 13342,
+      "population": 73877.40595554747,
+      "built_surface_m2": 3569479.0,
+      "built_surface_nres_m2": 127594.0
+    },
+    {
+      "year": 2010,
+      "epoch_type": "historical",
+      "settlement_class": 21,
+      "fine_cells": 83460,
+      "population": 538477.3214770247,
+      "built_surface_m2": 35020346.0,
+      "built_surface_nres_m2": 1955476.0
+    },
+    {
+      "year": 2010,
+      "epoch_type": "historical",
+      "settlement_class": 22,
+      "fine_cells": 1880,
+      "population": 39208.85339213535,
+      "built_surface_m2": 1167471.0,
+      "built_surface_nres_m2": 84403.0
+    },
+    {
+      "year": 2010,
+      "epoch_type": "historical",
+      "settlement_class": 23,
+      "fine_cells": 6909,
+      "population": 287903.7120615372,
+      "built_surface_m2": 8722191.0,
+      "built_surface_nres_m2": 1281264.0
+    },
+    {
+      "year": 2010,
+      "epoch_type": "historical",
+      "settlement_class": 30,
+      "fine_cells": 79200,
+      "population": 9815990.930031884,
+      "built_surface_m2": 192081428.0,
+      "built_surface_nres_m2": 17836696.0
+    },
+    {
+      "year": 2015,
+      "epoch_type": "historical",
+      "settlement_class": 10,
+      "fine_cells": 200,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 2015,
+      "epoch_type": "historical",
+      "settlement_class": 11,
+      "fine_cells": 89841,
+      "population": 16554.73202238191,
+      "built_surface_m2": 7705630.0,
+      "built_surface_nres_m2": 286462.0
+    },
+    {
+      "year": 2015,
+      "epoch_type": "historical",
+      "settlement_class": 12,
+      "fine_cells": 136895,
+      "population": 209291.23028820602,
+      "built_surface_m2": 26947621.0,
+      "built_surface_nres_m2": 980992.0
+    },
+    {
+      "year": 2015,
+      "epoch_type": "historical",
+      "settlement_class": 13,
+      "fine_cells": 10112,
+      "population": 56674.349421526305,
+      "built_surface_m2": 3537632.0,
+      "built_surface_nres_m2": 182395.0
+    },
+    {
+      "year": 2015,
+      "epoch_type": "historical",
+      "settlement_class": 21,
+      "fine_cells": 93908,
+      "population": 617108.8972177266,
+      "built_surface_m2": 37417326.0,
+      "built_surface_nres_m2": 1759906.0
+    },
+    {
+      "year": 2015,
+      "epoch_type": "historical",
+      "settlement_class": 22,
+      "fine_cells": 1838,
+      "population": 38441.99777132273,
+      "built_surface_m2": 1447243.0,
+      "built_surface_nres_m2": 121166.0
+    },
+    {
+      "year": 2015,
+      "epoch_type": "historical",
+      "settlement_class": 23,
+      "fine_cells": 6309,
+      "population": 269563.9297056105,
+      "built_surface_m2": 8417301.0,
+      "built_surface_nres_m2": 1384991.0
+    },
+    {
+      "year": 2015,
+      "epoch_type": "historical",
+      "settlement_class": 30,
+      "fine_cells": 95260,
+      "population": 11786010.09686246,
+      "built_surface_m2": 243013487.0,
+      "built_surface_nres_m2": 22493199.0
+    },
+    {
+      "year": 2020,
+      "epoch_type": "historical",
+      "settlement_class": 10,
+      "fine_cells": 200,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 2020,
+      "epoch_type": "historical",
+      "settlement_class": 11,
+      "fine_cells": 68925,
+      "population": 12878.877812696446,
+      "built_surface_m2": 8267055.0,
+      "built_surface_nres_m2": 280520.0
+    },
+    {
+      "year": 2020,
+      "epoch_type": "historical",
+      "settlement_class": 12,
+      "fine_cells": 125765,
+      "population": 203994.97645338258,
+      "built_surface_m2": 33213275.0,
+      "built_surface_nres_m2": 1358925.0
+    },
+    {
+      "year": 2020,
+      "epoch_type": "historical",
+      "settlement_class": 13,
+      "fine_cells": 5745,
+      "population": 27933.723004904576,
+      "built_surface_m2": 2432548.0,
+      "built_surface_nres_m2": 176562.0
+    },
+    {
+      "year": 2020,
+      "epoch_type": "historical",
+      "settlement_class": 21,
+      "fine_cells": 122221,
+      "population": 826904.3058665863,
+      "built_surface_m2": 56404017.0,
+      "built_surface_nres_m2": 2640498.0
+    },
+    {
+      "year": 2020,
+      "epoch_type": "historical",
+      "settlement_class": 22,
+      "fine_cells": 3247,
+      "population": 56234.881237808615,
+      "built_surface_m2": 2348627.0,
+      "built_surface_nres_m2": 143113.0
+    },
+    {
+      "year": 2020,
+      "epoch_type": "historical",
+      "settlement_class": 23,
+      "fine_cells": 7400,
+      "population": 290643.04279556044,
+      "built_surface_m2": 11228413.0,
+      "built_surface_nres_m2": 1817273.0
+    },
+    {
+      "year": 2020,
+      "epoch_type": "historical",
+      "settlement_class": 30,
+      "fine_cells": 100860,
+      "population": 13838808.380247526,
+      "built_surface_m2": 257093544.0,
+      "built_surface_nres_m2": 23951671.0
+    },
+    {
+      "year": 2025,
+      "epoch_type": "projection",
+      "settlement_class": 10,
+      "fine_cells": 200,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 2025,
+      "epoch_type": "projection",
+      "settlement_class": 11,
+      "fine_cells": 63014,
+      "population": 12253.91726066632,
+      "built_surface_m2": 8042017.0,
+      "built_surface_nres_m2": 290494.0
+    },
+    {
+      "year": 2025,
+      "epoch_type": "projection",
+      "settlement_class": 12,
+      "fine_cells": 114035,
+      "population": 181911.45628817362,
+      "built_surface_m2": 35007488.0,
+      "built_surface_nres_m2": 1381407.0
+    },
+    {
+      "year": 2025,
+      "epoch_type": "projection",
+      "settlement_class": 13,
+      "fine_cells": 6797,
+      "population": 33488.66602859518,
+      "built_surface_m2": 3026419.0,
+      "built_surface_nres_m2": 201596.0
+    },
+    {
+      "year": 2025,
+      "epoch_type": "projection",
+      "settlement_class": 21,
+      "fine_cells": 129468,
+      "population": 863098.8338584617,
+      "built_surface_m2": 64314802.0,
+      "built_surface_nres_m2": 3183633.0
+    },
+    {
+      "year": 2025,
+      "epoch_type": "projection",
+      "settlement_class": 22,
+      "fine_cells": 2789,
+      "population": 51689.52312848717,
+      "built_surface_m2": 2152186.0,
+      "built_surface_nres_m2": 183668.0
+    },
+    {
+      "year": 2025,
+      "epoch_type": "projection",
+      "settlement_class": 23,
+      "fine_cells": 6900,
+      "population": 251723.33680777648,
+      "built_surface_m2": 10633644.0,
+      "built_surface_nres_m2": 1842620.0
+    },
+    {
+      "year": 2025,
+      "epoch_type": "projection",
+      "settlement_class": 30,
+      "fine_cells": 111160,
+      "population": 15710659.42258217,
+      "built_surface_m2": 269526924.0,
+      "built_surface_nres_m2": 26235614.0
+    },
+    {
+      "year": 2030,
+      "epoch_type": "projection",
+      "settlement_class": 10,
+      "fine_cells": 100,
+      "population": 0.0,
+      "built_surface_m2": 0.0,
+      "built_surface_nres_m2": 0.0
+    },
+    {
+      "year": 2030,
+      "epoch_type": "projection",
+      "settlement_class": 11,
+      "fine_cells": 57747,
+      "population": 11540.078607526608,
+      "built_surface_m2": 7811423.0,
+      "built_surface_nres_m2": 337561.0
+    },
+    {
+      "year": 2030,
+      "epoch_type": "projection",
+      "settlement_class": 12,
+      "fine_cells": 109627,
+      "population": 174713.6305927643,
+      "built_surface_m2": 35997283.0,
+      "built_surface_nres_m2": 1541026.0
+    },
+    {
+      "year": 2030,
+      "epoch_type": "projection",
+      "settlement_class": 13,
+      "fine_cells": 4185,
+      "population": 18986.524946462247,
+      "built_surface_m2": 2123741.0,
+      "built_surface_nres_m2": 208619.0
+    },
+    {
+      "year": 2030,
+      "epoch_type": "projection",
+      "settlement_class": 21,
+      "fine_cells": 134597,
+      "population": 875630.4046230756,
+      "built_surface_m2": 68436485.0,
+      "built_surface_nres_m2": 3371129.0
+    },
+    {
+      "year": 2030,
+      "epoch_type": "projection",
+      "settlement_class": 22,
+      "fine_cells": 3347,
+      "population": 55550.692410137504,
+      "built_surface_m2": 2763317.0,
+      "built_surface_nres_m2": 233045.0
+    },
+    {
+      "year": 2030,
+      "epoch_type": "projection",
+      "settlement_class": 23,
+      "fine_cells": 6700,
+      "population": 247220.476759125,
+      "built_surface_m2": 10526893.0,
+      "built_surface_nres_m2": 1895219.0
+    },
+    {
+      "year": 2030,
+      "epoch_type": "projection",
+      "settlement_class": 30,
+      "fine_cells": 118060,
+      "population": 17358199.46390463,
+      "built_surface_m2": 274763164.0,
+      "built_surface_nres_m2": 27825148.0
+    }
+  ],
+  "checks": [
+    "source schemas/values/epochs",
+    "unique keys",
+    "bidirectional coverage joins",
+    "native counts and inherited matching-year classes",
+    "three-product conservation",
+    "coarse coverage/conservation",
+    "full-content Parquet round trips"
+  ],
+  "elapsed_seconds": 171.61
+}

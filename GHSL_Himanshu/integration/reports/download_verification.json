@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "epochs": [
+    {
+      "year": 1975,
+      "rows": 434363,
+      "population": 3392379.9566430086,
+      "built_surface_m2": 68830808.0,
+      "built_surface_nres_m2": 6603518.0
+    },
+    {
+      "year": 1980,
+      "rows": 434363,
+      "population": 4268016.748677595,
+      "built_surface_m2": 76784196.0,
+      "built_surface_nres_m2": 7328707.0
+    },
+    {
+      "year": 1985,
+      "rows": 434363,
+      "population": 5006835.657316746,
+      "built_surface_m2": 87640586.0,
+      "built_surface_nres_m2": 8281001.0
+    },
+    {
+      "year": 1990,
+      "rows": 434363,
+      "population": 5798559.490120139,
+      "built_surface_m2": 100433084.0,
+      "built_surface_nres_m2": 9417400.0
+    },
+    {
+      "year": 1995,
+      "rows": 434363,
+      "population": 6748239.971753086,
+      "built_surface_m2": 133789501.0,
+      "built_surface_nres_m2": 12094672.0
+    },
+    {
+      "year": 2000,
+      "rows": 434363,
+      "population": 7797628.77555006,
+      "built_surface_m2": 177598655.0,
+      "built_surface_nres_m2": 15887656.0
+    },
+    {
+      "year": 2005,
+      "rows": 434363,
+      "population": 9247386.56493429,
+      "built_surface_m2": 217227793.0,
+      "built_surface_nres_m2": 18690922.0
+    },
+    {
+      "year": 2010,
+      "rows": 434363,
+      "population": 10986968.603318661,
+      "built_surface_m2": 270874840.0,
+      "built_surface_nres_m2": 22568179.0
+    },
+    {
+      "year": 2015,
+      "rows": 434363,
+      "population": 12993645.233289232,
+      "built_surface_m2": 328486240.0,
+      "built_surface_nres_m2": 27209111.0
+    },
+    {
+      "year": 2020,
+      "rows": 434363,
+      "population": 15257398.187418465,
+      "built_surface_m2": 370987479.0,
+      "built_surface_nres_m2": 30368562.0
+    },
+    {
+      "year": 2025,
+      "rows": 434363,
+      "population": 17104825.15595433,
+      "built_surface_m2": 392703480.0,
+      "built_surface_nres_m2": 33319032.0
+    },
+    {
+      "year": 2030,
+      "rows": 434363,
+      "population": 18741841.27184372,
+      "built_surface_m2": 402422306.0,
+      "built_surface_nres_m2": 35411747.0
+    }
+  ],
+  "parquet_sha256": {
+    "sql_class_summary/part-00001-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "ec8a95c3549a87bb3a5e4fb8a50ef37b8fc2a13ee1d52f01c6903b9a3c052a13",
+    "sql_class_summary/part-00006-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "89e6986aead357ca6b854b667c1f9b70662c166ed5d4bd24be7ced625fba13e5",
+    "sql_class_summary/part-00011-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "22d604b9e62940057b67441219c2f28336d44c7b3532e5d8b494733377456e27",
+    "sql_class_summary/part-00007-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "db1411b78bfbd26a9538107c0171867b2af2c1e62cafcb39b93d7e273292a4c9",
+    "sql_class_summary/part-00010-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "e436237ae3a1412cb0a935b37d5e74d7b329882cf078262fb4368f7f51d24629",
+    "sql_class_summary/part-00000-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "97a380bb186af973077f31fc7de359135123ae089e7811ee4a489accdf2d91ac",
+    "sql_class_summary/part-00005-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "912fae524a2aece578631f7d6232fa37ab2e451a95112a9510dd4948784f63fe",
+    "sql_class_summary/part-00012-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "a83c4d66689e954e0f6f41d6ce1e4d202bf9792bab6401cf368a5d1c937dd410",
+    "sql_class_summary/part-00002-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "5cd82a0b8915cd7cf4e1f5ee633f37b96b872bfe24c214f5b24a7392bed014e8",
+    "sql_class_summary/part-00009-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "bc809ce375cf308b624e4d6b70cbce4ec806495eb82877b291f8cac4a02c2e14",
+    "sql_class_summary/part-00015-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "9d78f275fe1c34e3fe83c8a2febbd56bf9ef205bfa629686ba1f0b4488ae912e",
+    "sql_class_summary/part-00003-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "1c99155821b45576da31dcad8b23f13bfb592981a26003054508681e5528a322",
+    "sql_class_summary/part-00008-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "e0dfd824cc5f20228d409a29b521e3e2aea10239b4de87740a835dd0d8651595",
+    "sql_class_summary/part-00014-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "307c90902b9a8bdcce25c7704694f88abea5f7e47a21c9ba9b7a49da28b6a1fb",
+    "sql_class_summary/part-00004-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "5d5815537d590e4932cc510ab16f67b86101d9b68f8f3b72662912cb05c2251a",
+    "sql_class_summary/part-00013-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet": "4fe6869e087160aba0ed3214491785d4de04509a92bac107ca60b98e84159999",
+    "analytical_100m/epoch_type=projection/year=2030/part-00000-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "ab7f82ccb081817aa6ad07fd2577da8ffb073ad265cec99fcb46003d886b6077",
+    "analytical_100m/epoch_type=projection/year=2025/part-00011-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "97b3c89af2c989d779cb5243eb84840687b86edbb10bf08fd95e6fd531ec64dc",
+    "analytical_100m/epoch_type=historical/year=1990/part-00001-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "525629336cce511c9dce066f38fc5977bba148d3d0a4043f48475fb8103bf5ba",
+    "analytical_100m/epoch_type=historical/year=2005/part-00005-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "456ad7c352baee4d70bc2af86fefbc39a5c4969cfca65c01ae231b0730f57dc2",
+    "analytical_100m/epoch_type=historical/year=2020/part-00014-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "b95f34bddbc3cfee0349a59c48bae61511b4c3f1a026a429a958f5053af907f3",
+    "analytical_100m/epoch_type=historical/year=2010/part-00010-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "99e20b8f9afb7ab9bcdfe3752570e607bf72a5432663427818d52ff4cbc05700",
+    "analytical_100m/epoch_type=historical/year=1985/part-00006-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "ee161947700dfb09c9cd666b353438ead293b10521678b98a22b4383eb173620",
+    "analytical_100m/epoch_type=historical/year=1995/part-00005-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "32062cc1b5336aea7d3e2979addaacb7a5354ab90b278d088e5ca2a07d65ee61",
+    "analytical_100m/epoch_type=historical/year=2000/part-00009-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "213d3352c7fa93e65d57c6431b09c8c245ed12b85f8ce6bd22826c4f6b58e150",
+    "analytical_100m/epoch_type=historical/year=2015/part-00009-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "c697cd90cf5b6d2a537d10f0e7d30cbf0515a55c31e174b463392c855bb964df",
+    "analytical_100m/epoch_type=historical/year=1980/part-00004-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "7e22e9c8ec61794b1da587ceb85171ad1c7ded98b9f0356f2f4360ac3f6a5bdb",
+    "analytical_100m/epoch_type=historical/year=1975/part-00003-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet": "47620d0f97ecafa50c9b2b864ecd8677b5d99183de2b201a138e36365ad38812",
+    "summary_1km/epoch_type=projection/year=2030/part-00000-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "9ff586a3ec8e8118e25e0f62b19cb3f2603c8d719979150c5b1d11bdf2c4dd2d",
+    "summary_1km/epoch_type=projection/year=2025/part-00011-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "6d79c0360c567170433644104d3781941d182f6a7b0ce6d3cb62483db0a13227",
+    "summary_1km/epoch_type=historical/year=1990/part-00001-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "70bbeb773fe9423917bb3e8ba4b135638b039a6d75adc19444daacbed23ac880",
+    "summary_1km/epoch_type=historical/year=2005/part-00005-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "c269d65e7343b3fcfccaf41f62740b67e226f5cfe8f733beb4e161217cac8366",
+    "summary_1km/epoch_type=historical/year=2020/part-00014-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "a3a362a4071d819f0b1f8caa9f4d2ba9d866c1da022404721d06d224464ddc56",
+    "summary_1km/epoch_type=historical/year=2010/part-00010-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "19e78b28ae742d1891e88f5201a7e9b5e48b829984855716d67a234fc7e83f80",
+    "summary_1km/epoch_type=historical/year=1985/part-00006-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "3fbd51440510388c5a02d9577121ff2095aefc4dcee7aed17e6377145884bef1",
+    "summary_1km/epoch_type=historical/year=1995/part-00005-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "b42d1a140683f1fba156a9c2520efbf252b6d43576fc7597a3b045385ea7d0bf",
+    "summary_1km/epoch_type=historical/year=2000/part-00009-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "7686d4c9d27d97d11664f89d55e67a2b7127dcf9f623036e8abb84ddd149964e",
+    "summary_1km/epoch_type=historical/year=2015/part-00009-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "26ca527531cc475d3aae34bfb3cadb070ad0886452517713525dfedac55b5856",
+    "summary_1km/epoch_type=historical/year=1980/part-00004-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "288d4c7f2755eb3a53a3d1c9ca878db7c60b056730a2c334e89a3247d60aa2bf",
+    "summary_1km/epoch_type=historical/year=1975/part-00003-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet": "2cbcf9447361f11537f9b5ff1ff2e3925a22cd2ee35bc7e7947233822e7b2b20"
+  }
+}

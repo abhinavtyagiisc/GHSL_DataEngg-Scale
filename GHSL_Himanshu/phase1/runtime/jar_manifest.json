@@ -1,0 +1,22 @@
+[
+  {
+    "artifact": "sedona-spark-shaded-3.5_2.12",
+    "version": "1.9.1",
+    "url": "https://repo.maven.apache.org/maven2/org/apache/sedona/sedona-spark-shaded-3.5_2.12/1.9.1/sedona-spark-shaded-3.5_2.12-1.9.1.jar",
+    "path": "phase1/runtime/jars/sedona-spark-shaded-3.5_2.12-1.9.1.jar",
+    "bytes": 82601139,
+    "sha256": "0ee2a6886d864c7e52d33b1a08208effc89e0778ce03fbe8b35f32e9c235611a",
+    "remote_checksum_algorithm": "sha1",
+    "remote_checksum": "b7669f0434dd1613be6b0cab32568603af33bce4"
+  },
+  {
+    "artifact": "geotools-wrapper",
+    "version": "1.9.1-33.5",
+    "url": "https://repo.maven.apache.org/maven2/org/datasyslab/geotools-wrapper/1.9.1-33.5/geotools-wrapper-1.9.1-33.5.jar",
+    "path": "phase1/runtime/jars/geotools-wrapper-1.9.1-33.5.jar",
+    "bytes": 31949894,
+    "sha256": "544889c00ca6bfaa80dd1d1bd0ea0cf4aa37d9e4eb1b2f347b9f0169a20e6477",
+    "remote_checksum_algorithm": "sha512",
+    "remote_checksum": "64d3c4b73e2ddf700efec6d11f08a94fa546c5f88556d7bb76f92f1c5ea15b359035aa7d97c81de8e1c3c853f38ab825e79228210ddbe44e9b3761e39776f7dc"
+  }
+]

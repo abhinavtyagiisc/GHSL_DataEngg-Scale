@@ -1,0 +1,2 @@
+2026-11-10: .venv/bin/python -m pytest integration/tests/test_national.py -q
+7 passed, 41 deprecation warnings in 2.72s

@@ -1,0 +1,7 @@
+{
+  "status": "FAILED",
+  "stage": "case_studies",
+  "scratch": "/var/folders/l1/6v4bsq790sjgq13x39dklcx80000gn/T/ghsl-case_studies-i4cvkso4",
+  "output": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/analysis/data/national_case_studies",
+  "error": "Command '['/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/.venv/bin/python', '/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/phase3/scripts/evaluate_regions.py', '--integration', '/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/accepted_coverage_run1', '--output', '/var/folders/l1/6v4bsq790sjgq13x39dklcx80000gn/T/ghsl-case_studies-i4cvkso4/result']' returned non-zero exit status 1."
+}

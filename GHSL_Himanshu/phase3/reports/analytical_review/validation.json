@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "regional_cell_periods_checked": 26870,
+  "candidate_status_rules_checked": 108804,
+  "regions": [
+    {
+      "region": "Delhi study window",
+      "common_cells": 961,
+      "rural_to_urban_cells_1975_2020": 194,
+      "population_1975": 4780357.518172074,
+      "population_2020": 19085554.189685136,
+      "population_growth_percent": 299.2495146468275,
+      "built_m2_1975": 184380985.0,
+      "built_m2_2020": 261747591.0,
+      "built_growth_percent": 41.96018694660948
+    },
+    {
+      "region": "Mumbai vicinity coverage-adjusted study window",
+      "common_cells": 765,
+      "rural_to_urban_cells_1975_2020": 142,
+      "population_1975": 3585737.9496102575,
+      "population_2020": 9398811.739844043,
+      "population_growth_percent": 162.11652585671024,
+      "built_m2_1975": 35728056.0,
+      "built_m2_2020": 80340558.0,
+      "built_growth_percent": 124.86686093416336
+    },
+    {
+      "region": "Bengaluru study window",
+      "common_cells": 961,
+      "rural_to_urban_cells_1975_2020": 428,
+      "population_1975": 2565468.478618824,
+      "population_2020": 12013950.858601335,
+      "population_growth_percent": 368.2946198220026,
+      "built_m2_1975": 62643027.0,
+      "built_m2_2020": 230418617.0,
+      "built_growth_percent": 267.82803774792046
+    }
+  ],
+  "scope": "31x31 km study squares on historical common mask; events selected by representative cell, not full component containment",
+  "limitations": "Temporal arithmetic and candidate-rule consistency against saved data; not external settlement ground truth or independent topology validation. Raw agreement is assessed separately in the 750-cell-year study."
+}

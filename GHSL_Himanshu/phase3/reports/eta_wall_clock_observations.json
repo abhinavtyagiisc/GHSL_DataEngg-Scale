@@ -1,0 +1,177 @@
+[
+  {
+    "tile": "R5_C25",
+    "year": 1975,
+    "spark_seconds": 443.75,
+    "stamps": {
+      "sources.json": "2026-11-07T10:51:57.363319+05:30",
+      "prepared/_SUCCESS": "2026-11-07T10:52:39.013420+05:30",
+      "spark_validation.json": "2026-11-07T11:00:02.775246+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 1980,
+    "spark_seconds": 348.26,
+    "stamps": {
+      "sources.json": "2026-11-07T19:44:42.035861+05:30",
+      "prepared/_SUCCESS": "2026-11-07T19:45:17.538062+05:30",
+      "spark_validation.json": "2026-11-07T19:51:07.474583+05:30",
+      "scratch_execution.json": "2026-11-07T19:51:07.475041+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 1985,
+    "spark_seconds": 346.06,
+    "stamps": {
+      "sources.json": "2026-11-07T19:52:10.180340+05:30",
+      "prepared/_SUCCESS": "2026-11-07T19:52:46.738962+05:30",
+      "spark_validation.json": "2026-11-07T20:01:14.960563+05:30",
+      "scratch_execution.json": "2026-11-07T20:01:14.961025+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 1990,
+    "spark_seconds": 683.86,
+    "stamps": {
+      "sources.json": "2026-11-07T20:01:25.319180+05:30",
+      "prepared/_SUCCESS": "2026-11-07T20:01:59.624725+05:30",
+      "spark_validation.json": "2026-11-07T21:12:24.793053+05:30",
+      "scratch_execution.json": "2026-11-07T21:12:24.794392+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 1995,
+    "spark_seconds": 381.01,
+    "stamps": {
+      "sources.json": "2026-11-08T01:09:21.557264+05:30",
+      "prepared/_SUCCESS": "2026-11-08T01:10:02.560299+05:30",
+      "spark_validation.json": "2026-11-08T01:16:25.117190+05:30",
+      "scratch_execution.json": "2026-11-08T01:16:25.117880+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 2000,
+    "spark_seconds": 368.72,
+    "stamps": {
+      "sources.json": "2026-11-08T01:16:40.961896+05:30",
+      "prepared/_SUCCESS": "2026-11-08T01:17:20.721068+05:30",
+      "spark_validation.json": "2026-11-08T01:23:31.003560+05:30",
+      "scratch_execution.json": "2026-11-08T01:23:31.004070+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 2005,
+    "spark_seconds": 384.95,
+    "stamps": {
+      "sources.json": "2026-11-08T01:23:42.504925+05:30",
+      "prepared/_SUCCESS": "2026-11-08T01:24:22.082476+05:30",
+      "spark_validation.json": "2026-11-08T01:30:48.556204+05:30",
+      "scratch_execution.json": "2026-11-08T01:30:48.556648+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 2010,
+    "spark_seconds": 505.43,
+    "stamps": {
+      "sources.json": "2026-11-08T01:30:59.410700+05:30",
+      "prepared/_SUCCESS": "2026-11-08T01:31:40.320833+05:30",
+      "spark_validation.json": "2026-11-08T01:40:07.959512+05:30",
+      "scratch_execution.json": "2026-11-08T01:40:07.960559+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 2015,
+    "spark_seconds": 410.03,
+    "stamps": {
+      "sources.json": "2026-11-08T01:40:20.401808+05:30",
+      "prepared/_SUCCESS": "2026-11-08T01:41:38.319074+05:30",
+      "spark_validation.json": "2026-11-08T01:48:29.916847+05:30",
+      "scratch_execution.json": "2026-11-08T01:48:29.917342+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 2020,
+    "spark_seconds": 571.14,
+    "stamps": {
+      "sources.json": "2026-11-08T01:48:41.267055+05:30",
+      "prepared/_SUCCESS": "2026-11-08T01:49:20.651417+05:30",
+      "spark_validation.json": "2026-11-08T05:22:29.278220+05:30",
+      "scratch_execution.json": "2026-11-08T05:22:29.279026+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 2025,
+    "spark_seconds": 610.18,
+    "stamps": {
+      "sources.json": "2026-11-08T05:22:43.432947+05:30",
+      "prepared/_SUCCESS": "2026-11-08T05:31:53.625930+05:30",
+      "spark_validation.json": "2026-11-08T08:59:45.612169+05:30",
+      "scratch_execution.json": "2026-11-08T08:59:45.612949+05:30"
+    }
+  },
+  {
+    "tile": "R5_C25",
+    "year": 2030,
+    "spark_seconds": 349.77,
+    "stamps": {
+      "sources.json": "2026-11-08T09:00:16.235114+05:30",
+      "prepared/_SUCCESS": "2026-11-08T09:00:56.613471+05:30",
+      "spark_validation.json": "2026-11-08T09:06:47.845474+05:30",
+      "scratch_execution.json": "2026-11-08T09:06:47.845874+05:30"
+    }
+  },
+  {
+    "tile": "R5_C26",
+    "year": 1975,
+    "spark_seconds": 76.99,
+    "stamps": {
+      "sources.json": "2026-11-08T09:06:55.492543+05:30",
+      "prepared/_SUCCESS": "2026-11-08T09:07:04.007723+05:30",
+      "spark_validation.json": "2026-11-08T09:08:21.497025+05:30",
+      "scratch_execution.json": "2026-11-08T09:08:21.497527+05:30"
+    }
+  },
+  {
+    "tile": "R5_C26",
+    "year": 1980,
+    "spark_seconds": 77.28,
+    "stamps": {
+      "sources.json": "2026-11-08T09:08:29.899590+05:30",
+      "prepared/_SUCCESS": "2026-11-08T09:08:38.381778+05:30",
+      "spark_validation.json": "2026-11-08T09:09:56.359259+05:30",
+      "scratch_execution.json": "2026-11-08T09:09:56.360576+05:30"
+    }
+  },
+  {
+    "tile": "R5_C26",
+    "year": 1985,
+    "spark_seconds": 75.42,
+    "stamps": {
+      "sources.json": "2026-11-08T09:10:03.626372+05:30",
+      "prepared/_SUCCESS": "2026-11-08T09:10:12.068844+05:30",
+      "spark_validation.json": "2026-11-08T09:11:28.021507+05:30",
+      "scratch_execution.json": "2026-11-08T09:11:28.022266+05:30"
+    }
+  },
+  {
+    "tile": "R5_C26",
+    "year": 1990,
+    "spark_seconds": 91.38,
+    "stamps": {
+      "sources.json": "2026-11-08T09:11:35.217843+05:30",
+      "prepared/_SUCCESS": "2026-11-08T09:11:43.683984+05:30",
+      "spark_validation.json": "2026-11-08T09:15:50.721421+05:30",
+      "scratch_execution.json": "2026-11-08T09:15:50.721837+05:30"
+    }
+  }
+]

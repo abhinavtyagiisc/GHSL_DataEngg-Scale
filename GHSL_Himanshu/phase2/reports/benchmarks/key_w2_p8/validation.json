@@ -1,0 +1,254 @@
+{
+  "status": "PASS",
+  "mode": "key",
+  "environment": {
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "macOS-26.7.1-x86_64-i386-64bit",
+    "spark": "3.5.6",
+    "sedona": "1.9.1",
+    "master": "local[2]",
+    "shuffle_partitions": 8
+  },
+  "startup_seconds": 15.270156054000836,
+  "config": {
+    "epoch": 2020,
+    "rows": 434363,
+    "warmups": 1,
+    "repetitions": 3,
+    "scenarios": [
+      [
+        "key",
+        2,
+        8
+      ],
+      [
+        "sedona",
+        1,
+        8
+      ],
+      [
+        "sedona",
+        2,
+        8
+      ],
+      [
+        "sedona",
+        2,
+        32
+      ]
+    ],
+    "targets": {
+      "median_seconds_max": 120,
+      "median_rows_per_second_min": 3500,
+      "peak_rss_bytes_max": 8000000000
+    },
+    "protocol": "Read all three staging products; fresh DataFrames each trial; join, aggregate and write fine/coarse/class Parquet to distinct paths. No persisted inputs/results. Timer excludes Spark startup and post-write correctness comparison. One warmup and three measured repetitions; small-sample P95 descriptive only. OS cache uncontrolled. Sequential scenarios; local execution, not distributed cluster scaling. Every output must equal the independent preserved key-join reference."
+  },
+  "trials": [
+    {
+      "group": "key_w2_p8_r0",
+      "repetition": 0,
+      "warmup": true,
+      "wall_seconds": 10.25599362301,
+      "rows_per_second": 42352.112917219245,
+      "process_tree_peak_rss_bytes": 1350033408,
+      "process_tree_cpu_seconds": 35.32220838400001,
+      "output_bytes": 3922147,
+      "validation": {
+        "analytical_100m": {
+          "rows": 434363,
+          "columns": 21,
+          "maximum_absolute_differences": {
+            "population": 0.0,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0
+          }
+        },
+        "summary_1km": {
+          "rows": 4455,
+          "columns": 17,
+          "maximum_absolute_differences": {
+            "population": 0.0,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0,
+            "aoi_fraction": 0.0
+          }
+        },
+        "sql_class_summary": {
+          "rows": 8,
+          "columns": 7,
+          "maximum_absolute_differences": {
+            "population": 7.450580596923828e-09,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0
+          }
+        }
+      },
+      "spark_task_metrics": {
+        "executor_run_ms": 7877,
+        "executor_cpu_ns": 5107383000,
+        "gc_ms": 61,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 162204,
+        "shuffle_write_bytes": 162204,
+        "tasks": 28
+      }
+    },
+    {
+      "group": "key_w2_p8_r1",
+      "repetition": 1,
+      "warmup": false,
+      "wall_seconds": 4.9802563060075045,
+      "rows_per_second": 87216.99714049726,
+      "process_tree_peak_rss_bytes": 1966731264,
+      "process_tree_cpu_seconds": 12.873655807999999,
+      "output_bytes": 3922147,
+      "validation": {
+        "analytical_100m": {
+          "rows": 434363,
+          "columns": 21,
+          "maximum_absolute_differences": {
+            "population": 0.0,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0
+          }
+        },
+        "summary_1km": {
+          "rows": 4455,
+          "columns": 17,
+          "maximum_absolute_differences": {
+            "population": 0.0,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0,
+            "aoi_fraction": 0.0
+          }
+        },
+        "sql_class_summary": {
+          "rows": 8,
+          "columns": 7,
+          "maximum_absolute_differences": {
+            "population": 7.450580596923828e-09,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0
+          }
+        }
+      },
+      "spark_task_metrics": {
+        "executor_run_ms": 3306,
+        "executor_cpu_ns": 2581818000,
+        "gc_ms": 41,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 162204,
+        "shuffle_write_bytes": 162204,
+        "tasks": 28
+      }
+    },
+    {
+      "group": "key_w2_p8_r2",
+      "repetition": 2,
+      "warmup": false,
+      "wall_seconds": 4.178775396008859,
+      "rows_per_second": 103945.0458176956,
+      "process_tree_peak_rss_bytes": 2140336128,
+      "process_tree_cpu_seconds": 8.853820928000001,
+      "output_bytes": 3922147,
+      "validation": {
+        "analytical_100m": {
+          "rows": 434363,
+          "columns": 21,
+          "maximum_absolute_differences": {
+            "population": 0.0,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0
+          }
+        },
+        "summary_1km": {
+          "rows": 4455,
+          "columns": 17,
+          "maximum_absolute_differences": {
+            "population": 0.0,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0,
+            "aoi_fraction": 0.0
+          }
+        },
+        "sql_class_summary": {
+          "rows": 8,
+          "columns": 7,
+          "maximum_absolute_differences": {
+            "population": 7.450580596923828e-09,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0
+          }
+        }
+      },
+      "spark_task_metrics": {
+        "executor_run_ms": 2846,
+        "executor_cpu_ns": 2261559000,
+        "gc_ms": 44,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 162204,
+        "shuffle_write_bytes": 162204,
+        "tasks": 28
+      }
+    },
+    {
+      "group": "key_w2_p8_r3",
+      "repetition": 3,
+      "warmup": false,
+      "wall_seconds": 4.177269936000812,
+      "rows_per_second": 103982.50691355743,
+      "process_tree_peak_rss_bytes": 2217766912,
+      "process_tree_cpu_seconds": 7.018261247999998,
+      "output_bytes": 3922147,
+      "validation": {
+        "analytical_100m": {
+          "rows": 434363,
+          "columns": 21,
+          "maximum_absolute_differences": {
+            "population": 0.0,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0
+          }
+        },
+        "summary_1km": {
+          "rows": 4455,
+          "columns": 17,
+          "maximum_absolute_differences": {
+            "population": 0.0,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0,
+            "aoi_fraction": 0.0
+          }
+        },
+        "sql_class_summary": {
+          "rows": 8,
+          "columns": 7,
+          "maximum_absolute_differences": {
+            "population": 7.450580596923828e-09,
+            "built_surface_m2": 0.0,
+            "built_surface_nres_m2": 0.0
+          }
+        }
+      },
+      "spark_task_metrics": {
+        "executor_run_ms": 2733,
+        "executor_cpu_ns": 2211495000,
+        "gc_ms": 30,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 162204,
+        "shuffle_write_bytes": 162204,
+        "tasks": 28
+      }
+    }
+  ],
+  "median_seconds": 4.178775396008859,
+  "p95_seconds": 4.90010821500764,
+  "median_rows_per_second": 103945.0458176956,
+  "peak_rss_bytes": 2217766912,
+  "targets_pass": true
+}

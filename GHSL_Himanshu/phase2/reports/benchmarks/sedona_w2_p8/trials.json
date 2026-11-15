@@ -1,0 +1,162 @@
+[
+  {
+    "group": "sedona_w2_p8_r0",
+    "repetition": 0,
+    "warmup": true,
+    "wall_seconds": 15.824353998003062,
+    "rows_per_second": 27449.019407352363,
+    "process_tree_peak_rss_bytes": 1358946304,
+    "process_tree_cpu_seconds": 53.786754912,
+    "output_bytes": 3922212,
+    "validation": {
+      "analytical_100m": {
+        "rows": 434363,
+        "columns": 21,
+        "maximum_absolute_differences": {
+          "population": 0.0,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0
+        }
+      },
+      "summary_1km": {
+        "rows": 4455,
+        "columns": 17,
+        "maximum_absolute_differences": {
+          "population": 0.0,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0,
+          "aoi_fraction": 0.0
+        }
+      },
+      "sql_class_summary": {
+        "rows": 8,
+        "columns": 7,
+        "maximum_absolute_differences": {
+          "population": 7.450580596923828e-09,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0
+        }
+      }
+    }
+  },
+  {
+    "group": "sedona_w2_p8_r1",
+    "repetition": 1,
+    "warmup": false,
+    "wall_seconds": 8.407146685989574,
+    "rows_per_second": 51665.92379360546,
+    "process_tree_peak_rss_bytes": 2153533440,
+    "process_tree_cpu_seconds": 19.678496,
+    "output_bytes": 3922212,
+    "validation": {
+      "analytical_100m": {
+        "rows": 434363,
+        "columns": 21,
+        "maximum_absolute_differences": {
+          "population": 0.0,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0
+        }
+      },
+      "summary_1km": {
+        "rows": 4455,
+        "columns": 17,
+        "maximum_absolute_differences": {
+          "population": 0.0,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0,
+          "aoi_fraction": 0.0
+        }
+      },
+      "sql_class_summary": {
+        "rows": 8,
+        "columns": 7,
+        "maximum_absolute_differences": {
+          "population": 7.450580596923828e-09,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0
+        }
+      }
+    }
+  },
+  {
+    "group": "sedona_w2_p8_r2",
+    "repetition": 2,
+    "warmup": false,
+    "wall_seconds": 7.4264221969933715,
+    "rows_per_second": 58488.86428458838,
+    "process_tree_peak_rss_bytes": 2223906816,
+    "process_tree_cpu_seconds": 13.144038143999989,
+    "output_bytes": 3922212,
+    "validation": {
+      "analytical_100m": {
+        "rows": 434363,
+        "columns": 21,
+        "maximum_absolute_differences": {
+          "population": 0.0,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0
+        }
+      },
+      "summary_1km": {
+        "rows": 4455,
+        "columns": 17,
+        "maximum_absolute_differences": {
+          "population": 0.0,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0,
+          "aoi_fraction": 0.0
+        }
+      },
+      "sql_class_summary": {
+        "rows": 8,
+        "columns": 7,
+        "maximum_absolute_differences": {
+          "population": 7.450580596923828e-09,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0
+        }
+      }
+    }
+  },
+  {
+    "group": "sedona_w2_p8_r3",
+    "repetition": 3,
+    "warmup": false,
+    "wall_seconds": 7.356102539008134,
+    "rows_per_second": 59047.9805979659,
+    "process_tree_peak_rss_bytes": 2306322432,
+    "process_tree_cpu_seconds": 11.566861567999984,
+    "output_bytes": 3922212,
+    "validation": {
+      "analytical_100m": {
+        "rows": 434363,
+        "columns": 21,
+        "maximum_absolute_differences": {
+          "population": 0.0,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0
+        }
+      },
+      "summary_1km": {
+        "rows": 4455,
+        "columns": 17,
+        "maximum_absolute_differences": {
+          "population": 0.0,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0,
+          "aoi_fraction": 0.0
+        }
+      },
+      "sql_class_summary": {
+        "rows": 8,
+        "columns": 7,
+        "maximum_absolute_differences": {
+          "population": 7.450580596923828e-09,
+          "built_surface_m2": 0.0,
+          "built_surface_nres_m2": 0.0
+        }
+      }
+    }
+  }
+]

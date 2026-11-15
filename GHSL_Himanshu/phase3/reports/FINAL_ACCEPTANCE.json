@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-11-10T02:17:29.033828+05:30",
+  "scope": "13 tiles, 156 accepted tile-years; excludes R8_C27 in every epoch",
+  "automated_stages": [
+    "integration",
+    "temporal",
+    "districts",
+    "candidates",
+    "case_studies",
+    "handoff"
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "figure": "analysis/data/week8_handoff/national_concentration.png",
+    "checks": [
+      "legible labels and legends",
+      "no clipping",
+      "historical 1975\u20132020 only",
+      "shares agree with saved concentration table"
+    ]
+  },
+  "regional_coarse_cell_years": 750,
+  "regional_maximum_numeric_difference": 0.0,
+  "regional_class_agreement": 1.0,
+  "limitations": [
+    "Not complete India coverage",
+    "Mumbai study window adjusted using coverage only",
+    "Candidate events are not confirmed or unique-town counts",
+    "Single-machine national Spark; Sedona and HDFS benchmarks are pilot-scale"
+  ],
+  "additional_analytical_review": {
+    "status": "PASS",
+    "regional_cell_periods": 26870,
+    "candidate_rule_decisions": 108804,
+    "report": "phase3/reports/analytical_review/REPORT.md"
+  }
+}

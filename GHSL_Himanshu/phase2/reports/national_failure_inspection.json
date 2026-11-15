@@ -1,0 +1,66 @@
+{
+  "observation": "Current preserved failed output audit; original cause not established",
+  "files": [
+    {
+      "path": "integration/data/national_run1/pairs/R5_C25_1980/curated/sql_class_summary/part-00002-d9cb399b-4c2e-4789-a674-496591f194c8-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1,
+      "valid_footer": true
+    },
+    {
+      "path": "integration/data/national_run1/pairs/R5_C25_1980/curated/sql_class_summary/part-00005-d9cb399b-4c2e-4789-a674-496591f194c8-c000.snappy.parquet",
+      "bytes": 2125,
+      "rows": 1,
+      "valid_footer": true
+    },
+    {
+      "path": "integration/data/national_run1/pairs/R5_C25_1980/curated/sql_class_summary/part-00004-d9cb399b-4c2e-4789-a674-496591f194c8-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1,
+      "valid_footer": true
+    },
+    {
+      "path": "integration/data/national_run1/pairs/R5_C25_1980/curated/sql_class_summary/part-00003-d9cb399b-4c2e-4789-a674-496591f194c8-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1,
+      "valid_footer": true
+    },
+    {
+      "path": "integration/data/national_run1/pairs/R5_C25_1980/curated/sql_class_summary/part-00006-d9cb399b-4c2e-4789-a674-496591f194c8-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1,
+      "valid_footer": true
+    },
+    {
+      "path": "integration/data/national_run1/pairs/R5_C25_1980/curated/sql_class_summary/part-00001-d9cb399b-4c2e-4789-a674-496591f194c8-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1,
+      "valid_footer": true
+    },
+    {
+      "path": "integration/data/national_run1/pairs/R5_C25_1980/curated/sql_class_summary/part-00000-d9cb399b-4c2e-4789-a674-496591f194c8-c000.snappy.parquet",
+      "bytes": 2126,
+      "rows": 1,
+      "valid_footer": true
+    },
+    {
+      "path": "integration/data/national_run1/pairs/R5_C25_1980/curated/sql_class_summary/part-00007-d9cb399b-4c2e-4789-a674-496591f194c8-c000.snappy.parquet",
+      "bytes": 2125,
+      "rows": 1,
+      "valid_footer": true
+    },
+    {
+      "path": "integration/data/national_run1/pairs/R5_C25_1980/curated/analytical_100m/epoch_type=historical/year=1980/part-00004-ccf4589b-5035-4d9f-a582-b5db2bf0a09c.c000.snappy.parquet",
+      "bytes": 0,
+      "valid_footer": false,
+      "error": "Parquet file size is 0 bytes"
+    },
+    {
+      "path": "integration/data/national_run1/pairs/R5_C25_1980/curated/summary_1km/epoch_type=historical/year=1980/part-00004-deba9c8d-9e6b-49a0-9b1e-4e5eabcfc3c1.c000.snappy.parquet",
+      "bytes": 1609792,
+      "rows": 162763,
+      "valid_footer": true
+    }
+  ],
+  "free_disk_bytes": 143299874816
+}

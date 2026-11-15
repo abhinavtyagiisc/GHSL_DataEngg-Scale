@@ -1,0 +1,331 @@
+{
+  "files": [
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c000.snappy.parquet",
+      "bytes": 2819938,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c001.snappy.parquet",
+      "bytes": 2782104,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c002.snappy.parquet",
+      "bytes": 2723582,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c003.snappy.parquet",
+      "bytes": 2710422,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c004.snappy.parquet",
+      "bytes": 2689557,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c005.snappy.parquet",
+      "bytes": 2766912,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c006.snappy.parquet",
+      "bytes": 2822671,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c007.snappy.parquet",
+      "bytes": 2867966,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c008.snappy.parquet",
+      "bytes": 2829281,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c009.snappy.parquet",
+      "bytes": 2785418,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c010.snappy.parquet",
+      "bytes": 2722633,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c011.snappy.parquet",
+      "bytes": 2711813,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c012.snappy.parquet",
+      "bytes": 0,
+      "error": "Parquet file size is 0 bytes"
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c013.snappy.parquet",
+      "bytes": 2754371,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c014.snappy.parquet",
+      "bytes": 2824149,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c015.snappy.parquet",
+      "bytes": 2859709,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c016.snappy.parquet",
+      "bytes": 2829208,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c017.snappy.parquet",
+      "bytes": 2795209,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c018.snappy.parquet",
+      "bytes": 2717190,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c019.snappy.parquet",
+      "bytes": 2708866,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c020.snappy.parquet",
+      "bytes": 2678426,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c021.snappy.parquet",
+      "bytes": 2745174,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c022.snappy.parquet",
+      "bytes": 2780905,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c023.snappy.parquet",
+      "bytes": 2794879,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c024.snappy.parquet",
+      "bytes": 2760363,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c025.snappy.parquet",
+      "bytes": 2839931,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c026.snappy.parquet",
+      "bytes": 2845556,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c027.snappy.parquet",
+      "bytes": 2804395,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c028.snappy.parquet",
+      "bytes": 2745959,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c029.snappy.parquet",
+      "bytes": 2713767,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c030.snappy.parquet",
+      "bytes": 2762141,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c031.snappy.parquet",
+      "bytes": 2794460,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c032.snappy.parquet",
+      "bytes": 2756957,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c033.snappy.parquet",
+      "bytes": 2828433,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c034.snappy.parquet",
+      "bytes": 2849795,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c035.snappy.parquet",
+      "bytes": 2801388,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c036.snappy.parquet",
+      "bytes": 2747592,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c037.snappy.parquet",
+      "bytes": 2712419,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c038.snappy.parquet",
+      "bytes": 2759678,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c039.snappy.parquet",
+      "bytes": 2794891,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c040.snappy.parquet",
+      "bytes": 2652642,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c041.snappy.parquet",
+      "bytes": 2770929,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c042.snappy.parquet",
+      "bytes": 2809684,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c043.snappy.parquet",
+      "bytes": 2730787,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c044.snappy.parquet",
+      "bytes": 2754648,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c045.snappy.parquet",
+      "bytes": 2804433,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c046.snappy.parquet",
+      "bytes": 2762259,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c047.snappy.parquet",
+      "bytes": 2723759,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c048.snappy.parquet",
+      "bytes": 2731302,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c049.snappy.parquet",
+      "bytes": 2771878,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c050.snappy.parquet",
+      "bytes": 2771974,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c051.snappy.parquet",
+      "bytes": 2788166,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c052.snappy.parquet",
+      "bytes": 2857726,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c053.snappy.parquet",
+      "bytes": 2810494,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c054.snappy.parquet",
+      "bytes": 2791103,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c055.snappy.parquet",
+      "bytes": 2729678,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c056.snappy.parquet",
+      "bytes": 2723879,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c057.snappy.parquet",
+      "bytes": 2770084,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c058.snappy.parquet",
+      "bytes": 2778518,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c059.snappy.parquet",
+      "bytes": 2778362,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c060.snappy.parquet",
+      "bytes": 2850513,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c061.snappy.parquet",
+      "bytes": 2823903,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c062.snappy.parquet",
+      "bytes": 2742616,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c063.snappy.parquet",
+      "bytes": 2646774,
+      "rows": 250000
+    },
+    {
+      "file": "part-00004-94e0db52-d8de-4f58-a174-5f73c147bad1.c064.snappy.parquet",
+      "bytes": 2126940,
+      "rows": 201044
+    }
+  ],
+  "total_rows": 15951044,
+  "prepared": 16201044
+}

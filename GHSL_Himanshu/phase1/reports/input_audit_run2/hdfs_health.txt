@@ -1,0 +1,631 @@
+2026-11-07 14:25:09,545 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Connecting to namenode via http://127.0.0.1:19870/fsck?ugi=rio&files=1&blocks=1&path=%2Fghsl%2Fweeks1_5%2Fbengaluru_run1
+FSCK started by rio (auth:SIMPLE) from /127.0.0.1 for path /ghsl/weeks1_5/bengaluru_run1 at Sat Nov 07 14:25:10 IST 2026
+
+/ghsl/weeks1_5/bengaluru_run1 <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned/_SUCCESS 5 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741986_1162 len=5 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/config.json 577 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741985_1161 len=577 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/grid_contract.json 648 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741984_1160 len=648 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/raster_validation.json 25753 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741987_1163 len=25753 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/1975.tif 108406 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742028_1204 len=108406 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/1980.tif 136101 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742030_1206 len=136101 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/1985.tif 154690 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742032_1208 len=154690 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/1990.tif 170888 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742031_1207 len=170888 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/1995.tif 210565 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742029_1205 len=210565 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/2000.tif 233868 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742027_1203 len=233868 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/2005.tif 292442 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742025_1201 len=292442 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/2010.tif 337061 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742024_1200 len=337061 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/2015.tif 395919 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742026_1202 len=395919 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/2020.tif 435581 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742035_1211 len=435581 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/2025.tif 459912 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742033_1209 len=459912 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S/2030.tif 476890 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742034_1210 len=476890 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/1975.tif 21933 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742004_1180 len=21933 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/1980.tif 25272 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742006_1182 len=25272 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/1985.tif 27983 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742008_1184 len=27983 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/1990.tif 30899 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742007_1183 len=30899 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/1995.tif 35979 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742005_1181 len=35979 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/2000.tif 40022 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742003_1179 len=40022 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/2005.tif 43367 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742001_1177 len=43367 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/2010.tif 46191 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742000_1176 len=46191 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/2015.tif 49550 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742002_1178 len=49550 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/2020.tif 51766 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742011_1187 len=51766 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/2025.tif 54060 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742009_1185 len=54060 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/BUILT_S_NRES/2030.tif 56199 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742010_1186 len=56199 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/1975.tif 230893 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741992_1168 len=230893 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/1980.tif 290936 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741994_1170 len=290936 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/1985.tif 334970 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741996_1172 len=334970 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/1990.tif 376009 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741995_1171 len=376009 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/1995.tif 464605 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741993_1169 len=464605 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/2000.tif 524953 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741991_1167 len=524953 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/2005.tif 643523 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741989_1165 len=643523 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/2010.tif 738098 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741988_1164 len=738098 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/2015.tif 870058 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741990_1166 len=870058 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/2020.tif 972123 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741999_1175 len=972123 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/2025.tif 996255 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741997_1173 len=996255 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/POP/2030.tif 1015326 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741998_1174 len=1015326 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/1975.tif 2888 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742016_1192 len=2888 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/1980.tif 2956 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742018_1194 len=2956 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/1985.tif 3008 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742020_1196 len=3008 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/1990.tif 3112 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742019_1195 len=3112 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/1995.tif 3100 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742017_1193 len=3100 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/2000.tif 3143 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742015_1191 len=3143 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/2005.tif 3110 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742013_1189 len=3110 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/2010.tif 3083 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742012_1188 len=3083 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/2015.tif 2985 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742014_1190 len=2985 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/2020.tif 2921 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742023_1199 len=2921 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/2025.tif 2880 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742021_1197 len=2880 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/rasters/SMOD/2030.tif 2829 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742022_1198 len=2829 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/1975.parquet 272880 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741976_1152 len=272880 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/1980.parquet 314864 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741975_1151 len=314864 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/1985.parquet 340662 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741980_1156 len=340662 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/1990.parquet 362607 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741974_1150 len=362607 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/1995.parquet 412952 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741981_1157 len=412952 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/2000.parquet 440498 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741983_1159 len=440498 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/2005.parquet 515014 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741972_1148 len=515014 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/2010.parquet 569755 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741982_1158 len=569755 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/2015.parquet 631276 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741973_1149 len=631276 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/2020.parquet 663462 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741977_1153 len=663462 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/2025.parquet 687646 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741979_1155 len=687646 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/built_up/2030.parquet 709695 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741978_1154 len=709695 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/1975.parquet 395398 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741964_1140 len=395398 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/1980.parquet 476912 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741963_1139 len=476912 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/1985.parquet 533820 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741968_1144 len=533820 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/1990.parquet 582524 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741962_1138 len=582524 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/1995.parquet 708418 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741969_1145 len=708418 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/2000.parquet 789089 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741971_1147 len=789089 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/2005.parquet 978316 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741960_1136 len=978316 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/2010.parquet 1097528 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741970_1146 len=1097528 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/2015.parquet 1226658 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741961_1137 len=1226658 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/2020.parquet 1308656 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741965_1141 len=1308656 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/2025.parquet 1341013 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741967_1143 len=1341013 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/population/2030.parquet 1368690 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741966_1142 len=1368690 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement <dir>
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/1975.parquet 4389 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741952_1128 len=4389 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/1980.parquet 4406 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741951_1127 len=4406 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/1985.parquet 4413 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741956_1132 len=4413 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/1990.parquet 4427 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741950_1126 len=4427 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/1995.parquet 4422 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741957_1133 len=4422 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/2000.parquet 4422 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741959_1135 len=4422 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/2005.parquet 4413 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741948_1124 len=4413 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/2010.parquet 4394 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741958_1134 len=4394 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/2015.parquet 4351 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741949_1125 len=4351 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/2020.parquet 4326 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741953_1129 len=4326 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/2025.parquet 4303 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741955_1131 len=4303 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/cleaned/tables/settlement/2030.parquet 4280 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741954_1130 len=4280 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/_INTEGRATION_SUCCESS 0 bytes, replicated: replication=3, 0 block(s):  OK
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/_SUCCESS 0 bytes, replicated: replication=3, 0 block(s):  OK
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=1975 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=1975/part-00003-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 4485446 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742038_1214. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742038_1214 len=4485446 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=1980 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=1980/part-00004-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 4619867 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742039_1215. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742039_1215 len=4619867 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=1985 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=1985/part-00006-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 4724158 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742041_1217. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742041_1217 len=4724158 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=1990 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=1990/part-00001-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 4814965 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742036_1212. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742036_1212 len=4814965 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=1995 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=1995/part-00005-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 5001151 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742040_1216. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742040_1216 len=5001151 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=2000 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=2000/part-00009-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 5136076 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742043_1219. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742043_1219 len=5136076 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=2005 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=2005/part-00005-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 5361485 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742042_1218. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742042_1218 len=5361485 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=2010 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=2010/part-00010-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 5529834 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742044_1220. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742044_1220 len=5529834 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=2015 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=2015/part-00009-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 5738218 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742045_1221. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742045_1221 len=5738218 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=2020 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=historical/year=2020/part-00014-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 5888075 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742046_1222. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742046_1222 len=5888075 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=projection <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=projection/year=2025 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=projection/year=2025/part-00011-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 5956243 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742047_1223. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742047_1223 len=5956243 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=projection/year=2030 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/analytical_100m/epoch_type=projection/year=2030/part-00000-e9f95a7c-f97f-4b51-a0c5-928f91ac6428.c000.snappy.parquet 6006225 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742037_1213. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742037_1213 len=6006225 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/_SUCCESS 0 bytes, replicated: replication=3, 0 block(s):  OK
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00000-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2349 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742060_1236. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742060_1236 len=2349 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00001-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2356 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742061_1237. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742061_1237 len=2356 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00002-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2355 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742062_1238. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742062_1238 len=2355 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00003-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2370 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742063_1239. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742063_1239 len=2370 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00004-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2366 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742064_1240. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742064_1240 len=2366 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00005-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2359 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742065_1241. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742065_1241 len=2359 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00006-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2356 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742066_1242. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742066_1242 len=2356 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00007-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2371 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742067_1243. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742067_1243 len=2371 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00008-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2370 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742068_1244. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742068_1244 len=2370 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00009-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2359 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742069_1245. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742069_1245 len=2359 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00010-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2362 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742070_1246. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742070_1246 len=2362 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00011-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2373 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742071_1247. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742071_1247 len=2373 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00012-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2368 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742072_1248. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742072_1248 len=2368 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00013-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2351 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742073_1249. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742073_1249 len=2351 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00014-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2360 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742074_1250. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742074_1250 len=2360 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/sql_class_summary/part-00015-aa08cdc2-c46c-4677-a6a0-17b3a4ad29a3-c000.snappy.parquet 2335 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742075_1251. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742075_1251 len=2335 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/_SUCCESS 0 bytes, replicated: replication=3, 0 block(s):  OK
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=1975 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=1975/part-00003-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 91456 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742050_1226. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742050_1226 len=91456 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=1980 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=1980/part-00004-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 95715 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742051_1227. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742051_1227 len=95715 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=1985 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=1985/part-00006-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 98213 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742054_1230. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742054_1230 len=98213 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=1990 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=1990/part-00001-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 100937 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742048_1224. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742048_1224 len=100937 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=1995 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=1995/part-00005-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 99490 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742052_1228. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742052_1228 len=99490 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=2000 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=2000/part-00009-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 101187 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742055_1231. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742055_1231 len=101187 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=2005 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=2005/part-00005-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 103375 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742053_1229. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742053_1229 len=103375 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=2010 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=2010/part-00010-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 105299 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742057_1233. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742057_1233 len=105299 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=2015 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=2015/part-00009-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 106130 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742056_1232. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742056_1232 len=106130 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=2020 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=historical/year=2020/part-00014-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 107442 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742059_1235. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742059_1235 len=107442 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=projection <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=projection/year=2025 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=projection/year=2025/part-00011-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 107331 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742058_1234. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742058_1234 len=107331 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=projection/year=2030 <dir>
+/ghsl/weeks1_5/bengaluru_run1/curated/grid_year/summary_1km/epoch_type=projection/year=2030/part-00000-6e3eea78-6ea4-448c-aefa-272f627c9775.c000.snappy.parquet 107849 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-718918973-192.168.0.90-1793440773652:blk_1073742049_1225. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073742049_1225 len=107849 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw <dir>
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S <dir>
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E1975_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 8692543 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741938_1114 len=8692543 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E1980_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 9831506 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741937_1113 len=9831506 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E1985_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 10907337 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741940_1116 len=10907337 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E1990_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 11990785 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741936_1112 len=11990785 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E1995_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 12730683 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741939_1115 len=12730683 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E2000_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 13409410 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741941_1117 len=13409410 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E2005_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 14900921 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741944_1120 len=14900921 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E2010_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 16405026 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741942_1118 len=16405026 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E2015_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 18616040 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741947_1123 len=18616040 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E2020_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 20429152 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741946_1122 len=20429152 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E2025_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 21640532 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741943_1119 len=21640532 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S/GHS_BUILT_S_E2030_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 22868375 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741945_1121 len=22868375 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES <dir>
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E1975_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1634062 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741913_1089 len=1634062 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E1980_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1673153 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741915_1091 len=1673153 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E1985_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1717498 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741912_1088 len=1717498 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E1990_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1759877 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741916_1092 len=1759877 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E1995_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1788336 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741914_1090 len=1788336 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E2000_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1808817 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741923_1099 len=1808817 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E2005_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1838880 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741920_1096 len=1838880 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E2010_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1861195 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741922_1098 len=1861195 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E2015_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1897315 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741917_1093 len=1897315 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E2020_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1920915 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741918_1094 len=1920915 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E2025_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1936105 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741921_1097 len=1936105 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/BUILT_S_NRES/GHS_BUILT_S_NRES_E2030_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 1952682 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741919_1095 len=1952682 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP <dir>
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E1975_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 18907797 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741909_1085 len=18907797 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E1980_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 21562487 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741907_1083 len=21562487 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E1985_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 24207911 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741910_1086 len=24207911 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E1990_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 26884965 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741906_1082 len=26884965 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E1995_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 28582931 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741908_1084 len=28582931 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E2000_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 30212697 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741899_1075 len=30212697 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E2005_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 33444514 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741902_1078 len=33444514 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E2010_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 36876201 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741900_1076 len=36876201 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E2015_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 42287057 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741905_1081 len=42287057 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E2020_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 47043461 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741904_1080 len=47043461 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E2025_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 50048146 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741901_1077 len=50048146 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/POP/GHS_POP_E2030_GLOBE_R2023A_54009_100_V1_0_R8_C26.zip 53086232 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741903_1079 len=53086232 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD <dir>
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E1975_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1551231 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741934_1110 len=1551231 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E1980_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1555083 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741935_1111 len=1555083 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E1985_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1558073 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741930_1106 len=1558073 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E1990_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1560569 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741927_1103 len=1560569 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E1995_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1560802 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741926_1102 len=1560802 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E2000_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1561366 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741933_1109 len=1561366 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E2005_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1563225 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741932_1108 len=1563225 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E2010_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1564098 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741929_1105 len=1564098 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E2015_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1565246 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741924_1100 len=1565246 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E2020_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1565933 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741925_1101 len=1565933 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E2025_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1565904 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741928_1104 len=1565904 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/SMOD/GHS_SMOD_E2030_GLOBE_R2023A_54009_1000_V2_0_R8_C26.zip 1565932 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741931_1107 len=1565932 Live_repl=1
+
+/ghsl/weeks1_5/bengaluru_run1/raw/source_manifest.json 21409 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-718918973-192.168.0.90-1793440773652:blk_1073741911_1087 len=21409 Live_repl=1
+
+
+Status: HEALTHY
+ Number of data-nodes:	1
+ Number of racks:		1
+ Total dirs:			49
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	728835512 B
+ Total files:	181
+ Total blocks (validated):	177 (avg. block size 4117714 B)
+ Minimally replicated blocks:	177 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	40 (22.59887 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	1
+ Average block replication:	1.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		80 (31.128405 %)
+ Blocks queued for replication:	0
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+ Blocks queued for replication:	0
+FSCK ended at Sat Nov 07 14:25:10 IST 2026 in 49 milliseconds
+
+
+The filesystem under path '/ghsl/weeks1_5/bengaluru_run1' is HEALTHY

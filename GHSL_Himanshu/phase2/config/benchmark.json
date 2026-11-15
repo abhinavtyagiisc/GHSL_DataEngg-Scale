@@ -1,0 +1,9 @@
+{
+  "epoch": 2020,
+  "rows": 434363,
+  "warmups": 1,
+  "repetitions": 3,
+  "scenarios": [["key",2,8],["sedona",1,8],["sedona",2,8],["sedona",2,32]],
+  "targets": {"median_seconds_max": 120, "median_rows_per_second_min": 3500, "peak_rss_bytes_max": 8000000000},
+  "protocol": "Read all three staging products; fresh DataFrames each trial; join, aggregate and write fine/coarse/class Parquet to distinct paths. No persisted inputs/results. Timer excludes Spark startup and post-write correctness comparison. One warmup and three measured repetitions; small-sample P95 descriptive only. OS cache uncontrolled. Sequential scenarios; local execution, not distributed cluster scaling. Every output must equal the independent preserved key-join reference."
+}

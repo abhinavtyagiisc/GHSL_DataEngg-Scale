@@ -1,0 +1,751 @@
+region,year,parent_row,parent_col,population_absolute_difference,built_surface_m2_absolute_difference,built_surface_nres_m2_absolute_difference,settlement_class
+Delhi study window,1975,5517,25179,0.0,0.0,0.0,30
+Delhi study window,1975,5517,25180,0.0,0.0,0.0,30
+Delhi study window,1975,5517,25177,0.0,0.0,0.0,30
+Delhi study window,1975,5520,25179,0.0,0.0,0.0,21
+Delhi study window,1975,5521,25179,0.0,0.0,0.0,30
+Delhi study window,1975,5520,25178,0.0,0.0,0.0,21
+Delhi study window,1975,5518,25179,0.0,0.0,0.0,30
+Delhi study window,1975,5519,25180,0.0,0.0,0.0,21
+Delhi study window,1975,5520,25181,0.0,0.0,0.0,30
+Delhi study window,1975,5521,25178,0.0,0.0,0.0,30
+Delhi study window,1975,5519,25181,0.0,0.0,0.0,21
+Delhi study window,1975,5517,25178,0.0,0.0,0.0,30
+Delhi study window,1975,5518,25180,0.0,0.0,0.0,21
+Delhi study window,1975,5519,25178,0.0,0.0,0.0,30
+Delhi study window,1975,5520,25180,0.0,0.0,0.0,12
+Delhi study window,1975,5521,25177,0.0,0.0,0.0,30
+Delhi study window,1975,5521,25181,0.0,0.0,0.0,30
+Delhi study window,1975,5519,25177,0.0,0.0,0.0,12
+Delhi study window,1975,5520,25177,0.0,0.0,0.0,30
+Delhi study window,1975,5518,25178,0.0,0.0,0.0,30
+Delhi study window,1975,5519,25179,0.0,0.0,0.0,21
+Delhi study window,1975,5517,25181,0.0,0.0,0.0,30
+Delhi study window,1975,5521,25180,0.0,0.0,0.0,30
+Delhi study window,1975,5518,25177,0.0,0.0,0.0,11
+Delhi study window,1975,5518,25181,0.0,0.0,0.0,21
+Delhi study window,1980,5521,25179,0.0,0.0,0.0,30
+Delhi study window,1980,5517,25181,0.0,0.0,0.0,30
+Delhi study window,1980,5518,25179,0.0,0.0,0.0,30
+Delhi study window,1980,5519,25177,0.0,0.0,0.0,12
+Delhi study window,1980,5517,25180,0.0,0.0,0.0,30
+Delhi study window,1980,5520,25181,0.0,0.0,0.0,30
+Delhi study window,1980,5519,25179,0.0,0.0,0.0,30
+Delhi study window,1980,5521,25180,0.0,0.0,0.0,30
+Delhi study window,1980,5518,25181,0.0,0.0,0.0,30
+Delhi study window,1980,5521,25181,0.0,0.0,0.0,30
+Delhi study window,1980,5519,25181,0.0,0.0,0.0,30
+Delhi study window,1980,5519,25180,0.0,0.0,0.0,30
+Delhi study window,1980,5521,25178,0.0,0.0,0.0,30
+Delhi study window,1980,5518,25178,0.0,0.0,0.0,30
+Delhi study window,1980,5520,25179,0.0,0.0,0.0,30
+Delhi study window,1980,5517,25177,0.0,0.0,0.0,30
+Delhi study window,1980,5518,25180,0.0,0.0,0.0,30
+Delhi study window,1980,5518,25177,0.0,0.0,0.0,11
+Delhi study window,1980,5520,25177,0.0,0.0,0.0,30
+Delhi study window,1980,5520,25178,0.0,0.0,0.0,30
+Delhi study window,1980,5517,25178,0.0,0.0,0.0,30
+Delhi study window,1980,5517,25179,0.0,0.0,0.0,30
+Delhi study window,1980,5521,25177,0.0,0.0,0.0,30
+Delhi study window,1980,5519,25178,0.0,0.0,0.0,30
+Delhi study window,1980,5520,25180,0.0,0.0,0.0,30
+Delhi study window,1985,5519,25177,0.0,0.0,0.0,12
+Delhi study window,1985,5521,25180,0.0,0.0,0.0,30
+Delhi study window,1985,5517,25180,0.0,0.0,0.0,30
+Delhi study window,1985,5518,25180,0.0,0.0,0.0,30
+Delhi study window,1985,5517,25181,0.0,0.0,0.0,30
+Delhi study window,1985,5519,25178,0.0,0.0,0.0,30
+Delhi study window,1985,5521,25179,0.0,0.0,0.0,30
+Delhi study window,1985,5520,25178,0.0,0.0,0.0,30
+Delhi study window,1985,5521,25177,0.0,0.0,0.0,30
+Delhi study window,1985,5517,25177,0.0,0.0,0.0,30
+Delhi study window,1985,5519,25181,0.0,0.0,0.0,30
+Delhi study window,1985,5520,25179,0.0,0.0,0.0,30
+Delhi study window,1985,5517,25179,0.0,0.0,0.0,30
+Delhi study window,1985,5520,25181,0.0,0.0,0.0,30
+Delhi study window,1985,5518,25177,0.0,0.0,0.0,12
+Delhi study window,1985,5518,25181,0.0,0.0,0.0,30
+Delhi study window,1985,5517,25178,0.0,0.0,0.0,30
+Delhi study window,1985,5520,25180,0.0,0.0,0.0,30
+Delhi study window,1985,5518,25178,0.0,0.0,0.0,30
+Delhi study window,1985,5519,25179,0.0,0.0,0.0,30
+Delhi study window,1985,5518,25179,0.0,0.0,0.0,30
+Delhi study window,1985,5521,25181,0.0,0.0,0.0,30
+Delhi study window,1985,5520,25177,0.0,0.0,0.0,30
+Delhi study window,1985,5519,25180,0.0,0.0,0.0,30
+Delhi study window,1985,5521,25178,0.0,0.0,0.0,30
+Delhi study window,1990,5517,25180,0.0,0.0,0.0,30
+Delhi study window,1990,5518,25179,0.0,0.0,0.0,30
+Delhi study window,1990,5517,25181,0.0,0.0,0.0,30
+Delhi study window,1990,5518,25180,0.0,0.0,0.0,30
+Delhi study window,1990,5518,25181,0.0,0.0,0.0,30
+Delhi study window,1990,5520,25178,0.0,0.0,0.0,30
+Delhi study window,1990,5519,25179,0.0,0.0,0.0,30
+Delhi study window,1990,5521,25179,0.0,0.0,0.0,30
+Delhi study window,1990,5518,25177,0.0,0.0,0.0,12
+Delhi study window,1990,5520,25177,0.0,0.0,0.0,30
+Delhi study window,1990,5520,25179,0.0,0.0,0.0,30
+Delhi study window,1990,5517,25179,0.0,0.0,0.0,30
+Delhi study window,1990,5519,25177,0.0,0.0,0.0,12
+Delhi study window,1990,5520,25180,0.0,0.0,0.0,30
+Delhi study window,1990,5521,25178,0.0,0.0,0.0,30
+Delhi study window,1990,5521,25177,0.0,0.0,0.0,30
+Delhi study window,1990,5517,25177,0.0,0.0,0.0,30
+Delhi study window,1990,5517,25178,0.0,0.0,0.0,30
+Delhi study window,1990,5519,25181,0.0,0.0,0.0,30
+Delhi study window,1990,5521,25181,0.0,0.0,0.0,30
+Delhi study window,1990,5519,25178,0.0,0.0,0.0,30
+Delhi study window,1990,5519,25180,0.0,0.0,0.0,30
+Delhi study window,1990,5520,25181,0.0,0.0,0.0,30
+Delhi study window,1990,5521,25180,0.0,0.0,0.0,30
+Delhi study window,1990,5518,25178,0.0,0.0,0.0,30
+Delhi study window,1995,5519,25181,0.0,0.0,0.0,30
+Delhi study window,1995,5518,25181,0.0,0.0,0.0,30
+Delhi study window,1995,5518,25178,0.0,0.0,0.0,30
+Delhi study window,1995,5517,25181,0.0,0.0,0.0,30
+Delhi study window,1995,5518,25179,0.0,0.0,0.0,30
+Delhi study window,1995,5519,25180,0.0,0.0,0.0,30
+Delhi study window,1995,5521,25177,0.0,0.0,0.0,30
+Delhi study window,1995,5520,25177,0.0,0.0,0.0,30
+Delhi study window,1995,5520,25181,0.0,0.0,0.0,30
+Delhi study window,1995,5517,25178,0.0,0.0,0.0,30
+Delhi study window,1995,5517,25179,0.0,0.0,0.0,30
+Delhi study window,1995,5519,25177,0.0,0.0,0.0,30
+Delhi study window,1995,5521,25181,0.0,0.0,0.0,30
+Delhi study window,1995,5517,25180,0.0,0.0,0.0,30
+Delhi study window,1995,5518,25180,0.0,0.0,0.0,30
+Delhi study window,1995,5520,25179,0.0,0.0,0.0,30
+Delhi study window,1995,5519,25178,0.0,0.0,0.0,30
+Delhi study window,1995,5519,25179,0.0,0.0,0.0,30
+Delhi study window,1995,5521,25180,0.0,0.0,0.0,30
+Delhi study window,1995,5520,25180,0.0,0.0,0.0,30
+Delhi study window,1995,5521,25178,0.0,0.0,0.0,30
+Delhi study window,1995,5517,25177,0.0,0.0,0.0,30
+Delhi study window,1995,5520,25178,0.0,0.0,0.0,30
+Delhi study window,1995,5518,25177,0.0,0.0,0.0,30
+Delhi study window,1995,5521,25179,0.0,0.0,0.0,30
+Delhi study window,2000,5518,25180,0.0,0.0,0.0,30
+Delhi study window,2000,5518,25179,0.0,0.0,0.0,30
+Delhi study window,2000,5519,25177,0.0,0.0,0.0,30
+Delhi study window,2000,5517,25179,0.0,0.0,0.0,30
+Delhi study window,2000,5521,25177,0.0,0.0,0.0,30
+Delhi study window,2000,5521,25179,0.0,0.0,0.0,30
+Delhi study window,2000,5520,25180,0.0,0.0,0.0,30
+Delhi study window,2000,5519,25179,0.0,0.0,0.0,30
+Delhi study window,2000,5517,25178,0.0,0.0,0.0,30
+Delhi study window,2000,5518,25177,0.0,0.0,0.0,30
+Delhi study window,2000,5518,25181,0.0,0.0,0.0,30
+Delhi study window,2000,5519,25181,0.0,0.0,0.0,30
+Delhi study window,2000,5520,25179,0.0,0.0,0.0,30
+Delhi study window,2000,5521,25180,0.0,0.0,0.0,30
+Delhi study window,2000,5517,25181,0.0,0.0,0.0,30
+Delhi study window,2000,5519,25180,0.0,0.0,0.0,30
+Delhi study window,2000,5519,25178,0.0,0.0,0.0,30
+Delhi study window,2000,5517,25177,0.0,0.0,0.0,30
+Delhi study window,2000,5518,25178,0.0,0.0,0.0,30
+Delhi study window,2000,5521,25178,0.0,0.0,0.0,30
+Delhi study window,2000,5521,25181,0.0,0.0,0.0,30
+Delhi study window,2000,5517,25180,0.0,0.0,0.0,30
+Delhi study window,2000,5520,25181,0.0,0.0,0.0,30
+Delhi study window,2000,5520,25178,0.0,0.0,0.0,30
+Delhi study window,2000,5520,25177,0.0,0.0,0.0,30
+Delhi study window,2005,5521,25180,0.0,0.0,0.0,30
+Delhi study window,2005,5518,25180,0.0,0.0,0.0,30
+Delhi study window,2005,5520,25178,0.0,0.0,0.0,30
+Delhi study window,2005,5519,25179,0.0,0.0,0.0,30
+Delhi study window,2005,5517,25180,0.0,0.0,0.0,30
+Delhi study window,2005,5517,25178,0.0,0.0,0.0,30
+Delhi study window,2005,5519,25177,0.0,0.0,0.0,30
+Delhi study window,2005,5518,25178,0.0,0.0,0.0,30
+Delhi study window,2005,5520,25181,0.0,0.0,0.0,30
+Delhi study window,2005,5520,25179,0.0,0.0,0.0,30
+Delhi study window,2005,5517,25181,0.0,0.0,0.0,30
+Delhi study window,2005,5520,25177,0.0,0.0,0.0,30
+Delhi study window,2005,5521,25178,0.0,0.0,0.0,30
+Delhi study window,2005,5518,25177,0.0,0.0,0.0,30
+Delhi study window,2005,5519,25180,0.0,0.0,0.0,30
+Delhi study window,2005,5518,25181,0.0,0.0,0.0,30
+Delhi study window,2005,5519,25181,0.0,0.0,0.0,30
+Delhi study window,2005,5520,25180,0.0,0.0,0.0,30
+Delhi study window,2005,5517,25179,0.0,0.0,0.0,30
+Delhi study window,2005,5518,25179,0.0,0.0,0.0,30
+Delhi study window,2005,5519,25178,0.0,0.0,0.0,30
+Delhi study window,2005,5521,25179,0.0,0.0,0.0,30
+Delhi study window,2005,5517,25177,0.0,0.0,0.0,30
+Delhi study window,2005,5521,25181,0.0,0.0,0.0,30
+Delhi study window,2005,5521,25177,0.0,0.0,0.0,30
+Delhi study window,2010,5520,25179,0.0,0.0,0.0,30
+Delhi study window,2010,5520,25177,0.0,0.0,0.0,30
+Delhi study window,2010,5517,25178,0.0,0.0,0.0,30
+Delhi study window,2010,5517,25180,0.0,0.0,0.0,30
+Delhi study window,2010,5518,25179,0.0,0.0,0.0,30
+Delhi study window,2010,5521,25178,0.0,0.0,0.0,30
+Delhi study window,2010,5519,25178,0.0,0.0,0.0,30
+Delhi study window,2010,5521,25181,0.0,0.0,0.0,30
+Delhi study window,2010,5521,25177,0.0,0.0,0.0,30
+Delhi study window,2010,5517,25177,0.0,0.0,0.0,30
+Delhi study window,2010,5518,25181,0.0,0.0,0.0,30
+Delhi study window,2010,5520,25178,0.0,0.0,0.0,30
+Delhi study window,2010,5520,25181,0.0,0.0,0.0,30
+Delhi study window,2010,5518,25178,0.0,0.0,0.0,30
+Delhi study window,2010,5521,25179,0.0,0.0,0.0,30
+Delhi study window,2010,5517,25181,0.0,0.0,0.0,30
+Delhi study window,2010,5519,25180,0.0,0.0,0.0,30
+Delhi study window,2010,5521,25180,0.0,0.0,0.0,30
+Delhi study window,2010,5517,25179,0.0,0.0,0.0,30
+Delhi study window,2010,5518,25180,0.0,0.0,0.0,30
+Delhi study window,2010,5519,25177,0.0,0.0,0.0,30
+Delhi study window,2010,5518,25177,0.0,0.0,0.0,30
+Delhi study window,2010,5519,25179,0.0,0.0,0.0,30
+Delhi study window,2010,5519,25181,0.0,0.0,0.0,30
+Delhi study window,2010,5520,25180,0.0,0.0,0.0,30
+Delhi study window,2015,5519,25180,0.0,0.0,0.0,30
+Delhi study window,2015,5519,25179,0.0,0.0,0.0,30
+Delhi study window,2015,5517,25177,0.0,0.0,0.0,30
+Delhi study window,2015,5517,25180,0.0,0.0,0.0,30
+Delhi study window,2015,5517,25178,0.0,0.0,0.0,30
+Delhi study window,2015,5521,25179,0.0,0.0,0.0,30
+Delhi study window,2015,5518,25178,0.0,0.0,0.0,30
+Delhi study window,2015,5518,25180,0.0,0.0,0.0,30
+Delhi study window,2015,5519,25178,0.0,0.0,0.0,30
+Delhi study window,2015,5520,25180,0.0,0.0,0.0,30
+Delhi study window,2015,5517,25179,0.0,0.0,0.0,30
+Delhi study window,2015,5519,25181,0.0,0.0,0.0,30
+Delhi study window,2015,5517,25181,0.0,0.0,0.0,30
+Delhi study window,2015,5518,25177,0.0,0.0,0.0,30
+Delhi study window,2015,5520,25179,0.0,0.0,0.0,30
+Delhi study window,2015,5518,25181,0.0,0.0,0.0,30
+Delhi study window,2015,5520,25177,0.0,0.0,0.0,30
+Delhi study window,2015,5520,25181,0.0,0.0,0.0,30
+Delhi study window,2015,5521,25177,0.0,0.0,0.0,30
+Delhi study window,2015,5519,25177,0.0,0.0,0.0,30
+Delhi study window,2015,5518,25179,0.0,0.0,0.0,30
+Delhi study window,2015,5521,25178,0.0,0.0,0.0,30
+Delhi study window,2015,5521,25180,0.0,0.0,0.0,30
+Delhi study window,2015,5521,25181,0.0,0.0,0.0,30
+Delhi study window,2015,5520,25178,0.0,0.0,0.0,30
+Delhi study window,2020,5519,25181,0.0,0.0,0.0,30
+Delhi study window,2020,5521,25178,0.0,0.0,0.0,30
+Delhi study window,2020,5517,25177,0.0,0.0,0.0,30
+Delhi study window,2020,5520,25181,0.0,0.0,0.0,30
+Delhi study window,2020,5518,25181,0.0,0.0,0.0,30
+Delhi study window,2020,5519,25178,0.0,0.0,0.0,30
+Delhi study window,2020,5519,25180,0.0,0.0,0.0,30
+Delhi study window,2020,5520,25177,0.0,0.0,0.0,30
+Delhi study window,2020,5521,25179,0.0,0.0,0.0,30
+Delhi study window,2020,5519,25179,0.0,0.0,0.0,30
+Delhi study window,2020,5520,25179,0.0,0.0,0.0,30
+Delhi study window,2020,5520,25180,0.0,0.0,0.0,30
+Delhi study window,2020,5521,25177,0.0,0.0,0.0,30
+Delhi study window,2020,5518,25180,0.0,0.0,0.0,30
+Delhi study window,2020,5517,25180,0.0,0.0,0.0,30
+Delhi study window,2020,5519,25177,0.0,0.0,0.0,30
+Delhi study window,2020,5517,25179,0.0,0.0,0.0,30
+Delhi study window,2020,5517,25181,0.0,0.0,0.0,30
+Delhi study window,2020,5518,25179,0.0,0.0,0.0,30
+Delhi study window,2020,5518,25178,0.0,0.0,0.0,30
+Delhi study window,2020,5520,25178,0.0,0.0,0.0,30
+Delhi study window,2020,5521,25181,0.0,0.0,0.0,30
+Delhi study window,2020,5517,25178,0.0,0.0,0.0,30
+Delhi study window,2020,5518,25177,0.0,0.0,0.0,30
+Delhi study window,2020,5521,25180,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1975,6652,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1975,6653,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1975,6651,25103,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1975,6654,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1975,6651,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1975,6652,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1975,6655,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1975,6652,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1975,6653,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1975,6654,25099,0.0,0.0,0.0,12
+Mumbai vicinity coverage-adjusted study window,1975,6655,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1975,6654,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1975,6653,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1975,6655,25099,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1975,6652,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1975,6655,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1975,6654,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1975,6651,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1975,6652,25103,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1975,6653,25103,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1975,6654,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1975,6655,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1975,6651,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1975,6651,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1975,6653,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1980,6653,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1980,6653,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1980,6652,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1980,6655,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1980,6654,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1980,6654,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1980,6652,25103,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1980,6654,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1980,6651,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1980,6655,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1980,6652,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1980,6652,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1980,6653,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1980,6651,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1980,6654,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1980,6654,25099,0.0,0.0,0.0,12
+Mumbai vicinity coverage-adjusted study window,1980,6655,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1980,6651,25103,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1980,6651,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1980,6652,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1980,6653,25103,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1980,6653,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1980,6655,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1980,6651,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1980,6655,25099,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6653,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1985,6653,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6651,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1985,6654,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1985,6655,25099,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6651,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1985,6652,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1985,6654,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1985,6655,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1985,6654,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6655,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6651,25103,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6651,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1985,6655,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6651,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1985,6652,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1985,6653,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1985,6653,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6654,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6653,25103,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6652,25103,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1985,6654,25099,0.0,0.0,0.0,21
+Mumbai vicinity coverage-adjusted study window,1985,6652,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1985,6652,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1985,6655,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1990,6652,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1990,6653,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1990,6654,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1990,6652,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1990,6655,25099,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1990,6653,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1990,6654,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1990,6654,25099,0.0,0.0,0.0,21
+Mumbai vicinity coverage-adjusted study window,1990,6655,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1990,6652,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1990,6654,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1990,6655,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1990,6652,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1990,6653,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1990,6653,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1990,6651,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1990,6651,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1990,6654,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1990,6655,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1990,6651,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1990,6652,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1990,6653,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1990,6651,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1990,6655,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1990,6651,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6654,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1995,6654,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1995,6652,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6653,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1995,6653,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6655,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1995,6653,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6651,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6651,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6652,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6654,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1995,6652,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6655,25099,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1995,6651,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6651,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1995,6651,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6653,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1995,6655,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1995,6654,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1995,6652,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,1995,6652,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,1995,6653,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1995,6654,25099,0.0,0.0,0.0,21
+Mumbai vicinity coverage-adjusted study window,1995,6655,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,1995,6655,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2000,6651,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2000,6651,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2000,6654,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2000,6654,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2000,6651,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2000,6652,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2000,6655,25099,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2000,6655,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2000,6653,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2000,6653,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2000,6655,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2000,6651,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2000,6654,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2000,6655,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2000,6652,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2000,6652,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2000,6654,25099,0.0,0.0,0.0,21
+Mumbai vicinity coverage-adjusted study window,2000,6653,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2000,6653,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2000,6652,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2000,6654,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2000,6651,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2000,6653,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2000,6655,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2000,6652,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2005,6651,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2005,6652,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2005,6652,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2005,6654,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2005,6652,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2005,6655,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2005,6651,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2005,6651,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2005,6651,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2005,6654,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2005,6655,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2005,6655,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2005,6653,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2005,6653,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2005,6654,25099,0.0,0.0,0.0,21
+Mumbai vicinity coverage-adjusted study window,2005,6653,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2005,6653,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2005,6655,25099,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2005,6654,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2005,6653,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2005,6654,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2005,6652,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2005,6655,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2005,6651,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2005,6652,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6651,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6652,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6653,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2010,6654,25099,0.0,0.0,0.0,21
+Mumbai vicinity coverage-adjusted study window,2010,6655,25099,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2010,6653,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6654,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2010,6652,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6653,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2010,6655,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2010,6651,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6653,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2010,6654,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2010,6653,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6654,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2010,6652,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6654,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2010,6655,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2010,6655,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2010,6651,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6651,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2010,6651,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6652,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2010,6652,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2010,6655,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2015,6653,25100,0.0,0.0,0.0,12
+Mumbai vicinity coverage-adjusted study window,2015,6653,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2015,6652,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2015,6652,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2015,6652,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2015,6655,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2015,6654,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2015,6655,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2015,6651,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2015,6654,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2015,6651,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2015,6652,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2015,6653,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2015,6653,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2015,6653,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2015,6654,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2015,6652,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2015,6655,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2015,6651,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2015,6651,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2015,6651,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2015,6654,25099,0.0,0.0,0.0,21
+Mumbai vicinity coverage-adjusted study window,2015,6655,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2015,6654,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2015,6655,25099,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2020,6652,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2020,6651,25103,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2020,6651,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2020,6653,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2020,6654,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2020,6651,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2020,6654,25099,0.0,0.0,0.0,21
+Mumbai vicinity coverage-adjusted study window,2020,6652,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2020,6652,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2020,6655,25099,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2020,6655,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2020,6651,25101,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2020,6653,25100,0.0,0.0,0.0,12
+Mumbai vicinity coverage-adjusted study window,2020,6653,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2020,6655,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2020,6651,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2020,6652,25100,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2020,6654,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2020,6653,25099,0.0,0.0,0.0,30
+Mumbai vicinity coverage-adjusted study window,2020,6654,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2020,6655,25101,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2020,6655,25103,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2020,6652,25102,0.0,0.0,0.0,10
+Mumbai vicinity coverage-adjusted study window,2020,6654,25100,0.0,0.0,0.0,11
+Mumbai vicinity coverage-adjusted study window,2020,6653,25103,0.0,0.0,0.0,30
+Bengaluru study window,1975,7400,25694,0.0,0.0,0.0,30
+Bengaluru study window,1975,7399,25694,0.0,0.0,0.0,30
+Bengaluru study window,1975,7401,25694,0.0,0.0,0.0,30
+Bengaluru study window,1975,7401,25696,0.0,0.0,0.0,30
+Bengaluru study window,1975,7401,25695,0.0,0.0,0.0,30
+Bengaluru study window,1975,7403,25694,0.0,0.0,0.0,30
+Bengaluru study window,1975,7399,25692,0.0,0.0,0.0,30
+Bengaluru study window,1975,7403,25695,0.0,0.0,0.0,30
+Bengaluru study window,1975,7401,25693,0.0,0.0,0.0,30
+Bengaluru study window,1975,7401,25692,0.0,0.0,0.0,30
+Bengaluru study window,1975,7403,25693,0.0,0.0,0.0,30
+Bengaluru study window,1975,7400,25692,0.0,0.0,0.0,30
+Bengaluru study window,1975,7402,25696,0.0,0.0,0.0,30
+Bengaluru study window,1975,7403,25696,0.0,0.0,0.0,30
+Bengaluru study window,1975,7399,25695,0.0,0.0,0.0,30
+Bengaluru study window,1975,7403,25692,0.0,0.0,0.0,30
+Bengaluru study window,1975,7402,25692,0.0,0.0,0.0,30
+Bengaluru study window,1975,7402,25694,0.0,0.0,0.0,30
+Bengaluru study window,1975,7400,25696,0.0,0.0,0.0,30
+Bengaluru study window,1975,7400,25695,0.0,0.0,0.0,30
+Bengaluru study window,1975,7402,25693,0.0,0.0,0.0,30
+Bengaluru study window,1975,7402,25695,0.0,0.0,0.0,30
+Bengaluru study window,1975,7399,25696,0.0,0.0,0.0,30
+Bengaluru study window,1975,7399,25693,0.0,0.0,0.0,30
+Bengaluru study window,1975,7400,25693,0.0,0.0,0.0,30
+Bengaluru study window,1980,7399,25692,0.0,0.0,0.0,30
+Bengaluru study window,1980,7400,25694,0.0,0.0,0.0,30
+Bengaluru study window,1980,7401,25692,0.0,0.0,0.0,30
+Bengaluru study window,1980,7401,25696,0.0,0.0,0.0,30
+Bengaluru study window,1980,7401,25695,0.0,0.0,0.0,30
+Bengaluru study window,1980,7402,25693,0.0,0.0,0.0,30
+Bengaluru study window,1980,7403,25694,0.0,0.0,0.0,30
+Bengaluru study window,1980,7401,25694,0.0,0.0,0.0,30
+Bengaluru study window,1980,7399,25695,0.0,0.0,0.0,30
+Bengaluru study window,1980,7403,25696,0.0,0.0,0.0,30
+Bengaluru study window,1980,7403,25695,0.0,0.0,0.0,30
+Bengaluru study window,1980,7403,25692,0.0,0.0,0.0,30
+Bengaluru study window,1980,7400,25696,0.0,0.0,0.0,30
+Bengaluru study window,1980,7402,25692,0.0,0.0,0.0,30
+Bengaluru study window,1980,7403,25693,0.0,0.0,0.0,30
+Bengaluru study window,1980,7399,25696,0.0,0.0,0.0,30
+Bengaluru study window,1980,7399,25693,0.0,0.0,0.0,30
+Bengaluru study window,1980,7401,25693,0.0,0.0,0.0,30
+Bengaluru study window,1980,7402,25694,0.0,0.0,0.0,30
+Bengaluru study window,1980,7400,25692,0.0,0.0,0.0,30
+Bengaluru study window,1980,7399,25694,0.0,0.0,0.0,30
+Bengaluru study window,1980,7400,25693,0.0,0.0,0.0,30
+Bengaluru study window,1980,7402,25696,0.0,0.0,0.0,30
+Bengaluru study window,1980,7400,25695,0.0,0.0,0.0,30
+Bengaluru study window,1980,7402,25695,0.0,0.0,0.0,30
+Bengaluru study window,1985,7400,25693,0.0,0.0,0.0,30
+Bengaluru study window,1985,7400,25694,0.0,0.0,0.0,30
+Bengaluru study window,1985,7401,25696,0.0,0.0,0.0,30
+Bengaluru study window,1985,7403,25695,0.0,0.0,0.0,30
+Bengaluru study window,1985,7402,25696,0.0,0.0,0.0,30
+Bengaluru study window,1985,7399,25694,0.0,0.0,0.0,30
+Bengaluru study window,1985,7400,25696,0.0,0.0,0.0,30
+Bengaluru study window,1985,7403,25692,0.0,0.0,0.0,30
+Bengaluru study window,1985,7401,25695,0.0,0.0,0.0,30
+Bengaluru study window,1985,7402,25695,0.0,0.0,0.0,30
+Bengaluru study window,1985,7399,25693,0.0,0.0,0.0,30
+Bengaluru study window,1985,7403,25696,0.0,0.0,0.0,30
+Bengaluru study window,1985,7399,25692,0.0,0.0,0.0,30
+Bengaluru study window,1985,7400,25695,0.0,0.0,0.0,30
+Bengaluru study window,1985,7402,25693,0.0,0.0,0.0,30
+Bengaluru study window,1985,7399,25695,0.0,0.0,0.0,30
+Bengaluru study window,1985,7401,25694,0.0,0.0,0.0,30
+Bengaluru study window,1985,7401,25693,0.0,0.0,0.0,30
+Bengaluru study window,1985,7403,25693,0.0,0.0,0.0,30
+Bengaluru study window,1985,7401,25692,0.0,0.0,0.0,30
+Bengaluru study window,1985,7402,25694,0.0,0.0,0.0,30
+Bengaluru study window,1985,7400,25692,0.0,0.0,0.0,30
+Bengaluru study window,1985,7402,25692,0.0,0.0,0.0,30
+Bengaluru study window,1985,7403,25694,0.0,0.0,0.0,30
+Bengaluru study window,1985,7399,25696,0.0,0.0,0.0,30
+Bengaluru study window,1990,7400,25692,0.0,0.0,0.0,30
+Bengaluru study window,1990,7399,25695,0.0,0.0,0.0,30
+Bengaluru study window,1990,7400,25696,0.0,0.0,0.0,30
+Bengaluru study window,1990,7401,25694,0.0,0.0,0.0,30
+Bengaluru study window,1990,7402,25693,0.0,0.0,0.0,30
+Bengaluru study window,1990,7403,25696,0.0,0.0,0.0,30
+Bengaluru study window,1990,7401,25693,0.0,0.0,0.0,30
+Bengaluru study window,1990,7403,25694,0.0,0.0,0.0,30
+Bengaluru study window,1990,7399,25693,0.0,0.0,0.0,30
+Bengaluru study window,1990,7401,25692,0.0,0.0,0.0,30
+Bengaluru study window,1990,7401,25695,0.0,0.0,0.0,30
+Bengaluru study window,1990,7399,25692,0.0,0.0,0.0,30
+Bengaluru study window,1990,7402,25694,0.0,0.0,0.0,30
+Bengaluru study window,1990,7400,25693,0.0,0.0,0.0,30
+Bengaluru study window,1990,7401,25696,0.0,0.0,0.0,30
+Bengaluru study window,1990,7403,25692,0.0,0.0,0.0,30
+Bengaluru study window,1990,7399,25694,0.0,0.0,0.0,30
+Bengaluru study window,1990,7400,25694,0.0,0.0,0.0,30
+Bengaluru study window,1990,7399,25696,0.0,0.0,0.0,30
+Bengaluru study window,1990,7400,25695,0.0,0.0,0.0,30
+Bengaluru study window,1990,7403,25695,0.0,0.0,0.0,30
+Bengaluru study window,1990,7403,25693,0.0,0.0,0.0,30
+Bengaluru study window,1990,7402,25695,0.0,0.0,0.0,30
+Bengaluru study window,1990,7402,25692,0.0,0.0,0.0,30
+Bengaluru study window,1990,7402,25696,0.0,0.0,0.0,30
+Bengaluru study window,1995,7402,25693,0.0,0.0,0.0,30
+Bengaluru study window,1995,7402,25696,0.0,0.0,0.0,30
+Bengaluru study window,1995,7399,25692,0.0,0.0,0.0,30
+Bengaluru study window,1995,7401,25694,0.0,0.0,0.0,30
+Bengaluru study window,1995,7400,25693,0.0,0.0,0.0,30
+Bengaluru study window,1995,7399,25695,0.0,0.0,0.0,30
+Bengaluru study window,1995,7400,25694,0.0,0.0,0.0,30
+Bengaluru study window,1995,7401,25695,0.0,0.0,0.0,30
+Bengaluru study window,1995,7402,25692,0.0,0.0,0.0,30
+Bengaluru study window,1995,7402,25695,0.0,0.0,0.0,30
+Bengaluru study window,1995,7403,25695,0.0,0.0,0.0,30
+Bengaluru study window,1995,7402,25694,0.0,0.0,0.0,30
+Bengaluru study window,1995,7403,25693,0.0,0.0,0.0,30
+Bengaluru study window,1995,7399,25696,0.0,0.0,0.0,30
+Bengaluru study window,1995,7399,25694,0.0,0.0,0.0,30
+Bengaluru study window,1995,7399,25693,0.0,0.0,0.0,30
+Bengaluru study window,1995,7403,25692,0.0,0.0,0.0,30
+Bengaluru study window,1995,7400,25692,0.0,0.0,0.0,30
+Bengaluru study window,1995,7400,25695,0.0,0.0,0.0,30
+Bengaluru study window,1995,7401,25696,0.0,0.0,0.0,30
+Bengaluru study window,1995,7400,25696,0.0,0.0,0.0,30
+Bengaluru study window,1995,7401,25693,0.0,0.0,0.0,30
+Bengaluru study window,1995,7403,25694,0.0,0.0,0.0,30
+Bengaluru study window,1995,7401,25692,0.0,0.0,0.0,30
+Bengaluru study window,1995,7403,25696,0.0,0.0,0.0,30
+Bengaluru study window,2000,7399,25693,0.0,0.0,0.0,30
+Bengaluru study window,2000,7401,25692,0.0,0.0,0.0,30
+Bengaluru study window,2000,7399,25695,0.0,0.0,0.0,30
+Bengaluru study window,2000,7401,25693,0.0,0.0,0.0,30
+Bengaluru study window,2000,7401,25695,0.0,0.0,0.0,30
+Bengaluru study window,2000,7402,25694,0.0,0.0,0.0,30
+Bengaluru study window,2000,7401,25694,0.0,0.0,0.0,30
+Bengaluru study window,2000,7402,25696,0.0,0.0,0.0,30
+Bengaluru study window,2000,7399,25696,0.0,0.0,0.0,30
+Bengaluru study window,2000,7400,25693,0.0,0.0,0.0,30
+Bengaluru study window,2000,7400,25695,0.0,0.0,0.0,30
+Bengaluru study window,2000,7400,25692,0.0,0.0,0.0,30
+Bengaluru study window,2000,7402,25692,0.0,0.0,0.0,30
+Bengaluru study window,2000,7399,25694,0.0,0.0,0.0,30
+Bengaluru study window,2000,7402,25693,0.0,0.0,0.0,30
+Bengaluru study window,2000,7403,25693,0.0,0.0,0.0,30
+Bengaluru study window,2000,7400,25694,0.0,0.0,0.0,30
+Bengaluru study window,2000,7403,25694,0.0,0.0,0.0,30
+Bengaluru study window,2000,7403,25692,0.0,0.0,0.0,30
+Bengaluru study window,2000,7399,25692,0.0,0.0,0.0,30
+Bengaluru study window,2000,7400,25696,0.0,0.0,0.0,30
+Bengaluru study window,2000,7402,25695,0.0,0.0,0.0,30
+Bengaluru study window,2000,7403,25695,0.0,0.0,0.0,30
+Bengaluru study window,2000,7403,25696,0.0,0.0,0.0,30
+Bengaluru study window,2000,7401,25696,0.0,0.0,0.0,30
+Bengaluru study window,2005,7402,25692,0.0,0.0,0.0,30
+Bengaluru study window,2005,7403,25695,0.0,0.0,0.0,30
+Bengaluru study window,2005,7402,25693,0.0,0.0,0.0,30
+Bengaluru study window,2005,7400,25693,0.0,0.0,0.0,30
+Bengaluru study window,2005,7400,25694,0.0,0.0,0.0,30
+Bengaluru study window,2005,7401,25693,0.0,0.0,0.0,30
+Bengaluru study window,2005,7399,25696,0.0,0.0,0.0,30
+Bengaluru study window,2005,7399,25695,0.0,0.0,0.0,30
+Bengaluru study window,2005,7401,25695,0.0,0.0,0.0,30
+Bengaluru study window,2005,7400,25692,0.0,0.0,0.0,30
+Bengaluru study window,2005,7403,25696,0.0,0.0,0.0,30
+Bengaluru study window,2005,7403,25693,0.0,0.0,0.0,30
+Bengaluru study window,2005,7399,25692,0.0,0.0,0.0,30
+Bengaluru study window,2005,7401,25692,0.0,0.0,0.0,30
+Bengaluru study window,2005,7403,25694,0.0,0.0,0.0,30
+Bengaluru study window,2005,7402,25696,0.0,0.0,0.0,30
+Bengaluru study window,2005,7401,25696,0.0,0.0,0.0,30
+Bengaluru study window,2005,7399,25694,0.0,0.0,0.0,30
+Bengaluru study window,2005,7402,25695,0.0,0.0,0.0,30
+Bengaluru study window,2005,7402,25694,0.0,0.0,0.0,30
+Bengaluru study window,2005,7400,25696,0.0,0.0,0.0,30
+Bengaluru study window,2005,7401,25694,0.0,0.0,0.0,30
+Bengaluru study window,2005,7403,25692,0.0,0.0,0.0,30
+Bengaluru study window,2005,7399,25693,0.0,0.0,0.0,30
+Bengaluru study window,2005,7400,25695,0.0,0.0,0.0,30
+Bengaluru study window,2010,7399,25692,0.0,0.0,0.0,30
+Bengaluru study window,2010,7402,25694,0.0,0.0,0.0,30
+Bengaluru study window,2010,7403,25692,0.0,0.0,0.0,30
+Bengaluru study window,2010,7399,25694,0.0,0.0,0.0,30
+Bengaluru study window,2010,7401,25695,0.0,0.0,0.0,30
+Bengaluru study window,2010,7402,25696,0.0,0.0,0.0,30
+Bengaluru study window,2010,7402,25692,0.0,0.0,0.0,30
+Bengaluru study window,2010,7403,25696,0.0,0.0,0.0,30
+Bengaluru study window,2010,7400,25694,0.0,0.0,0.0,30
+Bengaluru study window,2010,7400,25695,0.0,0.0,0.0,30
+Bengaluru study window,2010,7400,25692,0.0,0.0,0.0,30
+Bengaluru study window,2010,7401,25692,0.0,0.0,0.0,30
+Bengaluru study window,2010,7402,25695,0.0,0.0,0.0,30
+Bengaluru study window,2010,7403,25694,0.0,0.0,0.0,30
+Bengaluru study window,2010,7400,25693,0.0,0.0,0.0,30
+Bengaluru study window,2010,7401,25693,0.0,0.0,0.0,30
+Bengaluru study window,2010,7401,25696,0.0,0.0,0.0,30
+Bengaluru study window,2010,7399,25693,0.0,0.0,0.0,30
+Bengaluru study window,2010,7402,25693,0.0,0.0,0.0,30
+Bengaluru study window,2010,7403,25693,0.0,0.0,0.0,30
+Bengaluru study window,2010,7403,25695,0.0,0.0,0.0,30
+Bengaluru study window,2010,7400,25696,0.0,0.0,0.0,30
+Bengaluru study window,2010,7401,25694,0.0,0.0,0.0,30
+Bengaluru study window,2010,7399,25695,0.0,0.0,0.0,30
+Bengaluru study window,2010,7399,25696,0.0,0.0,0.0,30
+Bengaluru study window,2015,7401,25693,0.0,0.0,0.0,30
+Bengaluru study window,2015,7401,25695,0.0,0.0,0.0,30
+Bengaluru study window,2015,7401,25694,0.0,0.0,0.0,30
+Bengaluru study window,2015,7402,25693,0.0,0.0,0.0,30
+Bengaluru study window,2015,7403,25695,0.0,0.0,0.0,30
+Bengaluru study window,2015,7399,25696,0.0,0.0,0.0,30
+Bengaluru study window,2015,7400,25695,0.0,0.0,0.0,30
+Bengaluru study window,2015,7403,25693,0.0,0.0,0.0,30
+Bengaluru study window,2015,7399,25692,0.0,0.0,0.0,30
+Bengaluru study window,2015,7399,25695,0.0,0.0,0.0,30
+Bengaluru study window,2015,7400,25696,0.0,0.0,0.0,30
+Bengaluru study window,2015,7401,25696,0.0,0.0,0.0,30
+Bengaluru study window,2015,7402,25696,0.0,0.0,0.0,30
+Bengaluru study window,2015,7400,25694,0.0,0.0,0.0,30
+Bengaluru study window,2015,7402,25694,0.0,0.0,0.0,30
+Bengaluru study window,2015,7399,25694,0.0,0.0,0.0,30
+Bengaluru study window,2015,7400,25693,0.0,0.0,0.0,30
+Bengaluru study window,2015,7401,25692,0.0,0.0,0.0,30
+Bengaluru study window,2015,7403,25692,0.0,0.0,0.0,30
+Bengaluru study window,2015,7399,25693,0.0,0.0,0.0,30
+Bengaluru study window,2015,7400,25692,0.0,0.0,0.0,30
+Bengaluru study window,2015,7402,25692,0.0,0.0,0.0,30
+Bengaluru study window,2015,7402,25695,0.0,0.0,0.0,30
+Bengaluru study window,2015,7403,25694,0.0,0.0,0.0,30
+Bengaluru study window,2015,7403,25696,0.0,0.0,0.0,30
+Bengaluru study window,2020,7400,25693,0.0,0.0,0.0,30
+Bengaluru study window,2020,7402,25696,0.0,0.0,0.0,30
+Bengaluru study window,2020,7399,25692,0.0,0.0,0.0,30
+Bengaluru study window,2020,7402,25692,0.0,0.0,0.0,30
+Bengaluru study window,2020,7402,25695,0.0,0.0,0.0,30
+Bengaluru study window,2020,7403,25692,0.0,0.0,0.0,30
+Bengaluru study window,2020,7399,25695,0.0,0.0,0.0,30
+Bengaluru study window,2020,7400,25694,0.0,0.0,0.0,30
+Bengaluru study window,2020,7401,25695,0.0,0.0,0.0,30
+Bengaluru study window,2020,7403,25693,0.0,0.0,0.0,30
+Bengaluru study window,2020,7403,25694,0.0,0.0,0.0,30
+Bengaluru study window,2020,7399,25694,0.0,0.0,0.0,30
+Bengaluru study window,2020,7399,25696,0.0,0.0,0.0,30
+Bengaluru study window,2020,7400,25696,0.0,0.0,0.0,30
+Bengaluru study window,2020,7403,25696,0.0,0.0,0.0,30
+Bengaluru study window,2020,7400,25695,0.0,0.0,0.0,30
+Bengaluru study window,2020,7401,25692,0.0,0.0,0.0,30
+Bengaluru study window,2020,7401,25693,0.0,0.0,0.0,30
+Bengaluru study window,2020,7401,25694,0.0,0.0,0.0,30
+Bengaluru study window,2020,7400,25692,0.0,0.0,0.0,30
+Bengaluru study window,2020,7402,25693,0.0,0.0,0.0,30
+Bengaluru study window,2020,7399,25693,0.0,0.0,0.0,30
+Bengaluru study window,2020,7402,25694,0.0,0.0,0.0,30
+Bengaluru study window,2020,7403,25695,0.0,0.0,0.0,30
+Bengaluru study window,2020,7401,25696,0.0,0.0,0.0,30

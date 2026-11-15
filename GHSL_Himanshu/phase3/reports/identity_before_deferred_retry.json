@@ -1,0 +1,63 @@
+{
+  "config": {
+    "name": "india_three_product_100m",
+    "release": "R2023A",
+    "population_version": "V1_0",
+    "boundary": "data/raw/boundaries/geoBoundaries-IND-ADM0.geojson",
+    "epochs": [
+      1975,
+      1980,
+      1985,
+      1990,
+      1995,
+      2000,
+      2005,
+      2010,
+      2015,
+      2020,
+      2025,
+      2030
+    ],
+    "built_version": "V1_0",
+    "settlement_version": "V2_0"
+  },
+  "grid": {
+    "crs": "ESRI:54009",
+    "crs_wkt": "PROJCS[\"World_Mollweide\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Mollweide\"],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "origin_x": -18041000.0,
+    "origin_y": 9000000.0,
+    "grid_id": "ghsl_r2023a_54009_1000_e87889c9acde",
+    "fine_grid_id": "ghsl_r2023a_54009_100_a05c73d4a7f3"
+  },
+  "boundary": {
+    "path": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/population/data/raw/boundaries/geoBoundaries-IND-ADM0.geojson",
+    "sha256": "77fb5cb03be9970e638fa38d1bd6a377ea7e158b4dfd1a511067925442233443"
+  },
+  "tiles": [
+    "R5_C25",
+    "R5_C26",
+    "R6_C25",
+    "R6_C26",
+    "R6_C27",
+    "R6_C28",
+    "R7_C25",
+    "R7_C26",
+    "R7_C27",
+    "R8_C26",
+    "R8_C27",
+    "R8_C28",
+    "R9_C26",
+    "R9_C28"
+  ],
+  "code": {
+    "integration/src/national.py": "5684109a2c419c8e7270ba99be4934ad33219dd555412c675584102d5c47abf4",
+    "integration/src/prepare_inputs.py": "ca6ba88367886e7107faa7da4e7bbc900af43cd9274bdf2ff31fc751d90630af",
+    "integration/src/spark_integrate.py": "6bdb7d0b3996ae50760a4f251aa24bdd96d26475ba0ec9f43c47d5c58f1e2e79",
+    "integration/scripts/download_sources.py": "66c32bd21c202d517661f612dce9c6673e1d00d883a8f74c47402c37bdc41a27",
+    "population/src/multitile_population.py": "1576b1fdd77766b46ef6eca49a1e13a13cd33223f6b06cf23d91596612bef009",
+    "population/src/prepare.py": "449df7ebab6e4ea76c4a151534ae04e7bdf606cca5a94df29536f29967ad7795",
+    "population/src/spark_population.py": "429cf96e94b893a156bb9f7803d50aceae02e9ebb7fc4fbca29eaf6e84e73515",
+    "population/scripts/download.py": "67e336177d49b744990d9a9b1a799ffef0b769ea7f3ad09db5bb9130d1f82791"
+  },
+  "block_pixels": 1000
+}

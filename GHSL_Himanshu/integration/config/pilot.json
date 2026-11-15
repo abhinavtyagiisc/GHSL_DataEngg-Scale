@@ -1,0 +1,14 @@
+{
+  "name": "bengaluru_three_products_weeks1_5",
+  "bbox_wgs84": [77.3, 12.7, 77.9, 13.3],
+  "tile": "R8_C26",
+  "epochs": [1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025, 2030],
+  "historical_end": 2020,
+  "release": "R2023A",
+  "population_version": "V1_0",
+  "built_version": "V1_0",
+  "settlement_version": "V2_0",
+  "reference_epoch": 2020,
+  "resolution_m": 100,
+  "note": "Weeks 1–5 three-product pilot. National processing and temporal analyses belong to weeks 6–8."
+}

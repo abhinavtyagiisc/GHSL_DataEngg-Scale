@@ -1,0 +1,16 @@
+{
+  "original_region": {
+    "name": "Mumbai study window",
+    "lon": 72.88,
+    "lat": 19.08
+  },
+  "original_parent_row": 6657,
+  "original_parent_col": 25094,
+  "selected_parent_row": 6653,
+  "selected_parent_col": 25101,
+  "shift_grid_km": 8.06225774829855,
+  "selection": "Closest centre by projected grid distance with all 25 cells complete in every historical epoch within a 30-cell search radius; lexicographic tie break. Uses coverage only, no error or outcome selection.",
+  "reason": "Original Mumbai window has zero cells in the retained country mask; original point is 3610.89 m outside mask.",
+  "new_lon": 72.9600772681954,
+  "new_lat": 19.11402937558414
+}

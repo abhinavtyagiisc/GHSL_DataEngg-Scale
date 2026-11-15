@@ -1,0 +1,516 @@
+{
+  "status": "PASS",
+  "environment": {
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "spark": "3.5.6",
+    "sedona": "1.9.1",
+    "java": "17.0.7",
+    "scala": "2.12.18",
+    "platform": "macOS-26.7.1-x86_64-i386-64bit",
+    "logical_cpus": 8,
+    "physical_cpus": 4,
+    "ram_bytes": 17179869184,
+    "master": "local[1]",
+    "shuffle_partitions": 8
+  },
+  "config": {
+    "name": "phase1_spatial_benchmark",
+    "seed": 20261107,
+    "input_sizes": [
+      10000,
+      100000,
+      434363
+    ],
+    "worker_counts": [
+      1,
+      2
+    ],
+    "warmup_repetitions": 1,
+    "measured_repetitions": 5,
+    "timed_operation": "Sedona ST_Covers point-in-district spatial join with grouped result materialized; cached inputs, uncached join output",
+    "metrics": [
+      "wall_seconds_per_repetition",
+      "median_seconds",
+      "p95_seconds",
+      "rows_per_second",
+      "process_tree_peak_rss_bytes",
+      "process_tree_cpu_seconds",
+      "spark_task_executor_run_ms",
+      "spark_task_cpu_ns",
+      "spark_gc_ms",
+      "memory_spill_bytes",
+      "disk_spill_bytes",
+      "shuffle_read_bytes",
+      "shuffle_write_bytes"
+    ],
+    "correctness_gates": {
+      "source_archive_coverage_fraction": 1.0,
+      "source_checksum_mismatches": 0,
+      "spatial_assignment_mismatches": 0,
+      "missing_or_duplicate_cells": 0,
+      "parent_grid_errors": 0
+    },
+    "engineering_targets": {
+      "full_pilot_join_median_seconds_max": 120,
+      "full_pilot_process_tree_peak_rss_bytes_max": 8000000000,
+      "full_pilot_join_min_rows_per_second": 3500
+    },
+    "target_policy": "Predeclared local-machine engineering targets, not external standards. Report failures honestly; no minimum speedup is assumed.",
+    "exclusions": "Input preparation, JVM startup and initial cache loading excluded from warm join timings; recorded separately. Local[1] vs local[2] is local parallelism, not cluster scaling."
+  },
+  "spatial_qa": {
+    "cells": 434363,
+    "district_polygons": 6,
+    "assignment_mismatches": 0,
+    "parent_mapping_errors": 0,
+    "country_mask_errors": 0,
+    "independent_reference": "Shapely centre-to-polygon assignments; exact cell-level equality",
+    "boundary": {
+      "boundaryID": "IND-ADM2-76128533",
+      "boundaryName": "India",
+      "boundaryISO": "IND",
+      "boundaryYearRepresented": "2021",
+      "boundaryType": "ADM2",
+      "boundaryCanonical": "District",
+      "boundarySource": "Pathways Data Pvt. Ltd., lgdirectory.gov.in",
+      "boundaryLicense": "Open Data Commons Open Database License 1.0",
+      "licenseDetail": "Open Data Commons Open Database License 1.0",
+      "licenseSource": "geonode.pathwaysdata.com/layers/geonode",
+      "boundarySourceURL": "geonode.pathwaysdata.com/layers/geonode",
+      "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+      "buildDate": "Dec 12, 2023",
+      "Continent": "Asia",
+      "UNSDG-region": "Central and Southern Asia",
+      "UNSDG-subregion": "Southern Asia",
+      "worldBankIncomeGroup": "Lower-middle-income Countries",
+      "admUnitCount": "736",
+      "meanVertices": "2716.0",
+      "minVertices": "71",
+      "maxVertices": "41402",
+      "meanPerimeterLengthKM": "463.023708502529",
+      "minPerimeterLengthKM": "26.029156654808403",
+      "maxPerimeterLengthKM": "2615.169476353606",
+      "meanAreaSqKM": "4449.7088250729",
+      "minAreaSqKM": "8.884805375450998",
+      "maxAreaSqKM": "85793.49211691093",
+      "staticDownloadLink": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2-all.zip",
+      "gjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2.geojson",
+      "tjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2.topojson",
+      "imagePreview": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2-PREVIEW.png",
+      "simplifiedGeometryGeoJSON": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2_simplified.geojson",
+      "metadata_url": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM2/",
+      "sha256": "8bef6929fd65432e7dc775e7c44473e84efff064ebddbfd6b834e6291546db40",
+      "feature_count": 735
+    }
+  },
+  "startup_seconds": 14.576412290000007,
+  "spatial_qa_and_preparation_seconds": 25.80061766700237,
+  "trials": [
+    {
+      "group": "w1_n10000_r0",
+      "workers": 1,
+      "rows": 10000,
+      "repetition": 0,
+      "warmup": true,
+      "wall_seconds": 0.332828797007096,
+      "rows_per_second": 30045.47710391417,
+      "process_tree_peak_rss_bytes": 1749135360,
+      "process_tree_cpu_seconds": 0.946887487999998,
+      "spark_task_metrics": {
+        "executor_run_ms": 166,
+        "executor_cpu_ns": 164365000,
+        "gc_ms": 9,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 936,
+        "shuffle_write_bytes": 936,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n10000_r1",
+      "workers": 1,
+      "rows": 10000,
+      "repetition": 1,
+      "warmup": false,
+      "wall_seconds": 0.2987316329963505,
+      "rows_per_second": 33474.861365358534,
+      "process_tree_peak_rss_bytes": 1744998400,
+      "process_tree_cpu_seconds": 0.7740641280000133,
+      "spark_task_metrics": {
+        "executor_run_ms": 135,
+        "executor_cpu_ns": 133584000,
+        "gc_ms": 5,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 936,
+        "shuffle_write_bytes": 936,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n10000_r2",
+      "workers": 1,
+      "rows": 10000,
+      "repetition": 2,
+      "warmup": false,
+      "wall_seconds": 0.2823145170114003,
+      "rows_per_second": 35421.48702043609,
+      "process_tree_peak_rss_bytes": 1752121344,
+      "process_tree_cpu_seconds": 0.7791480319999877,
+      "spark_task_metrics": {
+        "executor_run_ms": 118,
+        "executor_cpu_ns": 125858000,
+        "gc_ms": 4,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 936,
+        "shuffle_write_bytes": 936,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n10000_r3",
+      "workers": 1,
+      "rows": 10000,
+      "repetition": 3,
+      "warmup": false,
+      "wall_seconds": 0.31773113399685826,
+      "rows_per_second": 31473.151133180672,
+      "process_tree_peak_rss_bytes": 1752227840,
+      "process_tree_cpu_seconds": 0.8367754079999955,
+      "spark_task_metrics": {
+        "executor_run_ms": 134,
+        "executor_cpu_ns": 135174000,
+        "gc_ms": 4,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 936,
+        "shuffle_write_bytes": 936,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n10000_r4",
+      "workers": 1,
+      "rows": 10000,
+      "repetition": 4,
+      "warmup": false,
+      "wall_seconds": 0.29954430198995396,
+      "rows_per_second": 33384.043473927864,
+      "process_tree_peak_rss_bytes": 1747795968,
+      "process_tree_cpu_seconds": 0.7714899200000103,
+      "spark_task_metrics": {
+        "executor_run_ms": 128,
+        "executor_cpu_ns": 131134000,
+        "gc_ms": 5,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 936,
+        "shuffle_write_bytes": 936,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n10000_r5",
+      "workers": 1,
+      "rows": 10000,
+      "repetition": 5,
+      "warmup": false,
+      "wall_seconds": 0.3050444630061975,
+      "rows_per_second": 32782.106259036846,
+      "process_tree_peak_rss_bytes": 1754857472,
+      "process_tree_cpu_seconds": 0.7852863360000057,
+      "spark_task_metrics": {
+        "executor_run_ms": 132,
+        "executor_cpu_ns": 133548000,
+        "gc_ms": 5,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 936,
+        "shuffle_write_bytes": 936,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n100000_r0",
+      "workers": 1,
+      "rows": 100000,
+      "repetition": 0,
+      "warmup": true,
+      "wall_seconds": 0.7816843199980212,
+      "rows_per_second": 127928.88054893201,
+      "process_tree_peak_rss_bytes": 1797636096,
+      "process_tree_cpu_seconds": 1.5741250640000175,
+      "spark_task_metrics": {
+        "executor_run_ms": 637,
+        "executor_cpu_ns": 614672000,
+        "gc_ms": 22,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 1656,
+        "shuffle_write_bytes": 1656,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n100000_r1",
+      "workers": 1,
+      "rows": 100000,
+      "repetition": 1,
+      "warmup": false,
+      "wall_seconds": 0.777900289001991,
+      "rows_per_second": 128551.1799054545,
+      "process_tree_peak_rss_bytes": 1793339392,
+      "process_tree_cpu_seconds": 1.3498904959999856,
+      "spark_task_metrics": {
+        "executor_run_ms": 641,
+        "executor_cpu_ns": 615010000,
+        "gc_ms": 27,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 1656,
+        "shuffle_write_bytes": 1656,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n100000_r2",
+      "workers": 1,
+      "rows": 100000,
+      "repetition": 2,
+      "warmup": false,
+      "wall_seconds": 0.7810326889884891,
+      "rows_per_second": 128035.61414248796,
+      "process_tree_peak_rss_bytes": 1795457024,
+      "process_tree_cpu_seconds": 1.376865016000004,
+      "spark_task_metrics": {
+        "executor_run_ms": 645,
+        "executor_cpu_ns": 618453000,
+        "gc_ms": 28,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 1656,
+        "shuffle_write_bytes": 1656,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n100000_r3",
+      "workers": 1,
+      "rows": 100000,
+      "repetition": 3,
+      "warmup": false,
+      "wall_seconds": 0.7558011000073748,
+      "rows_per_second": 132309.94238963697,
+      "process_tree_peak_rss_bytes": 1792925696,
+      "process_tree_cpu_seconds": 1.1992833279999981,
+      "spark_task_metrics": {
+        "executor_run_ms": 627,
+        "executor_cpu_ns": 601329000,
+        "gc_ms": 25,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 1656,
+        "shuffle_write_bytes": 1656,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n100000_r4",
+      "workers": 1,
+      "rows": 100000,
+      "repetition": 4,
+      "warmup": false,
+      "wall_seconds": 0.7501710889919195,
+      "rows_per_second": 133302.92444938136,
+      "process_tree_peak_rss_bytes": 1795567616,
+      "process_tree_cpu_seconds": 1.3577904160000118,
+      "spark_task_metrics": {
+        "executor_run_ms": 624,
+        "executor_cpu_ns": 597000000,
+        "gc_ms": 25,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 1656,
+        "shuffle_write_bytes": 1656,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n100000_r5",
+      "workers": 1,
+      "rows": 100000,
+      "repetition": 5,
+      "warmup": false,
+      "wall_seconds": 0.7394698249991052,
+      "rows_per_second": 135232.02248329876,
+      "process_tree_peak_rss_bytes": 1797468160,
+      "process_tree_cpu_seconds": 1.1798818639999906,
+      "spark_task_metrics": {
+        "executor_run_ms": 620,
+        "executor_cpu_ns": 593541000,
+        "gc_ms": 25,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 1656,
+        "shuffle_write_bytes": 1656,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n434363_r0",
+      "workers": 1,
+      "rows": 434363,
+      "repetition": 0,
+      "warmup": true,
+      "wall_seconds": 2.9429953479993856,
+      "rows_per_second": 147592.14631286284,
+      "process_tree_peak_rss_bytes": 2055958528,
+      "process_tree_cpu_seconds": 4.590754328000006,
+      "spark_task_metrics": {
+        "executor_run_ms": 2807,
+        "executor_cpu_ns": 2653542000,
+        "gc_ms": 114,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 3322,
+        "shuffle_write_bytes": 3322,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n434363_r1",
+      "workers": 1,
+      "rows": 434363,
+      "repetition": 1,
+      "warmup": false,
+      "wall_seconds": 2.7663810849917354,
+      "rows_per_second": 157014.88213482982,
+      "process_tree_peak_rss_bytes": 2055979008,
+      "process_tree_cpu_seconds": 3.6172107360000125,
+      "spark_task_metrics": {
+        "executor_run_ms": 2643,
+        "executor_cpu_ns": 2507499000,
+        "gc_ms": 104,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 3322,
+        "shuffle_write_bytes": 3322,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n434363_r2",
+      "workers": 1,
+      "rows": 434363,
+      "repetition": 2,
+      "warmup": false,
+      "wall_seconds": 2.8842661990056513,
+      "rows_per_second": 150597.4033013133,
+      "process_tree_peak_rss_bytes": 2056278016,
+      "process_tree_cpu_seconds": 3.7622600799999986,
+      "spark_task_metrics": {
+        "executor_run_ms": 2762,
+        "executor_cpu_ns": 2562126000,
+        "gc_ms": 104,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 3322,
+        "shuffle_write_bytes": 3322,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n434363_r3",
+      "workers": 1,
+      "rows": 434363,
+      "repetition": 3,
+      "warmup": false,
+      "wall_seconds": 2.8029981820000103,
+      "rows_per_second": 154963.7109254459,
+      "process_tree_peak_rss_bytes": 2056835072,
+      "process_tree_cpu_seconds": 3.6908700559999965,
+      "spark_task_metrics": {
+        "executor_run_ms": 2673,
+        "executor_cpu_ns": 2537538000,
+        "gc_ms": 104,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 3322,
+        "shuffle_write_bytes": 3322,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n434363_r4",
+      "workers": 1,
+      "rows": 434363,
+      "repetition": 4,
+      "warmup": false,
+      "wall_seconds": 2.858327542009647,
+      "rows_per_second": 151964.039675665,
+      "process_tree_peak_rss_bytes": 2065784832,
+      "process_tree_cpu_seconds": 3.8526310639999806,
+      "spark_task_metrics": {
+        "executor_run_ms": 2732,
+        "executor_cpu_ns": 2589393000,
+        "gc_ms": 105,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 3322,
+        "shuffle_write_bytes": 3322,
+        "tasks": 17
+      }
+    },
+    {
+      "group": "w1_n434363_r5",
+      "workers": 1,
+      "rows": 434363,
+      "repetition": 5,
+      "warmup": false,
+      "wall_seconds": 2.9093297850049566,
+      "rows_per_second": 149300.02168841782,
+      "process_tree_peak_rss_bytes": 2061783040,
+      "process_tree_cpu_seconds": 3.844261639999999,
+      "spark_task_metrics": {
+        "executor_run_ms": 2785,
+        "executor_cpu_ns": 2556168000,
+        "gc_ms": 108,
+        "memory_spill_bytes": 0,
+        "disk_spill_bytes": 0,
+        "shuffle_read_bytes": 3322,
+        "shuffle_write_bytes": 3322,
+        "tasks": 17
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "rows": 10000,
+      "repetitions": 5,
+      "median_seconds": 0.29954430198995396,
+      "p95_seconds": 0.3151937997987261,
+      "median_rows_per_second": 33384.043473927864,
+      "peak_rss_bytes": 1754857472
+    },
+    {
+      "rows": 100000,
+      "repetitions": 5,
+      "median_seconds": 0.7558011000073748,
+      "p95_seconds": 0.7804062089911895,
+      "median_rows_per_second": 132309.94238963697,
+      "peak_rss_bytes": 1797468160
+    },
+    {
+      "rows": 434363,
+      "repetitions": 5,
+      "median_seconds": 2.858327542009647,
+      "p95_seconds": 2.9043170678050956,
+      "median_rows_per_second": 151964.039675665,
+      "peak_rss_bytes": 2065784832
+    }
+  ],
+  "elapsed_seconds": 71.51078500899894,
+  "measurement_notes": "Cached inputs; uncached spatial join result. RSS sampled at 100 ms over Python/JVM descendants; shared pages may be counted multiple times. CPU excludes work between samples for short-lived processes. Percentile estimates use five measured repetitions."
+}

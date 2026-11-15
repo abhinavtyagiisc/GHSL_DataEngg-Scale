@@ -1,0 +1,52 @@
+{
+  "regions": [
+    {
+      "name": "Delhi study window",
+      "lon": 77.21,
+      "lat": 28.61
+    },
+    {
+      "name": "Mumbai vicinity coverage-adjusted study window",
+      "lon": 72.9600772681954,
+      "lat": 19.11402937558414
+    },
+    {
+      "name": "Bengaluru study window",
+      "lon": 77.59,
+      "lat": 12.97
+    }
+  ],
+  "epochs": [
+    1975,
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "radius_coarse_cells": 2,
+  "minimum_complete_cells_per_region_epoch": 10,
+  "relative_tolerance": 1e-10,
+  "absolute_tolerance": 1e-05,
+  "interpretation": "Three 5x5 coarse-cell study windows; Delhi and Bengaluru predefined, Mumbai relocated using only common complete coverage after original window was outside the retained mask. All raw/persisted numerical tolerances unchanged. Processing agreement only, not candidate-detection accuracy.",
+  "coverage_revision": {
+    "original_region": {
+      "name": "Mumbai study window",
+      "lon": 72.88,
+      "lat": 19.08
+    },
+    "original_parent_row": 6657,
+    "original_parent_col": 25094,
+    "selected_parent_row": 6653,
+    "selected_parent_col": 25101,
+    "shift_grid_km": 8.06225774829855,
+    "selection": "Closest centre by projected grid distance with all 25 cells complete in every historical epoch within a 30-cell search radius; lexicographic tie break. Uses coverage only, no error or outcome selection.",
+    "reason": "Original Mumbai window has zero cells in the retained country mask; original point is 3610.89 m outside mask.",
+    "new_lon": 72.9600772681954,
+    "new_lat": 19.11402937558414
+  }
+}

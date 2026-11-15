@@ -1,0 +1,26 @@
+{
+  "changed_only": "integration/src/national.py",
+  "previous": {
+    "integration/src/national.py": "5684109a2c419c8e7270ba99be4934ad33219dd555412c675584102d5c47abf4",
+    "integration/src/prepare_inputs.py": "ca6ba88367886e7107faa7da4e7bbc900af43cd9274bdf2ff31fc751d90630af",
+    "integration/src/spark_integrate.py": "6bdb7d0b3996ae50760a4f251aa24bdd96d26475ba0ec9f43c47d5c58f1e2e79",
+    "integration/scripts/download_sources.py": "66c32bd21c202d517661f612dce9c6673e1d00d883a8f74c47402c37bdc41a27",
+    "population/src/multitile_population.py": "1576b1fdd77766b46ef6eca49a1e13a13cd33223f6b06cf23d91596612bef009",
+    "population/src/prepare.py": "449df7ebab6e4ea76c4a151534ae04e7bdf606cca5a94df29536f29967ad7795",
+    "population/src/spark_population.py": "429cf96e94b893a156bb9f7803d50aceae02e9ebb7fc4fbca29eaf6e84e73515",
+    "population/scripts/download.py": "67e336177d49b744990d9a9b1a799ffef0b769ea7f3ad09db5bb9130d1f82791"
+  },
+  "current": {
+    "integration/src/national.py": "2eb6eb7e75cbcb05a740116b62359e72e99de37c75a818a7fcd0f4513f0d063c",
+    "integration/src/prepare_inputs.py": "ca6ba88367886e7107faa7da4e7bbc900af43cd9274bdf2ff31fc751d90630af",
+    "integration/src/spark_integrate.py": "6bdb7d0b3996ae50760a4f251aa24bdd96d26475ba0ec9f43c47d5c58f1e2e79",
+    "integration/scripts/download_sources.py": "66c32bd21c202d517661f612dce9c6673e1d00d883a8f74c47402c37bdc41a27",
+    "population/src/multitile_population.py": "1576b1fdd77766b46ef6eca49a1e13a13cd33223f6b06cf23d91596612bef009",
+    "population/src/prepare.py": "449df7ebab6e4ea76c4a151534ae04e7bdf606cca5a94df29536f29967ad7795",
+    "population/src/spark_population.py": "429cf96e94b893a156bb9f7803d50aceae02e9ebb7fc4fbca29eaf6e84e73515",
+    "population/scripts/download.py": "67e336177d49b744990d9a9b1a799ffef0b769ea7f3ad09db5bb9130d1f82791"
+  },
+  "checkpoint_sha256": "0ae57274a993fee78881991c563786d14e1f0f7b6e8ea03ec9981f70f8141715",
+  "completed_pairs": 120,
+  "validation": "7 national regressions passed in 2.72 seconds; all other implementation fingerprints unchanged; runner must revalidate all completed input/output hashes on resume"
+}

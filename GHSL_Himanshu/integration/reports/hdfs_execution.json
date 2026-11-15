@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "hdfs_root": "/ghsl/weeks1_5/bengaluru_run1",
+  "local_output": "/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/curated/grid_year",
+  "elapsed_seconds": 228.39,
+  "source_archives": 48,
+  "replication": 1
+}

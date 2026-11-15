@@ -1,0 +1,22 @@
+{
+  "name": "india_three_product_100m",
+  "release": "R2023A",
+  "population_version": "V1_0",
+  "boundary": "data/raw/boundaries/geoBoundaries-IND-ADM0.geojson",
+  "epochs": [
+    1975,
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020,
+    2025,
+    2030
+  ],
+  "built_version": "V1_0",
+  "settlement_version": "V2_0"
+}

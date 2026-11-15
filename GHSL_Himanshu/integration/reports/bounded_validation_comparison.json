@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "comparisons": [
+    {
+      "year": 2015,
+      "dataset": "analytical_100m",
+      "rows": 434363,
+      "columns": 21,
+      "comparison": "PASS"
+    },
+    {
+      "year": 2015,
+      "dataset": "summary_1km",
+      "rows": 4455,
+      "columns": 17,
+      "comparison": "PASS"
+    },
+    {
+      "year": 2020,
+      "dataset": "analytical_100m",
+      "rows": 434363,
+      "columns": 21,
+      "comparison": "PASS"
+    },
+    {
+      "year": 2020,
+      "dataset": "summary_1km",
+      "rows": 4455,
+      "columns": 17,
+      "comparison": "PASS"
+    }
+  ],
+  "staging_removed": true,
+  "floating_tolerance": {
+    "relative": 1e-10,
+    "absolute": 1e-05
+  },
+  "scope": "Cached pilot validation of bounded national runner; not national execution"
+}
