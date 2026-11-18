@@ -282,3 +282,8 @@ __pycache__/
 # Report/presentation and temporary work excluded from this import
 /output/
 /tmp/
+
+# Editor backup files
+*.swp
+*.swo
+*~

@@ -42,15 +42,15 @@ Phase handoff release assets are prepared locally; publication is pending. · [T
 | Weeks 4–5 | Reusable Spark/Sedona integration and repeated end-to-end benchmarks | [Phase 2 report](phase2/reports/PHASE2_COMPLETION_REPORT.md) |
 | Weeks 6–8 | Accepted-scope integration, temporal/district/candidate analysis and regional validation | [Final acceptance](phase3/reports/FINAL_ACCEPTANCE.json) |
 
-Apache Sedona 1.9.1 and Spark 3.5.6 were actually executed. Pilot HDFS and Sedona
-benchmarks use a single machine; national processing uses local Spark and Parquet.
+The pipeline uses Apache Sedona 1.9.1 and Spark 3.5.6. Pilot HDFS and Sedona
+benchmarks ran on a single machine; national processing uses local Spark and Parquet.
 Official JRC acquisition substitutes for proposed Earth Engine exports. The Mumbai
-regional check uses a disclosed coverage-adjusted window. Earlier failures and scope
-changes are recorded; no uninterrupted first-run or multi-machine scaling claim is made.
+regional check uses a disclosed coverage-adjusted window. The phase reports document
+execution failures and scope changes. These benchmarks do not establish multi-machine scaling.
 
 ## Code and environment
 
-Run project commands from `GHSL_Himanshu/` after cloning the team repository.
+Run project commands from `GHSL_Local/` after cloning the team repository.
 
 `population/` contains the initial ingestion and shared raster utilities; `integration/`
 contains the reusable join and bounded tile-year runner; `analysis/` contains temporal,

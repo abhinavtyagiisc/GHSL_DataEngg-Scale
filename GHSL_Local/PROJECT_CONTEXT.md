@@ -1,6 +1,29 @@
 # GHSL project continuity notes
 
-Last updated: 2026-11-15 (Asia/Kolkata).
+Last updated: 2026-11-18 (Asia/Kolkata).
+
+## Folder rename and cleanup — 18 November 2026
+
+User requested folder `GHSL_Local` (formerly `GHSL_Himanshu`) and exact commit
+message `cleanup` for the team repository abhinavtyagiisc/GHSL_DataEngg-Scale.
+Renamed the project directory and updated the README command location. Preserved
+historical path references below as history. Included the prepared README,
+submission-guide and editor-backup ignore changes. Existing root team files are
+unchanged. No scientific reruns or artifact regeneration. Publication verification
+is recorded in the original workspace continuity after push.
+
+
+## Team destination correction staged, commit denied — 18 November 2026
+
+User clarified intended target is abhinavtyagiisc/GHSL_DataEngg-Scale, not the
+workspace origin used for the previous push. Cloned team repository into
+`/private/tmp/ghsl-team-cleanup-20261118`; applied README/submission changes under
+`GHSL_Himanshu/`. Adapted ignore change because /tmp/ already excluded there.
+Exactly three files staged; diff whitespace check and four ignore examples passed.
+Commit execution approval was rejected by user. No team commit or push occurred.
+Previous push 704702e to himarora1/ghsl-india-urban-growth remains intact.
+Next: await authorization to commit/push staged team changes; do not retry denial.
+
 
 ## Team repository check-in prepared — 15 November 2026
 

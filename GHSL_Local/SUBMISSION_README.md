@@ -53,4 +53,17 @@ representative points are neither settlement boundaries nor confirmed town locat
 The regional Mumbai window moved by a documented coverage-only rule. Do not interpret
 study-window summaries as administrative city totals or full-India population estimates.
 
-No background computation or user approval remains necessary for this approved scope.
+The analysis is complete within the approved 13-tile scope.
+
+## Submission contents
+
+Use the reviewed archive above for source, results and validation evidence. Include
+only the final report and presentation requested by the course alongside it; retain
+older drafts and duplicate exports locally. Check author placeholders in final
+exports before submitting.
+
+Do not add the local `.venv/`, `tmp/`, Python caches, editor backups or debug logs to
+the submission. Retain dependency pins, source manifests, benchmark records and
+validation reports needed to interpret and reproduce the results. Keep project
+continuity and administration records in the working project. Follow course
+requirements for AI-use disclosure and individual contribution statements.
