@@ -1,0 +1,178 @@
+{
+  "chronological_split": {
+    "test": "to_epoch == 2020",
+    "train": "to_epoch <= 2010",
+    "validation": "to_epoch == 2015"
+  },
+  "created_at_utc": "2026-11-15T05:50:39Z",
+  "growth_analysis_field": "built_surface_growth_m2",
+  "held_out_city": "jaipur",
+  "jaipur_used_in_training": false,
+  "label_definition": "next epoch built surface",
+  "longitudinal_output": "/data/ghsl/modeling/six_city_longitudinal_v1",
+  "model_root": "/data/ghsl/modeling/models/six_city_growth_v1",
+  "results": {
+    "features": [
+      "grid_1km_col",
+      "grid_1km_row",
+      "grid_min_x",
+      "grid_max_x",
+      "grid_min_y",
+      "grid_max_y",
+      "valid_100m_pixels",
+      "population_coverage_fraction",
+      "population_total",
+      "population_mean_100m",
+      "population_min_100m",
+      "population_max_100m",
+      "zero_population_pixels",
+      "positive_population_pixels",
+      "smod_class",
+      "built_valid_100m_pixels",
+      "built_observed_grid_area_m2",
+      "built_coverage_fraction",
+      "built_surface_nres_m2",
+      "built_surface_residential_m2",
+      "built_surface_fraction",
+      "built_surface_percent",
+      "built_surface_nres_fraction",
+      "built_surface_residential_fraction",
+      "nres_share_of_built_surface",
+      "built_100m_pixels",
+      "nres_100m_pixels",
+      "population_per_built_hectare",
+      "population_per_residential_built_hectare",
+      "grid_resolution_m",
+      "from_epoch"
+    ],
+    "models": {
+      "linear_regression": {
+        "test": {
+          "mae": 6961.287531466823,
+          "r2": 0.9909752766308704,
+          "rmse": 10977.947370480828
+        },
+        "test_by_city": [
+          {
+            "city_slug": "bengaluru",
+            "mae": 7837.404277213207,
+            "r2": 0.9900148515213743,
+            "rmse": 11608.83361766297
+          },
+          {
+            "city_slug": "chennai_metro",
+            "mae": 6798.714304190144,
+            "r2": 0.9899540835807269,
+            "rmse": 10656.731694694989
+          },
+          {
+            "city_slug": "delhi_ncr",
+            "mae": 8626.97954041397,
+            "r2": 0.9928064424872461,
+            "rmse": 12719.834073178212
+          },
+          {
+            "city_slug": "hyderabad",
+            "mae": 6609.732884495541,
+            "r2": 0.9924102516025656,
+            "rmse": 9817.81931639245
+          },
+          {
+            "city_slug": "mumbai_metro",
+            "mae": 5410.713823046342,
+            "r2": 0.9900270056158949,
+            "rmse": 9121.680649342878
+          },
+          {
+            "city_slug": "pune_metro",
+            "mae": 6484.180359441893,
+            "r2": 0.9809047051843811,
+            "rmse": 11548.688652478098
+          }
+        ],
+        "validation": {
+          "mae": 5904.538118113679,
+          "r2": 0.9912052568993999,
+          "rmse": 10700.973279182099
+        }
+      },
+      "persistence": {
+        "test": {
+          "mae": 5503.150680272109,
+          "r2": 0.9890228158949733,
+          "rmse": 12107.365945209738
+        },
+        "validation": {
+          "mae": 7416.663707482993,
+          "r2": 0.9799967365150603,
+          "rmse": 16138.461420974816
+        }
+      },
+      "random_forest": {
+        "test": {
+          "mae": 9027.187055572596,
+          "r2": 0.9747807145895845,
+          "rmse": 18351.458394983416
+        },
+        "test_by_city": [
+          {
+            "city_slug": "bengaluru",
+            "mae": 11677.823791495117,
+            "r2": 0.9691482205207316,
+            "rmse": 20405.69694309861
+          },
+          {
+            "city_slug": "chennai_metro",
+            "mae": 8083.520535003146,
+            "r2": 0.9726171076215818,
+            "rmse": 17594.175153184755
+          },
+          {
+            "city_slug": "delhi_ncr",
+            "mae": 14257.68704094981,
+            "r2": 0.9699924970759286,
+            "rmse": 25979.124701063352
+          },
+          {
+            "city_slug": "hyderabad",
+            "mae": 8340.994586148141,
+            "r2": 0.9788267367662814,
+            "rmse": 16398.164701180365
+          },
+          {
+            "city_slug": "mumbai_metro",
+            "mae": 4251.066929562397,
+            "r2": 0.9870576818750935,
+            "rmse": 10391.257610456345
+          },
+          {
+            "city_slug": "pune_metro",
+            "mae": 7552.0294502783445,
+            "r2": 0.9652210353667712,
+            "rmse": 15585.753871886176
+          }
+        ],
+        "validation": {
+          "mae": 6609.759533373208,
+          "r2": 0.9821866172079865,
+          "rmse": 15229.473897814245
+        }
+      }
+    },
+    "split_counts": {
+      "test": 29400,
+      "train": 205800,
+      "validation": 29400
+    }
+  },
+  "target_source_column": "built_surface_total_m2",
+  "training_cities": [
+    "bengaluru",
+    "hyderabad",
+    "pune_metro",
+    "chennai_metro",
+    "mumbai_metro",
+    "delhi_ncr"
+  ],
+  "transition_output": "/data/ghsl/modeling/six_city_transitions_v1"
+}
