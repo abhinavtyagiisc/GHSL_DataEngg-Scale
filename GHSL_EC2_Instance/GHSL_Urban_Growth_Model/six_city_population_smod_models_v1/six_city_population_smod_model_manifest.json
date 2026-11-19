@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-11-15T09:16:02Z",
+  "evaluation_root": "/data/ghsl/modeling/evaluation/six_city_population_smod_v1",
+  "feature_contracts": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_population_smod_models_v1/feature_contracts.json",
+  "jaipur_used": false,
+  "metrics_file": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_population_smod_models_v1/population_smod_metrics.csv",
+  "population_models": {
+    "linear_regression": "/data/ghsl/modeling/models/six_city_population_smod_v1/population_linear_regression",
+    "random_forest": "/data/ghsl/modeling/models/six_city_population_smod_v1/population_random_forest",
+    "selected_by_validation": "Population Linear Regression"
+  },
+  "smod_model": {
+    "benchmark": "current-class persistence",
+    "random_forest": "/data/ghsl/modeling/models/six_city_population_smod_v1/smod_random_forest"
+  },
+  "test": "2015->2020",
+  "training_cities": [
+    "bengaluru",
+    "hyderabad",
+    "pune_metro",
+    "chennai_metro",
+    "mumbai_metro",
+    "delhi_ncr"
+  ],
+  "training_target_epochs": "1980-2010",
+  "validation": "2010->2015"
+}

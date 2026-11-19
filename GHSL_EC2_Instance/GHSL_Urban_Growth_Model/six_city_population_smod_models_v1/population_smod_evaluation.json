@@ -1,0 +1,1211 @@
+{
+  "city_slugs": [
+    "bengaluru",
+    "chennai_metro",
+    "delhi_ncr",
+    "hyderabad",
+    "mumbai_metro",
+    "pune_metro"
+  ],
+  "confusion": [
+    {
+      "count": 4455,
+      "smod_actual": "0",
+      "smod_prediction_string": "0",
+      "to_epoch": 2015
+    },
+    {
+      "count": 124,
+      "smod_actual": "10",
+      "smod_prediction_string": "10",
+      "to_epoch": 2015
+    },
+    {
+      "count": 1,
+      "smod_actual": "11",
+      "smod_prediction_string": "10",
+      "to_epoch": 2015
+    },
+    {
+      "count": 6334,
+      "smod_actual": "11",
+      "smod_prediction_string": "11",
+      "to_epoch": 2015
+    },
+    {
+      "count": 184,
+      "smod_actual": "11",
+      "smod_prediction_string": "12",
+      "to_epoch": 2015
+    },
+    {
+      "count": 1,
+      "smod_actual": "11",
+      "smod_prediction_string": "30",
+      "to_epoch": 2015
+    },
+    {
+      "count": 610,
+      "smod_actual": "12",
+      "smod_prediction_string": "11",
+      "to_epoch": 2015
+    },
+    {
+      "count": 5929,
+      "smod_actual": "12",
+      "smod_prediction_string": "12",
+      "to_epoch": 2015
+    },
+    {
+      "count": 29,
+      "smod_actual": "12",
+      "smod_prediction_string": "13",
+      "to_epoch": 2015
+    },
+    {
+      "count": 89,
+      "smod_actual": "12",
+      "smod_prediction_string": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 89,
+      "smod_actual": "13",
+      "smod_prediction_string": "12",
+      "to_epoch": 2015
+    },
+    {
+      "count": 635,
+      "smod_actual": "13",
+      "smod_prediction_string": "13",
+      "to_epoch": 2015
+    },
+    {
+      "count": 55,
+      "smod_actual": "13",
+      "smod_prediction_string": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 1,
+      "smod_actual": "13",
+      "smod_prediction_string": "23",
+      "to_epoch": 2015
+    },
+    {
+      "count": 4,
+      "smod_actual": "21",
+      "smod_prediction_string": "11",
+      "to_epoch": 2015
+    },
+    {
+      "count": 472,
+      "smod_actual": "21",
+      "smod_prediction_string": "12",
+      "to_epoch": 2015
+    },
+    {
+      "count": 154,
+      "smod_actual": "21",
+      "smod_prediction_string": "13",
+      "to_epoch": 2015
+    },
+    {
+      "count": 3048,
+      "smod_actual": "21",
+      "smod_prediction_string": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 26,
+      "smod_actual": "21",
+      "smod_prediction_string": "23",
+      "to_epoch": 2015
+    },
+    {
+      "count": 79,
+      "smod_actual": "21",
+      "smod_prediction_string": "30",
+      "to_epoch": 2015
+    },
+    {
+      "count": 12,
+      "smod_actual": "22",
+      "smod_prediction_string": "13",
+      "to_epoch": 2015
+    },
+    {
+      "count": 55,
+      "smod_actual": "22",
+      "smod_prediction_string": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 1,
+      "smod_actual": "22",
+      "smod_prediction_string": "22",
+      "to_epoch": 2015
+    },
+    {
+      "count": 34,
+      "smod_actual": "22",
+      "smod_prediction_string": "23",
+      "to_epoch": 2015
+    },
+    {
+      "count": 9,
+      "smod_actual": "22",
+      "smod_prediction_string": "30",
+      "to_epoch": 2015
+    },
+    {
+      "count": 60,
+      "smod_actual": "23",
+      "smod_prediction_string": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 428,
+      "smod_actual": "23",
+      "smod_prediction_string": "23",
+      "to_epoch": 2015
+    },
+    {
+      "count": 15,
+      "smod_actual": "23",
+      "smod_prediction_string": "30",
+      "to_epoch": 2015
+    },
+    {
+      "count": 4,
+      "smod_actual": "30",
+      "smod_prediction_string": "10",
+      "to_epoch": 2015
+    },
+    {
+      "count": 30,
+      "smod_actual": "30",
+      "smod_prediction_string": "11",
+      "to_epoch": 2015
+    },
+    {
+      "count": 54,
+      "smod_actual": "30",
+      "smod_prediction_string": "12",
+      "to_epoch": 2015
+    },
+    {
+      "count": 244,
+      "smod_actual": "30",
+      "smod_prediction_string": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 65,
+      "smod_actual": "30",
+      "smod_prediction_string": "23",
+      "to_epoch": 2015
+    },
+    {
+      "count": 6070,
+      "smod_actual": "30",
+      "smod_prediction_string": "30",
+      "to_epoch": 2015
+    },
+    {
+      "count": 4455,
+      "smod_actual": "0",
+      "smod_prediction_string": "0",
+      "to_epoch": 2020
+    },
+    {
+      "count": 121,
+      "smod_actual": "10",
+      "smod_prediction_string": "10",
+      "to_epoch": 2020
+    },
+    {
+      "count": 1,
+      "smod_actual": "11",
+      "smod_prediction_string": "10",
+      "to_epoch": 2020
+    },
+    {
+      "count": 5262,
+      "smod_actual": "11",
+      "smod_prediction_string": "11",
+      "to_epoch": 2020
+    },
+    {
+      "count": 228,
+      "smod_actual": "11",
+      "smod_prediction_string": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 693,
+      "smod_actual": "12",
+      "smod_prediction_string": "11",
+      "to_epoch": 2020
+    },
+    {
+      "count": 5620,
+      "smod_actual": "12",
+      "smod_prediction_string": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 38,
+      "smod_actual": "12",
+      "smod_prediction_string": "13",
+      "to_epoch": 2020
+    },
+    {
+      "count": 115,
+      "smod_actual": "12",
+      "smod_prediction_string": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 2,
+      "smod_actual": "12",
+      "smod_prediction_string": "30",
+      "to_epoch": 2020
+    },
+    {
+      "count": 126,
+      "smod_actual": "13",
+      "smod_prediction_string": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 423,
+      "smod_actual": "13",
+      "smod_prediction_string": "13",
+      "to_epoch": 2020
+    },
+    {
+      "count": 57,
+      "smod_actual": "13",
+      "smod_prediction_string": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 4,
+      "smod_actual": "13",
+      "smod_prediction_string": "23",
+      "to_epoch": 2020
+    },
+    {
+      "count": 1,
+      "smod_actual": "13",
+      "smod_prediction_string": "30",
+      "to_epoch": 2020
+    },
+    {
+      "count": 885,
+      "smod_actual": "21",
+      "smod_prediction_string": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 251,
+      "smod_actual": "21",
+      "smod_prediction_string": "13",
+      "to_epoch": 2020
+    },
+    {
+      "count": 3436,
+      "smod_actual": "21",
+      "smod_prediction_string": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 39,
+      "smod_actual": "21",
+      "smod_prediction_string": "23",
+      "to_epoch": 2020
+    },
+    {
+      "count": 121,
+      "smod_actual": "21",
+      "smod_prediction_string": "30",
+      "to_epoch": 2020
+    },
+    {
+      "count": 1,
+      "smod_actual": "22",
+      "smod_prediction_string": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 14,
+      "smod_actual": "22",
+      "smod_prediction_string": "13",
+      "to_epoch": 2020
+    },
+    {
+      "count": 83,
+      "smod_actual": "22",
+      "smod_prediction_string": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 1,
+      "smod_actual": "22",
+      "smod_prediction_string": "22",
+      "to_epoch": 2020
+    },
+    {
+      "count": 53,
+      "smod_actual": "22",
+      "smod_prediction_string": "23",
+      "to_epoch": 2020
+    },
+    {
+      "count": 20,
+      "smod_actual": "22",
+      "smod_prediction_string": "30",
+      "to_epoch": 2020
+    },
+    {
+      "count": 54,
+      "smod_actual": "23",
+      "smod_prediction_string": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 452,
+      "smod_actual": "23",
+      "smod_prediction_string": "23",
+      "to_epoch": 2020
+    },
+    {
+      "count": 35,
+      "smod_actual": "23",
+      "smod_prediction_string": "30",
+      "to_epoch": 2020
+    },
+    {
+      "count": 2,
+      "smod_actual": "30",
+      "smod_prediction_string": "10",
+      "to_epoch": 2020
+    },
+    {
+      "count": 13,
+      "smod_actual": "30",
+      "smod_prediction_string": "11",
+      "to_epoch": 2020
+    },
+    {
+      "count": 49,
+      "smod_actual": "30",
+      "smod_prediction_string": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 204,
+      "smod_actual": "30",
+      "smod_prediction_string": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 32,
+      "smod_actual": "30",
+      "smod_prediction_string": "23",
+      "to_epoch": 2020
+    },
+    {
+      "count": 6509,
+      "smod_actual": "30",
+      "smod_prediction_string": "30",
+      "to_epoch": 2020
+    }
+  ],
+  "confusion_rows": 69,
+  "epoch_counts": {
+    "2015": 29400,
+    "2020": 29400
+  },
+  "evaluation_root": "/data/ghsl/modeling/evaluation/six_city_population_smod_v1",
+  "metric_rows": 14,
+  "metrics": [
+    {
+      "city_slug": "ALL",
+      "population_lr": {
+        "mae": 288.330712717954,
+        "r2": 0.9938774606724671,
+        "rmse": 713.8581490990698
+      },
+      "population_lr_bias": 56.16727461652758,
+      "population_persistence": {
+        "mae": 303.51479080111216,
+        "r2": 0.9889588352689318,
+        "rmse": 958.6356477918382
+      },
+      "population_persistence_bias": -286.31121177325144,
+      "population_rf": {
+        "mae": 356.48150379468086,
+        "r2": 0.9784127129936357,
+        "rmse": 1340.4331589902113
+      },
+      "population_rf_bias": -1.133737458265141,
+      "rows": 29400,
+      "scope": "overall",
+      "smod_persistence_accuracy": 0.913469387755102,
+      "smod_rf_accuracy": 0.9191836734693878,
+      "to_epoch": 2015
+    },
+    {
+      "city_slug": "bengaluru",
+      "population_lr": {
+        "mae": 391.90563724475976,
+        "r2": 0.9852433605513081,
+        "rmse": 1061.71138448169
+      },
+      "population_lr_bias": -160.59753601904464,
+      "population_persistence": {
+        "mae": 435.04874848473986,
+        "r2": 0.9714796106241455,
+        "rmse": 1476.0139644463263
+      },
+      "population_persistence_bias": -410.6645281648121,
+      "population_rf": {
+        "mae": 374.62492893229086,
+        "r2": 0.9720862424841341,
+        "rmse": 1460.2321021480477
+      },
+      "population_rf_bias": -175.02298533630224,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.8638775510204082,
+      "smod_rf_accuracy": 0.8714285714285714,
+      "to_epoch": 2015
+    },
+    {
+      "city_slug": "chennai_metro",
+      "population_lr": {
+        "mae": 235.8427111826702,
+        "r2": 0.9939667443469931,
+        "rmse": 474.9265161205136
+      },
+      "population_lr_bias": 33.322595379932444,
+      "population_persistence": {
+        "mae": 192.33898556744282,
+        "r2": 0.9915447748104391,
+        "rmse": 562.228870537805
+      },
+      "population_persistence_bias": -182.25436868596765,
+      "population_rf": {
+        "mae": 214.21175174850057,
+        "r2": 0.9875666862702597,
+        "rmse": 681.7795960334967
+      },
+      "population_rf_bias": 10.4719459666414,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.9618367346938775,
+      "smod_rf_accuracy": 0.9595918367346938,
+      "to_epoch": 2015
+    },
+    {
+      "city_slug": "delhi_ncr",
+      "population_lr": {
+        "mae": 344.9821891514659,
+        "r2": 0.9967419788019953,
+        "rmse": 608.5421295255794
+      },
+      "population_lr_bias": 120.31567198566627,
+      "population_persistence": {
+        "mae": 620.2350196315955,
+        "r2": 0.9874147686144699,
+        "rmse": 1196.036130966825
+      },
+      "population_persistence_bias": -614.0184105491227,
+      "population_rf": {
+        "mae": 653.3874323960213,
+        "r2": 0.9736692268066908,
+        "rmse": 1729.9976101192715
+      },
+      "population_rf_bias": 39.1881501253286,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.8881632653061224,
+      "smod_rf_accuracy": 0.9114285714285715,
+      "to_epoch": 2015
+    },
+    {
+      "city_slug": "hyderabad",
+      "population_lr": {
+        "mae": 233.43956132788435,
+        "r2": 0.9918836222580468,
+        "rmse": 472.943255169943
+      },
+      "population_lr_bias": 81.09453325030366,
+      "population_persistence": {
+        "mae": 179.25090601341694,
+        "r2": 0.9912626939777501,
+        "rmse": 490.70070746769073
+      },
+      "population_persistence_bias": -164.4408698036439,
+      "population_rf": {
+        "mae": 211.0318960713754,
+        "r2": 0.9859931775542475,
+        "rmse": 621.2948051180781
+      },
+      "population_rf_bias": 24.74998355643103,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.8908163265306123,
+      "smod_rf_accuracy": 0.8926530612244898,
+      "to_epoch": 2015
+    },
+    {
+      "city_slug": "mumbai_metro",
+      "population_lr": {
+        "mae": 318.8622472312408,
+        "r2": 0.9957179011680238,
+        "rmse": 928.3857768284392
+      },
+      "population_lr_bias": 197.0762973423874,
+      "population_persistence": {
+        "mae": 244.61465075568543,
+        "r2": 0.9951838310048826,
+        "rmse": 984.5799639768077
+      },
+      "population_persistence_bias": -207.07088894198174,
+      "population_rf": {
+        "mae": 503.5232924574243,
+        "r2": 0.9790037586894932,
+        "rmse": 2055.7529052646255
+      },
+      "population_rf_bias": 75.24079198795054,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.9726530612244898,
+      "smod_rf_accuracy": 0.9755102040816327,
+      "to_epoch": 2015
+    },
+    {
+      "city_slug": "pune_metro",
+      "population_lr": {
+        "mae": 204.95193016969787,
+        "r2": 0.9914511252221992,
+        "rmse": 498.87421853899025
+      },
+      "population_lr_bias": 65.79208575992257,
+      "population_persistence": {
+        "mae": 149.60043435378827,
+        "r2": 0.9869989347904705,
+        "rmse": 615.2137749147964
+      },
+      "population_persistence_bias": -139.41820449398023,
+      "population_rf": {
+        "mae": 182.10972116249548,
+        "r2": 0.9801303708496062,
+        "rmse": 760.5564668202339
+      },
+      "population_rf_bias": 18.569688950371763,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.903469387755102,
+      "smod_rf_accuracy": 0.9044897959183673,
+      "to_epoch": 2015
+    },
+    {
+      "city_slug": "ALL",
+      "population_lr": {
+        "mae": 305.69670941122484,
+        "r2": 0.9957550614631766,
+        "rmse": 644.6250076181188
+      },
+      "population_lr_bias": 88.69435181226656,
+      "population_persistence": {
+        "mae": 316.82615519839055,
+        "r2": 0.990332243948493,
+        "rmse": 972.8240261248803
+      },
+      "population_persistence_bias": -294.103608713455,
+      "population_rf": {
+        "mae": 450.47922417078865,
+        "r2": 0.971140162969864,
+        "rmse": 1680.809072171311
+      },
+      "population_rf_bias": -9.498728906097636,
+      "rows": 29400,
+      "scope": "overall",
+      "smod_persistence_accuracy": 0.8890136054421769,
+      "smod_rf_accuracy": 0.893843537414966,
+      "to_epoch": 2020
+    },
+    {
+      "city_slug": "bengaluru",
+      "population_lr": {
+        "mae": 492.3104384066055,
+        "r2": 0.9876607208053113,
+        "rmse": 1137.9890004265658
+      },
+      "population_lr_bias": -144.85184825709882,
+      "population_persistence": {
+        "mae": 516.4684798107874,
+        "r2": 0.9741401874529516,
+        "rmse": 1647.4257694403684
+      },
+      "population_persistence_bias": -464.1549007094363,
+      "population_rf": {
+        "mae": 569.543793043119,
+        "r2": 0.9493110333028384,
+        "rmse": 2306.481034569412
+      },
+      "population_rf_bias": -293.74093870043964,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.8351020408163266,
+      "smod_rf_accuracy": 0.8418367346938775,
+      "to_epoch": 2020
+    },
+    {
+      "city_slug": "chennai_metro",
+      "population_lr": {
+        "mae": 210.21644832492711,
+        "r2": 0.9976065531595064,
+        "rmse": 320.5301461915432
+      },
+      "population_lr_bias": 60.66513775580931,
+      "population_persistence": {
+        "mae": 177.58427268394098,
+        "r2": 0.9942288444878101,
+        "rmse": 497.72376444743287
+      },
+      "population_persistence_bias": -174.82074179049314,
+      "population_rf": {
+        "mae": 255.5371707584549,
+        "r2": 0.9854147394603808,
+        "rmse": 791.2506582225384
+      },
+      "population_rf_bias": 14.528319535506688,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.9544897959183674,
+      "smod_rf_accuracy": 0.9520408163265306,
+      "to_epoch": 2020
+    },
+    {
+      "city_slug": "delhi_ncr",
+      "population_lr": {
+        "mae": 421.3758004102762,
+        "r2": 0.9964146770995754,
+        "rmse": 702.4485834758058
+      },
+      "population_lr_bias": 155.959419130186,
+      "population_persistence": {
+        "mae": 654.1810618461943,
+        "r2": 0.9872612523926096,
+        "rmse": 1324.0786108560494
+      },
+      "population_persistence_bias": -645.863605455892,
+      "population_rf": {
+        "mae": 805.8807523586504,
+        "r2": 0.965188527804971,
+        "rmse": 2188.8278132808764
+      },
+      "population_rf_bias": 71.59648379538899,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.8693877551020408,
+      "smod_rf_accuracy": 0.8902040816326531,
+      "to_epoch": 2020
+    },
+    {
+      "city_slug": "hyderabad",
+      "population_lr": {
+        "mae": 238.7395830331339,
+        "r2": 0.9949618408689661,
+        "rmse": 398.15774774627994
+      },
+      "population_lr_bias": 119.83814796685401,
+      "population_persistence": {
+        "mae": 197.97902375155832,
+        "r2": 0.9931204987878995,
+        "rmse": 465.26213206518395
+      },
+      "population_persistence_bias": -161.87038575901516,
+      "population_rf": {
+        "mae": 267.0017853769204,
+        "r2": 0.9829571160074282,
+        "rmse": 732.3029348855144
+      },
+      "population_rf_bias": 45.81683849747655,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.8477551020408163,
+      "smod_rf_accuracy": 0.8485714285714285,
+      "to_epoch": 2020
+    },
+    {
+      "city_slug": "mumbai_metro",
+      "population_lr": {
+        "mae": 209.43296345669066,
+        "r2": 0.9991648429054922,
+        "rmse": 430.7681849355462
+      },
+      "population_lr_bias": 166.74107359465137,
+      "population_persistence": {
+        "mae": 250.10950824805707,
+        "r2": 0.9970735304158858,
+        "rmse": 806.3647608280482
+      },
+      "population_persistence_bias": -249.54540099967917,
+      "population_rf": {
+        "mae": 563.9348337284559,
+        "r2": 0.9773240580221233,
+        "rmse": 2244.616760604674
+      },
+      "population_rf_bias": 2.5477082630090053,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.976326530612245,
+      "smod_rf_accuracy": 0.9718367346938775,
+      "to_epoch": 2020
+    },
+    {
+      "city_slug": "pune_metro",
+      "population_lr": {
+        "mae": 262.10502283571714,
+        "r2": 0.9917095604905716,
+        "rmse": 507.90257855252827
+      },
+      "population_lr_bias": 173.81418068319815,
+      "population_persistence": {
+        "mae": 104.63458484980544,
+        "r2": 0.9968922141680638,
+        "rmse": 310.9690604503698
+      },
+      "population_persistence_bias": -68.3666175662156,
+      "population_rf": {
+        "mae": 240.9770097592034,
+        "r2": 0.9794561004350084,
+        "rmse": 799.5269032199451
+      },
+      "population_rf_bias": 102.25921517248963,
+      "rows": 4900,
+      "scope": "city",
+      "smod_persistence_accuracy": 0.8510204081632653,
+      "smod_rf_accuracy": 0.8585714285714285,
+      "to_epoch": 2020
+    }
+  ],
+  "persistence_confusion": [
+    {
+      "count": 4455,
+      "smod_actual": "0",
+      "smod_persistence": "0",
+      "to_epoch": 2015
+    },
+    {
+      "count": 124,
+      "smod_actual": "10",
+      "smod_persistence": "10",
+      "to_epoch": 2015
+    },
+    {
+      "count": 1,
+      "smod_actual": "11",
+      "smod_persistence": "10",
+      "to_epoch": 2015
+    },
+    {
+      "count": 6485,
+      "smod_actual": "11",
+      "smod_persistence": "11",
+      "to_epoch": 2015
+    },
+    {
+      "count": 33,
+      "smod_actual": "11",
+      "smod_persistence": "12",
+      "to_epoch": 2015
+    },
+    {
+      "count": 1,
+      "smod_actual": "11",
+      "smod_persistence": "30",
+      "to_epoch": 2015
+    },
+    {
+      "count": 929,
+      "smod_actual": "12",
+      "smod_persistence": "11",
+      "to_epoch": 2015
+    },
+    {
+      "count": 5684,
+      "smod_actual": "12",
+      "smod_persistence": "12",
+      "to_epoch": 2015
+    },
+    {
+      "count": 22,
+      "smod_actual": "12",
+      "smod_persistence": "13",
+      "to_epoch": 2015
+    },
+    {
+      "count": 22,
+      "smod_actual": "12",
+      "smod_persistence": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 110,
+      "smod_actual": "13",
+      "smod_persistence": "12",
+      "to_epoch": 2015
+    },
+    {
+      "count": 666,
+      "smod_actual": "13",
+      "smod_persistence": "13",
+      "to_epoch": 2015
+    },
+    {
+      "count": 4,
+      "smod_actual": "13",
+      "smod_persistence": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 4,
+      "smod_actual": "21",
+      "smod_persistence": "11",
+      "to_epoch": 2015
+    },
+    {
+      "count": 609,
+      "smod_actual": "21",
+      "smod_persistence": "12",
+      "to_epoch": 2015
+    },
+    {
+      "count": 166,
+      "smod_actual": "21",
+      "smod_persistence": "13",
+      "to_epoch": 2015
+    },
+    {
+      "count": 2973,
+      "smod_actual": "21",
+      "smod_persistence": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 26,
+      "smod_actual": "21",
+      "smod_persistence": "22",
+      "to_epoch": 2015
+    },
+    {
+      "count": 5,
+      "smod_actual": "21",
+      "smod_persistence": "30",
+      "to_epoch": 2015
+    },
+    {
+      "count": 13,
+      "smod_actual": "22",
+      "smod_persistence": "13",
+      "to_epoch": 2015
+    },
+    {
+      "count": 29,
+      "smod_actual": "22",
+      "smod_persistence": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 68,
+      "smod_actual": "22",
+      "smod_persistence": "22",
+      "to_epoch": 2015
+    },
+    {
+      "count": 1,
+      "smod_actual": "22",
+      "smod_persistence": "23",
+      "to_epoch": 2015
+    },
+    {
+      "count": 1,
+      "smod_actual": "23",
+      "smod_persistence": "13",
+      "to_epoch": 2015
+    },
+    {
+      "count": 71,
+      "smod_actual": "23",
+      "smod_persistence": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 18,
+      "smod_actual": "23",
+      "smod_persistence": "22",
+      "to_epoch": 2015
+    },
+    {
+      "count": 413,
+      "smod_actual": "23",
+      "smod_persistence": "23",
+      "to_epoch": 2015
+    },
+    {
+      "count": 4,
+      "smod_actual": "30",
+      "smod_persistence": "10",
+      "to_epoch": 2015
+    },
+    {
+      "count": 36,
+      "smod_actual": "30",
+      "smod_persistence": "11",
+      "to_epoch": 2015
+    },
+    {
+      "count": 71,
+      "smod_actual": "30",
+      "smod_persistence": "12",
+      "to_epoch": 2015
+    },
+    {
+      "count": 303,
+      "smod_actual": "30",
+      "smod_persistence": "21",
+      "to_epoch": 2015
+    },
+    {
+      "count": 65,
+      "smod_actual": "30",
+      "smod_persistence": "23",
+      "to_epoch": 2015
+    },
+    {
+      "count": 5988,
+      "smod_actual": "30",
+      "smod_persistence": "30",
+      "to_epoch": 2015
+    },
+    {
+      "count": 4455,
+      "smod_actual": "0",
+      "smod_persistence": "0",
+      "to_epoch": 2020
+    },
+    {
+      "count": 121,
+      "smod_actual": "10",
+      "smod_persistence": "10",
+      "to_epoch": 2020
+    },
+    {
+      "count": 1,
+      "smod_actual": "11",
+      "smod_persistence": "10",
+      "to_epoch": 2020
+    },
+    {
+      "count": 5429,
+      "smod_actual": "11",
+      "smod_persistence": "11",
+      "to_epoch": 2020
+    },
+    {
+      "count": 61,
+      "smod_actual": "11",
+      "smod_persistence": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 1070,
+      "smod_actual": "12",
+      "smod_persistence": "11",
+      "to_epoch": 2020
+    },
+    {
+      "count": 5337,
+      "smod_actual": "12",
+      "smod_persistence": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 34,
+      "smod_actual": "12",
+      "smod_persistence": "13",
+      "to_epoch": 2020
+    },
+    {
+      "count": 26,
+      "smod_actual": "12",
+      "smod_persistence": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 1,
+      "smod_actual": "12",
+      "smod_persistence": "30",
+      "to_epoch": 2020
+    },
+    {
+      "count": 150,
+      "smod_actual": "13",
+      "smod_persistence": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 450,
+      "smod_actual": "13",
+      "smod_persistence": "13",
+      "to_epoch": 2020
+    },
+    {
+      "count": 11,
+      "smod_actual": "13",
+      "smod_persistence": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 2,
+      "smod_actual": "21",
+      "smod_persistence": "11",
+      "to_epoch": 2020
+    },
+    {
+      "count": 1055,
+      "smod_actual": "21",
+      "smod_persistence": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 280,
+      "smod_actual": "21",
+      "smod_persistence": "13",
+      "to_epoch": 2020
+    },
+    {
+      "count": 3359,
+      "smod_actual": "21",
+      "smod_persistence": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 18,
+      "smod_actual": "21",
+      "smod_persistence": "22",
+      "to_epoch": 2020
+    },
+    {
+      "count": 12,
+      "smod_actual": "21",
+      "smod_persistence": "23",
+      "to_epoch": 2020
+    },
+    {
+      "count": 6,
+      "smod_actual": "21",
+      "smod_persistence": "30",
+      "to_epoch": 2020
+    },
+    {
+      "count": 2,
+      "smod_actual": "22",
+      "smod_persistence": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 16,
+      "smod_actual": "22",
+      "smod_persistence": "13",
+      "to_epoch": 2020
+    },
+    {
+      "count": 54,
+      "smod_actual": "22",
+      "smod_persistence": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 86,
+      "smod_actual": "22",
+      "smod_persistence": "22",
+      "to_epoch": 2020
+    },
+    {
+      "count": 14,
+      "smod_actual": "22",
+      "smod_persistence": "23",
+      "to_epoch": 2020
+    },
+    {
+      "count": 82,
+      "smod_actual": "23",
+      "smod_persistence": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 7,
+      "smod_actual": "23",
+      "smod_persistence": "22",
+      "to_epoch": 2020
+    },
+    {
+      "count": 446,
+      "smod_actual": "23",
+      "smod_persistence": "23",
+      "to_epoch": 2020
+    },
+    {
+      "count": 6,
+      "smod_actual": "23",
+      "smod_persistence": "30",
+      "to_epoch": 2020
+    },
+    {
+      "count": 2,
+      "smod_actual": "30",
+      "smod_persistence": "10",
+      "to_epoch": 2020
+    },
+    {
+      "count": 19,
+      "smod_actual": "30",
+      "smod_persistence": "11",
+      "to_epoch": 2020
+    },
+    {
+      "count": 52,
+      "smod_actual": "30",
+      "smod_persistence": "12",
+      "to_epoch": 2020
+    },
+    {
+      "count": 251,
+      "smod_actual": "30",
+      "smod_persistence": "21",
+      "to_epoch": 2020
+    },
+    {
+      "count": 31,
+      "smod_actual": "30",
+      "smod_persistence": "23",
+      "to_epoch": 2020
+    },
+    {
+      "count": 6454,
+      "smod_actual": "30",
+      "smod_persistence": "30",
+      "to_epoch": 2020
+    }
+  ],
+  "persistence_confusion_rows": 68,
+  "prediction_rows": 58800
+}
