@@ -1,0 +1,173 @@
+[
+  {
+    "built_metrics": {
+      "bias": -2231.382258850658,
+      "mae": 2669.740022794187,
+      "r2": 0.9961734082468802,
+      "rmse": 3108.7647699907357
+    },
+    "from_epoch": 1975,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/jaipur_three_product_evaluation_v1/figures/consistent_spatial/jaipur_1975_1980_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 104.33961741756242,
+      "mae": 125.4651319715145,
+      "r2": 0.9881137037795974,
+      "rmse": 220.64250934770644
+    },
+    "smod_accuracy": 0.9193877551020408,
+    "smod_persistence_accuracy": 0.9316326530612244,
+    "to_epoch": 1980
+  },
+  {
+    "built_metrics": {
+      "bias": -1973.3275677390873,
+      "mae": 2505.0224467239773,
+      "r2": 0.9967738344050067,
+      "rmse": 2939.586121985804
+    },
+    "from_epoch": 1980,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/jaipur_three_product_evaluation_v1/figures/consistent_spatial/jaipur_1980_1985_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 101.95339640594683,
+      "mae": 116.93234387959667,
+      "r2": 0.9899877617690208,
+      "rmse": 222.39507969166593
+    },
+    "smod_accuracy": 0.9151020408163265,
+    "smod_persistence_accuracy": 0.9248979591836735,
+    "to_epoch": 1985
+  },
+  {
+    "built_metrics": {
+      "bias": -1729.6713581325837,
+      "mae": 2411.1136350223233,
+      "r2": 0.9970814968720584,
+      "rmse": 2899.296917687738
+    },
+    "from_epoch": 1985,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/jaipur_three_product_evaluation_v1/figures/consistent_spatial/jaipur_1985_1990_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 90.85799572917911,
+      "mae": 109.24331277069585,
+      "r2": 0.9932264262593281,
+      "rmse": 203.50826853601626
+    },
+    "smod_accuracy": 0.9142857142857143,
+    "smod_persistence_accuracy": 0.923469387755102,
+    "to_epoch": 1990
+  },
+  {
+    "built_metrics": {
+      "bias": -3189.3717710512096,
+      "mae": 4038.7934785190223,
+      "r2": 0.9612845396249458,
+      "rmse": 11757.898144813538
+    },
+    "from_epoch": 1990,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/jaipur_three_product_evaluation_v1/figures/consistent_spatial/jaipur_1990_1995_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 71.00875663454819,
+      "mae": 181.41739397837927,
+      "r2": 0.9591687375894163,
+      "rmse": 529.4079510942298
+    },
+    "smod_accuracy": 0.8995918367346939,
+    "smod_persistence_accuracy": 0.9181632653061225,
+    "to_epoch": 1995
+  },
+  {
+    "built_metrics": {
+      "bias": -3579.5809170916823,
+      "mae": 4490.595133667459,
+      "r2": 0.9569665783324863,
+      "rmse": 14601.025906995737
+    },
+    "from_epoch": 1995,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/jaipur_three_product_evaluation_v1/figures/consistent_spatial/jaipur_1995_2000_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 63.317620005862224,
+      "mae": 171.6799671431645,
+      "r2": 0.967880139172561,
+      "rmse": 519.6764543908449
+    },
+    "smod_accuracy": 0.8993877551020408,
+    "smod_persistence_accuracy": 0.9144897959183673,
+    "to_epoch": 2000
+  },
+  {
+    "built_metrics": {
+      "bias": -2766.7357041190267,
+      "mae": 4157.215380315598,
+      "r2": 0.987503270281774,
+      "rmse": 8310.617727357432
+    },
+    "from_epoch": 2000,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/jaipur_three_product_evaluation_v1/figures/consistent_spatial/jaipur_2000_2005_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 90.72631592587886,
+      "mae": 164.4978660097987,
+      "r2": 0.9780814080108785,
+      "rmse": 444.5950704025794
+    },
+    "smod_accuracy": 0.8553061224489796,
+    "smod_persistence_accuracy": 0.843469387755102,
+    "to_epoch": 2005
+  },
+  {
+    "built_metrics": {
+      "bias": -2576.673706096544,
+      "mae": 4336.913724375904,
+      "r2": 0.9827167364794788,
+      "rmse": 10599.957626897469
+    },
+    "from_epoch": 2005,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/jaipur_three_product_evaluation_v1/figures/consistent_spatial/jaipur_2005_2010_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 124.4291076616654,
+      "mae": 189.91668116459087,
+      "r2": 0.9739496451538603,
+      "rmse": 498.50404480961834
+    },
+    "smod_accuracy": 0.8316326530612245,
+    "smod_persistence_accuracy": 0.8116326530612245,
+    "to_epoch": 2010
+  },
+  {
+    "built_metrics": {
+      "bias": -2143.1325903813126,
+      "mae": 4543.228197116689,
+      "r2": 0.9866959008651065,
+      "rmse": 10124.725647323372
+    },
+    "from_epoch": 2010,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/jaipur_three_product_evaluation_v1/figures/consistent_spatial/jaipur_2010_2015_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 158.14317759676842,
+      "mae": 197.323125103291,
+      "r2": 0.980371354300098,
+      "rmse": 451.31541442943603
+    },
+    "smod_accuracy": 0.8412244897959184,
+    "smod_persistence_accuracy": 0.8151020408163265,
+    "to_epoch": 2015
+  },
+  {
+    "built_metrics": {
+      "bias": 63.321727591421386,
+      "mae": 5231.294068283769,
+      "r2": 0.989620052767814,
+      "rmse": 9137.165753042753
+    },
+    "from_epoch": 2015,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/jaipur_three_product_evaluation_v1/figures/consistent_spatial/jaipur_2015_2020_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 225.25833377135604,
+      "mae": 245.41298161351637,
+      "r2": 0.9790816664655934,
+      "rmse": 488.99801327554025
+    },
+    "smod_accuracy": 0.8024489795918367,
+    "smod_persistence_accuracy": 0.7575510204081632,
+    "to_epoch": 2020
+  }
+]
