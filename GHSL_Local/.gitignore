@@ -287,3 +287,6 @@ __pycache__/
 *.swp
 *.swo
 *~
+
+# Coding-assistant instructions are retained locally, not published.
+AGENTS.md

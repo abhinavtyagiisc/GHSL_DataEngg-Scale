@@ -2,6 +2,16 @@
 
 Last updated: 2026-11-18 (Asia/Kolkata).
 
+## Assistant instructions retained locally — 19 November 2026
+
+User requested all AGENTS.md files be kept locally and removed from the repository.
+Untracking six files at project root and analysis/integration/phase1/phase2/phase3;
+project .gitignore now excludes this basename at every depth. Local instruction files
+remain byte-identical, with backup /private/tmp/ghsl-agents-local-backup-20261119.
+No runtime source/config/data changes. Verify Git index removal, ignore matching,
+local file hashes and whitespace; no computational rerun needed.
+Next: publish this local-only instructions cleanup.
+
 ## Obsolete development checkpoint removed — 19 November 2026
 
 User confirmed analysis/reports/PROGRESS.md was a development tracking document
