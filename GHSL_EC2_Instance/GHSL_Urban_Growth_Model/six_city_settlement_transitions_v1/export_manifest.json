@@ -1,0 +1,26 @@
+[
+  {
+    "data_rows": 1371,
+    "name": "smod_class_matrix",
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_settlement_transitions_v1/smod_class_matrix.csv",
+    "size_bytes": 150046
+  },
+  {
+    "data_rows": 466,
+    "name": "settlement_group_matrix",
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_settlement_transitions_v1/settlement_group_matrix.csv",
+    "size_bytes": 57605
+  },
+  {
+    "data_rows": 364,
+    "name": "transition_category_summary",
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_settlement_transitions_v1/transition_category_summary.csv",
+    "size_bytes": 45896
+  },
+  {
+    "data_rows": 63,
+    "name": "six_city_period_summary",
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_settlement_transitions_v1/six_city_period_summary.csv",
+    "size_bytes": 7543
+  }
+]
