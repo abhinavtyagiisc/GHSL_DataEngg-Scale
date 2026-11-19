@@ -2,6 +2,17 @@
 
 Last updated: 2026-11-18 (Asia/Kolkata).
 
+## Obsolete development checkpoint removed — 19 November 2026
+
+User confirmed analysis/reports/PROGRESS.md was a development tracking document
+and is no longer needed. Removed it; analysis README now links final results and
+accurately states completed accepted coverage, and analysis AGENTS directs continuity
+to root PROJECT_CONTEXT.md. Old references below are historical and resolve in Git
+history; a local backup exists in /private/tmp/ghsl-cleanup-audit-20261119/removed_backup.
+No runtime code or data changed. Checked updated relative links and absence of active
+references; no computational tests needed for this documentation-only change.
+Next: publish this final checkpoint cleanup under the existing cleanup workflow.
+
 ## Verified repository clutter removal — 19 November 2026
 
 User authorized removing unnecessary tracked files after short local verification.

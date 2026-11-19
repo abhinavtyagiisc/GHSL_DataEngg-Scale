@@ -1,15 +1,16 @@
-# Weeks 6–8 analysis — work in progress
+# Weeks 6–8 analysis
 
-Read [the saved checkpoint](reports/PROGRESS.md) before resuming.
+Analysis is complete for the approved **13-tile, 156 tile-year coverage**.
+R8_C27 is excluded; these results do not cover all of India. Historical analysis
+uses 1975–2020; 2025/2030 projections are treated separately.
 
-Implemented and run: fixed-vintage district mapping, exploratory connected-component
-candidate screening and sensitivity checks, and a national three-product source
-inventory. Historical Spark transitions/district summaries now pass validation after the
-Arrow-to-Spark schema-metadata fix. See [pilot results](reports/PILOT_REPORT.md).
+See the [final analysis report](data/week8_handoff/REPORT.md) for results and
+[regional validation and interpretation](../phase3/reports/analytical_review/REPORT.md)
+for follow-up checks. The earlier [pilot results](reports/PILOT_REPORT.md) describe
+only the Bengaluru study window. Candidate events are exploratory and must not be
+interpreted as unique or confirmed settlements.
 
-Weeks 6–8 and national processing are **not complete**. All analysis results currently
-refer to the Bengaluru pilot. District summaries must be labelled as pilot district
-intersections; candidate events must not be described as confirmed settlements.
+For future maintenance, read [project context](../PROJECT_CONTEXT.md).
 
 Source attribution:
 
