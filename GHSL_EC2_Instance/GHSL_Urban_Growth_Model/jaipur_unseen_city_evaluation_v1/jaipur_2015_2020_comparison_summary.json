@@ -1,0 +1,39 @@
+{
+  "actual_growth_total_m2": 48058339.0,
+  "actual_target_epoch": 2020,
+  "city": "Jaipur Metropolitan Region",
+  "correct_hotspots": 238,
+  "grid_cells": 4900,
+  "growth_metrics": {
+    "Bias (m\u00b2)": 63.32172759142106,
+    "MAE (m\u00b2)": 5231.294068283769,
+    "Median absolute error (m\u00b2)": 2668.8877233006197,
+    "RMSE (m\u00b2)": 9137.165753042753,
+    "R\u00b2": 0.4368754732867003
+  },
+  "hotspot_count": 490,
+  "hotspot_f1": 0.4857142857142857,
+  "hotspot_precision": 0.4857142857142857,
+  "hotspot_recall": 0.4857142857142857,
+  "jaipur_used_in_training": false,
+  "mae_improvement_vs_persistence_percent": 46.66203312896339,
+  "model": "Six-city Linear Regression",
+  "model_metrics": {
+    "Bias (m\u00b2)": 63.321727591421386,
+    "MAE (m\u00b2)": 5231.294068283769,
+    "Median absolute error (m\u00b2)": 2668.8877233006206,
+    "RMSE (m\u00b2)": 9137.165753042753,
+    "R\u00b2": 0.989620052767814
+  },
+  "persistence_metrics": {
+    "Bias (m\u00b2)": -9807.824285714285,
+    "MAE (m\u00b2)": 9807.824285714285,
+    "Median absolute error (m\u00b2)": 6656.5,
+    "RMSE (m\u00b2)": 15634.946839959748,
+    "R\u00b2": 0.969607602759221
+  },
+  "predicted_growth_total_m2": 48368615.465197966,
+  "random_hotspot_reference": 0.1,
+  "rmse_improvement_vs_persistence_percent": 41.55934237211467,
+  "source_epoch": 2015
+}
