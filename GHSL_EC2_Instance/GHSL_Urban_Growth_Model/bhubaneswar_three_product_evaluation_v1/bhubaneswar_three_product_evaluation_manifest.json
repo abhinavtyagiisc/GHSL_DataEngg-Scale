@@ -1,0 +1,90 @@
+{
+  "actual_epochs": [
+    1975,
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "baseline_epoch_without_prediction": 1975,
+  "bhubaneswar_used_in_training": false,
+  "city": "Bhubaneswar Metropolitan Region",
+  "city_slug": "bhubaneswar",
+  "created_at_utc": "2026-11-15T16:15:47Z",
+  "drive_output": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1",
+  "figures": 56,
+  "hdfs_outputs": {
+    "cell_predictions": "/data/ghsl/modeling/evaluation/bhubaneswar_three_product_v1/cell_predictions",
+    "summary_tables": "/data/ghsl/modeling/evaluation/bhubaneswar_three_product_v1/summary_tables",
+    "transitions": "/data/ghsl/modeling/bhubaneswar_three_product_transitions_v1"
+  },
+  "models": {
+    "built_surface": {
+      "path": "/data/ghsl/modeling/models/six_city_growth_v1/linear_regression",
+      "target": "built_surface_total_m2",
+      "type": "Linear Regression"
+    },
+    "degree_of_urbanisation": {
+      "path": "/data/ghsl/modeling/models/six_city_population_smod_v1/smod_random_forest",
+      "target": "smod_class",
+      "type": "Random Forest Classifier"
+    },
+    "population": {
+      "path": "/data/ghsl/modeling/models/six_city_population_smod_v1/population_linear_regression",
+      "target": "population_total",
+      "type": "Linear Regression"
+    }
+  },
+  "prediction_comparisons": 9,
+  "prediction_target_epochs": [
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "primary_2015_2020_metrics": {
+    "built_bias": 7974.05637555155,
+    "built_hotspot_f1": 0.4142857142857143,
+    "built_model": {
+      "mae": 8297.26507260414,
+      "r2": 0.9460195494826353,
+      "rmse": 10829.566604020258
+    },
+    "built_persistence": {
+      "mae": 1310.5477551020408,
+      "r2": 0.9944923699050572,
+      "rmse": 3459.1962892780602
+    },
+    "from_epoch": 2015,
+    "population_bias": 248.4703077662999,
+    "population_hotspot_f1": 0.4122448979591837,
+    "population_model": {
+      "mae": 296.4754322382796,
+      "r2": 0.9754385191216093,
+      "rmse": 409.26877375549714
+    },
+    "population_persistence": {
+      "mae": 69.17877618111193,
+      "r2": 0.9945833644752797,
+      "rmse": 192.19679580737477
+    },
+    "rows": 4900,
+    "smod_accuracy": 0.8414285714285714,
+    "smod_persistence_accuracy": 0.9463265306122449,
+    "to_epoch": 2020
+  },
+  "primary_unseen_city_unseen_time_test": "2015->2020",
+  "rows_per_comparison": 4900,
+  "source_datasets_modified": false,
+  "total_prediction_rows": 44100
+}

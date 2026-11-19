@@ -1,0 +1,65 @@
+[
+  {
+    "from_epoch": 1975,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/bhubaneswar_1975_1980_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1480781,
+    "to_epoch": 1980
+  },
+  {
+    "from_epoch": 1980,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/bhubaneswar_1980_1985_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1484912,
+    "to_epoch": 1985
+  },
+  {
+    "from_epoch": 1985,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/bhubaneswar_1985_1990_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1487586,
+    "to_epoch": 1990
+  },
+  {
+    "from_epoch": 1990,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/bhubaneswar_1990_1995_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1488366,
+    "to_epoch": 1995
+  },
+  {
+    "from_epoch": 1995,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/bhubaneswar_1995_2000_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1490624,
+    "to_epoch": 2000
+  },
+  {
+    "from_epoch": 2000,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/bhubaneswar_2000_2005_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1491397,
+    "to_epoch": 2005
+  },
+  {
+    "from_epoch": 2005,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/bhubaneswar_2005_2010_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1494253,
+    "to_epoch": 2010
+  },
+  {
+    "from_epoch": 2010,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/bhubaneswar_2010_2015_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1497221,
+    "to_epoch": 2015
+  },
+  {
+    "from_epoch": 2015,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/bhubaneswar_2015_2020_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1498446,
+    "to_epoch": 2020
+  }
+]

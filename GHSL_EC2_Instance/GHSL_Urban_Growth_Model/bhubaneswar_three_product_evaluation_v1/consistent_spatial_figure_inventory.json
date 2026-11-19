@@ -1,0 +1,173 @@
+[
+  {
+    "built_metrics": {
+      "bias": 2239.814612791946,
+      "mae": 2969.891328484652,
+      "r2": 0.9609712869939702,
+      "rmse": 4296.741307742936
+    },
+    "from_epoch": 1975,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/figures/consistent_spatial/bhubaneswar_1975_1980_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 342.76681827575834,
+      "mae": 403.0393798215099,
+      "r2": 0.8601466277580117,
+      "rmse": 550.6752807547443
+    },
+    "smod_accuracy": 0.8204081632653061,
+    "smod_persistence_accuracy": 0.8640816326530613,
+    "to_epoch": 1980
+  },
+  {
+    "built_metrics": {
+      "bias": 2749.9301436110363,
+      "mae": 3347.1168843404043,
+      "r2": 0.959984043702298,
+      "rmse": 4705.566608261729
+    },
+    "from_epoch": 1980,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/figures/consistent_spatial/bhubaneswar_1980_1985_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 301.04665609925655,
+      "mae": 355.4867872455425,
+      "r2": 0.917067730710781,
+      "rmse": 478.0115916124527
+    },
+    "smod_accuracy": 0.8242857142857143,
+    "smod_persistence_accuracy": 0.8673469387755102,
+    "to_epoch": 1985
+  },
+  {
+    "built_metrics": {
+      "bias": 3310.4607800490844,
+      "mae": 3794.827385105692,
+      "r2": 0.9592975349515079,
+      "rmse": 5181.261691631345
+    },
+    "from_epoch": 1985,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/figures/consistent_spatial/bhubaneswar_1985_1990_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 252.43285861524217,
+      "mae": 310.77600753533295,
+      "r2": 0.9517368030683019,
+      "rmse": 416.426310328437
+    },
+    "smod_accuracy": 0.8493877551020408,
+    "smod_persistence_accuracy": 0.9036734693877551,
+    "to_epoch": 1990
+  },
+  {
+    "built_metrics": {
+      "bias": 3737.461485379276,
+      "mae": 5055.543551861079,
+      "r2": 0.9420566997702589,
+      "rmse": 7223.449879078026
+    },
+    "from_epoch": 1990,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/figures/consistent_spatial/bhubaneswar_1990_1995_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 225.34384457901618,
+      "mae": 308.4803669026016,
+      "r2": 0.9494535101731696,
+      "rmse": 464.8269189748232
+    },
+    "smod_accuracy": 0.8504081632653061,
+    "smod_persistence_accuracy": 0.9161224489795918,
+    "to_epoch": 1995
+  },
+  {
+    "built_metrics": {
+      "bias": 4032.9050899413146,
+      "mae": 5350.231445403424,
+      "r2": 0.9532472229419067,
+      "rmse": 7717.906595793324
+    },
+    "from_epoch": 1995,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/figures/consistent_spatial/bhubaneswar_1995_2000_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 218.24217846519224,
+      "mae": 288.64600104398426,
+      "r2": 0.9669582493731301,
+      "rmse": 413.015021614861
+    },
+    "smod_accuracy": 0.8420408163265306,
+    "smod_persistence_accuracy": 0.9155102040816326,
+    "to_epoch": 2000
+  },
+  {
+    "built_metrics": {
+      "bias": 5288.263507827931,
+      "mae": 6111.890567356538,
+      "r2": 0.9537997175540978,
+      "rmse": 8189.287796855369
+    },
+    "from_epoch": 2000,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/figures/consistent_spatial/bhubaneswar_2000_2005_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 223.08868614986054,
+      "mae": 284.11246296758077,
+      "r2": 0.9708986025750084,
+      "rmse": 402.33820575453365
+    },
+    "smod_accuracy": 0.8455102040816327,
+    "smod_persistence_accuracy": 0.9224489795918367,
+    "to_epoch": 2005
+  },
+  {
+    "built_metrics": {
+      "bias": 5472.162732985988,
+      "mae": 6509.740149054887,
+      "r2": 0.9546935744325539,
+      "rmse": 8876.771129047425
+    },
+    "from_epoch": 2005,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/figures/consistent_spatial/bhubaneswar_2005_2010_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 236.78792440254696,
+      "mae": 296.8630122817215,
+      "r2": 0.9666118909219368,
+      "rmse": 442.75715424203497
+    },
+    "smod_accuracy": 0.8495918367346939,
+    "smod_persistence_accuracy": 0.9304081632653062,
+    "to_epoch": 2010
+  },
+  {
+    "built_metrics": {
+      "bias": 6028.773296553732,
+      "mae": 6962.545758555124,
+      "r2": 0.9586148271477295,
+      "rmse": 9307.624091348585
+    },
+    "from_epoch": 2010,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/figures/consistent_spatial/bhubaneswar_2010_2015_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 240.27836637792305,
+      "mae": 293.4897849994338,
+      "r2": 0.9714797656462936,
+      "rmse": 423.40142202247904
+    },
+    "smod_accuracy": 0.8489795918367347,
+    "smod_persistence_accuracy": 0.9355102040816327,
+    "to_epoch": 2015
+  },
+  {
+    "built_metrics": {
+      "bias": 7974.05637555155,
+      "mae": 8297.265072604148,
+      "r2": 0.9460195494826351,
+      "rmse": 10829.56660402027
+    },
+    "from_epoch": 2015,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/bhubaneswar_three_product_evaluation_v1/figures/consistent_spatial/bhubaneswar_2015_2020_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 248.47030776630055,
+      "mae": 296.47543223827915,
+      "r2": 0.9754385191216092,
+      "rmse": 409.2687737554977
+    },
+    "smod_accuracy": 0.8414285714285714,
+    "smod_persistence_accuracy": 0.9463265306122449,
+    "to_epoch": 2020
+  }
+]
