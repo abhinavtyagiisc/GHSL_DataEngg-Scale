@@ -1,0 +1,60 @@
+{
+  "actual_years": [
+    2015,
+    2020
+  ],
+  "created_at_utc": "2026-11-15T06:08:59Z",
+  "files": [
+    {
+      "actual_year": 2015,
+      "data_rows": 29400,
+      "line_count": 29401,
+      "model": "linear_regression",
+      "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_evaluation_v1/linear_regression_2015_cell_predictions.csv",
+      "size_bytes": 7416258
+    },
+    {
+      "actual_year": 2020,
+      "data_rows": 29400,
+      "line_count": 29401,
+      "model": "linear_regression",
+      "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_evaluation_v1/linear_regression_2020_cell_predictions.csv",
+      "size_bytes": 7424144
+    },
+    {
+      "actual_year": 2015,
+      "data_rows": 29400,
+      "line_count": 29401,
+      "model": "random_forest",
+      "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_evaluation_v1/random_forest_2015_cell_predictions.csv",
+      "size_bytes": 7348038
+    },
+    {
+      "actual_year": 2020,
+      "data_rows": 29400,
+      "line_count": 29401,
+      "model": "random_forest",
+      "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_evaluation_v1/random_forest_2020_cell_predictions.csv",
+      "size_bytes": 7344996
+    }
+  ],
+  "geometry_wkb_exclusion_reason": "Spark CSV does not support binary columns.",
+  "geometry_wkb_exported": false,
+  "mapping_fields_retained": [
+    "grid_1km_row",
+    "grid_1km_col",
+    "grid_min_x",
+    "grid_max_x",
+    "grid_min_y",
+    "grid_max_y",
+    "geometry_crs"
+  ],
+  "models": [
+    "linear_regression",
+    "random_forest"
+  ],
+  "rows_per_export": 29400,
+  "source": "temporary_hdfs_csv_exports",
+  "source_prediction_datasets_modified": false,
+  "temporary_hdfs_root": "/tmp/nb13_eval_exports"
+}

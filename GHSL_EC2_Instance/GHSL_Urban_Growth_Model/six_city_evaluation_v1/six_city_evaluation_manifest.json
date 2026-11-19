@@ -1,0 +1,88 @@
+{
+  "cities": [
+    "bengaluru",
+    "chennai_metro",
+    "delhi_ncr",
+    "hyderabad",
+    "mumbai_metro",
+    "pune_metro"
+  ],
+  "created_at_utc": "2026-11-15T06:13:29Z",
+  "hdfs_outputs": {
+    "linear_predictions": "/data/ghsl/modeling/evaluation/six_city_2015_2020_v1/linear_regression_predictions",
+    "metric_tables": "/data/ghsl/modeling/evaluation/six_city_2015_2020_v1/metric_tables",
+    "random_forest_predictions": "/data/ghsl/modeling/evaluation/six_city_2015_2020_v1/random_forest_predictions"
+  },
+  "jaipur_included": false,
+  "models": [
+    "persistence",
+    "linear_regression",
+    "random_forest"
+  ],
+  "overall_2015": {
+    "linear_regression": {
+      "city_slug": "ALL",
+      "mae": 5904.538118113679,
+      "model": "linear_regression",
+      "r2": 0.9912052568993999,
+      "rmse": 10700.973279182099,
+      "scope": "overall",
+      "to_epoch": 2015
+    },
+    "persistence": {
+      "city_slug": "ALL",
+      "mae": 7416.663707482993,
+      "model": "persistence",
+      "r2": 0.9799967365150603,
+      "rmse": 16138.461420974816,
+      "scope": "overall",
+      "to_epoch": 2015
+    },
+    "random_forest": {
+      "city_slug": "ALL",
+      "mae": 6609.759533373208,
+      "model": "random_forest",
+      "r2": 0.9821866172079865,
+      "rmse": 15229.473897814245,
+      "scope": "overall",
+      "to_epoch": 2015
+    }
+  },
+  "overall_2020": {
+    "linear_regression": {
+      "city_slug": "ALL",
+      "mae": 6961.287531466823,
+      "model": "linear_regression",
+      "r2": 0.9909752766308704,
+      "rmse": 10977.947370480828,
+      "scope": "overall",
+      "to_epoch": 2020
+    },
+    "persistence": {
+      "city_slug": "ALL",
+      "mae": 5503.150680272109,
+      "model": "persistence",
+      "r2": 0.9890228158949733,
+      "rmse": 12107.365945209738,
+      "scope": "overall",
+      "to_epoch": 2020
+    },
+    "random_forest": {
+      "city_slug": "ALL",
+      "mae": 9027.187055572596,
+      "model": "random_forest",
+      "r2": 0.9747807145895845,
+      "rmse": 18351.458394983416,
+      "scope": "overall",
+      "to_epoch": 2020
+    }
+  },
+  "purpose": "Compare predicted versus actual 2015 and 2020 built surface for the six existing cities",
+  "source_datasets_modified": false,
+  "target": "next built_surface_total_m2",
+  "test_period": "2015->2020",
+  "test_rows": 29400,
+  "training_through": 2010,
+  "validation_period": "2010->2015",
+  "validation_rows": 29400
+}
