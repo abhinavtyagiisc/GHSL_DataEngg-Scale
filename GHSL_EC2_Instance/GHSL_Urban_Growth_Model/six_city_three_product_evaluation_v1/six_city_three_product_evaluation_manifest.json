@@ -1,0 +1,32 @@
+{
+  "baselines": {
+    "built_surface": "current built surface",
+    "degree_of_urbanisation": "current SMOD class",
+    "population": "current population"
+  },
+  "cities": {
+    "bengaluru": "Bengaluru",
+    "chennai_metro": "Chennai Metropolitan Region",
+    "delhi_ncr": "Delhi NCR",
+    "hyderabad": "Hyderabad",
+    "mumbai_metro": "Mumbai Metropolitan Region",
+    "pune_metro": "Pune Metropolitan Region"
+  },
+  "created_at_utc": "2026-11-15T10:47:58Z",
+  "drive_output": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/six_city_three_product_evaluation_v1",
+  "figure_count": 44,
+  "hdfs_combined_predictions": "/data/ghsl/modeling/evaluation/six_city_three_product_v1/cell_predictions",
+  "hdfs_summary": "/data/ghsl/modeling/evaluation/six_city_three_product_v1/summary_tables",
+  "models": {
+    "built_surface": "Linear Regression",
+    "degree_of_urbanisation": "Random Forest Classifier",
+    "population": "Linear Regression"
+  },
+  "purpose": "Actual-vs-predicted comparison of GHS-BUILT-S, GHS-POP, and GHS-SMOD for six cities in 2015 and 2020",
+  "rows_per_epoch": 29400,
+  "source_datasets_modified": false,
+  "target_epochs": [
+    2015,
+    2020
+  ]
+}
