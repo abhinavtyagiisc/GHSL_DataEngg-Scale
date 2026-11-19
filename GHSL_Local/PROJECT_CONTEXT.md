@@ -2,6 +2,28 @@
 
 Last updated: 2026-11-18 (Asia/Kolkata).
 
+## Verified repository clutter removal — 19 November 2026
+
+User authorized removing unnecessary tracked files after short local verification.
+Removed 21 audited files: six obsolete ETA/progress JSON records, four old source/
+identity backups, ten superseded development test logs, and completed FILENAME_REVIEW.md.
+Exact deletions are in this commit; originals remain in parent 0847ec5 and local backup
+/private/tmp/ghsl-cleanup-audit-20261119/removed_backup. Historical references below
+to removed files refer to that prior tree, not current runtime dependencies.
+Code, configs, dependency pins, source manifests, benchmark evidence, final results,
+required packaging reports and continuity instructions retained.
+
+Validation used isolated committed-tree export with those same 21 deletions:
+63 existing tests passed across six suites; final nine Spark/Sedona checks took 88s
+with approved local socket access. Python compilation and four report builders passed.
+Reused existing local Python/Java/Sedona runtime, pilot tables and raw source fixtures;
+no downloads or full national/HDFS rerun. Untracked external datasets remain necessary
+for full reproduction. Earlier sandbox failures were resolved with socket permission;
+fixture omissions were resolved using existing caches. No new report-layout review.
+All remaining Python source bytes match the tested cleaned copy. Prepared for cleanup
+commit/push; publication receipt is recorded in original workspace continuity.
+Next: no additional deletion candidates authorized beyond this audited set.
+
 ## Approved filename cleanup applied — 19 November 2026
 
 Applied all 18 reviewed renames in team checkout, using national_integration.py
