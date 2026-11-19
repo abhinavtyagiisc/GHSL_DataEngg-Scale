@@ -1,0 +1,90 @@
+{
+  "actual_epochs": [
+    1975,
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "ahmedabad_used_in_training": false,
+  "baseline_epoch_without_prediction": 1975,
+  "city": "Ahmedabad Metropolitan Region",
+  "city_slug": "ahmedabad",
+  "created_at_utc": "2026-11-15T13:36:13Z",
+  "drive_output": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1",
+  "figures": 56,
+  "hdfs_outputs": {
+    "cell_predictions": "/data/ghsl/modeling/evaluation/ahmedabad_three_product_v1/cell_predictions",
+    "summary_tables": "/data/ghsl/modeling/evaluation/ahmedabad_three_product_v1/summary_tables",
+    "transitions": "/data/ghsl/modeling/ahmedabad_three_product_transitions_v1"
+  },
+  "models": {
+    "built_surface": {
+      "path": "/data/ghsl/modeling/models/six_city_growth_v1/linear_regression",
+      "target": "built_surface_total_m2",
+      "type": "Linear Regression"
+    },
+    "degree_of_urbanisation": {
+      "path": "/data/ghsl/modeling/models/six_city_population_smod_v1/smod_random_forest",
+      "target": "smod_class",
+      "type": "Random Forest Classifier"
+    },
+    "population": {
+      "path": "/data/ghsl/modeling/models/six_city_population_smod_v1/population_linear_regression",
+      "target": "population_total",
+      "type": "Linear Regression"
+    }
+  },
+  "prediction_comparisons": 9,
+  "prediction_target_epochs": [
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "primary_2015_2020_metrics": {
+    "built_bias": 4063.4224685714767,
+    "built_hotspot_f1": 0.37142857142857144,
+    "built_model": {
+      "mae": 6015.178744145441,
+      "r2": 0.9901540321826586,
+      "rmse": 9287.114105742765
+    },
+    "built_persistence": {
+      "mae": 4341.392857142857,
+      "r2": 0.9892675347979333,
+      "rmse": 9696.194533234497
+    },
+    "from_epoch": 2015,
+    "population_bias": 131.30811774777604,
+    "population_hotspot_f1": 0.5836734693877551,
+    "population_model": {
+      "mae": 212.8008468194346,
+      "r2": 0.9971567251365904,
+      "rmse": 409.1644146321433
+    },
+    "population_persistence": {
+      "mae": 173.5006938096415,
+      "r2": 0.9928203350677706,
+      "rmse": 650.1903526364918
+    },
+    "rows": 4900,
+    "smod_accuracy": 0.8520408163265306,
+    "smod_persistence_accuracy": 0.8504081632653061,
+    "to_epoch": 2020
+  },
+  "primary_unseen_city_unseen_time_test": "2015->2020",
+  "rows_per_comparison": 4900,
+  "source_datasets_modified": false,
+  "total_prediction_rows": 44100
+}

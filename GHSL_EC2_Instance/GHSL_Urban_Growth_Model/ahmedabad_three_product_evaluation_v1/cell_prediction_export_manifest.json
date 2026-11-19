@@ -1,0 +1,65 @@
+[
+  {
+    "from_epoch": 1975,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/ahmedabad_1975_1980_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1522332,
+    "to_epoch": 1980
+  },
+  {
+    "from_epoch": 1980,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/ahmedabad_1980_1985_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1525038,
+    "to_epoch": 1985
+  },
+  {
+    "from_epoch": 1985,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/ahmedabad_1985_1990_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1526936,
+    "to_epoch": 1990
+  },
+  {
+    "from_epoch": 1990,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/ahmedabad_1990_1995_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1528522,
+    "to_epoch": 1995
+  },
+  {
+    "from_epoch": 1995,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/ahmedabad_1995_2000_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1531556,
+    "to_epoch": 2000
+  },
+  {
+    "from_epoch": 2000,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/ahmedabad_2000_2005_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1535922,
+    "to_epoch": 2005
+  },
+  {
+    "from_epoch": 2005,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/ahmedabad_2005_2010_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1538230,
+    "to_epoch": 2010
+  },
+  {
+    "from_epoch": 2010,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/ahmedabad_2010_2015_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1538833,
+    "to_epoch": 2015
+  },
+  {
+    "from_epoch": 2015,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/ahmedabad_2015_2020_three_product_predictions.csv",
+    "rows": 4900,
+    "size_bytes": 1539410,
+    "to_epoch": 2020
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "built_metrics": {
+      "bias": -1424.196636563894,
+      "mae": 2227.147563141061,
+      "r2": 0.9976069120010645,
+      "rmse": 2994.5637489069913
+    },
+    "from_epoch": 1975,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/figures/consistent_spatial/ahmedabad_1975_1980_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 28.80244173789214,
+      "mae": 110.49075701703434,
+      "r2": 0.9951017535674759,
+      "rmse": 267.0652358625236
+    },
+    "smod_accuracy": 0.9028571428571428,
+    "smod_persistence_accuracy": 0.9151020408163265,
+    "to_epoch": 1980
+  },
+  {
+    "built_metrics": {
+      "bias": -852.0978174141845,
+      "mae": 2177.1097725926234,
+      "r2": 0.9975873619695501,
+      "rmse": 3131.7585221768645
+    },
+    "from_epoch": 1980,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/figures/consistent_spatial/ahmedabad_1980_1985_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 36.39076011342462,
+      "mae": 110.23696455203766,
+      "r2": 0.9961030114674677,
+      "rmse": 268.37023359903003
+    },
+    "smod_accuracy": 0.9120408163265306,
+    "smod_persistence_accuracy": 0.9251020408163265,
+    "to_epoch": 1985
+  },
+  {
+    "built_metrics": {
+      "bias": -551.1326818635049,
+      "mae": 2173.2863511017445,
+      "r2": 0.9976681495284097,
+      "rmse": 3230.308639960279
+    },
+    "from_epoch": 1985,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/figures/consistent_spatial/ahmedabad_1985_1990_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 31.161773995557642,
+      "mae": 118.03552365991871,
+      "r2": 0.9961399764856186,
+      "rmse": 301.02377506609116
+    },
+    "smod_accuracy": 0.9091836734693878,
+    "smod_persistence_accuracy": 0.9220408163265306,
+    "to_epoch": 1990
+  },
+  {
+    "built_metrics": {
+      "bias": -762.1365145429633,
+      "mae": 3120.631713340172,
+      "r2": 0.9897764088484156,
+      "rmse": 7317.678458212428
+    },
+    "from_epoch": 1990,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/figures/consistent_spatial/ahmedabad_1990_1995_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 42.995147275682655,
+      "mae": 158.4900207034938,
+      "r2": 0.9917359001712882,
+      "rmse": 478.3711102651647
+    },
+    "smod_accuracy": 0.9048979591836734,
+    "smod_persistence_accuracy": 0.9391836734693878,
+    "to_epoch": 1995
+  },
+  {
+    "built_metrics": {
+      "bias": -680.5559989868876,
+      "mae": 3304.334669175069,
+      "r2": 0.9893484303862199,
+      "rmse": 8200.214247687738
+    },
+    "from_epoch": 1995,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/figures/consistent_spatial/ahmedabad_1995_2000_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 49.409207624343,
+      "mae": 167.55615704482014,
+      "r2": 0.991333493253603,
+      "rmse": 534.7519810993302
+    },
+    "smod_accuracy": 0.9061224489795918,
+    "smod_persistence_accuracy": 0.936734693877551,
+    "to_epoch": 2000
+  },
+  {
+    "built_metrics": {
+      "bias": 162.26005090497537,
+      "mae": 3508.760423071056,
+      "r2": 0.9939122071270494,
+      "rmse": 6463.900985088615
+    },
+    "from_epoch": 2000,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/figures/consistent_spatial/ahmedabad_2000_2005_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 65.787227111487,
+      "mae": 162.748332997665,
+      "r2": 0.9953318201399015,
+      "rmse": 421.08240539197243
+    },
+    "smod_accuracy": 0.8951020408163265,
+    "smod_persistence_accuracy": 0.9169387755102041,
+    "to_epoch": 2005
+  },
+  {
+    "built_metrics": {
+      "bias": 371.3378974413859,
+      "mae": 3888.08997794852,
+      "r2": 0.9919758126731176,
+      "rmse": 7846.009191888874
+    },
+    "from_epoch": 2005,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/figures/consistent_spatial/ahmedabad_2005_2010_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 86.53153446068306,
+      "mae": 187.63028206170833,
+      "r2": 0.9935998851450443,
+      "rmse": 526.8857508738437
+    },
+    "smod_accuracy": 0.886734693877551,
+    "smod_persistence_accuracy": 0.9051020408163265,
+    "to_epoch": 2010
+  },
+  {
+    "built_metrics": {
+      "bias": 1229.241463562679,
+      "mae": 4287.867197862633,
+      "r2": 0.9933483856197175,
+      "rmse": 7540.255159513618
+    },
+    "from_epoch": 2010,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/figures/consistent_spatial/ahmedabad_2010_2015_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 102.44700713692308,
+      "mae": 191.45320548517984,
+      "r2": 0.9955210731855014,
+      "rmse": 473.78930094040976
+    },
+    "smod_accuracy": 0.8793877551020408,
+    "smod_persistence_accuracy": 0.8855102040816326,
+    "to_epoch": 2015
+  },
+  {
+    "built_metrics": {
+      "bias": 4063.4224685714776,
+      "mae": 6015.178744145453,
+      "r2": 0.9901540321826586,
+      "rmse": 9287.114105742769
+    },
+    "from_epoch": 2015,
+    "path": "/content/drive/MyDrive/GHSL_Urban_Growth_Model/ahmedabad_three_product_evaluation_v1/figures/consistent_spatial/ahmedabad_2015_2020_consistent_three_product_comparison.png",
+    "population_metrics": {
+      "bias": 131.3081177477756,
+      "mae": 212.80084681943438,
+      "r2": 0.9971567251365904,
+      "rmse": 409.1644146321437
+    },
+    "smod_accuracy": 0.8520408163265306,
+    "smod_persistence_accuracy": 0.8504081632653061,
+    "to_epoch": 2020
+  }
+]

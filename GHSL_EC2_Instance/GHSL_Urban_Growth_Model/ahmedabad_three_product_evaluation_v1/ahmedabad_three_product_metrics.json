@@ -1,0 +1,1677 @@
+{
+  "confusion": [
+    {
+      "actual_smod_class": "11",
+      "count": 3001,
+      "predicted_smod_class": "11",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 125,
+      "predicted_smod_class": "12",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 174,
+      "predicted_smod_class": "11",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 840,
+      "predicted_smod_class": "12",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 12,
+      "predicted_smod_class": "13",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 36,
+      "predicted_smod_class": "21",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 18,
+      "predicted_smod_class": "12",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 230,
+      "predicted_smod_class": "13",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 39,
+      "predicted_smod_class": "21",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 2,
+      "predicted_smod_class": "11",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 28,
+      "predicted_smod_class": "12",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 12,
+      "predicted_smod_class": "13",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 78,
+      "predicted_smod_class": "21",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 2,
+      "predicted_smod_class": "30",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 3,
+      "predicted_smod_class": "21",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 2,
+      "predicted_smod_class": "23",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 6,
+      "predicted_smod_class": "21",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 31,
+      "predicted_smod_class": "23",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 9,
+      "predicted_smod_class": "30",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 1,
+      "predicted_smod_class": "11",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 1,
+      "predicted_smod_class": "12",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 6,
+      "predicted_smod_class": "21",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 244,
+      "predicted_smod_class": "30",
+      "to_epoch": 1980
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 2839,
+      "predicted_smod_class": "11",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 125,
+      "predicted_smod_class": "12",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 99,
+      "predicted_smod_class": "11",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 961,
+      "predicted_smod_class": "12",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 12,
+      "predicted_smod_class": "13",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 40,
+      "predicted_smod_class": "21",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 27,
+      "predicted_smod_class": "12",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 271,
+      "predicted_smod_class": "13",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 45,
+      "predicted_smod_class": "21",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 21,
+      "predicted_smod_class": "12",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 8,
+      "predicted_smod_class": "13",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 116,
+      "predicted_smod_class": "21",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 3,
+      "predicted_smod_class": "30",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 2,
+      "predicted_smod_class": "13",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 3,
+      "predicted_smod_class": "21",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 2,
+      "predicted_smod_class": "23",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 1,
+      "predicted_smod_class": "30",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 2,
+      "predicted_smod_class": "13",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 3,
+      "predicted_smod_class": "21",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 25,
+      "predicted_smod_class": "23",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 5,
+      "predicted_smod_class": "30",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 1,
+      "predicted_smod_class": "12",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 16,
+      "predicted_smod_class": "21",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 16,
+      "predicted_smod_class": "23",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 257,
+      "predicted_smod_class": "30",
+      "to_epoch": 1985
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 2709,
+      "predicted_smod_class": "11",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 142,
+      "predicted_smod_class": "12",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 54,
+      "predicted_smod_class": "11",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 971,
+      "predicted_smod_class": "12",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 9,
+      "predicted_smod_class": "13",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 35,
+      "predicted_smod_class": "21",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 27,
+      "predicted_smod_class": "12",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 289,
+      "predicted_smod_class": "13",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 83,
+      "predicted_smod_class": "21",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 1,
+      "predicted_smod_class": "23",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 2,
+      "predicted_smod_class": "30",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 29,
+      "predicted_smod_class": "12",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 14,
+      "predicted_smod_class": "13",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 162,
+      "predicted_smod_class": "21",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 1,
+      "predicted_smod_class": "30",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 8,
+      "predicted_smod_class": "13",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 7,
+      "predicted_smod_class": "21",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 3,
+      "predicted_smod_class": "23",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 4,
+      "predicted_smod_class": "30",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 2,
+      "predicted_smod_class": "13",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 5,
+      "predicted_smod_class": "21",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 29,
+      "predicted_smod_class": "23",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 2,
+      "predicted_smod_class": "30",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 1,
+      "predicted_smod_class": "11",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 2,
+      "predicted_smod_class": "12",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 9,
+      "predicted_smod_class": "21",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 5,
+      "predicted_smod_class": "23",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 295,
+      "predicted_smod_class": "30",
+      "to_epoch": 1990
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 2607,
+      "predicted_smod_class": "11",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 159,
+      "predicted_smod_class": "12",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 56,
+      "predicted_smod_class": "11",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 946,
+      "predicted_smod_class": "12",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 12,
+      "predicted_smod_class": "13",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 51,
+      "predicted_smod_class": "21",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 6,
+      "predicted_smod_class": "12",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 313,
+      "predicted_smod_class": "13",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 62,
+      "predicted_smod_class": "21",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 1,
+      "predicted_smod_class": "23",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 3,
+      "predicted_smod_class": "30",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 2,
+      "predicted_smod_class": "11",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 26,
+      "predicted_smod_class": "12",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 20,
+      "predicted_smod_class": "13",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 211,
+      "predicted_smod_class": "21",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 5,
+      "predicted_smod_class": "30",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 3,
+      "predicted_smod_class": "13",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 13,
+      "predicted_smod_class": "21",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 3,
+      "predicted_smod_class": "23",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 2,
+      "predicted_smod_class": "30",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 1,
+      "predicted_smod_class": "12",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 11,
+      "predicted_smod_class": "21",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 37,
+      "predicted_smod_class": "23",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 4,
+      "predicted_smod_class": "30",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 3,
+      "predicted_smod_class": "12",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 23,
+      "predicted_smod_class": "21",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 320,
+      "predicted_smod_class": "30",
+      "to_epoch": 1995
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 2530,
+      "predicted_smod_class": "11",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 148,
+      "predicted_smod_class": "12",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 60,
+      "predicted_smod_class": "11",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 958,
+      "predicted_smod_class": "12",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 6,
+      "predicted_smod_class": "13",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 55,
+      "predicted_smod_class": "21",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 5,
+      "predicted_smod_class": "12",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 292,
+      "predicted_smod_class": "13",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 71,
+      "predicted_smod_class": "21",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 3,
+      "predicted_smod_class": "23",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 4,
+      "predicted_smod_class": "30",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 20,
+      "predicted_smod_class": "12",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 26,
+      "predicted_smod_class": "13",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 267,
+      "predicted_smod_class": "21",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 8,
+      "predicted_smod_class": "30",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 1,
+      "predicted_smod_class": "13",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 13,
+      "predicted_smod_class": "21",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 4,
+      "predicted_smod_class": "23",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 7,
+      "predicted_smod_class": "21",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 41,
+      "predicted_smod_class": "23",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 9,
+      "predicted_smod_class": "30",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 2,
+      "predicted_smod_class": "12",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 12,
+      "predicted_smod_class": "21",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 6,
+      "predicted_smod_class": "23",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 352,
+      "predicted_smod_class": "30",
+      "to_epoch": 2000
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 2350,
+      "predicted_smod_class": "11",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 104,
+      "predicted_smod_class": "12",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 128,
+      "predicted_smod_class": "11",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 1022,
+      "predicted_smod_class": "12",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 3,
+      "predicted_smod_class": "13",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 57,
+      "predicted_smod_class": "21",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 9,
+      "predicted_smod_class": "12",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 285,
+      "predicted_smod_class": "13",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 67,
+      "predicted_smod_class": "21",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 1,
+      "predicted_smod_class": "23",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 2,
+      "predicted_smod_class": "30",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 3,
+      "predicted_smod_class": "11",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 40,
+      "predicted_smod_class": "12",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 20,
+      "predicted_smod_class": "13",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 308,
+      "predicted_smod_class": "21",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 1,
+      "predicted_smod_class": "23",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 11,
+      "predicted_smod_class": "30",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 16,
+      "predicted_smod_class": "21",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 3,
+      "predicted_smod_class": "23",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 3,
+      "predicted_smod_class": "30",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 5,
+      "predicted_smod_class": "21",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 44,
+      "predicted_smod_class": "23",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 22,
+      "predicted_smod_class": "30",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 2,
+      "predicted_smod_class": "11",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 2,
+      "predicted_smod_class": "12",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 15,
+      "predicted_smod_class": "21",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 377,
+      "predicted_smod_class": "30",
+      "to_epoch": 2005
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 2085,
+      "predicted_smod_class": "11",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 110,
+      "predicted_smod_class": "12",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 137,
+      "predicted_smod_class": "11",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 1173,
+      "predicted_smod_class": "12",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 2,
+      "predicted_smod_class": "13",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 61,
+      "predicted_smod_class": "21",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 5,
+      "predicted_smod_class": "12",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 263,
+      "predicted_smod_class": "13",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 77,
+      "predicted_smod_class": "21",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 2,
+      "predicted_smod_class": "23",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 3,
+      "predicted_smod_class": "30",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 34,
+      "predicted_smod_class": "12",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 32,
+      "predicted_smod_class": "13",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 374,
+      "predicted_smod_class": "21",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 15,
+      "predicted_smod_class": "30",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 3,
+      "predicted_smod_class": "13",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 15,
+      "predicted_smod_class": "21",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 6,
+      "predicted_smod_class": "23",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 3,
+      "predicted_smod_class": "30",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 12,
+      "predicted_smod_class": "21",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 48,
+      "predicted_smod_class": "23",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 26,
+      "predicted_smod_class": "30",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 1,
+      "predicted_smod_class": "12",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 11,
+      "predicted_smod_class": "21",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 402,
+      "predicted_smod_class": "30",
+      "to_epoch": 2010
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 1806,
+      "predicted_smod_class": "11",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 109,
+      "predicted_smod_class": "12",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 143,
+      "predicted_smod_class": "11",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 1317,
+      "predicted_smod_class": "12",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 2,
+      "predicted_smod_class": "13",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 58,
+      "predicted_smod_class": "21",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 13,
+      "predicted_smod_class": "12",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 217,
+      "predicted_smod_class": "13",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 58,
+      "predicted_smod_class": "21",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 3,
+      "predicted_smod_class": "23",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 5,
+      "predicted_smod_class": "30",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 54,
+      "predicted_smod_class": "12",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 56,
+      "predicted_smod_class": "13",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 474,
+      "predicted_smod_class": "21",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 1,
+      "predicted_smod_class": "23",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 17,
+      "predicted_smod_class": "30",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 2,
+      "predicted_smod_class": "13",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 20,
+      "predicted_smod_class": "21",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 7,
+      "predicted_smod_class": "23",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 5,
+      "predicted_smod_class": "30",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 3,
+      "predicted_smod_class": "21",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 58,
+      "predicted_smod_class": "23",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 12,
+      "predicted_smod_class": "30",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 2,
+      "predicted_smod_class": "12",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 18,
+      "predicted_smod_class": "21",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 3,
+      "predicted_smod_class": "23",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 437,
+      "predicted_smod_class": "30",
+      "to_epoch": 2015
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 1500,
+      "predicted_smod_class": "11",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "11",
+      "count": 83,
+      "predicted_smod_class": "12",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 174,
+      "predicted_smod_class": "11",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 1405,
+      "predicted_smod_class": "12",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 3,
+      "predicted_smod_class": "13",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "12",
+      "count": 65,
+      "predicted_smod_class": "21",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 21,
+      "predicted_smod_class": "12",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 138,
+      "predicted_smod_class": "13",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 74,
+      "predicted_smod_class": "21",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 1,
+      "predicted_smod_class": "23",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "13",
+      "count": 5,
+      "predicted_smod_class": "30",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 109,
+      "predicted_smod_class": "12",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 72,
+      "predicted_smod_class": "13",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 619,
+      "predicted_smod_class": "21",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 3,
+      "predicted_smod_class": "23",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "21",
+      "count": 31,
+      "predicted_smod_class": "30",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 2,
+      "predicted_smod_class": "13",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 21,
+      "predicted_smod_class": "21",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 17,
+      "predicted_smod_class": "23",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "22",
+      "count": 5,
+      "predicted_smod_class": "30",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 4,
+      "predicted_smod_class": "21",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 54,
+      "predicted_smod_class": "23",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "23",
+      "count": 25,
+      "predicted_smod_class": "30",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 10,
+      "predicted_smod_class": "21",
+      "to_epoch": 2020
+    },
+    {
+      "actual_smod_class": "30",
+      "count": 459,
+      "predicted_smod_class": "30",
+      "to_epoch": 2020
+    }
+  ],
+  "metrics": [
+    {
+      "built_bias": -1424.196636563895,
+      "built_hotspot_f1": 0.7448979591836735,
+      "built_model": {
+        "mae": 2227.1475631410635,
+        "r2": 0.9976069120010645,
+        "rmse": 2994.5637489069927
+      },
+      "built_persistence": {
+        "mae": 1798.9871428571428,
+        "r2": 0.9952985075984246,
+        "rmse": 4197.320164517998
+      },
+      "from_epoch": 1975,
+      "population_bias": 28.80244173789204,
+      "population_hotspot_f1": 0.746938775510204,
+      "population_model": {
+        "mae": 110.49075701703431,
+        "r2": 0.9951017535674759,
+        "rmse": 267.06523586252337
+      },
+      "population_persistence": {
+        "mae": 119.06019945884779,
+        "r2": 0.9813837114862592,
+        "rmse": 520.64726846783
+      },
+      "rows": 4900,
+      "smod_accuracy": 0.9028571428571428,
+      "smod_persistence_accuracy": 0.9151020408163265,
+      "to_epoch": 1980
+    },
+    {
+      "built_bias": -852.0978174141845,
+      "built_hotspot_f1": 0.7755102040816326,
+      "built_model": {
+        "mae": 2177.109772592622,
+        "r2": 0.9975873619695501,
+        "rmse": 3131.758522176864
+      },
+      "built_persistence": {
+        "mae": 2392.5420408163263,
+        "r2": 0.9929648846545506,
+        "rmse": 5347.832477914462
+      },
+      "from_epoch": 1980,
+      "population_bias": 36.390760113424705,
+      "population_hotspot_f1": 0.8020408163265306,
+      "population_model": {
+        "mae": 110.23696455203759,
+        "r2": 0.9961030114674677,
+        "rmse": 268.3702335990303
+      },
+      "population_persistence": {
+        "mae": 128.29917325274505,
+        "r2": 0.9844164580267303,
+        "rmse": 536.6644998608407
+      },
+      "rows": 4900,
+      "smod_accuracy": 0.9120408163265306,
+      "smod_persistence_accuracy": 0.9251020408163265,
+      "to_epoch": 1985
+    },
+    {
+      "built_bias": -551.1326818635054,
+      "built_hotspot_f1": 0.7714285714285715,
+      "built_model": {
+        "mae": 2173.2863511017476,
+        "r2": 0.9976681495284097,
+        "rmse": 3230.308639960282
+      },
+      "built_persistence": {
+        "mae": 2841.5075510204083,
+        "r2": 0.9915467555684437,
+        "rmse": 6150.428632798113
+      },
+      "from_epoch": 1985,
+      "population_bias": 31.16177399555768,
+      "population_hotspot_f1": 0.8183673469387756,
+      "population_model": {
+        "mae": 118.03552365991843,
+        "r2": 0.9961399764856186,
+        "rmse": 301.02377506609076
+      },
+      "population_persistence": {
+        "mae": 142.01231361254366,
+        "r2": 0.9845965665667891,
+        "rmse": 601.3323810394179
+      },
+      "rows": 4900,
+      "smod_accuracy": 0.9091836734693878,
+      "smod_persistence_accuracy": 0.9220408163265306,
+      "to_epoch": 1990
+    },
+    {
+      "built_bias": -762.1365145429645,
+      "built_hotspot_f1": 0.7551020408163265,
+      "built_model": {
+        "mae": 3120.6317133401712,
+        "r2": 0.9897764088484157,
+        "rmse": 7317.678458212426
+      },
+      "built_persistence": {
+        "mae": 3677.256326530612,
+        "r2": 0.9769773711865487,
+        "rmse": 10981.180787369723
+      },
+      "from_epoch": 1990,
+      "population_bias": 42.99514727568273,
+      "population_hotspot_f1": 0.7285714285714285,
+      "population_model": {
+        "mae": 158.49002070349422,
+        "r2": 0.9917359001712882,
+        "rmse": 478.37111026516504
+      },
+      "population_persistence": {
+        "mae": 145.2718506088641,
+        "r2": 0.9846327087968203,
+        "rmse": 652.3277098494425
+      },
+      "rows": 4900,
+      "smod_accuracy": 0.9048979591836734,
+      "smod_persistence_accuracy": 0.9391836734693878,
+      "to_epoch": 1995
+    },
+    {
+      "built_bias": -680.5559989868892,
+      "built_hotspot_f1": 0.763265306122449,
+      "built_model": {
+        "mae": 3304.3346691750694,
+        "r2": 0.9893484303862199,
+        "rmse": 8200.214247687727
+      },
+      "built_persistence": {
+        "mae": 4381.417551020409,
+        "r2": 0.9745865867896492,
+        "rmse": 12666.303595745361
+      },
+      "from_epoch": 1995,
+      "population_bias": 49.40920762434306,
+      "population_hotspot_f1": 0.7551020408163265,
+      "population_model": {
+        "mae": 167.55615704482008,
+        "r2": 0.9913334932536031,
+        "rmse": 534.7519810993297
+      },
+      "population_persistence": {
+        "mae": 152.53333294981113,
+        "r2": 0.9839093567484334,
+        "rmse": 728.6468060056623
+      },
+      "rows": 4900,
+      "smod_accuracy": 0.9061224489795918,
+      "smod_persistence_accuracy": 0.936734693877551,
+      "to_epoch": 2000
+    },
+    {
+      "built_bias": 162.26005090497486,
+      "built_hotspot_f1": 0.6571428571428571,
+      "built_model": {
+        "mae": 3508.7604230710485,
+        "r2": 0.9939122071270494,
+        "rmse": 6463.900985088617
+      },
+      "built_persistence": {
+        "mae": 3842.5632653061225,
+        "r2": 0.9856333284067889,
+        "rmse": 9929.853552673929
+      },
+      "from_epoch": 2000,
+      "population_bias": 65.78722711148714,
+      "population_hotspot_f1": 0.6693877551020408,
+      "population_model": {
+        "mae": 162.74833299766487,
+        "r2": 0.9953318201399015,
+        "rmse": 421.0824053919727
+      },
+      "population_persistence": {
+        "mae": 145.88482173049783,
+        "r2": 0.9909187495884816,
+        "rmse": 587.3082892325828
+      },
+      "rows": 4900,
+      "smod_accuracy": 0.8951020408163265,
+      "smod_persistence_accuracy": 0.9169387755102041,
+      "to_epoch": 2005
+    },
+    {
+      "built_bias": 371.3378974413861,
+      "built_hotspot_f1": 0.7,
+      "built_model": {
+        "mae": 3888.0899779485203,
+        "r2": 0.9919758126731176,
+        "rmse": 7846.009191888882
+      },
+      "built_persistence": {
+        "mae": 4869.172653061224,
+        "r2": 0.9806732089435165,
+        "rmse": 12176.659416326978
+      },
+      "from_epoch": 2005,
+      "population_bias": 86.5315344606829,
+      "population_hotspot_f1": 0.6653061224489796,
+      "population_model": {
+        "mae": 187.6302820617088,
+        "r2": 0.9935998851450443,
+        "rmse": 526.8857508738436
+      },
+      "population_persistence": {
+        "mae": 155.24935604333677,
+        "r2": 0.9897451023011996,
+        "rmse": 666.9422585316263
+      },
+      "rows": 4900,
+      "smod_accuracy": 0.886734693877551,
+      "smod_persistence_accuracy": 0.9051020408163265,
+      "to_epoch": 2010
+    },
+    {
+      "built_bias": 1229.241463562681,
+      "built_hotspot_f1": 0.6530612244897959,
+      "built_model": {
+        "mae": 4287.867197862631,
+        "r2": 0.9933483856197175,
+        "rmse": 7540.255159513612
+      },
+      "built_persistence": {
+        "mae": 5158.707551020409,
+        "r2": 0.9848829850190095,
+        "rmse": 11367.253164467747
+      },
+      "from_epoch": 2010,
+      "population_bias": 102.44700713692303,
+      "population_hotspot_f1": 0.6795918367346939,
+      "population_model": {
+        "mae": 191.45320548517927,
+        "r2": 0.9955210731855014,
+        "rmse": 473.78930094040976
+      },
+      "population_persistence": {
+        "mae": 158.52491232628677,
+        "r2": 0.9912960969082558,
+        "rmse": 660.4733365306474
+      },
+      "rows": 4900,
+      "smod_accuracy": 0.8793877551020408,
+      "smod_persistence_accuracy": 0.8855102040816326,
+      "to_epoch": 2015
+    },
+    {
+      "built_bias": 4063.4224685714767,
+      "built_hotspot_f1": 0.37142857142857144,
+      "built_model": {
+        "mae": 6015.178744145441,
+        "r2": 0.9901540321826586,
+        "rmse": 9287.114105742765
+      },
+      "built_persistence": {
+        "mae": 4341.392857142857,
+        "r2": 0.9892675347979333,
+        "rmse": 9696.194533234497
+      },
+      "from_epoch": 2015,
+      "population_bias": 131.30811774777604,
+      "population_hotspot_f1": 0.5836734693877551,
+      "population_model": {
+        "mae": 212.8008468194346,
+        "r2": 0.9971567251365904,
+        "rmse": 409.1644146321433
+      },
+      "population_persistence": {
+        "mae": 173.5006938096415,
+        "r2": 0.9928203350677706,
+        "rmse": 650.1903526364918
+      },
+      "rows": 4900,
+      "smod_accuracy": 0.8520408163265306,
+      "smod_persistence_accuracy": 0.8504081632653061,
+      "to_epoch": 2020
+    }
+  ]
+}
