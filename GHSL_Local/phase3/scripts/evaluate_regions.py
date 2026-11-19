@@ -8,7 +8,7 @@ import rasterio
 from rasterio.windows import from_bounds,Window
 from pyproj import Transformer
 PROJECT=Path(__file__).resolve().parents[2]
-sys.path.insert(0,str(PROJECT/'population/src'));from prepare import zipped_raster
+sys.path.insert(0,str(PROJECT/'population/src'));from prepare_population_rasters import zipped_raster
 sys.path.insert(0,str(PROJECT/'analysis/scripts'));from progress_log import update
 METRICS={'population':'POP','built_surface_m2':'BUILT_S','built_surface_nres_m2':'BUILT_S_NRES'}
 

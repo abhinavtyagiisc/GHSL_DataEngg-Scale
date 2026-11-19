@@ -35,12 +35,12 @@ def main():
         fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         status=dict(status='RUNNING',started=now(),completed_stages=[])
         stages=[
-          ('integration',INTEGRATION,[str(PYTHON),'integration/src/national.py','--config','integration/config/india.json','--output',str(INTEGRATION),'--download','--resume','--defer-empty']),
+          ('integration',INTEGRATION,[str(PYTHON),'integration/src/national_integration.py','--config','integration/config/india.json','--output',str(INTEGRATION),'--download','--resume','--defer-empty']),
           ('temporal',TEMPORAL,[str(PYTHON),'phase3/scripts/run_analysis_stage.py','--stage','temporal','--input',str(INTEGRATION),'--output',str(TEMPORAL)]),
           ('districts',DISTRICTS,[str(PYTHON),'phase3/scripts/run_analysis_stage.py','--stage','districts','--input',str(INTEGRATION),'--output',str(DISTRICTS)]),
           ('candidates',CANDIDATES,[str(PYTHON),'phase3/scripts/run_analysis_stage.py','--stage','candidates','--input',str(TEMPORAL),'--output',str(CANDIDATES)]),
           ('case_studies',EVALUATION,[str(PYTHON),'phase3/scripts/run_analysis_stage.py','--stage','case_studies','--input',str(INTEGRATION),'--output',str(EVALUATION)]),
-          ('handoff',HANDOFF,[str(PYTHON),'analysis/scripts/finish_week8.py','--integration',str(INTEGRATION),'--temporal',str(TEMPORAL),'--districts',str(DISTRICTS),'--candidates',str(CANDIDATES),'--output',str(HANDOFF)])]
+          ('handoff',HANDOFF,[str(PYTHON),'analysis/scripts/finalize_national_results.py','--integration',str(INTEGRATION),'--temporal',str(TEMPORAL),'--districts',str(DISTRICTS),'--candidates',str(CANDIDATES),'--output',str(HANDOFF)])]
         try:
             for name,output,command in stages:
                 status.update(stage=name,output=str(output));save(status)

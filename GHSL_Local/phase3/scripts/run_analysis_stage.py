@@ -4,7 +4,7 @@ from pathlib import Path
 import pyarrow.parquet as pq
 PROJECT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(PROJECT/'analysis/scripts'));from progress_log import update
-STAGES={'temporal':('analysis/src/national_temporal.py','--input'),'districts':('analysis/src/national_districts.py','--input'),'candidates':('analysis/src/national_candidates.py','--input'),'case_studies':('phase3/scripts/evaluate_regions.py','--integration')}
+STAGES={'temporal':('analysis/src/analyze_national_temporal.py','--input'),'districts':('analysis/src/summarize_national_districts.py','--input'),'candidates':('analysis/src/screen_national_candidates.py','--input'),'case_studies':('phase3/scripts/evaluate_regions.py','--integration')}
 
 def digest(path):
     with Path(path).open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()

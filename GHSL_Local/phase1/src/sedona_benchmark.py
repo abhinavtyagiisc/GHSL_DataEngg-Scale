@@ -23,7 +23,7 @@ from pyspark import StorageLevel
 from shapely.geometry import box
 
 ROOT=Path(__file__).resolve().parents[1];PROJECT=ROOT.parent
-sys.path.insert(0,str(PROJECT/'analysis/src'));from national_districts import load_boundaries
+sys.path.insert(0,str(PROJECT/'analysis/src'));from summarize_national_districts import load_boundaries
 sys.path.insert(0,str(PROJECT/'population/src'));from multitile_population import load_area,digest
 sys.path.insert(0,str(PROJECT/'analysis/scripts'));from progress_log import update
 

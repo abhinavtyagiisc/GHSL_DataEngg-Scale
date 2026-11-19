@@ -5,7 +5,7 @@ import sys
 import pytest
 PROJECT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(PROJECT/'phase2/src'))
-from integrate import session, join_products, key_join, validate_inputs, decorate, aggregate_joined, round_trip
+from spark_sedona_integrate import session, join_products, key_join, validate_inputs, decorate, aggregate_joined, round_trip
 
 @pytest.fixture(scope='module')
 def spark():

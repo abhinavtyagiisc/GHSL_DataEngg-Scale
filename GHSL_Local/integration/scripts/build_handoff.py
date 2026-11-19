@@ -222,8 +222,8 @@ Source documentation and attribution are linked in `integration/README.md`.
         include.extend(p for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
     include.extend(p for p in (ROOT/'reports').iterdir() if p.suffix in ('.md','.json','.csv','.txt'))
     include.extend(p for p in (ROOT/'data/curated/grid_year').rglob('*') if p.is_file() and not p.name.startswith('.'))
-    for name in ('requirements.txt','requirements-lock.txt','src/prepare.py','src/multitile_population.py',
-                 'src/spark_population.py','scripts/download.py','scripts/hdfs.py','scripts/bootstrap_hdfs.py',
+    for name in ('requirements.txt','requirements-lock.txt','src/prepare_population_rasters.py','src/multitile_population.py',
+                 'src/spark_population.py','scripts/download_population_tiles.py','scripts/hdfs.py','scripts/bootstrap_hdfs.py',
                  'config/hdfs-pom.xml','data/raw/boundaries/geoBoundaries-IND-ADM0.geojson',
                  'data/raw/boundaries/geoBoundaries-IND-ADM0.provenance.json'):
         include.append(PROJECT/'population'/name)

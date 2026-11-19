@@ -5,9 +5,9 @@ import pytest
 import shapely
 from shapely.geometry import box
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
-from components import components,candidate_events
-from districts import assign_points
-from temporal import periods,transitions,SparkSession
+from settlement_components import components,candidate_events
+from assign_pilot_districts import assign_points
+from analyze_pilot_temporal import periods,transitions,SparkSession
 
 CFG=json.loads((Path(__file__).resolve().parents[1]/'config/pilot.json').read_text())
 
@@ -94,7 +94,7 @@ def test_transition_zero_baselines_are_not_infinite(tmp_path):
         # Regression: projected Arrow data must not carry a stale embedded Spark schema.
         import pyarrow as pa
         import pyarrow.parquet as pq
-        from districts import mapping_table
+        from assign_pilot_districts import mapping_table
         source=pa.table({'grid_id':['g'],'cell_id':['1_1'],'unused':[1]}).replace_schema_metadata(
             {b'org.apache.spark.sql.parquet.row.metadata':df.schema.json().encode()})
         path=tmp_path/'mapping.parquet'

@@ -33,7 +33,7 @@ directory publication into the project. Failed scratch data is retained; success
 published scratch data is removed. Six national tests passed, including zero-byte
 and copy-corruption rejection. The explicit identity migration verified every saved
 completed output/source, preserved the previous code and identity, and changed only
-national.py's recorded implementation fingerprint. See reports/identity_migration.json.
+national_integration.py's recorded implementation fingerprint. See reports/identity_migration.json.
 Recovery attempts now have separate timestamped logs; reports/recovery_current.json
 points to the active attempt. The original failed logs remain available.
 

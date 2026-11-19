@@ -2,6 +2,48 @@
 
 Last updated: 2026-11-18 (Asia/Kolkata).
 
+## Approved filename cleanup applied — 19 November 2026
+
+Applied all 18 reviewed renames in team checkout, using national_integration.py
+(user correction) and build_benchmark_report.py (confirmed unchanged suggestion).
+Mapping: analysis/reports/FILENAME_REVIEW.md. Updated active imports, controller
+commands, documentation, packaging code and notebook references. Preserved historical
+reports/data and prior README changes. Original workspace source files unchanged.
+Validation: all Python files parse; notebook JSON valid; 63 tests collected across
+six suites without import errors; five handoff tests passed in 24.21s. No stale
+active old filename references; scoped git diff --check passed. Full computational
+suite not executed. No data processing, commit or push.
+Next: review local changes; commit/push only if requested.
+
+## Final script name approved — 19 November 2026
+
+User approved finalize_national_results.py. Applied in team checkout analysis/scripts;
+controller and test import updated, plus FILENAME_REVIEW.md. Five existing handoff
+tests passed in 25.18s; scoped git diff --check passed. No other script renames,
+processing, commit or push. User requested all suggested renames; 18 candidates
+are recorded in team analysis/reports/FILENAME_REVIEW.md for review.
+Next: apply additional renames only when selected/authorized.
+
+## Handoff script rename and filename review — 19 November 2026
+
+In team checkout, renamed analysis/scripts/finish_week8.py to
+analysis/scripts/build_national_handoff.py; updated controller path and test import.
+Existing five handoff tests passed (40.49s); scoped git diff --check passed.
+Saved 18 optional Python filename suggestions in analysis/reports/FILENAME_REVIEW.md.
+Existing README edits preserved; no processing, commit or push. Original workspace
+script unchanged. User subsequently requested a better name; recommended
+finalize_national_results.py, pending selection (not applied).
+Next: apply chosen replacement and update references if requested.
+
+## Main README simplified — 18 November 2026
+
+Simplified team checkout `GHSL_Local/README.md`: shorter introduction/navigation,
+main results, directory table, corrected root notebook link, and concise reproduction
+and limitations sections. All local links resolve and scoped whitespace check passed.
+No code or analysis README changes, tests, commit or push. Changes reside in
+`/private/tmp/ghsl-team-cleanup-20261118`; review and commit/push if requested.
+
+
 ## Folder rename and cleanup — 18 November 2026
 
 User requested folder `GHSL_Local` (formerly `GHSL_Himanshu`) and exact commit

@@ -19,7 +19,7 @@ ROOT=Path(__file__).resolve().parents[1]
 POP=ROOT.parent/'population'
 sys.path.insert(0,str(POP/'src'))
 sys.path.insert(0,str(ROOT/'scripts'))
-from prepare import validate_alignment, zipped_raster
+from prepare_population_rasters import validate_alignment, zipped_raster
 from multitile_population import load_area, digest, table_digest, SMOD_CLASSES
 from download_sources import sources
 

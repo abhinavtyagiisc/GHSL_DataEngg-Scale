@@ -30,7 +30,7 @@ From the project root, with the existing `.venv` and completed weeks 1–5 input
 
 ```sh
 .venv/bin/python -m pytest analysis/tests -q
-.venv/bin/python analysis/src/temporal.py --output analysis/data/pilot_results_new_run
+.venv/bin/python analysis/src/analyze_pilot_temporal.py --output analysis/data/pilot_results_new_run
 .venv/bin/python analysis/scripts/build_pilot_handoff.py
 ```
 

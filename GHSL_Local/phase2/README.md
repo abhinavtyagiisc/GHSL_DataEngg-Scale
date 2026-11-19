@@ -15,7 +15,7 @@ both JAR SHA256 values before starting Spark. Read the phase-1 guide for input r
 ```sh
 .venv/bin/python -m pytest phase2/tests -q
 .venv/bin/python phase2/scripts/run_hdfs.py
-.venv/bin/python phase2/scripts/compare.py
+.venv/bin/python phase2/scripts/compare_integration_outputs.py
 .venv/bin/python phase2/scripts/run_benchmarks.py
 ```
 
@@ -29,7 +29,7 @@ partial attempts must be inspected and preserved under a different name before r
 For another prepared area/epoch set conforming to the shared grid contract:
 
 ```sh
-.venv/bin/python phase2/src/integrate.py --prepared /path/to/prepared --input /path/to/prepared/tables --output /new/output --report /new/report.json --master 'local[2]'
+.venv/bin/python phase2/src/spark_sedona_integrate.py --prepared /path/to/prepared --input /path/to/prepared/tables --output /new/output --report /new/report.json --master 'local[2]'
 ```
 
 The prepared directory must have `_SUCCESS`, config, grid contract and raster source

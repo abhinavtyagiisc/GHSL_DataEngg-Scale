@@ -5,9 +5,9 @@ import pyarrow as pa
 import pyarrow.dataset as ds
 import pytest
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
-from national_candidates import array_events
-from national_districts import partial_summary
-from components import candidate_events
+from screen_national_candidates import array_events
+from summarize_national_districts import partial_summary
+from settlement_components import candidate_events
 from test_analysis import CFG,world,urban
 
 

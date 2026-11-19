@@ -3,10 +3,10 @@ from pathlib import Path
 import argparse,json,sys,time,platform,importlib.metadata
 import numpy as np
 PROJECT=Path(__file__).resolve().parents[2];ROOT=PROJECT/'phase2'
-sys.path.insert(0,str(ROOT/'src'));from integrate import session,join_products,key_join,decorate,aggregate_joined,F
+sys.path.insert(0,str(ROOT/'src'));from spark_sedona_integrate import session,join_products,key_join,decorate,aggregate_joined,F
 sys.path.insert(0,str(PROJECT/'phase1/src'));from sedona_benchmark import ResourceSample,event_metrics
 sys.path.insert(0,str(PROJECT/'analysis/scripts'));from progress_log import update
-from compare import compare
+from compare_integration_outputs import compare
 
 def run(mode,workers,partitions):
     cfg=json.loads((ROOT/'config/benchmark.json').read_text());grid=json.loads((PROJECT/'integration/config/grid_contract.json').read_text())

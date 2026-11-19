@@ -1,6 +1,6 @@
 # Bounded national three-product runner
 
-`src/national.py` prepares independent population, built-up and settlement tables
+`src/national_integration.py` prepares independent population, built-up and settlement tables
 in aligned windows, then runs the existing Spark validator/join on one tile-year.
 It retains curated output, source hashes and validation metadata, commits a checkpoint,
 and removes only that completed pair's generated staging tables. Raw archives remain
@@ -15,7 +15,7 @@ The boundary is a reproducible study mask, not an official Indian administrative
 From the project root, with the existing environment:
 
 ```sh
-.venv/bin/python integration/src/national.py \
+.venv/bin/python integration/src/national_integration.py \
   --config integration/config/india.json \
   --output integration/data/national_run1 --download --max-pairs 1
 ```
@@ -23,7 +23,7 @@ From the project root, with the existing environment:
 This processes one tile-year as a resource checkpoint. Resume in bounded batches:
 
 ```sh
-.venv/bin/python integration/src/national.py \
+.venv/bin/python integration/src/national_integration.py \
   --config integration/config/india.json \
   --output integration/data/national_run1 --download --resume --max-pairs 1
 ```

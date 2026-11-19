@@ -1,78 +1,78 @@
-# GHSL India urban concentration and growth
+# GHSL urban concentration and growth
 
-A solo-delivered data engineering project integrating GHSL population, built-up surface
-(total and non-residential), and settlement classes across historical epochs.
+This project combines GHSL population, built-up surface (total and non-residential),
+and settlement classes to study urban concentration and settlement growth.
 
-**Completed for the approved study footprint: 13 tiles × 12 epochs = 156 verified jobs.**
-R8_C27 is excluded in all years after fresh-source retries returned no valid analytical
-cells within the selected country-mask intersection. Results are not complete India coverage.
+The analysis covers **13 tiles across 12 epochs (1975–2030)**, or 156 tile-year jobs.
+Data for 1975–2020 are historical; 2025 and 2030 are projections and are treated
+separately. Tile R8_C27 is excluded because no valid analytical cells were found
+within the selected country mask, including after fresh-source retries.
+**The results do not cover all of India.**
 
-Phase handoff release assets are prepared locally; publication is pending. · [Team repository](https://github.com/abhinavtyagiisc/GHSL_DataEngg-Scale)
+## Reports and presentation
 
-## Start here
-
-- [Course report (PDF)](output/pdf/GHSL_Final_Project_Report.pdf) · [Editable Word report](output/docx/GHSL_Final_Project_Report.docx)
-- [Presentation content (PDF)](output/pdf/GHSL_Presentation_Slide_Content.pdf) · [Structured slide content](output/pdf/GHSL_Presentation_Slide_Content.json)
+- [Final report (PDF)](output/pdf/GHSL_Final_Project_Report.pdf) · [Word version](output/docx/GHSL_Final_Project_Report.docx)
+- [Presentation content (PDF)](output/pdf/GHSL_Presentation_Slide_Content.pdf)
+- [Submission and reproduction guide](SUBMISSION_README.md)
 - [Document submission notes](output/pdf/SUBMISSION_NOTES.md)
 
-- [Final completion report](analysis/data/week8_handoff/REPORT.md)
-- [Proposal requirements and evidence](phase3/reports/REQUIREMENTS_REVIEW.md)
-- [Regional analytical review](phase3/reports/analytical_review/REPORT.md)
-- [Submission and reproduction guide](SUBMISSION_README.md)
-- [GitHub contents and data policy](GITHUB_DELIVERY.md)
-- [Current project context](PROJECT_CONTEXT.md)
+## Results
 
-## Delivered results
-
-- 624 validated source archives; native 100 m values retained with matching-year 1 km settlement classes.
-- Ten historical epochs, 1975–2020; 2025 and 2030 retained as separate projection tests.
-- Temporal analysis on 3,280,884 common complete coarse cells; ten transition periods.
-- District summaries with count/value conservation and explicit unmatched/overlap categories.
-- 108,804 overlapping candidate events with sensitivity checks; not confirmed or unique towns.
-- Raw-raster regional checks over 750 coarse cell-years: zero observed numerical differences and exact class agreement.
-- Additional 26,870 regional cell-period checks and 108,804 candidate-rule checks passed.
+- Integrated 624 validated source archives, retaining native 100 m values with
+  matching-year 1 km settlement classes.
+- Analysed 3,280,884 coarse cells with complete data across ten transition periods.
+- Produced district summaries with population/value conservation checks and
+  explicit categories for unmatched cells and overlapping districts.
+- Identified 108,804 candidate events across periods. Events can overlap and are
+  not counts of unique or confirmed towns.
 
 ![Population and built-surface concentration](analysis/data/week8_handoff/national_concentration.png)
 
-## Engineering phases
+See the [completion report](analysis/data/week8_handoff/REPORT.md) and
+[regional validation report](phase3/reports/analytical_review/REPORT.md) for detailed
+results and checks. The [requirements review](phase3/reports/REQUIREMENTS_REVIEW.md)
+compares the implementation with the proposal.
 
-| Phase | Work | Evidence |
-|---|---|---|
-| Weeks 1–3 | All-product pilot ingestion, HDFS zones, Sedona spatial QA and baseline benchmarks | [Phase 1 report](phase1/reports/PHASE1_COMPLETION_REPORT.md) |
-| Weeks 4–5 | Reusable Spark/Sedona integration and repeated end-to-end benchmarks | [Phase 2 report](phase2/reports/PHASE2_COMPLETION_REPORT.md) |
-| Weeks 6–8 | Accepted-scope integration, temporal/district/candidate analysis and regional validation | [Final acceptance](phase3/reports/FINAL_ACCEPTANCE.json) |
+## Project structure
 
-The pipeline uses Apache Sedona 1.9.1 and Spark 3.5.6. Pilot HDFS and Sedona
-benchmarks ran on a single machine; national processing uses local Spark and Parquet.
-Official JRC acquisition substitutes for proposed Earth Engine exports. The Mumbai
-regional check uses a disclosed coverage-adjusted window. The phase reports document
-execution failures and scope changes. These benchmarks do not establish multi-machine scaling.
+| Folder | Contents |
+|---|---|
+| `population/` | Ingestion and shared raster utilities |
+| `integration/` | Product joins and tile-year processing |
+| `analysis/` | Temporal, district and settlement-candidate analysis |
+| `phase1/` | Pilot ingestion, HDFS, Sedona checks and benchmarks |
+| `phase2/` | Reusable integration and repeated benchmarks |
+| `phase3/` | Final execution and acceptance evidence |
+| `output/` | Course report and presentation files |
 
-## Code and environment
+The original [team notebook](../DE_S_Project_Aug2026.ipynb) is retained at the
+repository root and predates this project import.
 
-Run project commands from `GHSL_Local/` after cloning the team repository.
+## Running the project
 
-`population/` contains the initial ingestion and shared raster utilities; `integration/`
-contains the reusable join and bounded tile-year runner; `analysis/` contains temporal,
-district and candidate analysis; `phase1/`, `phase2/`, `phase3/` contain phase-specific
-execution, tests, benchmarks and acceptance evidence.
+Run commands from `GHSL_Local/`. Start with the
+[reproduction guide](SUBMISSION_README.md),
+[pinned dependencies](phase1/requirements-lock.txt) and the relevant phase README.
 
-Use the pinned [phase 1 requirements](phase1/requirements-lock.txt) and phase READMEs.
-A fresh clone contains code and compact results, not the original data workspace.
-Do not run completion controllers against an empty clone: they expect documented raw
-sources, boundary snapshots and completed checkpoints. Follow the reproduction guide
-in a separate workspace; guards prevent overwriting saved outputs.
+A clone includes code and compact results, but not the large source datasets or
+runtime environment. Completion controllers require source files, boundary snapshots
+and saved checkpoints; do not run them against an empty clone. Use a separate
+workspace for reproduction to preserve existing outputs. See the
+[data delivery guide](GITHUB_DELIVERY.md) for archive availability and exclusions.
 
-## Data and attribution
+## Methods and limitations
 
-Sources: European Commission Joint Research Centre GHSL R2023A, POP/BUILT-S V1_0,
-SMOD V2_0; geoBoundaries gbOpen country/district geometries. Preserve the attribution
-and derived-data licensing information in the final report. No new code license is
-asserted by this upload; obtain the owner's permission before redistribution.
+The pipeline uses Spark 3.5.6 and Apache Sedona 1.9.1. HDFS and Sedona benchmarks
+ran on one machine; national processing uses local Spark and Parquet. These results
+do not demonstrate multi-machine scaling.
 
-## Existing team notebook
+Inputs were downloaded from JRC rather than exported through Earth Engine.
+The Mumbai regional check uses a documented coverage-adjusted window. Execution
+failures and scope changes are recorded in the phase reports.
 
-`DE_S_Project_Aug2026.ipynb` is preserved from this repository before the completed
-GHSL project import. Imported implementation and evidence come from the 10 November
-2026 snapshot, supplemented by the course report, editable Word report, presentation
-content and their build scripts prepared on 15 November 2026.
+## Data sources
+
+European Commission Joint Research Centre GHSL R2023A: POP and BUILT-S V1_0,
+SMOD V2_0; geoBoundaries gbOpen country and district geometries. Retain the source
+attribution and derived-data licensing information in the final report. This
+repository does not grant a new code license; obtain permission before redistribution.

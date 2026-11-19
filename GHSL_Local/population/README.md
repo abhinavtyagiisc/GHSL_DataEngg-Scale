@@ -60,8 +60,8 @@ the scripts set JAVA_HOME without changing system configuration.
 ```bash
 uv venv --python 3.12 .venv
 uv pip install --python .venv/bin/python -r population/requirements-lock.txt
-.venv/bin/python population/scripts/download.py
-.venv/bin/python population/src/prepare.py
+.venv/bin/python population/scripts/download_population_tiles.py
+.venv/bin/python population/src/prepare_population_rasters.py
 .venv/bin/python population/src/spark_population.py
 .venv/bin/python -m pytest population/tests -q
 ```

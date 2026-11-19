@@ -7,7 +7,7 @@ from pathlib import Path
 import pyarrow as pa
 import pyarrow.dataset as ds
 import pyarrow.parquet as pq
-from components import candidate_events
+from settlement_components import candidate_events
 
 ROOT=Path(__file__).resolve().parents[1]
 PROJECT=ROOT.parent

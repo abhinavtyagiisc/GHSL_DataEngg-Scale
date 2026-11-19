@@ -10,7 +10,7 @@ import pyarrow.dataset as ds
 import pyarrow.parquet as pq
 from scipy import ndimage
 from pyproj import Transformer
-from temporal import periods
+from analyze_pilot_temporal import periods
 
 ROOT=Path(__file__).resolve().parents[1]
 

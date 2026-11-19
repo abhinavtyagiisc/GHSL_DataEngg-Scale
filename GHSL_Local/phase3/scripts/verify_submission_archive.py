@@ -15,7 +15,7 @@ def verify(path):
             data=z.read(name)
             if hashlib.sha256(data).hexdigest()!=sha:raise ValueError('SHA256 mismatch: '+name)
             if name.endswith('.py'):ast.parse(data,filename=name)
-        required=['population/src/prepare.py','population/src/spark_population.py','population/src/multitile_population.py','population/scripts/download.py','integration/scripts/download_sources.py','integration/src/prepare_inputs.py','integration/src/spark_integrate.py','phase1/requirements-lock.txt','phase1/runtime/jar_manifest.json','phase3/reports/analytical_review/validation.json','phase3/reports/REQUIREMENTS_REVIEW.md','SUBMISSION_README.md']
+        required=['population/src/prepare_population_rasters.py','population/src/spark_population.py','population/src/multitile_population.py','population/scripts/download_population_tiles.py','integration/scripts/download_sources.py','integration/src/prepare_inputs.py','integration/src/spark_integrate.py','phase1/requirements-lock.txt','phase1/runtime/jar_manifest.json','phase3/reports/analytical_review/validation.json','phase3/reports/REQUIREMENTS_REVIEW.md','SUBMISSION_README.md']
         if not set(required)<=set(manifest):raise ValueError('Required source/evidence missing')
         report=z.read('analysis/data/week8_handoff/REPORT.md').decode()
         if 'R8_C27 excluded' not in report:raise ValueError('Missing coverage disclosure')

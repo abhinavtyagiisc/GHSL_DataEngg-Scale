@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 PROJECT=ROOT.parent
 sys.path.insert(0,str(PROJECT/'integration/src'))
 from spark_integrate import SparkSession,F,unique_keys,round_trip,reject
-from temporal import transitions,periods
+from analyze_pilot_temporal import transitions,periods
 from pyspark import StorageLevel
 from pyspark.sql import Window
 

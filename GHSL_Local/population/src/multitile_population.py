@@ -24,11 +24,11 @@ from rasterio.windows import Window, from_bounds
 from shapely.geometry import box, mapping, shape
 from shapely.ops import transform, unary_union
 
-from prepare import validate_alignment, zipped_raster
+from prepare_population_rasters import validate_alignment, zipped_raster
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from download import BASE, download
+from download_population_tiles import BASE, download
 
 EPOCHS = list(range(1975, 2031, 5))
 SMOD_CLASSES = {10, 11, 12, 13, 21, 22, 23, 30}

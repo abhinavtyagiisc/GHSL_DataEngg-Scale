@@ -28,7 +28,7 @@ def main():
             if not recovery.exists():stages.append(('recovery',[sys.executable,'phase3/scripts/run_recovery.py']))
             elif json.loads(recovery.read_text())['status']!='PASS':raise ValueError('Recovery did not pass')
             stages.append(('accepted_scope',[sys.executable,'phase3/scripts/accept_verified_scope.py']))
-            stages.append(('national_completion',[sys.executable,'analysis/scripts/complete_week8.py']))
+            stages.append(('national_completion',[sys.executable,'analysis/scripts/run_national_workflow.py']))
             for stage,cmd in stages:
                 status['stage']=stage;save(status)
                 for attempt in range(6):

@@ -20,7 +20,7 @@ def main():
     try:
         run('hdfs_start',[sys.executable,str(PROJECT/'population/scripts/hdfs.py'),'start'],180)
         run('hdfs_mkdir',hdfs.command('dfs','-mkdir','-p','/ghsl/phase2/sedona_run1'))
-        run('hdfs_integrate',[sys.executable,str(ROOT/'src/integrate.py'),'--input',hdfs.URI+'/ghsl/weeks1_5/bengaluru_run1/cleaned/tables','--output',hdfs.URI+output,'--report',str(ROOT/'reports/hdfs_validation.json')])
+        run('hdfs_integrate',[sys.executable,str(ROOT/'src/spark_sedona_integrate.py'),'--input',hdfs.URI+'/ghsl/weeks1_5/bengaluru_run1/cleaned/tables','--output',hdfs.URI+output,'--report',str(ROOT/'reports/hdfs_validation.json')])
         run('hdfs_retrieve',hdfs.command('dfs','-get',output,str(local)))
         run('hdfs_health',hdfs.command('fsck','/ghsl/phase2/sedona_run1','-files','-blocks'))
         if 'HEALTHY' not in (ROOT/'reports/hdfs_health.log').read_text():raise ValueError('HDFS unhealthy')

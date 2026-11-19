@@ -8,7 +8,7 @@ import sys
 ROOT=Path(__file__).resolve().parents[1]
 POP=ROOT.parent/'population'
 sys.path.insert(0,str(POP/'scripts'))
-from download import download, BASE
+from download_population_tiles import download, BASE
 
 
 def sources(cfg):

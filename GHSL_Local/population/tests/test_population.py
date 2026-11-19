@@ -8,7 +8,7 @@ from affine import Affine
 from rasterio.crs import CRS
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
-from prepare import validate_alignment
+from prepare_population_rasters import validate_alignment
 from spark_population import aggregate
 from pyspark.sql import SparkSession
 

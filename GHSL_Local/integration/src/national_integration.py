@@ -21,7 +21,7 @@ from shapely.geometry import box, mapping
 from prepare_inputs import validate_values
 from multitile_population import (load_area, tiles_for_area, tile_bounds, validate_tile,
                                   aligned_windows, digest)
-from prepare import zipped_raster
+from prepare_population_rasters import zipped_raster
 from download_sources import sources, download
 from spark_integrate import pipeline
 
@@ -162,8 +162,8 @@ def publish_curated(source, destination):
 def fingerprints():
     files = [Path(__file__),ROOT/'src/prepare_inputs.py',ROOT/'src/spark_integrate.py',
              ROOT/'scripts/download_sources.py',PROJECT/'population/src/multitile_population.py',
-             PROJECT/'population/src/prepare.py',PROJECT/'population/src/spark_population.py',
-             PROJECT/'population/scripts/download.py']
+             PROJECT/'population/src/prepare_population_rasters.py',PROJECT/'population/src/spark_population.py',
+             PROJECT/'population/scripts/download_population_tiles.py']
     return {str(p.relative_to(PROJECT)):digest(p) for p in files}
 
 

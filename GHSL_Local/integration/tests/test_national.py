@@ -11,7 +11,7 @@ from rasterio.transform import from_origin
 from rasterio.windows import Window
 from shapely.geometry import box
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
-import national as n
+import national_integration as n
 
 GRID=json.loads((n.ROOT/'config/grid_contract.json').read_text())
 

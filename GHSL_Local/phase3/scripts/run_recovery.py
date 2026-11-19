@@ -15,7 +15,7 @@ def main():
     env=os.environ.copy();env['PYSPARK_SUBMIT_ARGS']='--conf spark.sql.files.maxRecordsPerFile=250000 pyspark-shell'
     config=dict(max_records_per_file=250000,prior_completed=len(before),reason='Repeated zero-byte output: temporary-directory validation and checksum-verified publication plus file cap; original cause unconfirmed',code='Explicit migrated national identity; original code and all failed attempts preserved')
     (attempt/'recovery_environment.json').write_text(json.dumps(config,indent=2))
-    cmd=[sys.executable,'integration/src/national.py','--config','integration/config/india.json','--output',str(DATA),'--resume','--download','--max-pairs','1']
+    cmd=[sys.executable,'integration/src/national_integration.py','--config','integration/config/india.json','--output',str(DATA),'--resume','--download','--max-pairs','1']
     label='National recovery: one pending tile-year with bounded output files'
     update(label,'STARTED','See '+str((attempt/'recovery.log').relative_to(PROJECT))+'; completed pair and failed attempts preserved.')
     with (attempt/'recovery.log').open('x') as f:

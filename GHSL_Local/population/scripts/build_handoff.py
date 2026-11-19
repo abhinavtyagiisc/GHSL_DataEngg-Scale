@@ -153,7 +153,7 @@ for row in summary:
 if RUN_PIPELINE:
     import uuid
     run_id = uuid.uuid4().hex[:8]
-    for script in ['scripts/download.py', 'src/prepare.py']:
+    for script in ['scripts/download_population_tiles.py', 'src/prepare_population_rasters.py']:
         subprocess.run([sys.executable, str(ROOT / script)], check=True)
     subprocess.run([sys.executable, str(ROOT / 'src/spark_population.py'),
                     '--output', str(ROOT / 'data/curated' / ('rerun_' + run_id)),
