@@ -19,8 +19,7 @@ matching-year settlement class are available together for every valid native cel
 
 ## Implementation and evaluation
 
-Apache Sedona 1.9.1 performs an actual indexed point-to-polygon join, not just a
-library installation. Native centres are assigned to matching-year SMOD parent
+Apache Sedona 1.9.1 assigns native centres to matching-year SMOD parent
 polygons. The physical-plan guard requires a Sedona spatial operator; plans are
 retained alongside execution evidence. Spark handles ingestion, validation, native
 product joining, sums, SQL summaries and partitioned Parquet persistence.

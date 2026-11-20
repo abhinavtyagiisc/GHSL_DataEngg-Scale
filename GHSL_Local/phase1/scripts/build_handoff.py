@@ -97,8 +97,8 @@ def main():
            '| Workers | Input cells | Median seconds | P95 seconds | Median cells/second | Peak sampled process-tree RSS (GB) |',
            '| --- | ---: | ---: | ---: | ---: | ---: |']
     for r in summaries:lines.append(f"| {r['master']} | {r['rows']:,} | {r['median_seconds']:.3f} | {r['p95_seconds']:.3f} | {r['median_rows_per_second']:,.0f} | {r['peak_rss_bytes']/1e9:.3f} |")
-    lines+=['','![Measured Sedona spatial join performance](BENCHMARK_RESULTS.png)','','Single-worker median time divided by two-worker median time:','']
-    for r in comparisons:lines.append(f"- {r['rows']:,} cells: {r['single_to_dual_worker_time_ratio']:.3f}×. Values below 1 mean two workers were slower for that workload.")
+    lines+=['','![Measured Sedona spatial join performance](BENCHMARK_RESULTS.png)','','Single-worker median time divided by two-worker median time (a ratio below 1 indicates slower two-worker execution):','']
+    for r in comparisons:lines.append(f"- {r['rows']:,} cells: {r['single_to_dual_worker_time_ratio']:.3f}×.")
     lines+=['','Per-repetition JSON also records sampled CPU time, Spark task runtime/CPU time, JVM garbage collection, memory/disk spill and shuffle read/write bytes. Peak RSS is sampled every 100 ms and sums Python/JVM descendants; shared pages can be counted more than once. Five repetitions provide a small-sample P95 estimate, not a formal confidence interval.','',
             f"Machine: {env['platform']}; {env['physical_cpus']} physical / {env['logical_cpus']} logical CPUs; {env['ram_bytes']/1e9:.1f} GB RAM. These are single-machine results, not multi-machine distributed scaling evidence.",'',
             'Predeclared engineering targets for the full pilot join: median ≤120 s, throughput ≥3,500 cells/s, sampled process-tree RSS ≤8 GB. These are local engineering targets, not external standards. Correctness is a hard gate; performance target outcomes are reported below without changing the thresholds after measurement.','']

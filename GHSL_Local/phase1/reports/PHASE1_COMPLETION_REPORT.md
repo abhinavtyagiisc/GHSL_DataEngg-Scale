@@ -47,11 +47,11 @@ Protocol: benchmark.json was saved before measurements. Each workload uses cache
 
 ![Measured Sedona spatial join performance](BENCHMARK_RESULTS.png)
 
-Single-worker median time divided by two-worker median time:
+Single-worker median time divided by two-worker median time (a ratio below 1 indicates slower two-worker execution):
 
-- 10,000 cells: 1.352×. Values below 1 mean two workers were slower for that workload.
-- 100,000 cells: 1.502×. Values below 1 mean two workers were slower for that workload.
-- 434,363 cells: 1.888×. Values below 1 mean two workers were slower for that workload.
+- 10,000 cells: 1.352×.
+- 100,000 cells: 1.502×.
+- 434,363 cells: 1.888×.
 
 Per-repetition JSON also records sampled CPU time, Spark task runtime/CPU time, JVM garbage collection, memory/disk spill and shuffle read/write bytes. Peak RSS is sampled every 100 ms and sums Python/JVM descendants; shared pages can be counted more than once. Five repetitions provide a small-sample P95 estimate, not a formal confidence interval.
 

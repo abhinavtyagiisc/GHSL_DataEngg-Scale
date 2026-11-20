@@ -142,7 +142,43 @@ and product are retained in `reports/download_manifest_full.json`.
 
 ## Multi-tile processing
 
-See [the bounded runner guide](NATIONAL_RUNNER.md) for the windowed, checkpointed
-three-product workflow. It runs Spark one tile-year at a time and discards generated
-staging tables only after validated output is checkpointed. This avoids retaining
-national staging plus duplicate HDFS output. It does not change the completed pilot.
+`src/national_integration.py` processes aligned windows and runs Spark local[2]
+validation for one tile-year at a time. It checkpoints verified outputs before
+removing generated staging tables. Raw archives stay in the shared cache; the
+runner writes local Parquet without duplicating national data into HDFS.
+`config/india.json` supplies the retained geoBoundaries ADM0 mask and twelve epochs.
+
+Start a new run with a single-pair resource check, then resume the same run:
+
+```sh
+.venv/bin/python integration/src/national_integration.py \
+  --config integration/config/india.json \
+  --output integration/data/national_new_run --download --max-pairs 1
+.venv/bin/python integration/src/national_integration.py \
+  --config integration/config/india.json \
+  --output integration/data/national_new_run --download --resume --max-pairs 1
+```
+
+Omitting `--max-pairs` processes the remaining workload. Validated sources are
+reused; `--download` permits fetching missing sources. `--block-pixels` defaults
+to 1000 and must be a multiple of ten. Spark requires local socket access.
+A pre-pair 20 GB reserve does not guarantee sufficient space within a large pair.
+
+Resume checks configuration, mask/grid, processor, source and output hashes.
+An OS lock prevents concurrent writers. Uncheckpointed pairs are preserved under
+`incomplete/`; completed pairs are skipped. Changed code/configuration requires a
+new output directory. Completed runs reject resume. Only top-level `_SUCCESS`
+and `validation.json` establish run completion; per-pair `_INTEGRATION_SUCCESS`
+is insufficient. Read matching child datasets under `pairs/<tile>_<year>/curated/`,
+not the entire run directory as a single Parquet dataset.
+
+Tile ownership and 1 km-aligned windows prevent seam-key overlaps; all products use
+the same 100 m centre mask. Cropped source extents produce nulls outside coverage.
+NRES cannot exceed total built-up. Coarse subtotals may include cells excluded from
+the complete-case analytical table; historical comparisons need a common-valid mask.
+
+The 2015/2020 validation subset matched all columns for 868,726 fine and 8,910
+coarse rows (rtol=1e-10, atol=1e-5). Checkpoint resume and output hashes passed;
+the recorded integration and national-specific suites passed ten and four tests,
+respectively. See `reports/bounded_validation_comparison.json`. These subset
+checks are separate from the final 13-tile study results.

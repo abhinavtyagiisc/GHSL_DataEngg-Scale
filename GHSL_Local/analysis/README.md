@@ -52,14 +52,8 @@ From the project root, with the existing `.venv` and completed weeks 1–5 input
 .venv/bin/python analysis/scripts/build_pilot_handoff.py
 ```
 
-Spark requires local socket access. The temporal script refuses existing output
-folders. The handoff builder reads the validated canonical `data/pilot_results`,
-exports CSV summaries, writes `reports/PILOT_REPORT.md`, and creates the root
-`GHSL_Weeks6_8_Pilot_Handoff.zip` with a SHA256 manifest. It refuses to replace an
-existing handoff. It does not rerun processing or download inputs. For a new run,
-explicitly review and change its source/destination paths before packaging.
-
-The ZIP contains historical pilot results, candidate event CSV/Parquet, district
-mapping, source provenance, configuration, code and validation evidence. Reproduction
-also requires `integration/src/spark_integrate.py` and the weeks 1–5 analytical
-input, retained in the original workspace/handoff.
+Spark requires local socket access and a new temporal output directory. The optional
+packager reads canonical `data/pilot_results`, exports summaries and writes a
+checksummed `GHSL_Weeks6_8_Pilot_Handoff.zip`; it rejects an existing archive.
+For a new experiment, update its input/output paths explicitly. Reproduction also
+requires the weeks 1–5 integration dataset and `integration/src/spark_integrate.py`.

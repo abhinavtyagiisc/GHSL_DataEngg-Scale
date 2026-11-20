@@ -10,7 +10,7 @@ The additional regional interpretation is in `phase3/reports/regional_validation
 
 `GHSL_Analysis_Results.zip` includes the reviewed results, regional
 follow-up, source/config/test modules for all phases, environment pins, provenance,
-and benchmark evidence. Earlier archives are preserved historical deliveries.
+and benchmark evidence.
 Large raster archives, native/temporal Parquet data, JVM binaries, JARs and HDFS blocks
 are deliberately excluded. This compact archive is a report/source handoff, not a
 self-contained copy of the multi-gigabyte execution environment.
@@ -25,7 +25,7 @@ From the project root:
 
 The verifier uses only the Python standard library and can also be run with Python 3
 on another computer. It checks ZIP CRC, manifest membership, every entry SHA256,
-required source modules, Python syntax, and the statement identifying the analysed coverage and excluded tile.
+required source modules, Python syntax and coverage disclosure.
 
 ## Reproduce or inspect results
 
@@ -40,7 +40,7 @@ required source modules, Python syntax, and the statement identifying the analys
 4. For a full computational reproduction, use a separate workspace, acquire official
    sources from the recorded manifests and follow phase READMEs. Existing-output guards
    intentionally prevent overwriting completed results. The adapter excludes tile R8_C27 and
-    requires a checkpoint containing all 156 verified tile-year jobs.
+   requires a checkpoint containing all 156 verified tile-year jobs.
 5. Given copied full outputs, `phase3/scripts/final_analytical_review.py` reproduces the
    additional arithmetic/rule checks; it refuses to overwrite its existing report folder.
 
@@ -52,5 +52,3 @@ NoData is never converted to zero. Candidate events overlap across periods, and
 representative points are neither settlement boundaries nor confirmed town locations.
 The regional Mumbai window moved by a documented coverage-only rule. Do not interpret
 study-window summaries as administrative city totals or full-India population estimates.
-
-The analysis is complete for 13 tiles, covering 156 tile-year combinations and excluding R8_C27.

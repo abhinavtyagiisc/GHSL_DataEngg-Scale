@@ -136,7 +136,7 @@ def run(integration,temporal,districts,candidates,out):
     files.extend([p/'validation.json' for p in (integration,temporal,districts,candidates)])
     files.extend(candidates/name for name in ('component_events.csv','component_events.parquet','candidate_review.geojson'))
     files.extend(ROOT/'data/boundaries'/name for name in ('IND_ADM2.provenance.json',))
-    files.extend([PROJECT/'integration/NATIONAL_RUNNER.md',integration/'identity.json',integration/'progress.json'])
+    files.extend([PROJECT/'integration/README.md',integration/'identity.json',integration/'progress.json'])
     if (PROJECT/'phase2/_SUCCESS').exists():
         for relative in ['phase2/src','phase2/scripts','phase2/config','phase2/reports','phase3/scripts','phase3/reports','phase3/config','phase3/tests']:
             folder=PROJECT/relative

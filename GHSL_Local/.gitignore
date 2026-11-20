@@ -310,3 +310,6 @@ AGENTS.md
 /population/reports/NATIVE_100M_EXECUTION.md
 /integration/reports/COMPLETION_REPORT.md
 /analysis/reports/PILOT_REPORT.md
+
+# Runner documentation consolidated into integration/README.md
+/integration/NATIONAL_RUNNER.md

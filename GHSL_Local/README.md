@@ -49,9 +49,7 @@ Run commands from `GHSL_Local/`. Start with the
 
 A clone includes code and compact results, but not the large source datasets or
 runtime environment. Completion controllers require source files, boundary snapshots
-and saved checkpoints, do not run them against an empty clone. Use a separate
-workspace for reproduction to preserve existing outputs. See the
-[reproduction guide](REPRODUCTION.md) for archive availability and exclusions.
+and saved checkpoints. Reproduce in a separate workspace with those inputs available.
 
 ## Methods and limitations
 

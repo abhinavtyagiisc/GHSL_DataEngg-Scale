@@ -97,12 +97,9 @@ For actual HDFS execution:
 .venv/bin/python population/scripts/hdfs.py stop
 ```
 
-All HDFS metadata and blocks persist under `population/runtime`. `start` formats only
-when no NameNode VERSION file exists. RPC and HTTP listeners use loopback. The minimal
-Maven-based runtime supplies small web contexts instead of the full Hadoop web UI;
-use the CLI reports. macOS uses Hadoop's Java fallback rather than native Linux libraries.
-HDFS replication is one, suitable for this local pilot only. The services are stopped
-after validation to avoid leaving background processes running.
+HDFS metadata and blocks persist under `population/runtime`. `start` formats only
+when no NameNode VERSION file exists. Listeners use loopback and replication is one.
+Use the CLI health reports; stop services after validation.
 
 
 ## Native and multi-tile processing

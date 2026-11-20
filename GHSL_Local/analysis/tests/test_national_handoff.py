@@ -42,7 +42,7 @@ def fixture(tmp,monkeypatch):
     pq.write_table(pa.table(dict(status=['no_candidate'])),candidates/'component_events.parquet')
     put(candidates/'candidate_review.geojson',dict(type='FeatureCollection',features=[]))
     put(tmp/'analysis/data/boundaries/IND_ADM2.provenance.json',dict(test_fixture=True))
-    (tmp/'integration/NATIONAL_RUNNER.md').write_text('Synthetic test fixture')
+    (tmp/'integration/README.md').write_text('Synthetic test fixture')
     return integration,temporal,districts,candidates,tmp/'analysis/handoff'
 
 
