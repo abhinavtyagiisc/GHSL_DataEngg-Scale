@@ -1,56 +1,67 @@
-# GHSL population: weeks 1–5
+# GHSL population processing
 
-**2026-11-06 extension:** Native 100 m handoff, inherited 2020 settlement classes,
-multi-tile India processing, and resumable tile-year checkpoints are now implemented.
-Read [NATIVE_100M_HANDOFF.md](NATIVE_100M_HANDOFF.md) and
-[the new execution report](reports/NATIVE_100M_EXECUTION.md). The new Bengaluru
-output has been executed; the national archive inventory has been checked, but
-India-wide processing has not run. The original weeks 1–5 results below remain intact.
+Downloads, validates and aggregates GHS-POP R2023A V1_0 population counts.
+The population-only Bengaluru pilot covers ten historical epochs (1975–2020)
+and two projection tests (2025/2030). Source and validation evidence is retained in
+`reports/`; population totals are in `reports/epoch_summary.csv`.
+Later three-product and 13-tile results are documented in [integration](../integration/README.md)
+and the [final analysis report](../analysis/data/final_results/REPORT.md).
 
-This directory implements the population member's contribution to Team Vector's
-proposal. The executed scope is a Bengaluru pilot for all 12 GHS-POP R2023A epochs.
-The proposal schedules India-wide execution for weeks 6–8, so it is not claimed here.
+Rasterio/Arrow extracts aligned native cells; Spark validates keys, values,
+coverage and conservative 1 km sums. The pilot also ran on single-node HDFS.
+Inputs come from official JRC archives, replacing the proposed Earth Engine exports.
 
-Start with `reports/EXECUTION_REPORT.md` for results and `TEAM_HANDOFF.md` for joining
-the population data to teammates' work. `notebooks/Population_Weeks_1_to_5.ipynb`
-provides a walkthrough and rerun commands. No Colab or Earth Engine login is required.
+## Pilot validation summary
 
-`Population_Weeks1_5_Handoff.zip` is the compact shareable package: source code,
-configuration, notebook, validation evidence and curated Parquet. It excludes the
-large raw downloads, clipped/staging data, Java/Python environment and HDFS runtime;
-those remain in this workspace and can be reproduced using the supplied scripts.
+The population-only pilot has 434,363 native cells per epoch, 5,212,356 native
+cell-year records and 53,460 companion 1 km records. It includes 268 partial coarse
+boundary cells per epoch. Local/HDFS coarse validation is recorded in
+`reports/spark_validation.json` and `reports/spark_hdfs_validation.json`;
+`reports/epoch_summary.csv` retains the population totals.
 
-## Week mapping
+The native extension recorded 78.41 seconds for Rasterio/Arrow extraction and
+33.95 seconds for Spark local[2] validation. Fourteen regression tests passed
+(`reports/tests_100m_final.txt`). These are single-machine pilot observations.
+The retained full run's `validation.json` and `spark_validation.json` contain its
+independent extraction, conservation and persisted-content checks.
 
-| Proposal milestone | Population implementation |
+## Datasets and join contract
+
+- Original coarse output: `data/curated/population_1km/`.
+- Native pilot: `data/curated/bengaluru_100m_final/`, containing `population_100m/`
+  and companion `population_1km/` directories.
+- Both use Hive partitions `epoch_type=historical|projection/year=YYYY`.
+  Read the dataset directory; individual files omit partition fields.
+- CRS: ESRI:54009, World Mollweide. Global origin: x=-18,041,000 m, y=9,000,000 m.
+- Coarse resolution: 1,000 m; grid ID `ghsl_r2023a_54009_1000_e87889c9acde`.
+  Exact transforms and identifiers are in `config/grid_contract.json` and each run's `plan.json`.
+- Pilot: 77.3–77.9°E, 12.7–13.3°N, a study rectangle rather than a city boundary.
+
+| Fields | Meaning |
 |---|---|
-| Weeks 1–3: obtain historical data for pilot | Official JRC 100 m population tiles downloaded for 1975–2020; 2025/2030 retained separately as projections |
-| Validate rasters | ZIP integrity/SHA256 manifest; CRS, resolution, affine alignment, data types, NoData, nonnegative finite counts, epoch completeness |
-| Establish raw and curated HDFS zones | Isolated local NameNode/DataNode; raw, cleaned, curated directories |
-| Confirm 100 m to 1 km aggregation | Native 100 m grid aligned to official SMOD V2_0 reference; Spark sums counts and checks conservation |
-| Weeks 4–5: ingest, validate, aggregate | Spark DataFrames read cell Parquet, reject duplicate/malformed records and aggregate by grid cell/year |
-| Join and persist | Population joins to geometry through deterministic reference-grid indices; join-ready population output. Full three-product join requires teammate data |
-| Store partitioned Parquet | Partitions `epoch_type=historical|projection/year=YYYY`, verified by complete round-trip comparison |
+| `grid_id`, `cell_id`, `year` | Unique key at the dataset's resolution |
+| `grid_row`, `grid_col` | Zero-based global grid indices |
+| `parent_grid_id`, `parent_cell_id` | Native dataset's exact 1 km parent key |
+| `population` | Decimal population count; native value at 100 m, summed value at 1 km |
+| `settlement_class` | Matching-year parent category when supplied |
+| `valid_pixel_count`, `expected_pixel_count` | Valid and in-mask native cells contributing to coarse summaries |
+| `coverage_fraction`, `aoi_fraction`, `is_complete` | Missing-data completeness, area fraction and completeness flag |
+| `x_center`, `y_center` | Coarse cell centre in Mollweide metres |
+| `source_release`, `source_version` | Source identifiers |
 
-**Acquisition deviation:** the proposal describes Google Earth Engine export. This
-execution uses the official JRC download service instead, obtaining the native
-population tiles without authentication or resampling. Both the source GeoTIFF ZIPs
-and clipped pilot GeoTIFFs are retained. This is not an Earth Engine export run.
+Cell IDs combine row and column as `row_col`. Native parent indices are integer
+division by ten. Fine centres are `x=origin_x+(grid_col+0.5)*100` and
+`y=origin_y-(grid_row+0.5)*100`. Fine and coarse grid IDs are different.
+Join aligned 100 m products by the fine key; join 1 km categories through
+`(parent_grid_id, parent_cell_id, year)`. Verify transforms, releases, years,
+masks, unique keys and unmatched keys in both directions before joining.
 
-## Pipeline
-
-```text
-Official JRC ZIP tiles + SMOD grid reference
-  → validated source files + provenance manifest
-  → aligned, masked 100 m GeoTIFFs + 100 m cell Parquet
-  → HDFS raw/cleaned zones
-  → Spark validation + SUM by 1 km cell/year + SQL checks
-  → partitioned 1 km Parquet in HDFS and local handoff copy
-```
-
-Raster decoding and staging run locally with Rasterio; the DataFrame validation and
-aggregation run in Spark. This is a genuine single-node HDFS + local[2] Spark pilot,
-not a distributed raster decoder, YARN job, multi-machine cluster, or national benchmark.
+The native population-only pilot supplies settlement classes for 2020 only;
+other epochs have null classes. Inherited 1 km categories are repeated labels,
+not independently measured 100 m classifications. Population is never uniformly
+divided among children. NoData (-200 in source population rasters) becomes null;
+valid zero remains zero. Coarse sums retain known subtotals without extrapolation.
+For full coarse cells, filter `aoi_fraction = 1 AND is_complete`.
 
 ## Reproduce from the GHSL project root
 
@@ -93,18 +104,38 @@ use the CLI reports. macOS uses Hadoop's Java fallback rather than native Linux 
 HDFS replication is one, suitable for this local pilot only. The services are stopped
 after validation to avoid leaving background processes running.
 
-## Configuration and limits
 
-`config/pilot.json` controls the pilot bounding box, tile and years. This version is
-deliberately locked to R2023A POP V1_0 and SMOD V2_0; changing release labels alone
-does not change the source products. The preparer refuses pilots outside the configured
-reference tile. It uses a densified geographic rectangle, then a 100 m centre-in-polygon
-mask. The current rectangle is inland around Bengaluru; it is not a district boundary.
+## Native and multi-tile processing
 
-For India-wide expansion, add a validated India boundary and multi-tile manifest,
-process tiles/windows in parallel, enforce no overlaps at tile seams, and apply one
-shared boundary mask. Keep the same global grid indices. District attribution and
-cross-product integration belong to the subsequent/team integration work.
+Inspect the multi-tile plan without processing:
+
+```sh
+.venv/bin/python population/src/multitile_population.py --config population/config/india.json
+```
+
+To reproduce the native pilot, use a new output directory:
+
+```sh
+.venv/bin/python population/src/multitile_population.py \
+  --config population/config/pilot_100m.json \
+  --output population/data/curated/pilot_100m_new --download --block-pixels 500
+.venv/bin/python population/src/validate_multitile_spark.py \
+  --run population/data/curated/pilot_100m_new
+```
+
+For a new population-only national run, substitute `population/config/india.json`
+and a new output path. National planning estimates and boundary provenance are in
+`reports/india_source_plan.json` and `reports/india_source_availability.json`; they are
+separate from the later completed three-product analysis. Window size must be a
+positive multiple of ten. National processing requires substantial storage and scans.
+
+`--resume` continues an incomplete run only after checking configuration, boundary,
+processor, source and output hashes. An exclusive lock prevents concurrent writers.
+Uncheckpointed outputs are preserved under `incomplete/`; completed runs reject
+resume/overwrite. `_SUCCESS`, `validation.json` and `spark_validation.json` record
+extraction and independent Spark validation. Optional `--compare-legacy` is for the
+matching pilot coarse dataset only. Settlement maps for additional years require
+matching `settlement_epochs` configuration and a new output directory.
 
 ## Sources and acknowledgement
 

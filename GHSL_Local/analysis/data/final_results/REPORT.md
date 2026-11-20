@@ -40,18 +40,22 @@ Country mask: geoBoundaries IND ADM0 represented year 2014. District mask: geoBo
 
 Sources: European Commission Joint Research Centre GHSL R2023A POP/BUILT-S V1_0 and SMOD V2_0. geoBoundaries gbOpen, Pathways Data Pvt. Ltd., lgdirectory.gov.in; ODbL 1.0: https://opendatacommons.org/licenses/odbl/1-0/. Preserve source attribution and derived-database license obligations when sharing.
 
-## Data locations
+## Output locations
 
-- National native/summary partitions: `/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/integration/data/accepted_coverage_run1`
-- Historical common-mask and cell transitions: `/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/analysis/data/national_temporal`
-- District summaries: `/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/analysis/data/national_districts`
-- Candidate events and review GeoJSON: `/Users/rio/Desktop/MacDesktop_GDrive/Data_Eng_At_Scale_26/GHSL/analysis/data/national_candidates`
+Paths below are relative to the project root. Compact tables and the chart are in
+`analysis/data/final_results/`; large Parquet partitions require the external data workspace.
 
-The compact ZIP contains summaries, methods, provenance and execution evidence. Multi-gigabyte native cell datasets remain at the listed workspace paths; it is not a self-contained copy of all national data.
+| Output | Path |
+|---|---|
+| Native integration | `integration/data/accepted_coverage_run1/` |
+| Common footprint and transitions | `analysis/data/temporal_analysis/` |
+| District summaries | `analysis/data/district_summaries/` |
+| Settlement candidates | `analysis/data/settlement_candidates/` |
+| Raw-data regional checks | `analysis/data/regional_case_studies/` |
 
 ## Independent regional data checks
 
-Direct raw-raster comparisons covered 750 complete coarse cell-years across three urban study windows and ten historical epochs. The Mumbai window was relocated by a documented coverage-only rule after the original window fell outside the retained country mask; Delhi and Bengaluru retain their original centres. Population and both built-area sums plus matching-year settlement classes agreed within the declared tolerances. See regional_case_studies/region_summary.csv and validation.json. This is numerical processing accuracy on the documented sample, not precision/recall against independently labelled settlement-growth events.
+Direct raw-raster comparisons covered 750 complete coarse cell-years across three urban study windows and ten historical epochs. The Mumbai window was relocated by a documented coverage-only rule after the original window fell outside the retained country mask; Delhi and Bengaluru retain their original centres. Population and both built-area sums plus matching-year settlement classes agreed within the declared tolerances. See `analysis/data/regional_case_studies/region_summary.csv` and `validation.json`. This is numerical processing accuracy on the documented sample, not precision/recall against independently labelled settlement-growth events.
 
 ## Observed national pipeline performance
 
@@ -69,9 +73,9 @@ Between 1975 and 2020, population share in urban centres rose from 29.4% to 38.7
 
 Analysis of 13 tiles across 156 tile-year combinations was completed on 10 November 2026. All six automated stages passed, including saved-file hashes, district conservation, regional raw-data comparisons and archive integrity. The concentration figure was visually reviewed for legibility, labels, legends and historical-year coverage. R8_C27 remains excluded and is not labelled verified. The Mumbai study-window adjustment and all failed attempts remain documented.
 
-Weeks 1–3 and 4–5 are complete with Apache Sedona execution, actual pilot HDFS evidence and repeated quantitative benchmarks. Weeks 6–8 are complete for the 13-tile study area. Results and supporting evidence are packaged in `GHSL_Analysis_Results.zip`; the earlier archive is retained as a record of the original execution.
+Results and supporting evidence are packaged in `GHSL_Analysis_Results.zip`.
 
-## Additional proposal-completeness review
+## Regional consistency checks
 
 The final follow-up independently checked 26,870 regional cell-period transitions,
 including settlement-class rules, all three numerical deltas and growth fractions,

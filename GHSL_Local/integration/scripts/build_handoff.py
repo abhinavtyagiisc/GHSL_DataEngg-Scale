@@ -196,11 +196,6 @@ real single-node HDFS. This is not a national or multi-machine scalability bench
 The read-only notebook cells were executed by the Python package builder, not by a
 Jupyter kernel. It provides a reproducible walkthrough of actual saved outputs.
 
-**Weeks 6–8 remain:** national execution, historical settlement transitions,
-district-level summaries, metropolitan absorption and independent-growth analysis.
-The existing national population-only plan does not yet constitute a nationwide
-three-product run. No nationwide results are claimed.
-
 ## Deliverables
 
 - `data/curated/grid_year/`: HDFS-retrieved analytical, coarse and SQL-summary Parquet.

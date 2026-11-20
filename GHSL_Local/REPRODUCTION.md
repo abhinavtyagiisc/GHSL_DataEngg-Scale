@@ -54,38 +54,3 @@ The regional Mumbai window moved by a documented coverage-only rule. Do not inte
 study-window summaries as administrative city totals or full-India population estimates.
 
 The analysis is complete for 13 tiles, covering 156 tile-year combinations and excluding R8_C27.
-
-## Phase overview
-
-Phase 1 (weeks 1–3) validates the pilot inputs, HDFS zones and Sedona spatial
-operations, with declared benchmark methods. Phase 2 (weeks 4–5) validates reusable
-integration and repeated end-to-end benchmarks. Phase 3 (weeks 6–8) delivers
-processing of the 13-tile study area, temporal and district summaries, settlement candidates and regional checks.
-Each phase README provides commands and links to execution evidence.
-Saved PASS records describe original executions, not new runs in a clone.
-
-## Repository and external files
-
-Repository: https://github.com/abhinavtyagiisc/GHSL_DataEngg-Scale.
-`GHSL_Analysis_Results.zip` is provided separately from the repository. Contact the
-project owner for a copy if needed. As checked on 20 November 2026, the repository
-had no published releases.
-
-The clone contains source, configuration, tests, dependency pins, notebooks, compact
-results and validation/benchmark evidence. Large raw and curated datasets, HDFS
-blocks, JVM/JAR binaries and the virtual environment remain external. Recorded source
-URLs, hashes and environment manifests support reproduction. Preserve both
-`accepted_coverage_run1` and its `national_run1` symlink targets when backing up full data.
-Local continuity, assistant instructions, conversation archives and progress logs are
-not included in the repository. Packaging must not require these local files.
-
-## Folder names and saved provenance
-
-Current results use `analysis/data/final_results`, `settlement_candidates`,
-`temporal_analysis`, `district_summaries`, `regional_case_studies`, and
-`phase3/reports/regional_validation`. Older checksummed archives retain the names
-`week8_handoff`, `national_candidates`, `national_temporal`, `national_districts`,
-`national_case_studies`, and `analytical_review`, respectively. The archive verifier
-accepts either layout. Saved execution logs/manifests and absolute paths describe
-the original run workspace; they have not been rewritten as evidence of a new run.
-When restoring large external outputs into a new clone, use the current folder names.

@@ -34,7 +34,7 @@ def main():
     totals = report['source_totals']
     lines = [
         '# Weeks 6–8 historical pilot results', '',
-        'Generated from validated saved outputs on 2026-11-06. National execution and weeks 6–8 remain incomplete.', '',
+        'Pilot results recorded on 6 November 2026. Later 13-tile results are documented in ../data/final_results/REPORT.md.', '',
         '## Scope and validation', '',
         'Bengaluru rectangular pilot only; 1975–2020 historical epochs. Projections 2025/2030 are excluded. '
         'All district figures are intersections with the pilot, not full district totals. '
@@ -44,9 +44,7 @@ def main():
         f"{report['district_summary_rows']:,} district/year/class summary rows. "
         'Checks include unique keys, complete trajectories, temporal footprint consistency, district population/total-built conservation, '
         'and every-column Parquet round trips for cell transitions and district summaries.', '',
-        'The corrected schema regression suite passed 10 tests in 15.86 seconds. '
-        'The first sandboxed test attempt failed because local Spark sockets were unavailable; '
-        'the socket-enabled rerun passed.', '',
+        'The corrected schema regression suite passed 10 tests in 15.86 seconds.', '',
         '## Pilot totals', '',
         '| Year | Population estimate | Total built surface (km²) |',
         '| --- | ---: | ---: |',

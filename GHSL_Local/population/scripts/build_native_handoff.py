@@ -17,10 +17,10 @@ def main():
     assert (run/'_SUCCESS').exists()
     for name in ('validation.json','spark_validation.json'):
         assert json.loads((run/name).read_text())['status']=='PASS'
-    include=[ROOT/name for name in ('README.md','NATIVE_100M_HANDOFF.md','TEAM_HANDOFF.md','requirements.txt','requirements-lock.txt')]
+    include=[ROOT/name for name in ('README.md','requirements.txt','requirements-lock.txt')]
     for folder in ('config','src','scripts','tests','data/raw/boundaries'):
         include.extend(p for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
-    include.extend(ROOT/'reports'/name for name in ('NATIVE_100M_EXECUTION.md','tests_100m_final.txt','india_source_plan.json','india_source_availability.json'))
+    include.extend(ROOT/'reports'/name for name in ('tests_100m_final.txt','india_source_plan.json','india_source_availability.json'))
     include.extend(p for p in run.rglob('*') if p.is_file() and not p.name.startswith('.'))
     with zipfile.ZipFile(args.output,'x',compression=zipfile.ZIP_DEFLATED) as archive:
         for path in sorted(set(include)):

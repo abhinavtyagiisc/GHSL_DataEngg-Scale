@@ -78,19 +78,15 @@ urban-growth conclusions or nationwide findings are claimed at this stage.
 - `data/curated/population_1km/`: local verified handoff Parquet.
 - `data/curated/population_1km_from_hdfs/`: downloaded HDFS output, independently verified during HDFS execution.
 - HDFS tree: `/ghsl/population/{raw,cleaned,curated}`; curated output at `/ghsl/population/curated/population_1km`.
-- `config/grid_contract.json` and `TEAM_HANDOFF.md`: shared spatial/key contract.
+- `config/grid_contract.json` and `README.md`: shared spatial/key contract.
 - `notebooks/Population_Weeks_1_to_5.ipynb`: executable walkthrough of saved results and optional rerun commands. The underlying scripts were executed; the notebook is supplied as a walkthrough, not claimed as an executed Colab session.
 - `reports/`: source manifest, validation JSON, SQL epoch summary, samples, test evidence, HDFS status/health and execution logs.
 
 ## Explicit boundaries
 
-The population member's weeks 1–5 pilot work is implemented and executed. Native JRC
-downloads substitute for the proposal's Earth Engine export step. Raster extraction
-is local; DataFrame processing is Spark local[2] backed by real single-node HDFS.
-The full three-product join awaits the team's settlement and built-up outputs and
-agreement on the shared pilot. No mock versions of those datasets were substituted.
-India-wide multi-tile processing, India/district boundaries, district summaries,
-and settlement-growth analysis are outside this pilot and remain later milestones.
+This report covers the population-only pilot. Official JRC downloads replaced
+Earth Engine exports. Raster extraction ran locally, with Spark local[2] processing
+and single-node HDFS. Later integration and analysis are documented separately.
 
 The HDFS services are stopped after validation; data persist on disk and can be
 reopened with `scripts/hdfs.py start`. See README for reproducible commands.
@@ -107,7 +103,7 @@ status refer to the successful run, not the interrupted attempts.
 Counts are summed, not averaged. Source NoData is null and zeros remain valid.
 At the pilot boundary, totals cover only in-pilot 100 m cell centres. Do not rescale
 boundary subtotals to full-cell counts. `coverage_fraction` concerns missing data;
-`aoi_fraction` concerns area coverage. Read the team handoff before cross-product joins.
+`aoi_fraction` concerns area coverage. See the population README for the cross-product join contract.
 
 Source: European Commission Joint Research Centre, GHS-POP R2023A,
 https://doi.org/10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE.
@@ -123,7 +119,7 @@ and provides optional rerun commands; it is not an executed Colab session.
 
 Open from the GHSL project with its `.venv` kernel. No Earth Engine authentication is
 needed. Keep 2025/2030 projections separate from historical data. See README and
-TEAM_HANDOFF for scope, sources and grid details.'''),
+README.md for scope, sources and grid details.'''),
     code('''from pathlib import Path
 import json, sys, subprocess
 here = Path.cwd().resolve()
@@ -167,7 +163,7 @@ else:
         if cell['cell_type']=='code':compile(''.join(cell['source']),'<notebook-cell>','exec')
     (ROOT/'notebooks/Population_Weeks_1_to_5.ipynb').write_text(json.dumps(notebook,indent=2)+'\n')
     # Compact handoff excludes raw tile archives, environment, runtime and noisy logs.
-    include=[ROOT/'README.md',ROOT/'TEAM_HANDOFF.md',ROOT/'requirements.txt',ROOT/'requirements-lock.txt']
+    include=[ROOT/'README.md',ROOT/'requirements.txt',ROOT/'requirements-lock.txt']
     for folder in ['config','src','scripts','tests','notebooks']:
         include.extend(p for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
     include.extend(p for p in (ROOT/'reports').iterdir() if p.suffix in ('.md','.json','.csv','.txt') and p.name!='hdfs_files.txt')

@@ -2,8 +2,10 @@
 
 This component completes the proposal's pilot ingestion and integration workflow for
 population, built-up surface (including its non-residential component), and settlement
-classification. Use `reports/COMPLETION_REPORT.md` for executed results and the exact
-milestone checklist. The earlier population-only work remains under `../population/`.
+classification. See [the phase-2 report](../phase2/reports/PHASE2_COMPLETION_REPORT.md)
+for the later Spark/Sedona validation and repeated benchmarks. Original execution
+evidence remains in `reports/spark_hdfs_validation.json`, `reports/hdfs_execution.json`
+and `reports/epoch_summary.csv`.
 
 ## Scope and method
 
@@ -21,8 +23,8 @@ milestone checklist. The earlier population-only work remains under `../populati
 
 **Acquisition deviation from the proposal:** official JRC native GeoTIFF downloads
 replace Google Earth Engine exports. No Earth Engine/Colab execution is claimed.
-The datasets and native alignment are validated directly. Nationwide execution,
-settlement transitions and district summaries remain weeks 6–8 work.
+The datasets and native alignment are validated directly. Later 13-tile results
+are documented in [the final analysis report](../analysis/data/final_results/REPORT.md).
 
 ## Data and evidence
 
@@ -138,9 +140,9 @@ The original Earth Engine SMOD collection is deprecated in favour of V2_0; this
 implementation uses V2_0 consistently. Source URLs and checksums for every epoch
 and product are retained in `reports/download_manifest_full.json`.
 
-## National runner development
+## Multi-tile processing
 
-See [the bounded runner guide](NATIONAL_RUNNER.md) for the new windowed, checkpointed
+See [the bounded runner guide](NATIONAL_RUNNER.md) for the windowed, checkpointed
 three-product workflow. It runs Spark one tile-year at a time and discards generated
 staging tables only after validated output is checkpointed. This avoids retaining
 national staging plus duplicate HDFS output. It does not change the completed pilot.

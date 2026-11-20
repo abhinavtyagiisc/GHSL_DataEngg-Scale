@@ -1,13 +1,12 @@
 # Phase 1 — weeks 1–3, complete-project foundation
 
-This phase covers every GHSL product needed by the proposal, owned by one person:
-POP, BUILT-S total/NRES and SMOD. It includes Apache Sedona geospatial Spark operations and quantitative performance benchmarks.
-See [the reproduction guide](../REPRODUCTION.md) for the three phases. Do not advance to phases 2/3
-merely to reproduce this phase. Existing earlier work remains preserved.
+Validates POP, BUILT-S total/NRES and SMOD on the Bengaluru pilot using Apache
+Sedona spatial operations, HDFS integrity checks and quantitative benchmarks.
+See [the completion report](reports/PHASE1_COMPLETION_REPORT.md) for measured results.
 
 ## Evidence and data
 
-- `reports/PHASE1_COMPLETION_REPORT.md`: completion report, written only after checks pass.
+- `reports/PHASE1_COMPLETION_REPORT.md`: measured results and validation summary.
 - `reports/PHASE1_VALIDATION.json` and root `_SUCCESS`: final phase-1 evidence.
 - `reports/input_audit_run2/`: all 48 archives, prepared rasters and real HDFS checks.
 - `reports/sedona_local1_run3/`, `reports/sedona_local2_run1/`: Sedona runs used in the final benchmark comparison.
@@ -80,7 +79,8 @@ used in the final benchmark comparison. Their logs remain as diagnostic evidence
 
 Official JRC downloads substitute for the proposal’s Earth Engine exports. No Earth
 Engine authentication/export execution is claimed. HDFS is single-node, replication one.
-Later-phase integration and national analysis are not part of this revised completion.
+This report covers pilot validation; final study results are in
+[the analysis report](../analysis/data/final_results/REPORT.md).
 
 Sources: JRC GHSL R2023A POP/BUILT-S V1_0 and SMOD V2_0; geoBoundaries gbOpen with
 ODbL 1.0 attribution retained. Sedona setup: https://sedona.apache.org/1.9.1/setup/install-python/

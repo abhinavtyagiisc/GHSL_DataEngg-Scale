@@ -1,7 +1,7 @@
 # Phase 2 completion report — weeks 4–5
 
 India’s Urban Concentration and Emerging Growth Centres using GHSL  
-Single-owner project · 7 November 2026
+7 November 2026
 
 ## Outcome
 

@@ -304,3 +304,9 @@ AGENTS.md
 /analysis/scripts/build_final_report.py
 /analysis/scripts/build_presentation_content.py
 /analysis/scripts/build_word_report.py
+
+# Superseded early narrative reports; raw validation evidence remains tracked
+/population/reports/EXECUTION_REPORT.md
+/population/reports/NATIVE_100M_EXECUTION.md
+/integration/reports/COMPLETION_REPORT.md
+/analysis/reports/PILOT_REPORT.md

@@ -1,11 +1,10 @@
 # Phase 1 Completion Report — Weeks 1–3
 
 **Project:** India’s Urban Concentration and Emerging Growth Centres using GHSL  
-**Delivery model:** One owner responsible for the complete proposal  
 **Date:** 7 November 2026  
-**Status:** Phase 1 complete with execution evidence. Phases 2 and 3 are separate future deliverables.
+**Status:** Completed pilot validation and benchmarks.
 
-## 1. What this phase delivers
+## 1. Scope
 
 A validated foundation for all three GHSL products: population, built-up surface (total and non-residential), and settlement classification. The work covers the Bengaluru pilot across all ten historical observations from 1975 to 2020, plus 2025/2030 test observations. Existing source data were re-audited and reused. Apache Sedona now performs actual geospatial Spark operations, and quantitative benchmark definitions and measurements are supplied.
 
@@ -23,7 +22,7 @@ A validated foundation for all three GHSL products: population, built-up surface
 | Tests | Three phase-1 contract/metric tests passed; actual Sedona jobs independently passed on both worker settings |
 | Performance evaluation | Three input sizes, one warmup and five measured repetitions per size, for local[1] and local[2] |
 
-Sedona spatial assignments are a phase-1 validation exercise, not a claim that the revised phase-3 district analysis is finished. The study area is a rectangle around Bengaluru, not a city administrative boundary.
+These spatial checks validate the pilot workload. The study area is a rectangle around Bengaluru, not a city administrative boundary.
 
 ## 3. Geospatial processing with Apache Sedona
 
@@ -73,13 +72,11 @@ Predeclared engineering targets for the full pilot join: median ≤120 s, throug
 
 These are single local-HDFS retrieval observations including command startup; they are not repeated cold-cache storage benchmarks. HDFS health passed with replication one. The audit stopped its own services and removed only its newly created verification copies; original data remain intact.
 
-## 6. Scope, deviations and remaining phases
+## 6. Scope and limitations
 
 Official JRC native downloads substitute for the proposal’s Earth Engine exports. The source releases, grids and provenance are explicit; no Earth Engine authentication or export execution is claimed. This report therefore documents an acquisition-method deviation rather than presenting literal compliance with that step.
 
 The fixed country boundary represents 2014 and the district boundary represents 2021. District polygons support spatial validation here, not reconstruction of historical administrative boundaries.
-
-Phase 2 (weeks 4–5) will revalidate and extend the reusable all-product integration with Sedona and broader end-to-end benchmarks. Phase 3 (weeks 6–8) will cover national execution, transitions, district summaries, candidates and final evaluation. The previous national attempt remains preserved, including its failed zero-length Parquet output; it is not part of this phase-1 completion claim.
 
 ## 7. Reproduction and evidence
 
