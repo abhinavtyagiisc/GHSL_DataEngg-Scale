@@ -1,4 +1,4 @@
-"""Verify a compact GHSL submission without executing its pipeline."""
+"""Verify a compact GHSL handoff without executing its pipeline."""
 import ast,hashlib,json,sys,zipfile
 from pathlib import Path,PurePosixPath
 
@@ -15,8 +15,18 @@ def verify(path):
             data=z.read(name)
             if hashlib.sha256(data).hexdigest()!=sha:raise ValueError('SHA256 mismatch: '+name)
             if name.endswith('.py'):ast.parse(data,filename=name)
-        required=['population/src/prepare_population_rasters.py','population/src/spark_population.py','population/src/multitile_population.py','population/scripts/download_population_tiles.py','integration/scripts/download_sources.py','integration/src/prepare_inputs.py','integration/src/spark_integrate.py','phase1/requirements-lock.txt','phase1/runtime/jar_manifest.json','phase3/reports/analytical_review/validation.json','phase3/reports/REQUIREMENTS_REVIEW.md','SUBMISSION_README.md']
+        required=['population/src/spark_population.py','population/src/multitile_population.py','integration/scripts/download_sources.py','integration/src/prepare_inputs.py','integration/src/spark_integrate.py','phase1/requirements-lock.txt','phase1/runtime/jar_manifest.json','phase3/reports/analytical_review/validation.json','phase3/reports/REQUIREMENTS_REVIEW.md']
         if not set(required)<=set(manifest):raise ValueError('Required source/evidence missing')
+        # Retain compatibility with source names in the original checksummed handoff.
+        for alternatives in (
+            {'population/src/prepare_population_rasters.py', 'population/src/prepare.py'},
+            {'population/scripts/download_population_tiles.py', 'population/scripts/download.py'},
+        ):
+            if not alternatives & set(manifest):
+                raise ValueError('Required source/evidence missing: ' + ', '.join(sorted(alternatives)))
+        # Accept the guide name in existing checksummed archives as well as new handoffs.
+        if not {'REPRODUCTION.md', 'SUBMISSION_README.md'} & set(manifest):
+            raise ValueError('Reproduction guide missing')
         report=z.read('analysis/data/week8_handoff/REPORT.md').decode()
         if 'R8_C27 excluded' not in report:raise ValueError('Missing coverage disclosure')
         if json.loads(z.read('phase3/reports/analytical_review/validation.json'))['status']!='PASS':raise ValueError('Analytical follow-up failed')

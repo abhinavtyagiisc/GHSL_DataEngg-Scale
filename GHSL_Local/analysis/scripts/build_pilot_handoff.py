@@ -87,7 +87,7 @@ def main():
                    'data/pilot_candidates', 'data/district_mapping', 'data/pilot_handoff'):
         paths.extend(p for p in (ROOT / folder).rglob('*')
                      if p.is_file() and '__pycache__' not in p.parts and not p.name.startswith('.') and not p.name.startswith('handoff_build'))
-    paths += [ROOT / 'README.md', PROJECT / 'SUBMISSION_README.md', ROOT / 'data/boundaries/IND_ADM2.provenance.json',
+    paths += [ROOT / 'README.md', PROJECT / 'REPRODUCTION.md', ROOT / 'data/boundaries/IND_ADM2.provenance.json',
               PROJECT / 'integration/config/grid_contract.json', PROJECT / 'integration/config/pilot.json',
               PROJECT / 'integration/reports/download_manifest_full.json', PROJECT / 'population/requirements-lock.txt']
     manifest = {str(p.relative_to(PROJECT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(set(paths))}

@@ -70,7 +70,7 @@ use local Spark and a single-node HDFS; no multi-machine speedup is claimed.
 The key-join baseline remains useful for aligned regular grids. Sedona adds spatial
 semantics and independently checked geometry; it is not assumed to beat key arithmetic.
 
-## Submission and reproduction
+## Reproduction
 
 Read ../README.md for commands, schemas, paths and limitations. Detailed evidence:
 `hdfs_validation.json`, `hdfs_execution.json`, `reference_comparison.json`,

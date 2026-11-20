@@ -298,3 +298,9 @@ AGENTS.md
 /analysis/reports/PROGRESS_REPORT.md
 /output/pdf/SUBMISSION_NOTES.md
 /phase3/reports/github_release_notes.md
+
+# Report and presentation exports and dedicated local builders
+/output/
+/analysis/scripts/build_final_report.py
+/analysis/scripts/build_presentation_content.py
+/analysis/scripts/build_word_report.py

@@ -84,4 +84,4 @@ These are consistency checks, not external detection ground truth.
 The final requirement map (`phase3/reports/REQUIREMENTS_REVIEW.md`) records both
 fulfilled requirements and deviations, including the fact that the original objective
 of completing the run without manual engineering intervention was not achieved.
-`SUBMISSION_README.md` explains inspection, source dependencies and reproduction.
+`REPRODUCTION.md` explains inspection, source dependencies and reproduction.

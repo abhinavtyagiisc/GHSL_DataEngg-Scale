@@ -21,7 +21,7 @@ def main():
             if not p.is_file() or '__pycache__' in p.parts or '.pytest_cache' in p.parts:continue
             if relative=='phase2' and ('data/benchmarks' in str(p.relative_to(ROOT)) or p.name in ['MANIFEST.json','HANDOFF_VALIDATION.json'] or p==ROOT/'_SUCCESS'):continue
             files.add(p)
-    for rel in ['SUBMISSION_README.md','phase1/README.md','phase1/config/benchmark.json','phase1/runtime/jar_manifest.json','phase1/requirements-lock.txt','phase1/src/sedona_benchmark.py','phase1/scripts/bootstrap_sedona.py','population/scripts/hdfs.py','analysis/scripts/progress_log.py','integration/config/grid_contract.json','integration/config/pilot.json']:
+    for rel in ['REPRODUCTION.md','phase1/README.md','phase1/config/benchmark.json','phase1/runtime/jar_manifest.json','phase1/requirements-lock.txt','phase1/src/sedona_benchmark.py','phase1/scripts/bootstrap_sedona.py','population/scripts/hdfs.py','analysis/scripts/progress_log.py','integration/config/grid_contract.json','integration/config/pilot.json']:
         files.add(PROJECT/rel)
     manifest=[]
     for p in sorted(files):

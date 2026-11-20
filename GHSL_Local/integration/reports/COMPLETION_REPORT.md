@@ -97,4 +97,4 @@ and checkpoint resume. All-column comparisons passed for 868,726 fine and 8,910
 coarse rows total. Full integration suite passed 10 tests; an additional recovery
 regression brought the national-specific suite to four passing tests. See
 `../NATIONAL_RUNNER.md`, `bounded_validation_comparison.json`, and the root
-`SUBMISSION_README.md`. No national execution is claimed.
+`REPRODUCTION.md`. No national execution is claimed.

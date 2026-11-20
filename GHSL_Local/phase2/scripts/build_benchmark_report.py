@@ -85,7 +85,7 @@ use local Spark and a single-node HDFS; no multi-machine speedup is claimed.
 The key-join baseline remains useful for aligned regular grids. Sedona adds spatial
 semantics and independently checked geometry; it is not assumed to beat key arithmetic.
 
-## Submission and reproduction
+## Reproduction
 
 Read ../README.md for commands, schemas, paths and limitations. Detailed evidence:
 `hdfs_validation.json`, `hdfs_execution.json`, `reference_comparison.json`,
@@ -98,5 +98,5 @@ and per-file SHA256 are verified separately in HANDOFF_VALIDATION.json.
 Sedona optimizer reference: https://sedona.apache.org/latest/api/sql/Optimizer/
 """
 (ROOT/'reports/PHASE2_COMPLETION_REPORT.md').write_text(text)
-update('Generate phase-2 submission report, metrics CSV and benchmark chart','PASS','Report generated from actual validation JSON; chart visual review and handoff verification follow.')
+update('Generate phase-2 completion report, metrics CSV and benchmark chart','PASS','Report generated from actual validation JSON; chart visual review and handoff verification follow.')
 print(json.dumps(rows,indent=2))

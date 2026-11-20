@@ -216,7 +216,7 @@ Source documentation and attribution are linked in `integration/README.md`.
     notebook()
     destination=PROJECT/'GHSL_Weeks1_5_Complete_Handoff.zip'
     if destination.exists():raise FileExistsError(destination)
-    include=[PROJECT/n for n in ('README.md','SUBMISSION_README.md')]
+    include=[PROJECT/n for n in ('README.md','REPRODUCTION.md')]
     include.append(ROOT/'README.md')
     for folder in ('config','src','scripts','tests','notebooks'):
         include.extend(p for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)

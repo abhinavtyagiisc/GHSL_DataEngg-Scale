@@ -3,12 +3,12 @@
 This phase covers every GHSL product needed by the proposal, owned by one person:
 POP, BUILT-S total/NRES and SMOD. It adds the professor’s requirements: actual Apache
 Sedona geospatial Spark operations and explicit quantitative performance benchmarks.
-See [the submission guide](../SUBMISSION_README.md) for the three phases. Do not advance to phases 2/3
+See [the reproduction guide](../REPRODUCTION.md) for the three phases. Do not advance to phases 2/3
 merely to reproduce this phase. Existing earlier work remains preserved.
 
 ## Evidence and data
 
-- `reports/PHASE1_COMPLETION_REPORT.md`: submission report, written only after checks pass.
+- `reports/PHASE1_COMPLETION_REPORT.md`: completion report, written only after checks pass.
 - `reports/PHASE1_VALIDATION.json` and root `_SUCCESS`: final phase-1 evidence.
 - `reports/input_audit_run2/`: all 48 archives, prepared rasters and real HDFS checks.
 - `reports/sedona_local1_run3/`, `reports/sedona_local2_run1/`: accepted Sedona runs.

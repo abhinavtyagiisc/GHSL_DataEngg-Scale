@@ -1,4 +1,4 @@
-# GHSL project: final submission guide
+# GHSL reproduction guide
 
 **Complete for approved coverage: 13 tiles, 156 tile-years. R8_C27 excluded.**
 
@@ -20,7 +20,7 @@ self-contained copy of the multi-gigabyte execution environment.
 From the project root:
 
 ```sh
-.venv/bin/python phase3/scripts/verify_submission_archive.py GHSL_Weeks1_8_Accepted_Coverage_Final_v2.zip
+.venv/bin/python phase3/scripts/verify_handoff_archive.py GHSL_Weeks1_8_Accepted_Coverage_Final_v2.zip
 ```
 
 The verifier uses only the Python standard library and can also be run with Python 3
@@ -55,19 +55,6 @@ study-window summaries as administrative city totals or full-India population es
 
 The analysis is complete within the approved 13-tile scope.
 
-## Submission contents
-
-Use the reviewed archive above for source, results and validation evidence. Include
-only the final report and presentation requested by the course alongside it; retain
-older drafts and duplicate exports locally. Check author placeholders in final
-exports before submitting.
-
-Do not add the local `.venv/`, `tmp/`, Python caches, editor backups or debug logs to
-the submission. Retain dependency pins, source manifests, benchmark records and
-validation reports needed to interpret and reproduce the results. Keep project
-continuity and administration records in the working project. Follow course
-requirements for AI-use disclosure and individual contribution statements.
-
 ## Phase overview
 
 Phase 1 (weeks 1–3) validates the pilot inputs, HDFS zones and Sedona spatial
@@ -91,17 +78,3 @@ URLs, hashes and environment manifests support reproduction. Preserve both
 `accepted_coverage_run1` and its `national_run1` symlink targets when backing up full data.
 Local continuity, assistant instructions, conversation archives and progress logs are
 not part of the published deliverable. Packaging must not require these local files.
-
-## Report and presentation notes
-
-The supplied PDF report has seven A4 pages, 10-point text and 2.5 cm margins; saved
-format evidence is in `output/pdf/REPORT_FORMAT_VALIDATION.json`. Himanshu Arora is
-listed; three other author fields remain placeholders and must be completed before
-submission. Individual contribution forms and required disclosures remain separate.
-The presentation PDF has 16 pages of copy-ready content; it is not an editable
-PowerPoint deck. The Word report is editable; rendered Word pagination remains
-unverified. Preserve the approved-coverage and methodological limitations in all exports.
-
-Rebuild the report with `python analysis/scripts/build_final_report.py` using
-reportlab 5.1.0; the original PDF inspection used PyMuPDF 1.26.6. Rebuilding an export
-does not rerun scientific processing or update existing checksummed ZIP archives.

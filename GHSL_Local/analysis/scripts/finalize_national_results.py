@@ -155,7 +155,7 @@ def run(integration,temporal,districts,candidates,out):
         for path,sha in manifest.items():
             if hashlib.sha256(z.read(path)).hexdigest()!=sha:raise ValueError('ZIP SHA256 failed')
     (out/'_SUCCESS').write_text('PASS\n')
-    # Replace the interim submission report only after every final audit passes.
+    # Replace the interim completion report only after every final audit passes.
     # A distinct heading prevents the live heartbeat from restoring an in-progress notice.
     progress_report=ROOT/'reports/PROGRESS_REPORT.md'
     if progress_report.exists():

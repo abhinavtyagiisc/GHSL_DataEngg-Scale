@@ -10,7 +10,7 @@ for follow-up checks. The earlier [pilot results](reports/PILOT_REPORT.md) descr
 only the Bengaluru study window. Candidate events are exploratory and must not be
 interpreted as unique or confirmed settlements.
 
-For reproduction and delivery details, read the [submission guide](../SUBMISSION_README.md).
+For reproduction and delivery details, read the [reproduction guide](../REPRODUCTION.md).
 
 Source attribution:
 

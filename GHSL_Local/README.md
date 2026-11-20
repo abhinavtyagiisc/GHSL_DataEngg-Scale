@@ -9,11 +9,9 @@ separately. Tile R8_C27 is excluded because no valid analytical cells were found
 within the selected country mask, including after fresh-source retries.
 **The results do not cover all of India.**
 
-## Reports and presentation
+## Documentation
 
-- [Final report (PDF)](output/pdf/GHSL_Final_Project_Report.pdf) · [Word version](output/docx/GHSL_Final_Project_Report.docx)
-- [Presentation content (PDF)](output/pdf/GHSL_Presentation_Slide_Content.pdf)
-- [Submission and reproduction guide](SUBMISSION_README.md)
+- [Reproduction guide](REPRODUCTION.md)
 
 ## Results
 
@@ -42,7 +40,6 @@ compares the implementation with the proposal.
 | `phase1/` | Pilot ingestion, HDFS, Sedona checks and benchmarks |
 | `phase2/` | Reusable integration and repeated benchmarks |
 | `phase3/` | Final execution and acceptance evidence |
-| `output/` | Course report and presentation files |
 
 The original [team notebook](../DE_S_Project_Aug2026.ipynb) is retained at the
 repository root and predates this project import.
@@ -50,14 +47,14 @@ repository root and predates this project import.
 ## Running the project
 
 Run commands from `GHSL_Local/`. Start with the
-[reproduction guide](SUBMISSION_README.md),
+[reproduction guide](REPRODUCTION.md),
 [pinned dependencies](phase1/requirements-lock.txt) and the relevant phase README.
 
 A clone includes code and compact results, but not the large source datasets or
 runtime environment. Completion controllers require source files, boundary snapshots
 and saved checkpoints; do not run them against an empty clone. Use a separate
 workspace for reproduction to preserve existing outputs. See the
-[submission guide](SUBMISSION_README.md) for archive availability and exclusions.
+[reproduction guide](REPRODUCTION.md) for archive availability and exclusions.
 
 ## Methods and limitations
 
