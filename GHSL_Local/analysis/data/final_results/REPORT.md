@@ -1,12 +1,12 @@
-# GHSL weeks 1–8 completion report — accepted coverage
+# GHSL analysis report — 13-tile study area
 
 R8_C27 excluded in all 12 epochs. Results describe the verified study footprint, not complete India coverage.
 
-## Approved coverage exclusion
+## Study coverage and exclusions
 
-User-approved completion using verified coverage; excluded area is missing, never zero or extrapolated
+The analysis uses verified data from 13 tiles. Excluded areas remain missing and are neither treated as zero nor estimated by extrapolation.
 
-Accepted: 156 of 168 originally planned jobs. Excluded: R8_C27, all 12 epochs, after fresh-source retries still had no valid analytical cells.
+Processed and verified 156 of the 168 originally planned tile-year jobs. Tile R8_C27 was excluded across all 12 epochs because repeated downloads still yielded no valid analytical cells within the study mask.
 
 
 ## Executed scope
@@ -65,11 +65,11 @@ The revised weeks 1–5 foundation additionally executed Apache Sedona 1.9.1 spa
 
 Between 1975 and 2020, population share in urban centres rose from 29.4% to 38.7%, and in urban clusters from 35.5% to 44.3%; rural-class share fell from 35.1% to 16.9%. Urban-cluster built-surface share rose from 26.9% to 47.2%. These are descriptive shares on the fixed complete-case footprint, not full-India totals or causal estimates. Settlement categories can change between epochs.
 
-## Final acceptance
+## Final validation
 
-Completed for the user-approved 13-tile, 156-job scope on 10 November 2026. All six automated stages passed, including saved-file hashes, district conservation, regional raw-data comparisons and archive integrity. The concentration figure was visually reviewed for legibility, labels, legends and historical-year coverage. R8_C27 remains excluded and is not labelled verified. The Mumbai study-window adjustment and all failed attempts remain documented.
+Analysis of 13 tiles across 156 tile-year combinations was completed on 10 November 2026. All six automated stages passed, including saved-file hashes, district conservation, regional raw-data comparisons and archive integrity. The concentration figure was visually reviewed for legibility, labels, legends and historical-year coverage. R8_C27 remains excluded and is not labelled verified. The Mumbai study-window adjustment and all failed attempts remain documented.
 
-Weeks 1–3 and 4–5 are complete with Apache Sedona execution, actual pilot HDFS evidence and repeated quantitative benchmarks. Weeks 6–8 are now complete for the accepted coverage. Preferred reviewed delivery: `GHSL_Weeks1_8_Accepted_Coverage_Final_v2.zip`; the earlier automated handoff is retained for provenance.
+Weeks 1–3 and 4–5 are complete with Apache Sedona execution, actual pilot HDFS evidence and repeated quantitative benchmarks. Weeks 6–8 are complete for the 13-tile study area. Results and supporting evidence are packaged in `GHSL_Analysis_Results.zip`; the earlier archive is retained as a record of the original execution.
 
 ## Additional proposal-completeness review
 
@@ -81,7 +81,6 @@ surface growth and include Bengaluru candidate examples. See
 `phase3/reports/regional_validation/REPORT.md`, regional CSVs and validation.json.
 These are consistency checks, not external detection ground truth.
 
-The final requirement map (`phase3/reports/REQUIREMENTS_REVIEW.md`) records both
-fulfilled requirements and deviations, including the fact that the original objective
-of completing the run without manual engineering intervention was not achieved.
+The original objective of completing the run without manual engineering intervention
+was not achieved. Engineering recovery and an explicit coverage revision were required.
 `REPRODUCTION.md` explains inspection, source dependencies and reproduction.

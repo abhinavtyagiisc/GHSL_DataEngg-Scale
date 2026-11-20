@@ -65,6 +65,5 @@ One warmup and three measured repetitions per scenario; median, descriptive P95,
 rows/s, sampled process-tree RSS/CPU, Spark task time/GC/shuffle/spill and output bytes.
 RSS sums process values and can double-count shared pages; 100 ms sampling can miss
 brief peaks. CPU may miss short-lived descendants. OS cache is not flushed; no claim
-of cold disk or multi-machine scaling. Targets are engineering acceptance thresholds,
-not hypotheses fitted after observing the results. Correctness is mandatory even if
+of cold disk or multi-machine scaling. Performance targets were defined before measurement and used to evaluate the runs. Correctness is mandatory even if
 a performance target is missed.

@@ -4,7 +4,7 @@ This project combines GHSL population, built-up surface (total and non-residenti
 and settlement classes to study urban concentration and settlement growth.
 
 The analysis covers **13 tiles across 12 epochs (1975–2030)**, or 156 tile-year jobs.
-Data for 1975–2020 are historical; 2025 and 2030 are projections and are treated
+Data for 1975–2020 are historical, 2025 and 2030 are projections and are treated
 separately. Tile R8_C27 is excluded because no valid analytical cells were found
 within the selected country mask, including after fresh-source retries.
 **The results do not cover all of India.**
@@ -27,8 +27,7 @@ within the selected country mask, including after fresh-source retries.
 
 See the [completion report](analysis/data/final_results/REPORT.md) and
 [regional validation report](phase3/reports/regional_validation/REPORT.md) for detailed
-results and checks. The [requirements review](phase3/reports/REQUIREMENTS_REVIEW.md)
-compares the implementation with the proposal.
+results and checks.
 
 ## Project structure
 
@@ -39,10 +38,8 @@ compares the implementation with the proposal.
 | `analysis/` | Temporal, district and settlement-candidate analysis |
 | `phase1/` | Pilot ingestion, HDFS, Sedona checks and benchmarks |
 | `phase2/` | Reusable integration and repeated benchmarks |
-| `phase3/` | Final execution and acceptance evidence |
+| `phase3/` | Final execution and validation results |
 
-The original [team notebook](../DE_S_Project_Aug2026.ipynb) is retained at the
-repository root and predates this project import.
 
 ## Running the project
 
@@ -52,7 +49,7 @@ Run commands from `GHSL_Local/`. Start with the
 
 A clone includes code and compact results, but not the large source datasets or
 runtime environment. Completion controllers require source files, boundary snapshots
-and saved checkpoints; do not run them against an empty clone. Use a separate
+and saved checkpoints, do not run them against an empty clone. Use a separate
 workspace for reproduction to preserve existing outputs. See the
 [reproduction guide](REPRODUCTION.md) for archive availability and exclusions.
 
@@ -69,6 +66,6 @@ failures and scope changes are recorded in the phase reports.
 ## Data sources
 
 European Commission Joint Research Centre GHSL R2023A: POP and BUILT-S V1_0,
-SMOD V2_0; geoBoundaries gbOpen country and district geometries. Retain the source
+SMOD V2_0, geoBoundaries gbOpen country and district geometries. Retain the source
 attribution and derived-data licensing information in the final report. This
-repository does not grant a new code license; obtain permission before redistribution.
+repository does not grant a new code license, obtain permission before redistribution.

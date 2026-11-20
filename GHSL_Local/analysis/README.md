@@ -1,6 +1,6 @@
 # Weeks 6–8 analysis
 
-Analysis is complete for the approved **13-tile, 156 tile-year coverage**.
+Analysis is complete for **13 tiles across 156 tile-year combinations**.
 R8_C27 is excluded; these results do not cover all of India. Historical analysis
 uses 1975–2020; 2025/2030 projections are treated separately.
 
@@ -10,7 +10,7 @@ for follow-up checks. The earlier [pilot results](reports/PILOT_REPORT.md) descr
 only the Bengaluru study window. Candidate events are exploratory and must not be
 interpreted as unique or confirmed settlements.
 
-For reproduction and delivery details, read the [reproduction guide](../REPRODUCTION.md).
+For reproduction instructions and archive details, read the [reproduction guide](../REPRODUCTION.md).
 
 Source attribution:
 

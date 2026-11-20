@@ -122,7 +122,7 @@ def run(integration,temporal,districts,candidates,out):
                 'The revised weeks 1–5 foundation additionally executed Apache Sedona 1.9.1 spatial joins and independently validated all-product pilot outputs. The phase-2 completion report and raw benchmark evidence are included. Its repeated end-to-end metrics describe local pilot execution; they must not be interpreted as national or multi-machine timings. National district attribution uses the separately validated raster-centre method described in its own validation report.','']
     if coverage:
         lines[2]=coverage['warning']
-        lines[3:3]=['', '## Approved coverage exclusion', '', coverage['policy'], '', f"Accepted: {len(progress)} of {coverage['original_planned_pairs']} originally planned jobs. Excluded: R8_C27, all 12 epochs, after fresh-source retries still had no valid analytical cells.", '']
+        lines[3:3]=['', '## Study coverage and exclusions', '', coverage['policy'], '', f"Accepted: {len(progress)} of {coverage['original_planned_pairs']} originally planned jobs. Excluded: R8_C27, all 12 epochs, after fresh-source retries still had no valid analytical cells.", '']
         (out/'coverage.json').write_text(json.dumps(coverage,indent=2))
     (out/'REPORT.md').write_text('\n'.join(lines))
     audit=dict(status='PASS',pairs=len(progress),raw_archives=len(raw),epoch_totals=list(totals.values()),

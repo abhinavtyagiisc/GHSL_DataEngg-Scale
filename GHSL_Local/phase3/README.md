@@ -1,10 +1,10 @@
-# Completed — accepted coverage
+# Completed — 13-tile study area
 
-See `reports/FINAL_ACCEPTANCE.json` and `../analysis/data/final_results/REPORT.md`. All stages passed for 156 accepted tile-years; R8_C27 is excluded. The approved scope and regional sample adjustment are explicit in the report. Do not restart the preserved national run.
+See `reports/FINAL_ACCEPTANCE.json` and `../analysis/data/final_results/REPORT.md`. All stages passed for 156 verified tile-year jobs across 13 tiles, excluding R8_C27. The report documents the study coverage and regional sample adjustment. Do not restart the preserved national run.
 
 # Weeks 6–8 recovery and national execution
 
-Authorized after phase 2 by the user on 7 November 2026. The preserved national
+Phase 3 was added to the workflow after phase 2 on 7 November 2026. The preserved national
 run completed one of 168 tile-years and failed on a zero-byte fine Parquet in
 R5_C25/1980. The original cause is not established. The file remains zero bytes;
 coarse and class outputs have readable footers. Do not delete the failed attempt.

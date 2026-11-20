@@ -9,7 +9,7 @@
 
 A validated foundation for all three GHSL products: population, built-up surface (total and non-residential), and settlement classification. The work covers the Bengaluru pilot across all ten historical observations from 1975 to 2020, plus 2025/2030 test observations. Existing source data were re-audited and reused. Apache Sedona now performs actual geospatial Spark operations, and quantitative benchmark definitions and measurements are supplied.
 
-## 2. Acceptance results
+## 2. Validation results
 
 | Requirement | Verified result |
 | --- | --- |
@@ -25,7 +25,7 @@ A validated foundation for all three GHSL products: population, built-up surface
 
 Sedona spatial assignments are a phase-1 validation exercise, not a claim that the revised phase-3 district analysis is finished. The study area is a rectangle around Bengaluru, not a city administrative boundary.
 
-## 3. Professor feedback: geospatial Spark engine
+## 3. Geospatial processing with Apache Sedona
 
 Apache Sedona 1.9.1 runs with Spark 3.5.6, Scala 2.12.18 and Java 17.0.7. The pinned JVM artifacts and their published-checksum/local-SHA256 evidence are in `runtime/jar_manifest.json`.
 
@@ -33,7 +33,7 @@ Spatial SQL uses ST_Covers for point-in-polygon matching, ST_Point for native ce
 
 Boundary geometries are projected with the established PyProj grid contract before Sedona processing. No new accuracy is implied by inheriting a 1 km settlement class at 100 m.
 
-## 4. Professor feedback: quantitative performance metrics
+## 4. Quantitative performance evaluation
 
 Protocol: benchmark.json was saved before measurements. Each workload uses cached inputs but recomputes and materializes the spatial join result. JVM startup and input/validation preparation are recorded separately. All runs use eight Spark partitions; only local worker count changes. Input sizes use deterministic spatially ordered subsets, not random samples. Results are workload-specific and are not extrapolated to India. No minimum speedup is assumed.
 

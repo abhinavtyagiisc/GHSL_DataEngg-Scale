@@ -1,8 +1,7 @@
 # Phase 1 — weeks 1–3, complete-project foundation
 
 This phase covers every GHSL product needed by the proposal, owned by one person:
-POP, BUILT-S total/NRES and SMOD. It adds the professor’s requirements: actual Apache
-Sedona geospatial Spark operations and explicit quantitative performance benchmarks.
+POP, BUILT-S total/NRES and SMOD. It includes Apache Sedona geospatial Spark operations and quantitative performance benchmarks.
 See [the reproduction guide](../REPRODUCTION.md) for the three phases. Do not advance to phases 2/3
 merely to reproduce this phase. Existing earlier work remains preserved.
 
@@ -11,11 +10,11 @@ merely to reproduce this phase. Existing earlier work remains preserved.
 - `reports/PHASE1_COMPLETION_REPORT.md`: completion report, written only after checks pass.
 - `reports/PHASE1_VALIDATION.json` and root `_SUCCESS`: final phase-1 evidence.
 - `reports/input_audit_run2/`: all 48 archives, prepared rasters and real HDFS checks.
-- `reports/sedona_local1_run3/`, `reports/sedona_local2_run1/`: accepted Sedona runs.
+- `reports/sedona_local1_run3/`, `reports/sedona_local2_run1/`: Sedona runs used in the final benchmark comparison.
 - `config/benchmark.json`: protocol and targets declared before measurements.
 - `reports/BENCHMARK_RESULTS.csv`: measured results; raw repetitions are in run JSON.
 - `runtime/jar_manifest.json`: pinned JVM sources and checksum verification.
-- `requirements-lock.txt`: Python environment snapshot used for completed delivery.
+- `requirements-lock.txt`: Python environment snapshot used for the completed runs.
 
 All source archives remain under `../population/data/raw/`; prepared all-product pilot
 rasters and independent tables are under `../integration/data/prepared/`. Data cover
@@ -47,7 +46,7 @@ uv pip sync --python .venv/bin/python phase1/requirements-lock.txt
 Spark/HDFS require local sockets. Dependency bootstrap requires network access. Run
 benchmarks sequentially after other project jobs stop. Scripts refuse existing output
 directories; use fresh names and preserve failed evidence. The handoff builder reads
-the documented accepted evidence paths, so review/update its paths before packaging
+the documented paths to the validated results, so review/update its paths before packaging
 a new experiment. It refuses to overwrite an existing ZIP.
 
 ## Spatial validation and benchmark semantics

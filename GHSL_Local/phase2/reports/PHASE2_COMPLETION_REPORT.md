@@ -17,7 +17,7 @@ matching-year settlement class are available together for every valid native cel
 - Independent Arrow comparison passed for every native, coarse and SQL-summary column.
 - Three actual Sedona regression tests passed in 35.25 seconds.
 
-## Professor feedback implemented
+## Implementation and evaluation
 
 Apache Sedona 1.9.1 performs an actual indexed point-to-polygon join, not just a
 library installation. Native centres are assigned to matching-year SMOD parent
