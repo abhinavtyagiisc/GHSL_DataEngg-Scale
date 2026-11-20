@@ -3,7 +3,7 @@
 This phase covers every GHSL product needed by the proposal, owned by one person:
 POP, BUILT-S total/NRES and SMOD. It adds the professor’s requirements: actual Apache
 Sedona geospatial Spark operations and explicit quantitative performance benchmarks.
-See `../PROJECT_PLAN.md` for the three separate phases. Do not advance to phases 2/3
+See [the submission guide](../SUBMISSION_README.md) for the three phases. Do not advance to phases 2/3
 merely to reproduce this phase. Existing earlier work remains preserved.
 
 ## Evidence and data

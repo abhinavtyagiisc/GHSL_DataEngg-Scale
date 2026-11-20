@@ -83,7 +83,7 @@ Phase 2 (weeks 4–5) will revalidate and extend the reusable all-product integr
 
 ## 7. Reproduction and evidence
 
-See README.md for commands and PROJECT_PLAN.md for the three-phase roadmap. Key evidence: reports/input_audit_run2/validation.json; reports/sedona_local1_run3/validation.json; reports/sedona_local2_run1/validation.json; saved physical plans and Spark event logs; reports/tests_contract_after_pandas.txt; config/benchmark.json.
+See README.md for commands and SUBMISSION_README.md for the three-phase overview. Key evidence: reports/input_audit_run2/validation.json; reports/sedona_local1_run3/validation.json; reports/sedona_local2_run1/validation.json; saved physical plans and Spark event logs; reports/tests_contract_after_pandas.txt; config/benchmark.json.
 
 The phase-1 ZIP includes clipped all-product pilot rasters/tables, source provenance, Sedona mapping outputs, code, configuration and reports. Large original source ZIPs, HDFS runtime, the Python environment and JVM binaries remain outside the package; dependency and source manifests identify them.
 

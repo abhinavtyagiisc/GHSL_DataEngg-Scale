@@ -11,6 +11,7 @@ REPORTS=PROJECT/'analysis/reports'
 
 
 def update(command,outcome,detail='',history=True):
+    REPORTS.mkdir(parents=True, exist_ok=True)
     stamp=datetime.now(ZoneInfo('Asia/Kolkata')).isoformat()
     with (REPORTS/'progress_report.lock').open('a') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX)
@@ -20,7 +21,8 @@ def update(command,outcome,detail='',history=True):
             with (REPORTS/'COMMAND_LOG.md').open('a') as f:
                 f.write(f'\n## {stamp}\n\n**Command:** {command}  \n**Outcome:** {outcome}  \n{detail}\n')
         phase='phase 3 (weeks 6–8)' if (PROJECT/'phase2/_SUCCESS').exists() else 'phase 2 (weeks 4–5), followed by phase 3'
-        p=REPORTS/'PROGRESS_REPORT.md';text=p.read_text()
+        p=REPORTS/'PROGRESS_REPORT.md'
+        text=p.read_text() if p.exists() else '# Local progress log\n\nNo execution status inferred; inspect saved validation reports.\n'
         section=(f'### Latest activity\n\n**Updated:** {stamp}  \n'
                  f'**Latest command:** {command}  \n**Outcome:** {outcome}  \n'
                  f'{detail}\n\n**Integration coverage:** {completed} of 168 original tile-year jobs verified. User-approved scope excludes the 12 R8_C27 jobs; accepted target is 156. '

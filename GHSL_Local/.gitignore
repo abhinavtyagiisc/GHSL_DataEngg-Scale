@@ -290,3 +290,11 @@ __pycache__/
 
 # Coding-assistant instructions are retained locally, not published.
 AGENTS.md
+
+# Local continuity and consolidated administration documents
+/GITHUB_DELIVERY.md
+/PROJECT_CONTEXT.md
+/PROJECT_PLAN.md
+/analysis/reports/PROGRESS_REPORT.md
+/output/pdf/SUBMISSION_NOTES.md
+/phase3/reports/github_release_notes.md

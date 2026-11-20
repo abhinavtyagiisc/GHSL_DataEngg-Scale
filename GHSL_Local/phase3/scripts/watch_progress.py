@@ -38,6 +38,7 @@ def snapshot():
     return '\n'.join(lines)+'\n\n',status
 
 def refresh():
+    if not (REPORTS/'PROGRESS_REPORT.md').exists():return False
     section,status=snapshot()
     with (REPORTS/'progress_report.lock').open('a') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX)

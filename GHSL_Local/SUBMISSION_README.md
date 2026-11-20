@@ -67,3 +67,41 @@ the submission. Retain dependency pins, source manifests, benchmark records and
 validation reports needed to interpret and reproduce the results. Keep project
 continuity and administration records in the working project. Follow course
 requirements for AI-use disclosure and individual contribution statements.
+
+## Phase overview
+
+Phase 1 (weeks 1–3) validates the pilot inputs, HDFS zones and Sedona spatial
+operations, with declared benchmark methods. Phase 2 (weeks 4–5) validates reusable
+integration and repeated end-to-end benchmarks. Phase 3 (weeks 6–8) delivers
+accepted-coverage execution, temporal/district/candidate results and regional checks.
+Each phase README provides commands; the requirements review maps results to the
+proposal. Saved PASS records describe original executions, not new runs in a clone.
+
+## Delivery and local files
+
+Team repository: https://github.com/abhinavtyagiisc/GHSL_DataEngg-Scale.
+No releases were listed in this team repository on 20 November 2026. The preferred
+archive named above is a separate handoff; obtain it from the project owner if it
+is not supplied alongside the repository. Do not assume a team v1.0.0 release exists.
+
+The clone contains source, configuration, tests, dependency pins, notebooks, compact
+results and validation/benchmark evidence. Large raw and curated datasets, HDFS
+blocks, JVM/JAR binaries and the virtual environment remain external. Recorded source
+URLs, hashes and environment manifests support reproduction. Preserve both
+`accepted_coverage_run1` and its `national_run1` symlink targets when backing up full data.
+Local continuity, assistant instructions, conversation archives and progress logs are
+not part of the published deliverable. Packaging must not require these local files.
+
+## Report and presentation notes
+
+The supplied PDF report has seven A4 pages, 10-point text and 2.5 cm margins; saved
+format evidence is in `output/pdf/REPORT_FORMAT_VALIDATION.json`. Himanshu Arora is
+listed; three other author fields remain placeholders and must be completed before
+submission. Individual contribution forms and required disclosures remain separate.
+The presentation PDF has 16 pages of copy-ready content; it is not an editable
+PowerPoint deck. The Word report is editable; rendered Word pagination remains
+unverified. Preserve the approved-coverage and methodological limitations in all exports.
+
+Rebuild the report with `python analysis/scripts/build_final_report.py` using
+reportlab 5.1.0; the original PDF inspection used PyMuPDF 1.26.6. Rebuilding an export
+does not rerun scientific processing or update existing checksummed ZIP archives.

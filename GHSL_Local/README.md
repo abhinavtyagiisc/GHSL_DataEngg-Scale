@@ -14,7 +14,6 @@ within the selected country mask, including after fresh-source retries.
 - [Final report (PDF)](output/pdf/GHSL_Final_Project_Report.pdf) · [Word version](output/docx/GHSL_Final_Project_Report.docx)
 - [Presentation content (PDF)](output/pdf/GHSL_Presentation_Slide_Content.pdf)
 - [Submission and reproduction guide](SUBMISSION_README.md)
-- [Document submission notes](output/pdf/SUBMISSION_NOTES.md)
 
 ## Results
 
@@ -58,7 +57,7 @@ A clone includes code and compact results, but not the large source datasets or
 runtime environment. Completion controllers require source files, boundary snapshots
 and saved checkpoints; do not run them against an empty clone. Use a separate
 workspace for reproduction to preserve existing outputs. See the
-[data delivery guide](GITHUB_DELIVERY.md) for archive availability and exclusions.
+[submission guide](SUBMISSION_README.md) for archive availability and exclusions.
 
 ## Methods and limitations
 
