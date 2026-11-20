@@ -24,7 +24,7 @@ def run(integration,temporal,districts,candidates,out):
     if out.exists():raise FileExistsError(out)
     for p in (integration,temporal,districts,candidates):
         if not (p/'_SUCCESS').exists() or json.loads((p/'validation.json').read_text())['status']!='PASS':raise ValueError(f'Unfinished stage: {p}')
-    evaluation=PROJECT/'analysis/data/national_case_studies'
+    evaluation=PROJECT/'analysis/data/regional_case_studies'
     regional=None
     if (PROJECT/'phase2/_SUCCESS').exists():
         if not (evaluation/'_SUCCESS').exists():raise ValueError('Independent regional evaluation incomplete')
@@ -110,7 +110,7 @@ def run(integration,temporal,districts,candidates,out):
             'The compact ZIP contains summaries, methods, provenance and execution evidence. Multi-gigabyte native cell datasets remain at the listed workspace paths; it is not a self-contained copy of all national data.','']
     if regional:
         lines+=['## Independent regional data checks','',
-                f"Direct raw-raster comparisons covered {regional['coarse_cell_years']:,} complete coarse cell-years across three urban study windows and ten historical epochs. The Mumbai window was relocated by a documented coverage-only rule after the original window fell outside the retained country mask; Delhi and Bengaluru retain their original centres. Population and both built-area sums plus matching-year settlement classes agreed within the declared tolerances. See national_case_studies/region_summary.csv and validation.json. This is numerical processing accuracy on a predefined sample, not precision/recall against independently labelled settlement-growth events.",'']
+                f"Direct raw-raster comparisons covered {regional['coarse_cell_years']:,} complete coarse cell-years across three urban study windows and ten historical epochs. The Mumbai window was relocated by a documented coverage-only rule after the original window fell outside the retained country mask; Delhi and Bengaluru retain their original centres. Population and both built-area sums plus matching-year settlement classes agreed within the declared tolerances. See regional_case_studies/region_summary.csv and validation.json. This is numerical processing accuracy on a predefined sample, not precision/recall against independently labelled settlement-growth events.",'']
     if performance:
         seconds=sum(r['pipeline_seconds'] for r in performance)
         lines+=['## Observed national pipeline performance','',

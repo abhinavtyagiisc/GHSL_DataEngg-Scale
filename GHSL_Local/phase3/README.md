@@ -1,6 +1,6 @@
 # Completed — accepted coverage
 
-See `reports/FINAL_ACCEPTANCE.json` and `../analysis/data/week8_handoff/REPORT.md`. All stages passed for 156 accepted tile-years; R8_C27 is excluded. The approved scope and regional sample adjustment are explicit in the report. Do not restart the preserved national run.
+See `reports/FINAL_ACCEPTANCE.json` and `../analysis/data/final_results/REPORT.md`. All stages passed for 156 accepted tile-years; R8_C27 is excluded. The approved scope and regional sample adjustment are explicit in the report. Do not restart the preserved national run.
 
 # Weeks 6–8 recovery and national execution
 

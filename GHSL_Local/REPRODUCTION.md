@@ -2,9 +2,9 @@
 
 **Complete for approved coverage: 13 tiles, 156 tile-years. R8_C27 excluded.**
 
-Start with `analysis/data/week8_handoff/REPORT.md`. Use
+Start with `analysis/data/final_results/REPORT.md`. Use
 `phase3/reports/REQUIREMENTS_REVIEW.md` to trace proposal requirements and deviations.
-The additional regional interpretation is in `phase3/reports/analytical_review/REPORT.md`.
+The additional regional interpretation is in `phase3/reports/regional_validation/REPORT.md`.
 
 ## Preferred archive
 
@@ -78,3 +78,14 @@ URLs, hashes and environment manifests support reproduction. Preserve both
 `accepted_coverage_run1` and its `national_run1` symlink targets when backing up full data.
 Local continuity, assistant instructions, conversation archives and progress logs are
 not part of the published deliverable. Packaging must not require these local files.
+
+## Folder names and saved provenance
+
+Current results use `analysis/data/final_results`, `settlement_candidates`,
+`temporal_analysis`, `district_summaries`, `regional_case_studies`, and
+`phase3/reports/regional_validation`. Older checksummed archives retain the names
+`week8_handoff`, `national_candidates`, `national_temporal`, `national_districts`,
+`national_case_studies`, and `analytical_review`, respectively. The archive verifier
+accepts either layout. Saved execution logs/manifests and absolute paths describe
+the original run workspace; they have not been rewritten as evidence of a new run.
+When restoring large external outputs into a new clone, use the current folder names.

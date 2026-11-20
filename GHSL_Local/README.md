@@ -23,10 +23,10 @@ within the selected country mask, including after fresh-source retries.
 - Identified 108,804 candidate events across periods. Events can overlap and are
   not counts of unique or confirmed towns.
 
-![Population and built-surface concentration](analysis/data/week8_handoff/national_concentration.png)
+![Population and built-surface concentration](analysis/data/final_results/national_concentration.png)
 
-See the [completion report](analysis/data/week8_handoff/REPORT.md) and
-[regional validation report](phase3/reports/analytical_review/REPORT.md) for detailed
+See the [completion report](analysis/data/final_results/REPORT.md) and
+[regional validation report](phase3/reports/regional_validation/REPORT.md) for detailed
 results and checks. The [requirements review](phase3/reports/REQUIREMENTS_REVIEW.md)
 compares the implementation with the proposal.
 

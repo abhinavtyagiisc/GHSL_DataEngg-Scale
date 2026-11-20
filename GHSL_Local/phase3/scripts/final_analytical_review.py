@@ -5,14 +5,14 @@ from pathlib import Path
 import pyarrow.dataset as ds
 from pyproj import Transformer
 ROOT=Path(__file__).resolve().parents[2]
-OUT=ROOT/'phase3/reports/analytical_review'
+OUT=ROOT/'phase3/reports/regional_validation'
 def run():
     OUT.mkdir(exist_ok=False)
     cfg=json.loads((ROOT/'phase3/config/case_studies.json').read_text())
     grid=json.loads((ROOT/'integration/config/grid_contract.json').read_text())
     project=Transformer.from_crs('EPSG:4326',grid['crs'],always_xy=True)
-    data=ds.dataset(ROOT/'analysis/data/national_temporal/historical_common',format='parquet',partitioning='hive')
-    events=ds.dataset(ROOT/'analysis/data/national_candidates/component_events.parquet',format='parquet').to_table().to_pylist()
+    data=ds.dataset(ROOT/'analysis/data/temporal_analysis/historical_common',format='parquet',partitioning='hive')
+    events=ds.dataset(ROOT/'analysis/data/settlement_candidates/component_events.parquet',format='parquet').to_table().to_pylist()
     policy=json.loads((ROOT/'analysis/config/pilot.json').read_text())
     for e in events:
         if e['boundary_censored']:expected='boundary_censored'
@@ -42,7 +42,7 @@ def run():
             examples.extend(dict(region=reg['name'],**e) for e in selected)
     checked=0
     allkeys=set().union(*(keys for state,keys in states.values()))
-    for period in sorted((ROOT/'analysis/data/national_temporal/periods').iterdir()):
+    for period in sorted((ROOT/'analysis/data/temporal_analysis/periods').iterdir()):
         start,end=map(int,period.name.split('_'))
         records=ds.dataset(period/'cell_transitions',format='parquet').to_table(filter=ds.field('parent_cell_id').isin(list(allkeys))).to_pylist();saved={v['parent_cell_id']:v for v in records}
         assert len(saved)==len(allkeys)

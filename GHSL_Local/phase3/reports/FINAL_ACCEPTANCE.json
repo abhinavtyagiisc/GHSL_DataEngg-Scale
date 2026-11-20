@@ -12,7 +12,7 @@
   ],
   "visual_review": {
     "status": "PASS",
-    "figure": "analysis/data/week8_handoff/national_concentration.png",
+    "figure": "analysis/data/final_results/national_concentration.png",
     "checks": [
       "legible labels and legends",
       "no clipping",
@@ -33,6 +33,6 @@
     "status": "PASS",
     "regional_cell_periods": 26870,
     "candidate_rule_decisions": 108804,
-    "report": "phase3/reports/analytical_review/REPORT.md"
+    "report": "phase3/reports/regional_validation/REPORT.md"
   }
 }

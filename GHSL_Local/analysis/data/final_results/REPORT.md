@@ -51,7 +51,7 @@ The compact ZIP contains summaries, methods, provenance and execution evidence. 
 
 ## Independent regional data checks
 
-Direct raw-raster comparisons covered 750 complete coarse cell-years across three urban study windows and ten historical epochs. The Mumbai window was relocated by a documented coverage-only rule after the original window fell outside the retained country mask; Delhi and Bengaluru retain their original centres. Population and both built-area sums plus matching-year settlement classes agreed within the declared tolerances. See national_case_studies/region_summary.csv and validation.json. This is numerical processing accuracy on the documented sample, not precision/recall against independently labelled settlement-growth events.
+Direct raw-raster comparisons covered 750 complete coarse cell-years across three urban study windows and ten historical epochs. The Mumbai window was relocated by a documented coverage-only rule after the original window fell outside the retained country mask; Delhi and Bengaluru retain their original centres. Population and both built-area sums plus matching-year settlement classes agreed within the declared tolerances. See regional_case_studies/region_summary.csv and validation.json. This is numerical processing accuracy on the documented sample, not precision/recall against independently labelled settlement-growth events.
 
 ## Observed national pipeline performance
 
@@ -78,7 +78,7 @@ including settlement-class rules, all three numerical deltas and growth fraction
 and checked all 108,804 candidate status decisions against their stored evidence.
 No mismatches were found. Three 31x31 km study squares compare population and built
 surface growth and include Bengaluru candidate examples. See
-`phase3/reports/analytical_review/REPORT.md`, regional CSVs and validation.json.
+`phase3/reports/regional_validation/REPORT.md`, regional CSVs and validation.json.
 These are consistency checks, not external detection ground truth.
 
 The final requirement map (`phase3/reports/REQUIREMENTS_REVIEW.md`) records both

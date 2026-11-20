@@ -4,8 +4,8 @@ Analysis is complete for the approved **13-tile, 156 tile-year coverage**.
 R8_C27 is excluded; these results do not cover all of India. Historical analysis
 uses 1975–2020; 2025/2030 projections are treated separately.
 
-See the [final analysis report](data/week8_handoff/REPORT.md) for results and
-[regional validation and interpretation](../phase3/reports/analytical_review/REPORT.md)
+See the [final analysis report](data/final_results/REPORT.md) for results and
+[regional validation and interpretation](../phase3/reports/regional_validation/REPORT.md)
 for follow-up checks. The earlier [pilot results](reports/PILOT_REPORT.md) describe
 only the Bengaluru study window. Candidate events are exploratory and must not be
 interpreted as unique or confirmed settlements.

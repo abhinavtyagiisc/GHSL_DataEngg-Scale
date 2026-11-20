@@ -253,14 +253,14 @@ __pycache__/
 /phase1/runtime/*
 !/phase1/runtime/jar_manifest.json
 /analysis/data/*
-!/analysis/data/week8_handoff/
-!/analysis/data/national_case_studies/
-!/analysis/data/national_candidates/
-/analysis/data/national_candidates/*
-!/analysis/data/national_candidates/validation.json
-!/analysis/data/national_candidates/coverage.json
-!/analysis/data/national_candidates/component_events.parquet
-!/analysis/data/national_candidates/candidate_review.geojson
+!/analysis/data/final_results/
+!/analysis/data/regional_case_studies/
+!/analysis/data/settlement_candidates/
+/analysis/data/settlement_candidates/*
+!/analysis/data/settlement_candidates/validation.json
+!/analysis/data/settlement_candidates/coverage.json
+!/analysis/data/settlement_candidates/component_events.parquet
+!/analysis/data/settlement_candidates/candidate_review.geojson
 
 # Private conversational history, local command history and live state
 /analysis/reports/CONVERSATION_ARCHIVE*
@@ -270,14 +270,14 @@ __pycache__/
 /phase3/reports/GITHUB_PUBLICATION.json
 
 # Small final-stage validation/provenance metadata (data partitions stay local).
-!/analysis/data/national_temporal/
-/analysis/data/national_temporal/*
-!/analysis/data/national_temporal/validation.json
-!/analysis/data/national_temporal/coverage.json
-!/analysis/data/national_districts/
-/analysis/data/national_districts/*
-!/analysis/data/national_districts/validation.json
-!/analysis/data/national_districts/coverage.json
+!/analysis/data/temporal_analysis/
+/analysis/data/temporal_analysis/*
+!/analysis/data/temporal_analysis/validation.json
+!/analysis/data/temporal_analysis/coverage.json
+!/analysis/data/district_summaries/
+/analysis/data/district_summaries/*
+!/analysis/data/district_summaries/validation.json
+!/analysis/data/district_summaries/coverage.json
 
 # Report/presentation and temporary work excluded from this import
 /output/

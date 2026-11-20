@@ -83,8 +83,8 @@ def test_package_includes_revised_phase2_evidence(tmp_path,monkeypatch):
     (tmp_path/'phase3').mkdir()
     (tmp_path/'phase3/README.md').write_text('Recovery guide')
     put(tmp_path/'phase3/reports/STATUS.json',dict(status='RUNNING',stage='handoff'))
-    put(tmp_path/'analysis/data/national_case_studies/validation.json',dict(status='PASS',coarse_cell_years=750))
-    (tmp_path/'analysis/data/national_case_studies/_SUCCESS').write_text('PASS')
+    put(tmp_path/'analysis/data/regional_case_studies/validation.json',dict(status='PASS',coarse_cell_years=750))
+    (tmp_path/'analysis/data/regional_case_studies/_SUCCESS').write_text('PASS')
     f.run(*paths)
     assert 'Apache Sedona' in (paths[-1]/'REPORT.md').read_text()
     with zipfile.ZipFile(tmp_path/'GHSL_Weeks1_8_National_Handoff.zip') as z:

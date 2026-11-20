@@ -15,11 +15,11 @@ REPORTS=PROJECT/'analysis/reports'
 STATUS=REPORTS/'WEEK8_RUN_STATUS.json'
 PYTHON=PROJECT/'.venv/bin/python'
 INTEGRATION=PROJECT/'integration/data/accepted_coverage_run1'
-TEMPORAL=PROJECT/'analysis/data/national_temporal'
-DISTRICTS=PROJECT/'analysis/data/national_districts'
-CANDIDATES=PROJECT/'analysis/data/national_candidates'
-HANDOFF=PROJECT/'analysis/data/week8_handoff'
-EVALUATION=PROJECT/'analysis/data/national_case_studies'
+TEMPORAL=PROJECT/'analysis/data/temporal_analysis'
+DISTRICTS=PROJECT/'analysis/data/district_summaries'
+CANDIDATES=PROJECT/'analysis/data/settlement_candidates'
+HANDOFF=PROJECT/'analysis/data/final_results'
+EVALUATION=PROJECT/'analysis/data/regional_case_studies'
 
 
 def now():return datetime.now(ZoneInfo('Asia/Kolkata')).isoformat()
@@ -72,7 +72,7 @@ def main():
             status.update(status='PASS',stage='complete',finished=now());save(status)
             context=PROJECT/'PROJECT_CONTEXT.md'
             with context.open('a') as f:
-                f.write('\n## Automated week-8 completion '+now()+'\n\nAll national stages including regional evaluation finished with PASS markers. See\n`analysis/reports/WEEK8_RUN_STATUS.json` and `analysis/data/week8_handoff/REPORT.md`.\nCompact archive: `GHSL_Weeks1_8_National_Handoff.zip`.\nHuman visual review of generated figures remains separate from automated validation.\n')
+                f.write('\n## Automated week-8 completion '+now()+'\n\nAll national stages including regional evaluation finished with PASS markers. See\n`analysis/reports/WEEK8_RUN_STATUS.json` and `analysis/data/final_results/REPORT.md`.\nCompact archive: `GHSL_Weeks1_8_National_Handoff.zip`.\nHuman visual review of generated figures remains separate from automated validation.\n')
         except Exception as exc:
             status.update(status='FAILED',error=str(exc),finished=now());save(status)
             update('Week 8 sequential controller','FAILED',str(exc))

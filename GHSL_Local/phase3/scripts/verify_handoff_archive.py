@@ -15,7 +15,7 @@ def verify(path):
             data=z.read(name)
             if hashlib.sha256(data).hexdigest()!=sha:raise ValueError('SHA256 mismatch: '+name)
             if name.endswith('.py'):ast.parse(data,filename=name)
-        required=['population/src/spark_population.py','population/src/multitile_population.py','integration/scripts/download_sources.py','integration/src/prepare_inputs.py','integration/src/spark_integrate.py','phase1/requirements-lock.txt','phase1/runtime/jar_manifest.json','phase3/reports/analytical_review/validation.json','phase3/reports/REQUIREMENTS_REVIEW.md']
+        required=['population/src/spark_population.py','population/src/multitile_population.py','integration/scripts/download_sources.py','integration/src/prepare_inputs.py','integration/src/spark_integrate.py','phase1/requirements-lock.txt','phase1/runtime/jar_manifest.json','phase3/reports/REQUIREMENTS_REVIEW.md']
         if not set(required)<=set(manifest):raise ValueError('Required source/evidence missing')
         # Retain compatibility with source names in the original checksummed handoff.
         for alternatives in (
@@ -27,8 +27,19 @@ def verify(path):
         # Accept the guide name in existing checksummed archives as well as new handoffs.
         if not {'REPRODUCTION.md', 'SUBMISSION_README.md'} & set(manifest):
             raise ValueError('Reproduction guide missing')
-        report=z.read('analysis/data/week8_handoff/REPORT.md').decode()
+        # Existing checksummed handoffs retain their original folder layout.
+        def member(*alternatives):
+            for name in alternatives:
+                if name in manifest:
+                    return name
+            raise ValueError('Required source/evidence missing: ' + ', '.join(alternatives))
+
+        report_path=member('analysis/data/final_results/REPORT.md',
+                           'analysis/data/week8_handoff/REPORT.md')
+        regional_path=member('phase3/reports/regional_validation/validation.json',
+                             'phase3/reports/analytical_review/validation.json')
+        report=z.read(report_path).decode()
         if 'R8_C27 excluded' not in report:raise ValueError('Missing coverage disclosure')
-        if json.loads(z.read('phase3/reports/analytical_review/validation.json'))['status']!='PASS':raise ValueError('Analytical follow-up failed')
+        if json.loads(z.read(regional_path))['status']!='PASS':raise ValueError('Analytical follow-up failed')
     return dict(status='PASS',archive=str(path),files=len(manifest),bytes=path.stat().st_size,sha256=hashlib.sha256(path.read_bytes()).hexdigest(),checks=['ZIP CRC','every entry SHA256','exact manifest membership','safe paths','Python syntax','required source/evidence','coverage disclosure','analytical follow-up PASS'])
 if __name__=='__main__':print(json.dumps(verify(sys.argv[1]),indent=2))

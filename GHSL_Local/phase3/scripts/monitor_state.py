@@ -23,7 +23,7 @@ def snapshot():
     boundary=tail.rfind('{"completed":')
     if boundary>=0:tail=tail[tail.find('\n',boundary)+1:]
     stages=re.findall(r'\[Stage (\d+):',tail)
-    return dict(status=status['status'],stage=stage.get('stage'),completed=len(records),planned=168,active=active,spark_stage=int(stages[-1]) if stages else None,controller_lock_held=held,log=str(log),handoff_ready=(PROJECT/'analysis/data/week8_handoff/_SUCCESS').exists())
+    return dict(status=status['status'],stage=stage.get('stage'),completed=len(records),planned=168,active=active,spark_stage=int(stages[-1]) if stages else None,controller_lock_held=held,log=str(log),handoff_ready=(PROJECT/'analysis/data/final_results/_SUCCESS').exists())
 
 if __name__=='__main__':
     value=snapshot()
